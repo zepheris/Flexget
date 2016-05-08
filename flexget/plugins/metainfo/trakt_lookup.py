@@ -8,9 +8,10 @@ import functools
 from flexget import plugin
 from flexget.event import event
 from flexget.manager import Session
+from flexget.utils.database import with_session
 
 try:
-    from flexget.plugins.api_trakt import ApiTrakt, list_actors, list_images, get_translations
+    from flexget.plugins.api_trakt import ApiTrakt, list_actors, list_images, get_translations, TraktShow
     lookup_series = ApiTrakt.lookup_series
     lookup_movie = ApiTrakt.lookup_movie
 except ImportError:
@@ -175,60 +176,57 @@ class PluginTraktLookup(object):
         }
     ]}
 
-    def lazy_series_lookup(self, entry):
-        """Does the lookup for this entry and populates the entry fields."""
-        with Session() as session:
+    @with_session
+    def get_series(self, entry, smap, session=None):
+        try:
             lookupargs = {'title': entry.get('series_name', eval_lazy=False),
                           'year': entry.get('year', eval_lazy=False),
                           'trakt_id': entry.get('trakt_show_id', eval_lazy=False),
                           'tvdb_id': entry.get('tvdb_id', eval_lazy=False),
                           'tmdb_id': entry.get('tmdb_id', eval_lazy=False),
                           'session': session}
-            try:
-                series = lookup_series(**lookupargs)
-            except LookupError as e:
-                log.debug(e.args[0])
-            else:
-                entry.update_using_map(self.series_map, series)
-        return entry
+            series = lookup_series(**lookupargs)
+            entry.update_using_map(smap, series)
+        except LookupError as e:
+            log.debug('Error looking up trakt series for %s: %s' % (entry['title'], e.args[0]))
+
+    @with_session
+    def get_movie(self, entry, smap, session=None):
+        try:
+            lookupargs = {'title': entry.get('title', eval_lazy=False),
+                          'year': entry.get('year', eval_lazy=False),
+                          'trakt_id': entry.get('trakt_movie_id', eval_lazy=False),
+                          'trakt_slug': entry.get('trakt_movie_slug', eval_lazy=False),
+                          'tmdb_id': entry.get('tmdb_id', eval_lazy=False),
+                          'imdb_id': entry.get('imdb_id', eval_lazy=False)
+                          }
+            movie = lookup_movie(session=session, **lookupargs)
+            entry.update_using_map(smap, movie)
+        except LookupError as e:
+            log.debug('Error looking up trakt movie for %s: %s' % (entry['title'], e.args[0]))
+
+
+    def lazy_series_lookup(self, entry):
+        """Does the lookup for this entry and populates the entry fields."""
+        return self.get_series(entry, self.series_map)
 
     def lazy_series_actor_lookup(self, entry):
         """Does the lookup for this entry and populates the entry fields."""
-        with Session() as session:
-            lookupargs = {'trakt_id': entry.get('trakt_show_id', eval_lazy=False),
-                          'title': entry.get('series_name', eval_lazy=False),
-                          'session': session}
-            try:
-                series = lookup_series(**lookupargs)
-            except LookupError as e:
-                log.debug(e.args[0])
-            else:
-                entry.update_using_map(self.series_actor_map, series)
-        return entry
+        return self.get_series(entry, self.series_actor_map)
 
     def lazy_series_translate_lookup(self, entry):
         """Does the lookup for this entry and populates the entry fields."""
-        with Session() as session:
-            lookupargs = {'trakt_id': entry.get('trakt_movie_id', eval_lazy=False),
-                          'title': entry.get('series_name', eval_lazy=False),
-                          'session': session}
-            try:
-                series = lookup_series(**lookupargs)
-            except LookupError as e:
-                log.debug(e.args[0])
-            else:
-                entry.update_using_map(self.show_translate_map, series)
-        return entry
+        return self.get_series(entry, self.show_translate_map)
 
 
     def lazy_episode_lookup(self, entry):
         with Session(expire_on_commit=False) as session:
             lookupargs = {'title': entry.get('series_name', eval_lazy=False),
                           'trakt_id': entry.get('trakt_show_id', eval_lazy=False),
-                          'session': session}
+                          }
             try:
-                series = lookup_series(**lookupargs)
-                episode = series.get_episode(entry['series_season'], entry['series_episode'], session)
+                series = lookup_series(session=session, **lookupargs)
+                episode = series.get_episode(entry['series_season'], entry['series_episode'], session=session)
             except LookupError as e:
                 log.debug('Error looking up trakt episode information for %s: %s', entry['title'], e.args[0])
             else:
@@ -237,49 +235,15 @@ class PluginTraktLookup(object):
 
     def lazy_movie_lookup(self, entry):
         """Does the lookup for this entry and populates the entry fields."""
-        with Session() as session:
-            lookupargs = {'title': entry.get('title', eval_lazy=False),
-                          'year': entry.get('year', eval_lazy=False),
-                          'trakt_id': entry.get('trakt_movie_id', eval_lazy=False),
-                          'trakt_slug': entry.get('trakt_movie_slug', eval_lazy=False),
-                          'tmdb_id': entry.get('tmdb_id', eval_lazy=False),
-                          'imdb_id': entry.get('imdb_id', eval_lazy=False),
-                          'session': session}
-            try:
-                movie = lookup_movie(**lookupargs)
-            except LookupError as e:
-                log.debug(e.args[0])
-            else:
-                entry.update_using_map(self.movie_map, movie)
-        return entry
+        return self.get_movie(entry, self.movie_map)
 
     def lazy_movie_actor_lookup(self, entry):
         """Does the lookup for this entry and populates the entry fields."""
-        with Session() as session:
-            lookupargs = {'trakt_id': entry.get('trakt_movie_id', eval_lazy=False),
-                          'title': entry.get('title', eval_lazy=False),
-                          'session': session}
-            try:
-                movie = lookup_movie(**lookupargs)
-            except LookupError as e:
-                log.debug(e.args[0])
-            else:
-                entry.update_using_map(self.movie_actor_map, movie)
-        return entry
+        return self.get_movie(entry, self.movie_actor_map)
 
     def lazy_movie_translate_lookup(self, entry):
         """Does the lookup for this entry and populates the entry fields."""
-        with Session() as session:
-            lookupargs = {'trakt_id': entry.get('trakt_movie_id', eval_lazy=False),
-                          'title': entry.get('series_name', eval_lazy=False),
-                          'session': session}
-            try:
-                movie = lookup_movie(**lookupargs)
-            except LookupError as e:
-                log.debug(e.args[0])
-            else:
-                entry.update_using_map(self.movie_translate_map, movie)
-        return entry
+        return self.get_movie(entry, self.movie_translate_map)
 
     def lazy_collected_lookup(self, config, style, entry):
         """Does the lookup for this entry and populates the entry fields."""
@@ -290,12 +254,11 @@ class PluginTraktLookup(object):
             lookup = lookup_movie
             trakt_id = entry.get('trakt_id', eval_lazy=True)
         with Session() as session:
-            lookupargs = {'trakt_id': trakt_id,
-                          'session': session}
+            lookupargs = {'trakt_id': trakt_id}
             try:
-                item = lookup(**lookupargs)
+                item = lookup(session=session, **lookupargs)
                 if style == 'episode':
-                    item = item.get_episode(entry['series_season'], entry['series_episode'], session)
+                    item = item.get_episode(entry['series_season'], entry['series_episode'], session=session)
                 collected = ApiTrakt.collected(style, item, entry.get('title'), username=config.get('username'),
                                                account=config.get('account'))
             except LookupError as e:
@@ -313,12 +276,11 @@ class PluginTraktLookup(object):
             lookup = lookup_movie
             trakt_id = entry.get('trakt_id', eval_lazy=True)
         with Session() as session:
-            lookupargs = {'trakt_id': trakt_id,
-                          'session': session}
+            lookupargs = {'trakt_id': trakt_id}
             try:
-                item = lookup(**lookupargs)
+                item = lookup(session=session, only_cached=True, **lookupargs)
                 if style == 'episode':
-                    item = item.get_episode(entry['series_season'], entry['series_episode'], session)
+                    item = item.get_episode(entry['series_season'], entry['series_episode'], session=session)
                 watched = ApiTrakt.watched(style, item, entry.get('title'), username=config.get('username'),
                                            account=config.get('account'))
             except LookupError as e:

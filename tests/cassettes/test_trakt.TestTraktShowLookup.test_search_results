@@ -6,9 +6,9 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?query=Shameless&type=show&year=2011
+      uri: https://api-v2launch.trakt.tv/search?year=2011&query=Shameless&type=show
     response:
-      body: {string: '[{"type":"show","score":123.05202,"show":{"title":"Shameless","overview":"Chicagoan
+      body: {string: '[{"type":"show","score":124.11189,"show":{"title":"Shameless","overview":"Chicagoan
           Frank Gallagher is the proud single dad of six smart, industrious, independent
           kids, who without him would be... perhaps better off. When Frank''s not
           at the bar spending what little money they have, he''s passed out on the
@@ -16,17 +16,17 @@ interactions:
           not be like any family you know, but they make no apologies for being exactly
           who they are.","year":2011,"status":"returning series","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/034/160/posters/original/0fed195982.jpg","medium":"https://walter.trakt.us/images/shows/000/034/160/posters/medium/0fed195982.jpg","thumb":"https://walter.trakt.us/images/shows/000/034/160/posters/thumb/0fed195982.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/034/160/fanarts/original/c04bebba45.jpg","medium":"https://walter.trakt.us/images/shows/000/034/160/fanarts/medium/c04bebba45.jpg","thumb":"https://walter.trakt.us/images/shows/000/034/160/fanarts/thumb/c04bebba45.jpg"}},"ids":{"trakt":34160,"slug":"shameless-2011","tvdb":161511,"imdb":"tt1586680","tmdb":34307,"tvrage":25117}}}]'}
       headers:
-        CF-Cache-Status: [HIT]
-        CF-RAY: [29de2383a2b90962-DFW]
+        CF-Cache-Status: [MISS]
+        CF-RAY: [29ffeb584d911fdc-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:30 GMT']
-        ETag: [W/"1ae2134bd9ea2061e92a8ba2b17e07f8"]
-        Expires: ['Wed, 04 May 2016 22:50:30 GMT']
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"fe3ad0207f6d8d7637627e29ca68b681"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=d81731e3e9f3c957d4fea1cde04b1ba9a1462387830; expires=Thu,
-            04-May-17 18:50:30 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=df3035840ea8086ce822f9deff6d2f6e31462742045; expires=Mon,
+            08-May-17 21:14:05 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -34,15 +34,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [a5c4f02a-7f57-4b52-bd94-febbf43862d6]
-        X-Runtime: ['0.016195']
+        X-Request-Id: [26c9c0e2-69df-4271-a920-2281d8b8e2c3]
+        X-Runtime: ['0.045215']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=d81731e3e9f3c957d4fea1cde04b1ba9a1462387830]
+        Cookie: [__cfduid=df3035840ea8086ce822f9deff6d2f6e31462742045]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -55,23 +55,205 @@ interactions:
           floor. But the kids have found ways to grow up in spite of him. They may
           not be like any family you know, but they make no apologies for being exactly
           who they are.","first_aired":"2011-01-10T02:00:00.000Z","airs":{"day":"Sunday","time":"21:00","timezone":"America/New_York"},"runtime":60,"certification":"TV-MA","network":"Showtime","country":"us","trailer":"http://youtube.com/watch?v=CHstRRD_8LE","homepage":"http://www.sho.com/sho/shameless/home","status":"returning
-          series","rating":8.85291,"votes":6581,"updated_at":"2016-05-04T10:35:09.000Z","language":"en","available_translations":["en","it","ru","fr","de","zh","pt","hu","ro","sv","es","bs","lt","pl","ko","tr","fi","he","uk","ms","el","nb"],"genres":["comedy","drama"],"aired_episodes":72,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/034/160/fanarts/original/c04bebba45.jpg","medium":"https://walter.trakt.us/images/shows/000/034/160/fanarts/medium/c04bebba45.jpg","thumb":"https://walter.trakt.us/images/shows/000/034/160/fanarts/thumb/c04bebba45.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/034/160/posters/original/0fed195982.jpg","medium":"https://walter.trakt.us/images/shows/000/034/160/posters/medium/0fed195982.jpg","thumb":"https://walter.trakt.us/images/shows/000/034/160/posters/thumb/0fed195982.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/034/160/logos/original/f92e1a7742.png"},"clearart":{"full":null},"banner":{"full":"https://walter.trakt.us/images/shows/000/034/160/banners/original/6724b44ce7.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/034/160/thumbs/original/9d26886a1e.jpg"}}}'}
+          series","rating":8.85326,"votes":6590,"updated_at":"2016-05-06T10:41:45.000Z","language":"en","available_translations":["en","it","ru","fr","de","zh","pt","hu","ro","sv","es","bs","lt","pl","ko","tr","fi","he","uk","ms","el","nb"],"genres":["comedy","drama"],"aired_episodes":72,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/034/160/fanarts/original/c04bebba45.jpg","medium":"https://walter.trakt.us/images/shows/000/034/160/fanarts/medium/c04bebba45.jpg","thumb":"https://walter.trakt.us/images/shows/000/034/160/fanarts/thumb/c04bebba45.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/034/160/posters/original/0fed195982.jpg","medium":"https://walter.trakt.us/images/shows/000/034/160/posters/medium/0fed195982.jpg","thumb":"https://walter.trakt.us/images/shows/000/034/160/posters/thumb/0fed195982.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/034/160/logos/original/f92e1a7742.png"},"clearart":{"full":null},"banner":{"full":"https://walter.trakt.us/images/shows/000/034/160/banners/original/6724b44ce7.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/034/160/thumbs/original/9d26886a1e.jpg"}}}'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de2383d2bd0962-DFW]
+        CF-RAY: [29ffeb5bcdce1fdc-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:30 GMT']
-        ETag: [W/"53a1635b2b3cdb3f9307108fd063ed9e"]
-        Expires: ['Wed, 04 May 2016 22:50:30 GMT']
-        Last-Modified: ['Wed, 04 May 2016 10:35:09 GMT']
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"d711de22343f811b4e892c346e2683f3"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
+        Last-Modified: ['Fri, 06 May 2016 10:41:45 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [0d894477-a46e-4cb4-b30d-9d67b41e0d7c]
-        X-Runtime: ['0.056545']
+        X-Request-Id: [aea578e7-0061-43ae-a863-6eb4cec890ce]
+        X-Runtime: ['0.084403']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/34160/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Frank Gallagher\",\"person\":{\"\
+          name\":\"William H. Macy\",\"ids\":{\"trakt\":16257,\"slug\":\"william-h-macy\"\
+          ,\"imdb\":\"nm0000513\",\"tmdb\":3905,\"tvrage\":15312},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/152/620/headshots/original/7e6cece016.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/152/620/headshots/medium/7e6cece016.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/152/620/headshots/thumb/7e6cece016.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/016/257/fanarts/original/c04bebba45.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/016/257/fanarts/medium/c04bebba45.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/016/257/fanarts/thumb/c04bebba45.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nWilliam Hall\
+          \ Macy, Jr. (born March 13, 1950) is an American actor and writer. He was\
+          \ nominated for an Academy Award for his role as Jerry Lundegaard in Fargo.\
+          \ He is also a teacher and director in theater, film and television. His\
+          \ film career has been built mostly on his appearances in small, independent\
+          \ films, though he has appeared in summer action films as well. Macy has\
+          \ described his screen persona as \\\"sort of a Middle American, WASPy,\
+          \ Lutheran kind of guy... Everyman\\\". He has won two Emmy Awards and a\
+          \ Screen Actors Guild Award, being nominated for nine Emmy Awards and seven\
+          \ Screen Actors Guild Awards in total. He is also a three-time Golden Globe\
+          \ Award nominee.\",\"birthday\":\"1950-03-13\",\"death\":null,\"birthplace\"\
+          :\"Miami - Florida  USA\",\"homepage\":\"\"}},{\"character\":\"Fiona Gallagher\"\
+          ,\"person\":{\"name\":\"Emmy Rossum\",\"ids\":{\"trakt\":412456,\"slug\"\
+          :\"emmy-rossum\",\"imdb\":\"nm0002536\",\"tmdb\":4730,\"tvrage\":54795},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/152/668/headshots/original/5620008072.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/152/668/headshots/medium/5620008072.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/152/668/headshots/thumb/5620008072.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/412/456/fanarts/original/c04bebba45.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/412/456/fanarts/medium/c04bebba45.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/412/456/fanarts/thumb/c04bebba45.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nEmmanuelle\
+          \ Grey \\\"Emmy\\\" Rossum (born September 12, 1986) is an American actress\
+          \ and singer-songwriter. She first starred in a string of movies including\
+          \ Songcatcher (2000), An American Rhapsody (2001) and Passionada (2002).\
+          \ Her role in Mystic River (2003) garnered her wider fame. She then starred\
+          \ in the blockbuster film The Day After Tomorrow (2004) and The Phantom\
+          \ of the Opera (2004) for which she was nominated for a Golden Globe. She\
+          \ has since starred in Poseidon (2006), Dragonball: Evolution (2009) and\
+          \ Dare (2009). Rossum has since joined the cast of the Showtime television\
+          \ drama series Shameless in a leading role. The series, which stars William\
+          \ H. Macy, premiered in January 2011. In 2007, Rossum released her debut\
+          \ album, Inside Out. She also released a Christmas EP the same year titled\
+          \ Carol of the Bells.\",\"birthday\":\"1986-09-12\",\"death\":null,\"birthplace\"\
+          :\"New York City, New York, USA\",\"homepage\":\"\"}},{\"character\":\"\
+          Phillip 'Lip' Gallagher\",\"person\":{\"name\":\"Jeremy Allen White\",\"\
+          ids\":{\"trakt\":422824,\"slug\":\"jeremy-allen-white\",\"imdb\":\"nm2087739\"\
+          ,\"tmdb\":206905,\"tvrage\":152560},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/422/824/headshots/original/4877b3a738.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/422/824/headshots/medium/4877b3a738.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/422/824/headshots/thumb/4877b3a738.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/422/824/fanarts/original/c04bebba45.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/422/824/fanarts/medium/c04bebba45.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/422/824/fanarts/thumb/c04bebba45.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nJeremy Allen\
+          \ White (born February 18, 1991) is an American film and television actor.\
+          \ He is best known for playing Phillip \\\"Lip\\\" Gallagher on the Showtime\
+          \ dramedy series Shameless.\\n\\nWhite has appeared in several films including\
+          \ Beautiful Ohio, The Speed of Life, Afterschool, Twelve, and Movie 43.\
+          \ Prior to meeting each other, White's parents had both moved to New York\
+          \ City to pursue careers in acting. After meeting, performing on stage together\
+          \ for several years, and marrying, the couple ended their acting careers\
+          \ and obtained jobs that would help them support their new family.\\n\\\
+          nThroughout elementary school White was a dancer, specifically ballet, jazz,\
+          \ and tap. At the age of 13 upon entering a new middle school dance program\
+          \ he had a change of heart and decided to give acting a try.\",\"birthday\"\
+          :\"1991-02-18\",\"death\":null,\"birthplace\":null,\"homepage\":\"\"}},{\"\
+          character\":\"Ian Gallagher\",\"person\":{\"name\":\"Cameron Monaghan\"\
+          ,\"ids\":{\"trakt\":419295,\"slug\":\"cameron-monaghan\",\"imdb\":\"nm1185747\"\
+          ,\"tmdb\":37089,\"tvrage\":52451},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/152/910/headshots/original/d0926168d0.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/152/910/headshots/medium/d0926168d0.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/152/910/headshots/thumb/d0926168d0.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/419/295/fanarts/original/4f8b2fdbd4.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/419/295/fanarts/medium/4f8b2fdbd4.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/419/295/fanarts/thumb/4f8b2fdbd4.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nCameron Riley\
+          \ Monaghan (born August 16, 1993) is an American actor. Beginning his professional\
+          \ career as a child model at the age of three, and child actor at the age\
+          \ of seven, Monaghan is perhaps best known for his role as Ian Gallagher\
+          \ on the Showtime comedy-drama series Shameless, as well as for his feature\
+          \ film roles, as Kevin O'Doyle in Click (2006), Corey Doyle in Prom (2011),\
+          \ Mason Ashford in Vampire Academy (2014) and as Asher in The Giver (2014).\"\
+          ,\"birthday\":\"1993-08-16\",\"death\":null,\"birthplace\":\"Santa Monica\
+          \ - California  USA\",\"homepage\":\"\"}},{\"character\":\"Carl Gallagher\"\
+          ,\"person\":{\"name\":\"Ethan Cutkosky\",\"ids\":{\"trakt\":420178,\"slug\"\
+          :\"ethan-cutkosky\",\"imdb\":\"nm3103119\",\"tmdb\":132213,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/153/045/headshots/original/4d7d478965.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/153/045/headshots/medium/4d7d478965.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/153/045/headshots/thumb/4d7d478965.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/420/178/fanarts/original/c04bebba45.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/420/178/fanarts/medium/c04bebba45.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/420/178/fanarts/thumb/c04bebba45.jpg\"\
+          }},\"biography\":\"\",\"birthday\":\"1999-08-19\",\"death\":null,\"birthplace\"\
+          :\"St. Charles - Illinois - USA\",\"homepage\":\"\"}},{\"character\":\"\
+          Kevin 'Kev' Ball\",\"person\":{\"name\":\"Steve Howey\",\"ids\":{\"trakt\"\
+          :423136,\"slug\":\"steve-howey\",\"imdb\":\"nm0992538\",\"tmdb\":81388,\"\
+          tvrage\":36604},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/423/136/headshots/original/f13bc7ae08.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/423/136/headshots/medium/f13bc7ae08.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/423/136/headshots/thumb/f13bc7ae08.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/423/136/fanarts/original/4f8b2fdbd4.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/423/136/fanarts/medium/4f8b2fdbd4.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/423/136/fanarts/thumb/4f8b2fdbd4.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nSteven Michael\
+          \ Robert \\\"Steve\\\" Howey (born July 12, 1977) is an American film and\
+          \ television actor best known for his role as Van Montgomery in the television\
+          \ series Reba. His roles include Supercross, DOA: Dead or Alive, and Bride\
+          \ Wars. He is currently starring in the Showtime series Shameless portraying\
+          \ the role of Kevin \\\"Kev\\\" Ball.\\n\\nDescription above from the Wikipedia\
+          \ article Steve Howey, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1977-07-12\",\"death\":null,\"birthplace\"\
+          :\"San Antonio, Texas, U.S.\",\"homepage\":\"\"}},{\"character\":\"Veronica\
+          \ Fisher\",\"person\":{\"name\":\"Shanola Hampton\",\"ids\":{\"trakt\":438952,\"\
+          slug\":\"shanola-hampton\",\"imdb\":\"nm1342513\",\"tmdb\":110531,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/152/955/headshots/original/6fd1aac051.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/152/955/headshots/medium/6fd1aac051.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/152/955/headshots/thumb/6fd1aac051.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/438/952/fanarts/original/4f8b2fdbd4.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/438/952/fanarts/medium/4f8b2fdbd4.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/438/952/fanarts/thumb/4f8b2fdbd4.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nShanola Hampton\
+          \ (born May 27, 1977) is an American actress.\",\"birthday\":\"1977-05-27\"\
+          ,\"death\":null,\"birthplace\":\"Charleston - South Carolina - USA\",\"\
+          homepage\":\"\"}},{\"character\":\"Debbie Gallagher\",\"person\":{\"name\"\
+          :\"Emma Kenney\",\"ids\":{\"trakt\":475911,\"slug\":\"emma-kenney\",\"imdb\"\
+          :\"nm3160752\",\"tmdb\":1252801,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/152/861/headshots/original/b00683c364.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/152/861/headshots/medium/b00683c364.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/152/861/headshots/thumb/b00683c364.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/475/911/fanarts/original/c04bebba45.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/475/911/fanarts/medium/c04bebba45.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/475/911/fanarts/thumb/c04bebba45.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nEmma Kenney\
+          \ (born September 14, 1999) is an American actress known for her roles in\
+          \ Epic (2013), Shameless (2011), and Bittersweet (2008).\",\"birthday\"\
+          :\"1999-09-14\",\"death\":null,\"birthplace\":\"New Jersey - New York City\
+          \ -USA\",\"homepage\":\"\"}},{\"character\":\"Helene Runyon\",\"person\"\
+          :{\"name\":\"Sasha Alexander\",\"ids\":{\"trakt\":425129,\"slug\":\"sasha-alexander\"\
+          ,\"imdb\":\"nm0018734\",\"tmdb\":64154,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/425/129/headshots/original/abfd6bab6c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/425/129/headshots/medium/abfd6bab6c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/425/129/headshots/thumb/abfd6bab6c.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/425/129/fanarts/original/c8cccd3e8c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/425/129/fanarts/medium/c8cccd3e8c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/425/129/fanarts/thumb/c8cccd3e8c.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nSasha Alexander\
+          \ (born May 17, 1973, height 5' 5\\\" (1,65 m))\_ is an American actress.\
+          \ She is known for several roles, including: Gretchen Witter, the sister\
+          \ of Pacey Witter on Dawson's Creek; NCIS Special Agent Kate Todd in the\
+          \ first two seasons of NCIS; as Lucy in Yes Man (2008); and as Catherine\
+          \ in He's Just Not That Into You (2009). She currently stars as Medical\
+          \ Examiner Maura Isles on the new Turner Network Television series Rizzoli\
+          \ and Isles.\\n\\nDescription above from the Wikipedia article Sasha Alexander,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1973-05-17\",\"death\":null,\"birthplace\":\"Los Angeles -\
+          \ California - USA\",\"homepage\":\"\"}}]}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb5cebe21171-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"cea66847fcf6cfd3d0e0249b9e0c6280"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=da153e5957b55cdaaf2821ec4667dd7a21462742046; expires=Mon,
+            08-May-17 21:14:06 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [38491291-5a9e-4554-848b-c87705dbc817]
+        X-Runtime: ['0.043114']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

@@ -8,21 +8,21 @@ interactions:
       method: GET
       uri: https://api-v2launch.trakt.tv/search?query=naruto&type=show
     response:
-      body: {string: '[{"type":"show","score":109.72761,"show":{"title":"Naruto","overview":"In
+      body: {string: '[{"type":"show","score":111.20083,"show":{"title":"Naruto","overview":"In
           another world, ninja are the ultimate power, and in the Village Hidden in
           the Leaves live the stealthiest ninja in the land. Twelve years earlier,
           the fearsome Nine-Tailed Fox terrorized the village and claimed many lives
           before it was subdued and its spirit sealed within the body of a baby boy.
           That boy, Naruto Uzumaki, has grown up to become a ninja-in-training who''s
           more interested in pranks than in studying ninjutsu.. but Naruto is determined
-          to become the greatest ninja ever!","year":2002,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/046/003/posters/original/362a7f25fa.jpg","medium":"https://walter.trakt.us/images/shows/000/046/003/posters/medium/362a7f25fa.jpg","thumb":"https://walter.trakt.us/images/shows/000/046/003/posters/thumb/362a7f25fa.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/046/003/fanarts/original/057a423eb7.jpg","medium":"https://walter.trakt.us/images/shows/000/046/003/fanarts/medium/057a423eb7.jpg","thumb":"https://walter.trakt.us/images/shows/000/046/003/fanarts/thumb/057a423eb7.jpg"}},"ids":{"trakt":46003,"slug":"naruto","tvdb":78857,"imdb":"tt0409591","tmdb":46260,"tvrage":4620}}},{"type":"show","score":78.37686,"show":{"title":"Naruto
+          to become the greatest ninja ever!","year":2002,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/046/003/posters/original/362a7f25fa.jpg","medium":"https://walter.trakt.us/images/shows/000/046/003/posters/medium/362a7f25fa.jpg","thumb":"https://walter.trakt.us/images/shows/000/046/003/posters/thumb/362a7f25fa.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/046/003/fanarts/original/057a423eb7.jpg","medium":"https://walter.trakt.us/images/shows/000/046/003/fanarts/medium/057a423eb7.jpg","thumb":"https://walter.trakt.us/images/shows/000/046/003/fanarts/thumb/057a423eb7.jpg"}},"ids":{"trakt":46003,"slug":"naruto","tvdb":78857,"imdb":"tt0409591","tmdb":46260,"tvrage":4620}}},{"type":"show","score":79.42916,"show":{"title":"Naruto
           Shippuden","overview":"Naruto: Shippuden is an anime series adapted from
           Part II of the Naruto manga series by Masashi Kishimoto. The series is directed
           by Hayato Date and produced by Studio Pierrot and TV Tokyo. Naruto: Shippuden
           is a continuation of the Naruto manga, and continues the same storyline
           after the passing of two and a half years in the Naruto universe. It began
           broadcasting on TV Tokyo on February 15, 2007.","year":2007,"status":"returning
-          series","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/031/770/posters/original/61c3e86d67.jpg","medium":"https://walter.trakt.us/images/shows/000/031/770/posters/medium/61c3e86d67.jpg","thumb":"https://walter.trakt.us/images/shows/000/031/770/posters/thumb/61c3e86d67.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/031/770/fanarts/original/a3219c47aa.jpg","medium":"https://walter.trakt.us/images/shows/000/031/770/fanarts/medium/a3219c47aa.jpg","thumb":"https://walter.trakt.us/images/shows/000/031/770/fanarts/thumb/a3219c47aa.jpg"}},"ids":{"trakt":31770,"slug":"naruto-shippuden","tvdb":79824,"imdb":"tt0988824","tmdb":31910,"tvrage":null}}},{"type":"show","score":78.37686,"show":{"title":"Naruto
+          series","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/031/770/posters/original/61c3e86d67.jpg","medium":"https://walter.trakt.us/images/shows/000/031/770/posters/medium/61c3e86d67.jpg","thumb":"https://walter.trakt.us/images/shows/000/031/770/posters/thumb/61c3e86d67.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/031/770/fanarts/original/a3219c47aa.jpg","medium":"https://walter.trakt.us/images/shows/000/031/770/fanarts/medium/a3219c47aa.jpg","thumb":"https://walter.trakt.us/images/shows/000/031/770/fanarts/thumb/a3219c47aa.jpg"}},"ids":{"trakt":31770,"slug":"naruto-shippuden","tvdb":79824,"imdb":"tt0988824","tmdb":31910,"tvrage":null}}},{"type":"show","score":79.42916,"show":{"title":"Naruto
           Kai","overview":"Naruto Kai is an abridged version of the anime that removes
           filler, OPs/EDs, recaps, and previews. Several episodes are merged together
           to create one long episode, and each episode covers its respective manga
@@ -31,12 +31,12 @@ interactions:
           its spirit sealed within the body of a baby boy. That boy, Naruto Uzumaki,
           has grown up to become a ninja-in-training who''s more interested in pranks
           than in studying ninjutsu.. but Naruto is determined to become the greatest
-          ninja ever!","year":2002,"status":"returning series","images":{"poster":{"full":null,"medium":null,"thumb":null},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":101599,"slug":"naruto-kai","tvdb":300072,"imdb":null,"tmdb":null,"tvrage":null}}},{"type":"show","score":39.18843,"show":{"title":"Naruto:
+          ninja ever!","year":2002,"status":"returning series","images":{"poster":{"full":null,"medium":null,"thumb":null},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":101599,"slug":"naruto-kai","tvdb":300072,"imdb":null,"tmdb":null,"tvrage":null}}},{"type":"show","score":39.71458,"show":{"title":"Naruto:
           The Abridged Comedy Fandub Spoof Series Show","year":2009,"status":"returning
-          series","images":{"poster":{"full":null,"medium":null,"thumb":null},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":67973,"slug":"naruto-the-abridged-comedy-fandub-spoof-series-show","tvdb":261343,"imdb":"tt1578671","tmdb":null,"tvrage":null}}},{"type":"show","score":4.1736937,"show":{"title":"GeGeGe
+          series","images":{"poster":{"full":null,"medium":null,"thumb":null},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":67973,"slug":"naruto-the-abridged-comedy-fandub-spoof-series-show","tvdb":261343,"imdb":"tt1578671","tmdb":null,"tvrage":null}}},{"type":"show","score":4.3574343,"show":{"title":"GeGeGe
           no Kitaro","overview":"A truly bizzarre anime with a flavour of traditional
           Japanese folklore. The boy, Kitarou, encounters various forms of evil with
-          his father, who happens to be an eyeball.","year":1968,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/036/987/posters/original/f1c148bcbd.jpg","medium":"https://walter.trakt.us/images/shows/000/036/987/posters/medium/f1c148bcbd.jpg","thumb":"https://walter.trakt.us/images/shows/000/036/987/posters/thumb/f1c148bcbd.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/036/987/fanarts/original/f1c148bcbd.jpg","medium":"https://walter.trakt.us/images/shows/000/036/987/fanarts/medium/f1c148bcbd.jpg","thumb":"https://walter.trakt.us/images/shows/000/036/987/fanarts/thumb/f1c148bcbd.jpg"}},"ids":{"trakt":36987,"slug":"gegege-no-kitaro","tvdb":265216,"imdb":null,"tmdb":37144,"tvrage":null}}},{"type":"show","score":0.7593677,"show":{"title":"Rock
+          his father, who happens to be an eyeball.","year":1968,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/036/987/posters/original/f1c148bcbd.jpg","medium":"https://walter.trakt.us/images/shows/000/036/987/posters/medium/f1c148bcbd.jpg","thumb":"https://walter.trakt.us/images/shows/000/036/987/posters/thumb/f1c148bcbd.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/036/987/fanarts/original/f1c148bcbd.jpg","medium":"https://walter.trakt.us/images/shows/000/036/987/fanarts/medium/f1c148bcbd.jpg","thumb":"https://walter.trakt.us/images/shows/000/036/987/fanarts/thumb/f1c148bcbd.jpg"}},"ids":{"trakt":36987,"slug":"gegege-no-kitaro","tvdb":265216,"imdb":null,"tmdb":37144,"tvrage":null}}},{"type":"show","score":0.78945017,"show":{"title":"Rock
           Lee & His Ninja Pals","overview":"Welcome to the Hidden Leaf Village. The
           village where Uzumaki Naruto, star of the TV show \"Naruto\" makes his home.
           Every day, countless powerful ninjas carry out missions and train to hone
@@ -47,7 +47,7 @@ interactions:
           his dream, he puts in more effort than anyone else. Under the hot-blooded
           tutelage of his teacher Guy, he works alongside his teammates Tenten and
           Neji. Watch the Beautiful Green Beast Rock Lee train, go on missions, and
-          have all sorts of adventures! ","year":2012,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/066/108/posters/original/0e7a6a2614.jpg","medium":"https://walter.trakt.us/images/shows/000/066/108/posters/medium/0e7a6a2614.jpg","thumb":"https://walter.trakt.us/images/shows/000/066/108/posters/thumb/0e7a6a2614.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/066/108/fanarts/original/5add6a78d5.jpg","medium":"https://walter.trakt.us/images/shows/000/066/108/fanarts/medium/5add6a78d5.jpg","thumb":"https://walter.trakt.us/images/shows/000/066/108/fanarts/thumb/5add6a78d5.jpg"}},"ids":{"trakt":66108,"slug":"rock-lee-his-ninja-pals","tvdb":257837,"imdb":"tt2301807","tmdb":null,"tvrage":null}}},{"type":"show","score":0.4384212,"show":{"title":"Pucca","overview":"\"Pucca\"
+          have all sorts of adventures! ","year":2012,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/066/108/posters/original/0e7a6a2614.jpg","medium":"https://walter.trakt.us/images/shows/000/066/108/posters/medium/0e7a6a2614.jpg","thumb":"https://walter.trakt.us/images/shows/000/066/108/posters/thumb/0e7a6a2614.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/066/108/fanarts/original/5add6a78d5.jpg","medium":"https://walter.trakt.us/images/shows/000/066/108/fanarts/medium/5add6a78d5.jpg","thumb":"https://walter.trakt.us/images/shows/000/066/108/fanarts/thumb/5add6a78d5.jpg"}},"ids":{"trakt":66108,"slug":"rock-lee-his-ninja-pals","tvdb":257837,"imdb":"tt2301807","tmdb":null,"tvrage":null}}},{"type":"show","score":0.4557893,"show":{"title":"Pucca","overview":"\"Pucca\"
           is a TV series based on a Flash animation series published by Vooz Character
           Systems.  It follows the trails and exploits of a South Korean girl named
           Pucca who is insanely in love with a prideful ninja named Garu.  Meanwhile,
@@ -59,16 +59,16 @@ interactions:
           who are the primary audience.","year":2006,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/006/742/posters/original/08a1152b05.jpg","medium":"https://walter.trakt.us/images/shows/000/006/742/posters/medium/08a1152b05.jpg","thumb":"https://walter.trakt.us/images/shows/000/006/742/posters/thumb/08a1152b05.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/006/742/fanarts/original/39a770759a.jpg","medium":"https://walter.trakt.us/images/shows/000/006/742/fanarts/medium/39a770759a.jpg","thumb":"https://walter.trakt.us/images/shows/000/006/742/fanarts/thumb/39a770759a.jpg"}},"ids":{"trakt":6742,"slug":"pucca","tvdb":81774,"imdb":"tt0795256","tmdb":6782,"tvrage":null}}}]'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de238203c203d6-DFW]
+        CF-RAY: [29ffeb6aa67f0104-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:30 GMT']
-        ETag: [W/"95f5dfbcd1593038c4c6dfd88b198dc6"]
-        Expires: ['Wed, 04 May 2016 22:50:30 GMT']
+        Date: ['Sun, 08 May 2016 21:14:08 GMT']
+        ETag: [W/"7fef62452ace33e42d4d03b50aef68bf"]
+        Expires: ['Mon, 09 May 2016 01:14:08 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=dedb2ee454323d7c7a90e358ce25061741462387830; expires=Thu,
-            04-May-17 18:50:30 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=dd10afecdb7b1e725d25be6ff9cdf37df1462742048; expires=Mon,
+            08-May-17 21:14:08 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -76,15 +76,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [f509861f-41fb-4a74-ad70-f031168ff10a]
-        X-Runtime: ['0.023313']
+        X-Request-Id: [0f674c36-8bf3-43ce-a26f-73f8fc6da5b9]
+        X-Runtime: ['0.019659']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=dedb2ee454323d7c7a90e358ce25061741462387830]
+        Cookie: [__cfduid=dd10afecdb7b1e725d25be6ff9cdf37df1462742048]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -98,23 +98,307 @@ interactions:
           That boy, Naruto Uzumaki, has grown up to become a ninja-in-training who''s
           more interested in pranks than in studying ninjutsu.. but Naruto is determined
           to become the greatest ninja ever!","first_aired":"2002-10-03T07:00:00.000Z","airs":{"day":"Thursday","time":null,"timezone":"Asia/Tokyo"},"runtime":30,"certification":"TV-PG","network":"TV
-          Tokyo","country":"jp","trailer":null,"homepage":"http://naruto.wikia.com/wiki/Narutopedia","status":"ended","rating":8.18689,"votes":1755,"updated_at":"2016-05-04T10:53:22.000Z","language":"ja","available_translations":["en","de","fr","he","ar","es","it","ru","cs","pt","ko","ja","zh","nl","el","ro"],"genres":["animation","comedy"],"aired_episodes":220,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/046/003/fanarts/original/057a423eb7.jpg","medium":"https://walter.trakt.us/images/shows/000/046/003/fanarts/medium/057a423eb7.jpg","thumb":"https://walter.trakt.us/images/shows/000/046/003/fanarts/thumb/057a423eb7.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/046/003/posters/original/362a7f25fa.jpg","medium":"https://walter.trakt.us/images/shows/000/046/003/posters/medium/362a7f25fa.jpg","thumb":"https://walter.trakt.us/images/shows/000/046/003/posters/thumb/362a7f25fa.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/046/003/logos/original/be8f2bf1bb.png"},"clearart":{"full":"https://walter.trakt.us/images/shows/000/046/003/cleararts/original/f36509688e.png"},"banner":{"full":"https://walter.trakt.us/images/shows/000/046/003/banners/original/21e087b7c3.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/046/003/thumbs/original/a0730c6a23.jpg"}}}'}
+          Tokyo","country":"jp","trailer":null,"homepage":"http://naruto.wikia.com/wiki/Narutopedia","status":"ended","rating":8.18871,"votes":1754,"updated_at":"2016-05-04T10:53:22.000Z","language":"ja","available_translations":["en","de","fr","he","ar","es","it","ru","cs","pt","ko","ja","zh","nl","el","ro"],"genres":["animation","comedy"],"aired_episodes":220,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/046/003/fanarts/original/057a423eb7.jpg","medium":"https://walter.trakt.us/images/shows/000/046/003/fanarts/medium/057a423eb7.jpg","thumb":"https://walter.trakt.us/images/shows/000/046/003/fanarts/thumb/057a423eb7.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/046/003/posters/original/362a7f25fa.jpg","medium":"https://walter.trakt.us/images/shows/000/046/003/posters/medium/362a7f25fa.jpg","thumb":"https://walter.trakt.us/images/shows/000/046/003/posters/thumb/362a7f25fa.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/046/003/logos/original/be8f2bf1bb.png"},"clearart":{"full":"https://walter.trakt.us/images/shows/000/046/003/cleararts/original/f36509688e.png"},"banner":{"full":"https://walter.trakt.us/images/shows/000/046/003/banners/original/21e087b7c3.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/046/003/thumbs/original/a0730c6a23.jpg"}}}'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de2382f3cd03d6-DFW]
+        CF-RAY: [29ffeb6b068e0104-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:30 GMT']
-        ETag: [W/"38352831b48f6fb21067f55557f930c4"]
-        Expires: ['Wed, 04 May 2016 22:50:30 GMT']
+        Date: ['Sun, 08 May 2016 21:14:08 GMT']
+        ETag: [W/"1216ea93506b67ec6c6f7d8f8fbfb769"]
+        Expires: ['Mon, 09 May 2016 01:14:08 GMT']
         Last-Modified: ['Wed, 04 May 2016 10:53:22 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [0a88455c-9412-4ae1-bdff-3612d2956ecb]
-        X-Runtime: ['0.013506']
+        X-Request-Id: [7b2ea637-3f34-4aeb-9b72-ffcc07291f52]
+        X-Runtime: ['0.025488']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/46003/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Shino Aburame\",\"person\":{\"name\"\
+          :\"Shinji Kawada\",\"ids\":{\"trakt\":292651,\"slug\":\"shinji-kawada-9deddda6-bf7a-4ffa-a935-54f04d1be82d\"\
+          ,\"imdb\":\"nm1694008\",\"tmdb\":1244721,\"tvrage\":22647},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/894/headshots/original/518de5f845.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/894/headshots/medium/518de5f845.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/894/headshots/thumb/518de5f845.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Hiruzen Sarutobi\",\"person\":{\"name\":\"Hidekatsu\
+          \ Shibata\",\"ids\":{\"trakt\":316679,\"slug\":\"hidekatsu-shibata-e1576dfd-7a4c-4852-8a95-13dbf3a4ea8c\"\
+          ,\"imdb\":\"nm0793073\",\"tmdb\":1213848,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/276/headshots/original/cb95339d73.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/276/headshots/medium/cb95339d73.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/276/headshots/thumb/cb95339d73.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Might Guy\",\"person\":{\"name\":\"Masashi Ebara\"\
+          ,\"ids\":{\"trakt\":404037,\"slug\":\"masashi-ebara-1e982714-c0bc-43fb-9e8b-1c190e41e759\"\
+          ,\"imdb\":\"nm0247929\",\"tmdb\":111531,\"tvrage\":89449},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/404/037/headshots/original/22ed29b7e2.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/404/037/headshots/medium/22ed29b7e2.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/404/037/headshots/thumb/22ed29b7e2.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1953-05-04\",\"death\":null,\"birthplace\":\"Yokohama,\
+          \ Kanagawa Prefecture, Japan\",\"homepage\":\"\"}},{\"character\":\"Kakashi\
+          \ Hatake\",\"person\":{\"name\":\"Kazuhiko Inoue\",\"ids\":{\"trakt\":431454,\"\
+          slug\":\"kazuhiko-inoue\",\"imdb\":\"nm0409287\",\"tmdb\":89968,\"tvrage\"\
+          :77034},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/278/headshots/original/fb06a5e105.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/278/headshots/medium/fb06a5e105.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/278/headshots/thumb/fb06a5e105.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Kazuhiko Inoue was born on March 26, 1954 in Yokohama, Japan. He is an\
+          \ actor, known for\_Naruto: Shipp\xFBden\_(2007),\_Naruto\_(2002) and\_\
+          Hyakuj\xFB-\xF4 Goraion\_(1981).\",\"birthday\":null,\"death\":null,\"birthplace\"\
+          :\"\",\"homepage\":\"\"}},{\"character\":\"Neji Hyuga\",\"person\":{\"name\"\
+          :\"K\u014Dichi T\u014Dchika\",\"ids\":{\"trakt\":326390,\"slug\":\"koichi-tochika-f3981125-0469-49b2-ac59-1216d5eacf35\"\
+          ,\"imdb\":\"nm0879482\",\"tmdb\":1241953,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"character\"\
+          :\"Zabuza Momochi\",\"person\":{\"name\":\"Unsh\u014D Ishizuka\",\"ids\"\
+          :{\"trakt\":425227,\"slug\":\"unsho-ishizuka\",\"imdb\":\"nm0411167\",\"\
+          tmdb\":68916,\"tvrage\":17053},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/280/headshots/original/21b37b4279.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/280/headshots/medium/21b37b4279.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/280/headshots/thumb/21b37b4279.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Yukinori Ishizuka better known as Unsh\u014D Ishizuka (May 16, 1951 -\
+          \ ) is a Japanese seiy\u016B from Katsuyama, Fukui. He is currently affiliated\
+          \ with Aoni Production and also provides the voice for the Narrator and\
+          \ Professor Oak on Pok\xE9mon. During the Johto saga, he voiced Jasmine's\
+          \ Steelix, Pryce's Piloswine, Clair's Gyarados and also Ash's Kingler in\
+          \ both the Japanese and English-language versions of the show. In addition\
+          \ to voicing Jasmine's Steelix, he also voiced Brock's Onix/Steelix. He\
+          \ currently stars in the Pok\xE9mon Best Wishes series where he plays both\
+          \ the Narrator and the Isshu Pok\xE9dex.\\n\\nDescription above from the\
+          \ Wikipedia article Unsh\xF4 Ishizuka, licensed under CC-BY-SA, full list\
+          \ of contributors on Wikipedia.\u200B\",\"birthday\":\"1951-05-16\",\"death\"\
+          :null,\"birthplace\":\"Katsuyama, Fukui, Japan\",\"homepage\":\"\"}},{\"\
+          character\":\"Sasuke Uchiha\",\"person\":{\"name\":\"Noriaki Sugiyama\"\
+          ,\"ids\":{\"trakt\":430698,\"slug\":\"noriaki-sugiyama\",\"imdb\":\"nm1617276\"\
+          ,\"tmdb\":82056,\"tvrage\":49907},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/430/698/headshots/original/b9af103852.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/430/698/headshots/medium/b9af103852.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/430/698/headshots/thumb/b9af103852.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\u200BFrom Wikipedia, the free encyclopedia. \_\\n\\nNoriaki Sugiyama\
+          \ (born March 9, 1976) is a Japanese voice actor and television actor best\
+          \ known for his roles as Sasuke Uchiha in Naruto, Ishida Ury\u016B in Bleach,\
+          \ Shir\u014D Emiya in Fate/Stay Night, and England in Axis Powers Hetalia.\\\
+          nHe is affectionately known as Non-tan by his fans. Non-tan was a nickname\
+          \ given to him by Junko Takeuchi on the radio show O-! Naruto Nippon!, which\
+          \ aired in Japan. Sugiyama often voices characters not only having the same\
+          \ voice, but also with similar personalities. A good example of this is\
+          \ the three characters Ury\u016B Ishida, Sasuke Uchiha, and Arthur Kirkland(England/Britain)\\\
+          n\\nDescription above from the Wikipedia article\_Noriaki Sugiyama, licensed\
+          \ under CC-BY-SA, full list of contributors on Wikipedia.\",\"birthday\"\
+          :\"1976-03-09\",\"death\":null,\"birthplace\":\"Tokyo, Japan\",\"homepage\"\
+          :\"\"}},{\"character\":\"Hinata Hyuga\",\"person\":{\"name\":\"Nana Mizuki\"\
+          ,\"ids\":{\"trakt\":434906,\"slug\":\"nana-mizuki\",\"imdb\":\"nm1679934\"\
+          ,\"tmdb\":24651,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/434/906/headshots/original/3ba5e51c5d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/434/906/headshots/medium/3ba5e51c5d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/434/906/headshots/thumb/3ba5e51c5d.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1980-01-21\",\"death\":null,\"birthplace\":\"Ehime,\
+          \ Japan\",\"homepage\":\"http://www.mizukinana.jp/\"}},{\"character\":\"\
+          Shikamaru Nara\",\"person\":{\"name\":\"Showtaro Morikubo\",\"ids\":{\"\
+          trakt\":414102,\"slug\":\"showtaro-morikubo-6bd91230-82cf-49a7-9115-7a40b0fcc53a\"\
+          ,\"imdb\":\"nm0605453\",\"tmdb\":9714,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/283/headshots/original/9d40fe18ca.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/283/headshots/medium/9d40fe18ca.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/283/headshots/thumb/9d40fe18ca.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :\"\"}},{\"character\":\"Tayuya\",\"person\":{\"name\":\"Akeno Watanabe\"\
+          ,\"ids\":{\"trakt\":194266,\"slug\":\"akeno-watanabe\",\"imdb\":\"nm1337113\"\
+          ,\"tmdb\":587350,\"tvrage\":77987},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/180/867/headshots/original/f7eac7fb03.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/867/headshots/medium/f7eac7fb03.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/867/headshots/thumb/f7eac7fb03.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Kimimaro\",\"person\":{\"name\":\"Toshiyuki Morikawa\"\
+          ,\"ids\":{\"trakt\":413998,\"slug\":\"toshiyuki-morikawa-0148ad64-67a3-4d95-8973-34407e6822b1\"\
+          ,\"imdb\":\"nm0605452\",\"tmdb\":9706,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/998/headshots/original/ca342c0902.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/998/headshots/medium/ca342c0902.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/998/headshots/thumb/ca342c0902.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\u200BFrom Wikipedia, the free encyclopedia. \_\\n\\nToshiyuki Morikawa\
+          \ \_(January 26, 1967 ) is a prolific Japanese male seiy\u016B from Yokohama,\
+          \ Kanagawa, was affiliated with Arts Vision. Lately, however, he has become\
+          \ the head of AXLONE that a voice actor company he founded in Apr 2011.\
+          \ His name is also sometimes mistranslated as Tomoyuki. He has dubbed-over\
+          \ many actors in Japanese such as: Tom Cruise, Adam Sandler, Keanu Reeves,\
+          \ Brad Pitt, Ewan McGregor and Mark Wahlberg's roles.\\nIn 2003, he teamed\
+          \ up with Fumihiko Tachiki to form the band \\\"2HEARTS\\\", Fumihiko was\
+          \ previously in other band under the name of \\\"TAKADA BAND\\\" along with\
+          \ Ami Mimatsu, being one of their works the opening theme of Blue Seed.\\\
+          nHe attended Katsuya Seiy\u016B Academy, and was in the same class as Kotono\
+          \ Mitsuishi, Chisa Yokoyama, Wataru Takagi, Sachiko Sugawara, and Michiko\
+          \ Neya. Because of his deep voice, it is arguably frequent for him to be\
+          \ cast as imposing characters.\\n\\nDescription above from the Wikipedia\
+          \ article\_Toshiyuki Morikawa, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1967-01-26\",\"death\":null,\"birthplace\"\
+          :\"Yokohama, Japan\",\"homepage\":\"\"}},{\"character\":\"Itachi Uchiha\"\
+          ,\"person\":{\"name\":\"Hideo Ishikawa\",\"ids\":{\"trakt\":297575,\"slug\"\
+          :\"hideo-ishikawa-34b99540-8067-4753-b6ba-6b2233fa0ecf\",\"imdb\":\"nm0411050\"\
+          ,\"tmdb\":9720,\"tvrage\":49904},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/286/headshots/original/fdbafaceee.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/286/headshots/medium/fdbafaceee.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/286/headshots/thumb/fdbafaceee.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Kisame Hoshigaki\",\"person\":{\"name\":\"Tomoyuki\
+          \ Dan\",\"ids\":{\"trakt\":315245,\"slug\":\"tomoyuki-dan\",\"imdb\":\"\
+          nm2666612\",\"tmdb\":1244461,\"tvrage\":48709},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/287/headshots/original/b0d0165a59.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/287/headshots/medium/b0d0165a59.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/287/headshots/thumb/b0d0165a59.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Gaara\",\"person\":{\"name\":\"Akira Ishida\",\"\
+          ids\":{\"trakt\":297708,\"slug\":\"akira-ishida-40618f10-b24d-4b88-94fc-16abd519c8d1\"\
+          ,\"imdb\":\"nm0410907\",\"tmdb\":81244,\"tvrage\":17582},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/288/headshots/original/6ef21c9c94.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/288/headshots/medium/6ef21c9c94.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/288/headshots/thumb/6ef21c9c94.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}},{\"character\":\"Iruka Umino\",\"person\":{\"name\":\"Toshihiko\
+          \ Seki\",\"ids\":{\"trakt\":425665,\"slug\":\"toshihiko-seki\",\"imdb\"\
+          :\"nm0782841\",\"tmdb\":90571,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/289/headshots/original/4f4e59e152.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/289/headshots/medium/4f4e59e152.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/289/headshots/thumb/4f4e59e152.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Kabuto Yakushi\",\"person\":{\"name\":\"Nobutoshi\
+          \ Canna\",\"ids\":{\"trakt\":123990,\"slug\":\"nobutoshi-canna\",\"imdb\"\
+          :\"nm0370650\",\"tmdb\":124482,\"tvrage\":89353},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/290/headshots/original/e0c457ea5a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/290/headshots/medium/e0c457ea5a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/290/headshots/thumb/e0c457ea5a.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}},{\"character\":\"Orochimaru\",\"person\":{\"name\":\"Kujira\",\"\
+          ids\":{\"trakt\":404112,\"slug\":\"kujira-d7da407d-1254-406b-81b6-0f4ffeee55cf\"\
+          ,\"imdb\":\"nm1459169\",\"tmdb\":1241505,\"tvrage\":89350},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/291/headshots/original/41df6cc27a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/291/headshots/medium/41df6cc27a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/291/headshots/thumb/41df6cc27a.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Kujira is a Japanese voice actress.\",\"birthday\":\"1961-04-01\",\"\
+          death\":null,\"birthplace\":\" Tokyo, Japan\",\"homepage\":\"http://www.81produce.co.jp/list.cgi?lady+1322810000000\"\
+          }},{\"character\":\"Jiraiya\",\"person\":{\"name\":\"Houchu Ohtsuka\",\"\
+          ids\":{\"trakt\":425668,\"slug\":\"houchu-ohtsuka-425668\",\"imdb\":\"nm0960037\"\
+          ,\"tmdb\":552683,\"tvrage\":70975},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/162/292/headshots/original/cfe9a6577f.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/292/headshots/medium/cfe9a6577f.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/292/headshots/thumb/cfe9a6577f.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Houchu Ohtsuka is a Japanese voice actor, affiliated with Crazy Box.\"\
+          ,\"birthday\":\"1954-05-19\",\"death\":null,\"birthplace\":\"Okayama Prefecture,\
+          \ Japan\",\"homepage\":\"\"}},{\"character\":\"Naruto Uzumaki\",\"person\"\
+          :{\"name\":\"Junko Takeuchi\",\"ids\":{\"trakt\":431448,\"slug\":\"junko-takeuchi\"\
+          ,\"imdb\":\"nm0847594\",\"tmdb\":82055,\"tvrage\":31800},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/293/headshots/original/34e9182cc9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/293/headshots/medium/34e9182cc9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/293/headshots/thumb/34e9182cc9.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nJunko Takeuchi ( born April\
+          \ 5, 1972 in Saitama) is a Japanese voice actress employed by Love Live.\\\
+          n\\nTaking a well-trod path by many voice actresses, she often voices young\
+          \ male characters with generally very quirky and goofy personalities. Her\
+          \ most notable recent roles are in Naruto, where she plays the main character,\
+          \ Naruto Uzumaki, in Hunter x Hunter as Gon Freecss and in Medabots as Metabee,\
+          \ and in Inazuma Eleven as Mamoru Endo.\\n\\nDescription above from the\
+          \ Wikipedia article Junko Takeuchi, licensed under CC-BY-SA, full list of\
+          \ contributors on Wikipedia.\u200B\",\"birthday\":\"1972-04-05\",\"death\"\
+          :null,\"birthplace\":\"Saitama, Japan\",\"homepage\":\"\"}},{\"character\"\
+          :\"Shizune\",\"person\":{\"name\":\"Keiko Nemoto\",\"ids\":{\"trakt\":179494,\"\
+          slug\":\"keiko-nemoto\",\"imdb\":\"nm1432142\",\"tmdb\":1239112,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/294/headshots/original/53c90c6580.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/294/headshots/medium/53c90c6580.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/294/headshots/thumb/53c90c6580.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Sakura Haruno\",\"person\":{\"name\":\"Chie Nakamura\"\
+          ,\"ids\":{\"trakt\":431452,\"slug\":\"chie-nakamura\",\"imdb\":\"nm1468944\"\
+          ,\"tmdb\":82057,\"tvrage\":89219},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/162/295/headshots/original/438dcee984.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/295/headshots/medium/438dcee984.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/295/headshots/thumb/438dcee984.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nChie Nakamura ( born 14 May\
+          \ 1978) is a Japanese voice actress who works for Office Kaoru. Nakamura\
+          \ is originally from the Tokyo Metropolitan Area.\\n\\nDescription above\
+          \ from the Wikipedia article Chie Nakamura, licensed under CC-BY-SA, full\
+          \ list of contributors on Wikipedia.\",\"birthday\":\"1978-05-14\",\"death\"\
+          :null,\"birthplace\":\"Tokyo, Japan\",\"homepage\":\"\"}},{\"character\"\
+          :\"Haku\",\"person\":{\"name\":\"Mayumi Asano\",\"ids\":{\"trakt\":439706,\"\
+          slug\":\"mayumi-asano-5689b1d4-aef1-4cc9-9c77-cba224797360\",\"imdb\":\"\
+          nm0038351\",\"tmdb\":215271,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/person_shows/000/168/023/headshots/original/b60afd9cc4.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/168/023/headshots/medium/b60afd9cc4.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/168/023/headshots/thumb/b60afd9cc4.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Choji Akimichi\",\"person\":{\"name\":\"Kentaro\
+          \ Ito\",\"ids\":{\"trakt\":72135,\"slug\":\"kentaro-ito\",\"imdb\":\"nm0411794\"\
+          ,\"tmdb\":81363,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":\"1974-01-03\",\"death\"\
+          :null,\"birthplace\":\"\",\"homepage\":\"\"}},{\"character\":\"Ino Yamanaka\"\
+          ,\"person\":{\"name\":\"Ry\u014Dka Yuzuki\",\"ids\":{\"trakt\":81788,\"\
+          slug\":\"ryoka-yuzuki\",\"imdb\":\"nm0951216\",\"tmdb\":114906,\"tvrage\"\
+          :77988},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/298/headshots/original/965113ebe4.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/298/headshots/medium/965113ebe4.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/298/headshots/thumb/965113ebe4.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :\"\"}},{\"character\":\"Kiba Inuzuka\",\"person\":{\"name\":\"K\u014Dsuke\
+          \ Toriumi\",\"ids\":{\"trakt\":114798,\"slug\":\"kosuke-toriumi\",\"imdb\"\
+          :\"nm1047006\",\"tmdb\":122647,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/299/headshots/original/43978583a9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/299/headshots/medium/43978583a9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/299/headshots/thumb/43978583a9.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :\"\"}},{\"character\":\"Rock Lee\",\"person\":{\"name\":\"Y\u014Dichi Masukawa\"\
+          ,\"ids\":{\"trakt\":76084,\"slug\":\"yoichi-masukawa\",\"imdb\":\"nm1682855\"\
+          ,\"tmdb\":89971,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/162/300/headshots/original/8b864b8e95.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/162/300/headshots/medium/8b864b8e95.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/162/300/headshots/thumb/8b864b8e95.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}}]}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb6c6bc2116b-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:08 GMT']
+        ETag: [W/"12cbd8b51be7d7809e0acc47c1eaa916"]
+        Expires: ['Mon, 09 May 2016 01:14:08 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=db75404513b9c131e470f126f44a181dc1462742048; expires=Mon,
+            08-May-17 21:14:08 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [122a0471-ce7b-498d-86c6-127946cb9b79]
+        X-Runtime: ['0.087100']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

@@ -351,7 +351,7 @@ class TestTraktMovieLookup(object):
             session.commit()
 
             lookupargs = {'title': "harry.potter.and.the.philosopher's"}
-            movie = ApiTrakt.lookup_movie(**lookupargs)
+            movie = ApiTrakt.lookup_movie(session=session, **lookupargs)
 
             assert movie.imdb_id == entry['imdb_id']
             assert movie.title.lower() == entry['movie_name'].lower()

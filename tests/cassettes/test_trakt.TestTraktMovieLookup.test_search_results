@@ -6,16 +6,16 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?query=harry+potter+and+the+philosopher%27s+stone&type=movie
+      uri: https://api-v2launch.trakt.tv/search?type=movie&query=harry+potter+and+the+philosopher%27s+stone
     response:
-      body: {string: '[{"type":"movie","score":89.6801,"movie":{"title":"Harry Potter
+      body: {string: '[{"type":"movie","score":88.51443,"movie":{"title":"Harry Potter
           and the Philosopher''s Stone","overview":"Harry Potter has lived under the
           stairs at his aunt and uncle''s house his whole life. But on his 11th birthday,
           he learns he''s a powerful wizard -- with a place waiting for him at the
           Hogwarts School of Witchcraft and Wizardry. As he learns to harness his
           newfound powers with the help of the school''s kindly headmaster, Harry
           uncovers the truth about his parents'' deaths -- and about the villain who''s
-          to blame.","year":2001,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/000/545/posters/original/c8779ab3c4.jpg","medium":"https://walter.trakt.us/images/movies/000/000/545/posters/medium/c8779ab3c4.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/545/posters/thumb/c8779ab3c4.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/000/545/fanarts/original/8446d03b80.jpg","medium":"https://walter.trakt.us/images/movies/000/000/545/fanarts/medium/8446d03b80.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/545/fanarts/thumb/8446d03b80.jpg"}},"ids":{"trakt":545,"slug":"harry-potter-and-the-philosopher-s-stone-2001","imdb":"tt0241527","tmdb":671}}},{"type":"movie","score":2.354529,"movie":{"title":"Magic
+          to blame.","year":2001,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/000/545/posters/original/c8779ab3c4.jpg","medium":"https://walter.trakt.us/images/movies/000/000/545/posters/medium/c8779ab3c4.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/545/posters/thumb/c8779ab3c4.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/000/545/fanarts/original/8446d03b80.jpg","medium":"https://walter.trakt.us/images/movies/000/000/545/fanarts/medium/8446d03b80.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/545/fanarts/thumb/8446d03b80.jpg"}},"ids":{"trakt":545,"slug":"harry-potter-and-the-philosopher-s-stone-2001","imdb":"tt0241527","tmdb":671}}},{"type":"movie","score":2.3366637,"movie":{"title":"Magic
           Beyond Words: The JK Rowling Story","overview":"Magic Beyond Words: The
           J.K. Rowling Story is a made-for-TV film starring Australian actress Poppy
           Montgomery. The film, which was shot in B.C. Canada locations altered to
@@ -31,17 +31,17 @@ interactions:
           grossing films of all time.  Poppy Montgomery reportedly got blue contact
           lenses to play the role of the highly influential author.","year":2011,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/059/971/posters/original/d5c52dbee5.jpg","medium":"https://walter.trakt.us/images/movies/000/059/971/posters/medium/d5c52dbee5.jpg","thumb":"https://walter.trakt.us/images/movies/000/059/971/posters/thumb/d5c52dbee5.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/059/971/fanarts/original/7505ef5301.jpg","medium":"https://walter.trakt.us/images/movies/000/059/971/fanarts/medium/7505ef5301.jpg","thumb":"https://walter.trakt.us/images/movies/000/059/971/fanarts/thumb/7505ef5301.jpg"}},"ids":{"trakt":59971,"slug":"magic-beyond-words-the-jk-rowling-story-2011","imdb":"tt1979269","tmdb":80530}}}]'}
       headers:
-        CF-Cache-Status: [HIT]
-        CF-RAY: [29de23997d502635-DFW]
+        CF-Cache-Status: [MISS]
+        CF-RAY: [29ffeb87fc5203d6-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:33 GMT']
-        ETag: [W/"b05ab207d59c16b16b3414ba37996ef8"]
-        Expires: ['Wed, 04 May 2016 22:50:33 GMT']
+        Date: ['Sun, 08 May 2016 21:14:13 GMT']
+        ETag: [W/"a4e909fb9555bcadaae7cc986bb50fe6"]
+        Expires: ['Mon, 09 May 2016 01:14:13 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=da6065994792f9a7e10cc117ab31bff981462387833; expires=Thu,
-            04-May-17 18:50:33 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=df2bda45606bad24f3ee6aca1a92473ec1462742053; expires=Mon,
+            08-May-17 21:14:13 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -49,15 +49,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [601043c8-42c1-4c90-b81c-42610510743f]
-        X-Runtime: ['0.026725']
+        X-Request-Id: [e7e5f7b7-f94f-4006-a534-d9ed67d5b09b]
+        X-Runtime: ['0.022480']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=da6065994792f9a7e10cc117ab31bff981462387833]
+        Cookie: [__cfduid=df2bda45606bad24f3ee6aca1a92473ec1462742053]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -70,23 +70,1332 @@ interactions:
           School of Witchcraft and Wizardry. As he learns to harness his newfound
           powers with the help of the school''s kindly headmaster, Harry uncovers
           the truth about his parents'' deaths -- and about the villain who''s to
-          blame.","released":"2001-11-16","runtime":152,"trailer":"http://youtube.com/watch?v=qPvlb6eXzMA","homepage":"http://harrypotter.warnerbros.com/harrypotterandthedeathlyhallows/mainsite/index.html","rating":7.92266,"votes":11288,"updated_at":"2016-04-25T11:53:11.000Z","language":"en","available_translations":["en","de","it","fr","nl","hu","sk","pt","ru","sv","cs","zh","tr","es","fa","fi","el","da","pl","th","he","sr","ja","no","et","ko","lv","ro"],"genres":["adventure","fantasy","family"],"certification":"","images":{"fanart":{"full":"https://walter.trakt.us/images/movies/000/000/545/fanarts/original/8446d03b80.jpg","medium":"https://walter.trakt.us/images/movies/000/000/545/fanarts/medium/8446d03b80.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/545/fanarts/thumb/8446d03b80.jpg"},"poster":{"full":"https://walter.trakt.us/images/movies/000/000/545/posters/original/c8779ab3c4.jpg","medium":"https://walter.trakt.us/images/movies/000/000/545/posters/medium/c8779ab3c4.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/545/posters/thumb/c8779ab3c4.jpg"},"logo":{"full":"https://walter.trakt.us/images/movies/000/000/545/logos/original/5cd563176f.png"},"clearart":{"full":"https://walter.trakt.us/images/movies/000/000/545/cleararts/original/9f8a6c427c.png"},"banner":{"full":"https://walter.trakt.us/images/movies/000/000/545/banners/original/cd12f8041e.jpg"},"thumb":{"full":"https://walter.trakt.us/images/movies/000/000/545/thumbs/original/fb21cb2584.jpg"}}}'}
+          blame.","released":"2001-11-16","runtime":152,"trailer":null,"homepage":"http://harrypotter.warnerbros.com/harrypotterandthedeathlyhallows/mainsite/index.html","rating":7.92199,"votes":11332,"updated_at":"2016-05-08T09:43:02.000Z","language":"en","available_translations":["en","de","it","fr","nl","hu","sk","pt","ru","sv","cs","zh","tr","es","fa","fi","el","da","pl","th","he","sr","ja","no","et","ko","lv","ro"],"genres":["adventure","fantasy","family"],"certification":"","images":{"fanart":{"full":"https://walter.trakt.us/images/movies/000/000/545/fanarts/original/8446d03b80.jpg","medium":"https://walter.trakt.us/images/movies/000/000/545/fanarts/medium/8446d03b80.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/545/fanarts/thumb/8446d03b80.jpg"},"poster":{"full":"https://walter.trakt.us/images/movies/000/000/545/posters/original/c8779ab3c4.jpg","medium":"https://walter.trakt.us/images/movies/000/000/545/posters/medium/c8779ab3c4.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/545/posters/thumb/c8779ab3c4.jpg"},"logo":{"full":"https://walter.trakt.us/images/movies/000/000/545/logos/original/5cd563176f.png"},"clearart":{"full":"https://walter.trakt.us/images/movies/000/000/545/cleararts/original/9f8a6c427c.png"},"banner":{"full":"https://walter.trakt.us/images/movies/000/000/545/banners/original/cd12f8041e.jpg"},"thumb":{"full":"https://walter.trakt.us/images/movies/000/000/545/thumbs/original/fb21cb2584.jpg"}}}'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de2399cd582635-DFW]
+        CF-RAY: [29ffeb893c6403d6-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:33 GMT']
-        ETag: [W/"574845f9757cb7dd5556833ca3d6d7f6"]
-        Expires: ['Wed, 04 May 2016 22:50:33 GMT']
-        Last-Modified: ['Mon, 25 Apr 2016 11:53:11 GMT']
+        Date: ['Sun, 08 May 2016 21:14:13 GMT']
+        ETag: [W/"1ed27c81483f76fb15c7a7731a38bdb4"]
+        Expires: ['Mon, 09 May 2016 01:14:13 GMT']
+        Last-Modified: ['Sun, 08 May 2016 09:43:02 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [c22931bb-e6c5-4793-a7b0-c6025b0a6797]
-        X-Runtime: ['0.055695']
+        X-Request-Id: [af73d0cd-65d1-47c0-93da-9ddafbf3fdf6]
+        X-Runtime: ['0.100979']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/movies/545/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Harry Potter\",\"person\":{\"name\"\
+          :\"Daniel Radcliffe\",\"ids\":{\"trakt\":6269,\"slug\":\"daniel-radcliffe\"\
+          ,\"imdb\":\"nm0705356\",\"tmdb\":10980,\"tvrage\":59437},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/269/headshots/original/8417c45678.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/269/headshots/medium/8417c45678.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/269/headshots/thumb/8417c45678.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/269/fanarts/original/95f796d93e.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/269/fanarts/medium/95f796d93e.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/269/fanarts/thumb/95f796d93e.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nDaniel Jacob\
+          \ Radcliffe (born 23 July 1989) is an English actor who rose to prominence\
+          \ playing the titular character in the Harry Potter film series. His work\
+          \ on the series has earned him several awards and more than \xA360 million.\\\
+          n\\nRadcliffe made his acting debut at age ten in BBC One's television movie\
+          \ David Copperfield (1999), followed by his film debut in 2001's The Tailor\
+          \ of Panama. Cast as Harry at the age of eleven, Radcliffe has starred in\
+          \ seven Harry Potter films since 2001, with the final installment releasing\
+          \ in July 2011. In 2007 Radcliffe began to branch out from the series, starring\
+          \ in the London and New York productions of the play Equus, and the 2011\
+          \ Broadway revival of the musical How to Succeed in Business Without Really\
+          \ Trying. The Woman in Black (2012) will be his first film project following\
+          \ the final Harry Potter movie.\\n\\nRadcliffe has contributed to many charities,\
+          \ including Demelza House Children's Hospice and The Trevor Project. He\
+          \ has also made public service announcements for the latter. In 2011 the\
+          \ actor was awarded the Trevor Project's \\\"Hero Award\\\".\\n\\nDescription\
+          \ above from the Wikipedia article Daniel Radcliffe, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1989-07-23\"\
+          ,\"death\":null,\"birthplace\":\"Hammersmith, London, UK\",\"homepage\"\
+          :\"http://www.danradcliffe.com/\"}},{\"character\":\"Ron Weasley\",\"person\"\
+          :{\"name\":\"Rupert Grint\",\"ids\":{\"trakt\":6414,\"slug\":\"rupert-grint\"\
+          ,\"imdb\":\"nm0342488\",\"tmdb\":10989,\"tvrage\":124969},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/414/headshots/original/c38f173c29.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/414/headshots/medium/c38f173c29.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/414/headshots/thumb/c38f173c29.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/414/fanarts/original/e4a9995c67.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/414/fanarts/medium/e4a9995c67.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/414/fanarts/thumb/e4a9995c67.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nRupert Alexander\
+          \ Grint (born 24 August 1988) is an English actor, who rose to prominence\
+          \ playing Ron Weasley, one of the three main characters in the Harry Potter\
+          \ film series. Grint was cast as Ron at the age of 11, having previously\
+          \ acted only in school plays and at his local theatre group. From 2001 to\
+          \ 2010, he starred in eight Harry Potter movies alongside Daniel Radcliffe\
+          \ and Emma Watson.\\n\\nBeginning in 2002, Grint began to work outside of\
+          \ the Harry Potter franchise, taking on a co-leading role in Thunderpants.\
+          \ He has had starring roles in Driving Lessons, a dramedy released in 2006,\
+          \ and Cherrybomb, a small budgeted drama released in 2010. Grint co-starred\
+          \ with Bill Nighy and Emily Blunt in Wild Target, a comedy. His first project\
+          \ following the end of the Harry Potter series will be Comrade, a 2012 anti-war\
+          \ release in which he stars as the main role.\\n\\nDescription above from\
+          \ the Wikipedia article Rupert Grint, licensed under CC-BY-SA, full list\
+          \ of contributors on Wikipedia.\",\"birthday\":\"1988-08-24\",\"death\"\
+          :null,\"birthplace\":\"Watton-at-Stone, Hertfordshire, United Kingdom\"\
+          ,\"homepage\":\"http://www.rupertgrint.net/\"}},{\"character\":\"Hermione\
+          \ Granger\",\"person\":{\"name\":\"Emma Watson\",\"ids\":{\"trakt\":6432,\"\
+          slug\":\"emma-watson\",\"imdb\":\"nm0914612\",\"tmdb\":10990,\"tvrage\"\
+          :59035},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/432/headshots/original/d0cdd756f5.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/432/headshots/medium/d0cdd756f5.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/432/headshots/thumb/d0cdd756f5.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/432/fanarts/original/4ebc4cf689.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/432/fanarts/medium/4ebc4cf689.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/432/fanarts/thumb/4ebc4cf689.jpg\"\
+          }},\"biography\":\"Emma Charlotte Duerre Watson (born 15 April 1990) is\
+          \ an English actress and model who rose to prominence playing Hermione Granger,\
+          \ one of three starring roles in the Harry Potter film series. Watson was\
+          \ cast as Hermione at the age of nine, having previously acted only in school\
+          \ plays. From 2001 to 2011, she starred in eight Harry Potter films alongside\
+          \ Daniel Radcliffe and Rupert Grint. Watson's work on the Harry Potter series\
+          \ has earned her several awards and more than \xA310 million.\\n\\nShe made\
+          \ her modelling debut for Burberry's Autumn/Winter campaign in 2009. In\
+          \ 2007, Watson announced her involvement in two non-Harry Potter productions:\
+          \ the television adaptation of the novel Ballet Shoes and an animated film,\
+          \ The Tale of Despereaux. Ballet Shoes was broadcast on 26 December 2007\
+          \ to an audience of 5.2 million, and The Tale of Despereaux, based on the\
+          \ novel by Kate DiCamillo, was released in 2008 and grossed over US $70\
+          \ million in worldwide sales.\_In 2012, she starred in\_Stephen Chbosky's\
+          \ film adaptation of\_The Perks of Being a Wallflower, and was cast in the\
+          \ role of Ila in\_Darren Aronofsky's biblical epic\_Noah.\\n\\nDescription\
+          \ above from the Wikipedia article Emma Watson, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1990-04-15\"\
+          ,\"death\":null,\"birthplace\":\"Paris, France\",\"homepage\":\"\"}},{\"\
+          character\":\"Professor Albus Dumbledore\",\"person\":{\"name\":\"Richard\
+          \ Harris\",\"ids\":{\"trakt\":4336,\"slug\":\"richard-harris\",\"imdb\"\
+          :\"nm0001321\",\"tmdb\":194,\"tvrage\":3938},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/004/336/headshots/original/246946f047.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/004/336/headshots/medium/246946f047.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/004/336/headshots/thumb/246946f047.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/004/336/fanarts/original/41f6edb37b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/004/336/fanarts/medium/41f6edb37b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/004/336/fanarts/thumb/41f6edb37b.jpg\"\
+          }},\"biography\":\"Richard St. John Harris was an Irish actor, singer-songwriter,\
+          \ theatrical producer, film director and writer.\\nHe appeared on stage\
+          \ and in many films, and is perhaps best known for his roles as King Arthur\
+          \ in Camelot (1967), as Oliver Cromwell in Cromwell (1970) and as Albus\
+          \ Dumbledore in Harry Potter and the Philosopher's Stone (2001) and Harry\
+          \ Potter and the Chamber of Secrets (2002), his last film. He also played\
+          \ a British aristocrat and prisoner in A Man Called Horse (1970) and a gunfighter\
+          \ in Clint Eastwood's Western film Unforgiven (1992).\\nAs a singer, Harris\
+          \ is probably best remembered for his recording of Jimmy Webb's song \\\"\
+          MacArthur Park\\\", which reached the top ten in sales on both sides of\
+          \ the Atlantic Ocean in 1968.\\n\\nHarris, the fifth of nine children, was\
+          \ born in Limerick City, County Limerick, Munster, Ireland, the son of Ivan\
+          \ John Harris and Mildred Josephine Harty Harris.\\n\\nIn 1957, he married\
+          \ Elizabeth Rees-Williams, the daughter of David Rees-Williams, 1st Baron\
+          \ Ogmore. Their three children are the actor Jared Harris, the actor Jamie\
+          \ Harris, and the director Damian Harris. Harris and Rees-Willams divorced\
+          \ in 1969, and then Elizabeth married another well-known actor, Sir Rex\
+          \ Harrison.\\nHarris' second marriage was to the American actress Ann Turkel,\
+          \ who was 16 years younger than he, and this marriage also ended in a divorce.\\\
+          n\\nDespite his divorces, Harris was a member of the Roman Catholic Knights\
+          \ of Malta, and was also dubbed a knight by the Queen of Denmark in 1985.\
+          \ Harris was a life long friend of actor Peter O'Toole.  Harris died of\
+          \ Hodgkin's disease on 25 October 2002, aged 72, two and a half weeks before\
+          \ the American premiere of Harry Potter and the Chamber of Secrets. He was\
+          \ replaced as Dumbledore by the Irish-born actor Sir Michael Gambon.\\nFor\
+          \ years, whenever he was in London, Harris resided at the Savoy Hotel. According\
+          \ to the hotel archivist Susan Scott, as Harris was being taken from the\
+          \ hotel on a stretcher, shortly before his death, he warned the diners,\
+          \ \\\"It was the food!\\\"\\nHarris's remains were cremated, and his ashes\
+          \ were scattered in The Bahamas Islands, where he had owned a home.\",\"\
+          birthday\":\"1930-10-01\",\"death\":\"2002-10-25\",\"birthplace\":\"Limerick\
+          \ City, Munster, Ireland\",\"homepage\":\"\"}},{\"character\":\"Professor\
+          \ Minerva McGonagall\",\"person\":{\"name\":\"Maggie Smith\",\"ids\":{\"\
+          trakt\":6714,\"slug\":\"maggie-smith\",\"imdb\":\"nm0001749\",\"tmdb\":10978,\"\
+          tvrage\":104144},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/714/headshots/original/3091b1cf2b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/714/headshots/medium/3091b1cf2b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/714/headshots/thumb/3091b1cf2b.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/714/fanarts/original/4266f62c36.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/714/fanarts/medium/4266f62c36.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/714/fanarts/thumb/4266f62c36.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nDame Margaret\
+          \ Natalie Smith, DBE (born 28 December 1934), better known as Maggie Smith,\
+          \ is an English film, stage, and television actress who made her stage debut\
+          \ in 1952 and is still performing after 59 years. She has won numerous awards\
+          \ for acting, both for the stage and for film, including five BAFTA Awards,\
+          \ two Academy Awards, two Golden Globes, two Emmy Awards, two Laurence Olivier\
+          \ Awards, two SAG Awards, and a Tony Award. Her critically acclaimed films\
+          \ include Othello (1965), The Prime of Miss Jean Brodie (1969), California\
+          \ Suite (1978), Clash of the Titans (1981), A Room with a View (1985), and\
+          \ Gosford Park (2001). She has also appeared in a number of widely-popular\
+          \ films, including Sister Act (1992) and as Professor Minerva McGonagall\
+          \ in the Harry Potter series. Smith has also appeared in the recent hit\
+          \ TV series \\\"Downton Abbey\\\" (2010-2011) as Violet, Dowager Countess\
+          \ of Grantham.\\n\\nDescription above from the Wikipedia article Maggie\
+          \ Smith, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1934-12-28\",\"death\":null,\"birthplace\":\"Ilford Borough,\
+          \ Essex, United Kingdom\",\"homepage\":\"\"}},{\"character\":\"Rubeus Hagrid\"\
+          ,\"person\":{\"name\":\"Robbie Coltrane\",\"ids\":{\"trakt\":6533,\"slug\"\
+          :\"robbie-coltrane\",\"imdb\":\"nm0001059\",\"tmdb\":1923,\"tvrage\":27362},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/533/headshots/original/09538346e9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/533/headshots/medium/09538346e9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/533/headshots/thumb/09538346e9.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/533/fanarts/original/407640144a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/533/fanarts/medium/407640144a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/533/fanarts/thumb/407640144a.jpg\"\
+          }},\"biography\":\"Robbie Coltrane, is a Scottish actor, comedian and author.\
+          \ He is known both for his role as Dr Eddie \\\"Fitz\\\" Fitzgerald in the\
+          \ British TV series Cracker and as Rubeus Hagrid in the Harry Potter films.\\\
+          n\\nColtrane was born Anthony Robert McMillan in Rutherglen, South Lanarkshire,\
+          \ the son of Jean McMillan Ross, a teacher and pianist, and Ian Baxter McMillan,\
+          \ a general practitioner who also served as a forensic police surgeon. He\
+          \ has an older sister, Annie, and a late younger sister, Jane.\\n\\nColtrane\
+          \ moved into acting in his early twenties, taking the stage name Coltrane\
+          \ (in tribute to jazz saxophonist John Coltrane) and working in theatre\
+          \ and stand-up comedy. Coltrane soon moved into films, obtaining roles in\
+          \ a number of movies such as Flash Gordon. On television, he also appeared\
+          \ as Samuel Johnson in Blackadder.\\n\\nHis roles went from strength to\
+          \ strength in the 1990s with the TV series Cracker and a BAFTA award as\
+          \ the stepping stone to parts in bigger films such as the James Bond films\
+          \ GoldenEye and The World Is Not Enough and a major supporting role as half-giant\
+          \ Rubeus Hagrid in the Harry Potter films.\",\"birthday\":\"1950-03-30\"\
+          ,\"death\":null,\"birthplace\":\"Rutherglen, South Lanarkshire, Scotland\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Baby Harry Potter\",\"person\":{\"\
+          name\":\"Saunders Triplets\",\"ids\":{\"trakt\":414090,\"slug\":\"saunders-triplets\"\
+          ,\"imdb\":\"nm1196732\",\"tmdb\":10979,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/414/090/headshots/original/04bfc31a55.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/090/headshots/medium/04bfc31a55.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/090/headshots/thumb/04bfc31a55.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"The Saunders Triplets are three brothers who played the baby version\
+          \ of Harry Potter in the film adaptation of Harry Potter and the Philosopher's\
+          \ Stone. They portrayed baby Harry during an early scene when he is being\
+          \ brought to his aunt and uncle's house. Their first names are unknown as\
+          \ they are just credited as \\\"Saunders triplets\\\". As minor child parts\
+          \ are often played by more than one person, this is likely the reason why\
+          \ these three identical triplets, who are nearly impossible to differentiate,\
+          \ all are credited as playing the role.\",\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"character\":\"Aunt Petunia Dursley\"\
+          ,\"person\":{\"name\":\"Fiona Shaw\",\"ids\":{\"trakt\":414091,\"slug\"\
+          :\"fiona-shaw\",\"imdb\":\"nm0789716\",\"tmdb\":10981,\"tvrage\":103786},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/414/091/headshots/original/cceeb4782f.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/091/headshots/medium/cceeb4782f.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/091/headshots/thumb/cceeb4782f.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nFiona Shaw, Honorary CBE\
+          \ (born 10 July 1958) is an Irish actress and theatre director. Although\
+          \ to international audiences she is probably most familiar for her minor\
+          \ role as Petunia Dursley in the Harry Potter films, she is an accomplished\
+          \ classical actress. Shaw was awarded an honorary CBE in 2001.\\n\\nDescription\
+          \ above from the Wikipedia article Fiona Shaw, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1958-07-10\"\
+          ,\"death\":null,\"birthplace\":\"County Cork, Ireland\",\"homepage\":\"\"\
+          }},{\"character\":\"Dudley Dursley\",\"person\":{\"name\":\"Harry Melling\"\
+          ,\"ids\":{\"trakt\":414092,\"slug\":\"harry-melling\",\"imdb\":\"nm0577982\"\
+          ,\"tmdb\":10982,\"tvrage\":193353},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/414/092/headshots/original/4d9c8ddc55.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/092/headshots/medium/4d9c8ddc55.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/092/headshots/thumb/4d9c8ddc55.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1989-03-13\",\"death\":null,\"birthplace\":\"London,\
+          \ England, UK\",\"homepage\":\"\"}},{\"character\":\"Uncle Vernon Dursley\"\
+          ,\"person\":{\"name\":\"Richard Griffiths\",\"ids\":{\"trakt\":6864,\"slug\"\
+          :\"richard-griffiths\",\"imdb\":\"nm0341743\",\"tmdb\":10983,\"tvrage\"\
+          :78920},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/864/headshots/original/eb2d2701ad.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/864/headshots/medium/eb2d2701ad.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/864/headshots/thumb/eb2d2701ad.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Richard Griffiths is an English actor of stage, film and television.\
+          \ He has received the Laurence Olivier Award for Best Actor, the Drama Desk\
+          \ Award for Outstanding Actor in a Play, the Outer Critics Circle Award\
+          \ for Best Featured Actor in a Play, and the Tony Award for Best Performance\
+          \ by a Leading Actor in a Play, all for his role in the play The History\
+          \ Boys. He is also known for his portrayal of Vernon Dursley in the Harry\
+          \ Potter films, Uncle Monty in Withnail and I and Henry Crabbe in Pie in\
+          \ the Sky. On March 29th 2013 Richard died due to complications following\
+          \ heart surgery.\",\"birthday\":\"1947-07-31\",\"death\":\"2013-03-28\"\
+          ,\"birthplace\":\"Thornaby-on-Tees, Cleveland, UK\",\"homepage\":\"\"}},{\"\
+          character\":\"Tom\",\"person\":{\"name\":\"Derek Deadman\",\"ids\":{\"trakt\"\
+          :414181,\"slug\":\"derek-deadman\",\"imdb\":\"nm0212600\",\"tmdb\":10984,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/414/181/headshots/original/099c6306a4.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/181/headshots/medium/099c6306a4.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/181/headshots/thumb/099c6306a4.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Derek Deadman is a British actor. He appeared as Rankin in two episodes\
+          \ of the RAF sitcom Get Some In! in 1975 and 1978. He played Ringo in 39\
+          \ of the 66 episodes of the TV series Never the Twain between 1981 and 1991,\
+          \ and appeared as the barman of The Leaky Cauldron, Tom, in Harry Potter\
+          \ and the Philosopher's Stone. He often appears as minor roles in British\
+          \ films. He also played a ruthless Sontaran Commander in the Doctor Who\
+          \ serial The Invasion of Time. He played the part of Robert in the film\
+          \ Time Bandits.\",\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"character\":\"Professor Quirinus Quirrell\",\"person\"\
+          :{\"name\":\"Ian Hart\",\"ids\":{\"trakt\":16467,\"slug\":\"ian-hart\",\"\
+          imdb\":\"nm0001324\",\"tmdb\":10985,\"tvrage\":81681},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/016/467/headshots/original/d4d71b8397.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/016/467/headshots/medium/d4d71b8397.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/016/467/headshots/thumb/d4d71b8397.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/016/467/fanarts/original/cf25d2cf48.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/016/467/fanarts/medium/cf25d2cf48.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/016/467/fanarts/thumb/cf25d2cf48.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia. \_\\n\\\
+          nIan Hart (born Ian Davies; 8 October 1964) is an English stage, television\
+          \ and film actor.\",\"birthday\":\"1964-10-08\",\"death\":null,\"birthplace\"\
+          :\"Liverpool - Merseyside - England - UK\",\"homepage\":\"\"}},{\"character\"\
+          :\"Angus\",\"person\":{\"name\":\"Ben Borowiecki\",\"ids\":{\"trakt\":414182,\"\
+          slug\":\"ben-borowiecki\",\"imdb\":\"nm1089198\",\"tmdb\":10986,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/414/182/headshots/original/be3fc1283c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/182/headshots/medium/be3fc1283c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/182/headshots/thumb/be3fc1283c.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Ben Borowiecki portrayed Angus in the film adaptations of Harry Potter\
+          \ and the Philosopher's Stone and Harry Potter and the Chamber of Secrets.\"\
+          ,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          character\":\"Lily Potter\",\"person\":{\"name\":\"Geraldine Somerville\"\
+          ,\"ids\":{\"trakt\":6883,\"slug\":\"geraldine-somerville\",\"imdb\":\"nm0813893\"\
+          ,\"tmdb\":10988,\"tvrage\":27364},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/006/883/headshots/original/1cfb18210f.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/883/headshots/medium/1cfb18210f.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/883/headshots/thumb/1cfb18210f.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\u200BFrom Wikipedia, the free encyclopedia. \_\\n\\nGeraldine Margaret\
+          \ Agnew-Somerville (born 19 May 1967) is an Irish actress best known for\
+          \ her roles as Detective Sergeant Jane \\\"Panhandle\\\" Penhaligon in Cracker,\
+          \ and Lily Potter in the Harry Potter film series.\\n\\nDescription above\
+          \ from the Wikipedia article \_Geraldine Margaret Agnew-Somerville , licensed\
+          \ under CC-BY-SA, full list of contributors on Wikipedia.\",\"birthday\"\
+          :\"1967-05-19\",\"death\":null,\"birthplace\":\"County Meath, Republic of\
+          \ Ireland\",\"homepage\":\"\"}},{\"character\":\"Griphook the Goblin\",\"\
+          person\":{\"name\":\"Verne Troyer\",\"ids\":{\"trakt\":414183,\"slug\":\"\
+          verne-troyer\",\"imdb\":\"nm0873942\",\"tmdb\":10987,\"tvrage\":24201},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/414/183/headshots/original/a2be8799e5.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/183/headshots/medium/a2be8799e5.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/183/headshots/thumb/a2be8799e5.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Verne Troyer is best known for his role as \\\"Mini-Me,\\\" Dr. Evil's\
+          \ smaller and more concentrated pure evil prot\xE9g\xE9, in the hit comedy\
+          \ Austin Powers: The Spy Who Shagged Me (1999) and Austin Powers in Goldmember\
+          \ (2002). Even though Verne has become recognized as a \\\"Big Man in the\
+          \ business,\\\" he has been working in show business as an actor and stuntman\
+          \ for several years. Troyer, born in Sturgis, Michigan, had always dreamed\
+          \ growing up of getting into showbiz. Shortly after his high school graduation\
+          \ in 1987, Verne moved with some friends to Arlington, Texas, where, in\
+          \ 1993, he got his first break into showbiz as a stunt double for a 9-month-old\
+          \ baby on a film called Baby's Day Out (1994). Over the next few years,\
+          \ Verne made several film and television appearances, often portraying animals\
+          \ or small children.\",\"birthday\":\"1969-01-01\",\"death\":null,\"birthplace\"\
+          :\"Sturgis, Michigan, USA\",\"homepage\":\"\"}},{\"character\":\"Mr. Ollivander\"\
+          ,\"person\":{\"name\":\"John Hurt\",\"ids\":{\"trakt\":5277,\"slug\":\"\
+          john-hurt\",\"imdb\":\"nm0000457\",\"tmdb\":5049,\"tvrage\":32277},\"images\"\
+          :{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/005/277/headshots/original/9dac378ec8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/005/277/headshots/medium/9dac378ec8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/005/277/headshots/thumb/9dac378ec8.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/005/277/fanarts/original/818421ef69.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/005/277/fanarts/medium/818421ef69.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/005/277/fanarts/thumb/818421ef69.jpg\"\
+          }},\"biography\":\"John Vincent Hurt, CBE (born 22 January 1940) is an English\
+          \ actor, known for his leading roles as John Merrick in The Elephant Man,\
+          \ Winston Smith in Nineteen Eighty-Four, Mr. Braddock in The Hit, Stephen\
+          \ Ward in Scandal and Quentin Crisp in The Naked Civil Servant, Caligula\
+          \ in the television series, I, Claudius (TV series), and An Englishman in\
+          \ New York. Recognizable for his distinctive rich voice, he has also enjoyed\
+          \ a successful voice acting career, starring in films such as Watership\
+          \ Down, The Lord of the Rings and Dogville, as well as BBC television series\
+          \ Merlin. Hurt initially came to prominence for his role as Richard Rich\
+          \ in the 1966 film A Man for All Seasons, and has since appeared in such\
+          \ popular motion pictures as: Alien, Midnight Express, Rob Roy, V for Vendetta,\
+          \ Indiana Jones and the Kingdom of the Crystal Skull, the Harry Potter film\
+          \ series and the Hellboy film series. Hurt is one of England's best-known,\
+          \ most prolific and sought-after actors, and has had a versatile film career\
+          \ spanning six decades. He is also known for his many Shakespearean roles.\
+          \ Hurt has received multiple awards and honours throughout his career including\
+          \ three BAFTA Awards and a Golden Globe Award, with six and two nominations\
+          \ respectively, as well as two Academy Award nominations. His character's\
+          \ final scene in Alien is consistently named as one of the most memorable\
+          \ in cinematic history.\\n\\nDescription above from the Wikipedia article\
+          \ John Hurt , licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1940-01-22\",\"death\":null,\"birthplace\":\"Shirebrook,\
+          \ Derbyshire, England, UK\",\"homepage\":\"http://johnhurt.co.uk/\"}},{\"\
+          character\":\"Ginny Weasley\",\"person\":{\"name\":\"Bonnie Wright\",\"\
+          ids\":{\"trakt\":6755,\"slug\":\"bonnie-wright\",\"imdb\":\"nm0942247\"\
+          ,\"tmdb\":10991,\"tvrage\":141185},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/006/755/headshots/original/243c701ab8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/755/headshots/medium/243c701ab8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/755/headshots/thumb/243c701ab8.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/755/fanarts/original/16b9f9634b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/755/fanarts/medium/16b9f9634b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/755/fanarts/thumb/16b9f9634b.jpg\"\
+          }},\"biography\":\"Bonnie Francesca Wright was born on February 17, 1991\
+          \ to jewelers Gary Wright and Sheila Teague. Her debut performance was in\
+          \ Harry Potter and the Philosopher's Stone (2001) as Ron Weasley's little\
+          \ sister Ginny Weasley. Bonnie tried out for the film due to her older brother\
+          \ Lewis mentioned she reminded him of Ginny. Her role in the first film\
+          \ was a small cameo like role as Ginny, having bigger part in the second\
+          \ film Harry Potter and the Chamber of Secrets (2002). After shooting the\
+          \ first Potter film, in 2002 Bonnie did the Hallmark television film Stranded\
+          \ (2002) (TV) playing Young Sarah Robinson. Then in 2004 after doing the\
+          \ Harry Potter and the Prisoner of Azkaban (2004) Bonnie was cast in Agatha\
+          \ Christie: A Life in Pictures (2004) (TV) , a BBC TV film as Young Agatha.\
+          \ Then Bonnie was back as Ginny Weasley for Harry Potter and the Goblet\
+          \ of Fire (2005), Harry Potter and the Order of the Phoenix (2007) and for\
+          \ Harry Potter and the Half-Blood Prince (2009) where her role turned supporting\
+          \ as Harry's love interest. In 2007 she guessed voiced for Disney's The\
+          \ Replacements (TV Series 2006-) London Calling (#2.11) as Vanessa. Also\
+          \ that time she voiced Ginny for Harry Potter and the Order of the Phoenix\
+          \ (2007) (VG) as well for Harry Potter and the Half-Blood Prince (2009)\
+          \ (VG) in 2009. While shooting for Harry Potter and the Deathly Hallows:\
+          \ Part 1 (2010), Bonnie was cast as Mia for Geography of the Hapless Heart\
+          \ (2013) a feature length film shot in five international locations about\
+          \ the complexity of love. Bonnie's segment was shot in December 2009 in\
+          \ London. Also during that time and shooting for Harry Potter and the Deathly\
+          \ Hallows: Part 2 (2011) Bonnie was attending London College of Communication\
+          \ to study film. In 2011 Bonnie starred in The Philosophers (2013) with\
+          \ James D'Arcy (I) , Daryl Sabara and with Harry Potter co-star Freddie\
+          \ Stroma. Film to be out in 2012. Bonnie has also written and directed a\
+          \ short film for school called Separate We Come, Separate We Go starring\
+          \ Potter co-star David Thewlis IMDb Mini Biography By: Kgose31788\",\"birthday\"\
+          :\"1991-02-17\",\"death\":null,\"birthplace\":\"London, United Kingdom\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Percy Weasley\",\"person\":{\"name\"\
+          :\"Chris Rankin\",\"ids\":{\"trakt\":414122,\"slug\":\"chris-rankin\",\"\
+          imdb\":\"nm0710242\",\"tmdb\":10992,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/414/122/headshots/original/3efef04f2a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/122/headshots/medium/3efef04f2a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/122/headshots/thumb/3efef04f2a.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1983-11-08\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":\"\"}},{\"character\":\"Draco Malfoy\",\"person\":{\"name\":\"\
+          Tom Felton\",\"ids\":{\"trakt\":6548,\"slug\":\"tom-felton\",\"imdb\":\"\
+          nm0271657\",\"tmdb\":10993,\"tvrage\":112648},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/006/548/headshots/original/1f8a338dc6.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/548/headshots/medium/1f8a338dc6.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/548/headshots/thumb/1f8a338dc6.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/548/fanarts/original/7e95699ca9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/548/fanarts/medium/7e95699ca9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/548/fanarts/thumb/7e95699ca9.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nThomas\
+          \ Andrew \\\"Tom\\\" Felton (born 22 September 1987) is a British actor\
+          \ and musician. He is best known for playing the role of Draco Malfoy in\
+          \ the Harry Potter film series, the movie adaptations of the best-selling\
+          \ Harry Potter fantasy novels by author J. K. Rowling, for which he auditioned\
+          \ at age twelve.\\nFelton started filming in commercials when he was eight\
+          \ years old and in films at the age of ten, appearing in The Borrowers and\
+          \ Anna and the King. After being cast as Draco Malfoy he has subsequently\
+          \ appeared in all eight Harry Potter films, from 2001 to 2011, and finished\
+          \ filming the last two. A fishing aficionado, he helped form the World Junior\
+          \ Carp Tournament, a \\\"family-friendly\\\" fishing tournament.\\nFelton's\
+          \ portrayal of Draco Malfoy in Harry Potter and the Half-Blood Prince won\
+          \ him the MTV Movie Award for Best Villain in 2010.\\n\\nDescription above\
+          \ from the Wikipedia article Tom Felton, licensed under CC-BY-SA, full list\
+          \ of contributors on Wikipedia.\",\"birthday\":\"1987-09-22\",\"death\"\
+          :null,\"birthplace\":\"Kensington, London, United Kingdom\",\"homepage\"\
+          :\"http://tomfelton.com/\"}},{\"character\":\"Molly Weasley\",\"person\"\
+          :{\"name\":\"Julie Walters\",\"ids\":{\"trakt\":6887,\"slug\":\"julie-walters\"\
+          ,\"imdb\":\"nm0910278\",\"tmdb\":477,\"tvrage\":67308},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/006/887/headshots/original/452c9f3002.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/887/headshots/medium/452c9f3002.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/887/headshots/thumb/452c9f3002.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/887/fanarts/original/0c643c9d67.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/887/fanarts/medium/0c643c9d67.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/887/fanarts/thumb/0c643c9d67.jpg\"\
+          }},\"biography\":\"Julie Walters is an English actress and novelist.\\n\\\
+          nWalters was born as Julia Mary Walters in Smethwick, Sandwell, the daughter\
+          \ of Mary Bridget, a postal clerk of Irish Catholic extraction, and Thomas\
+          \ Walters, a builder and decorator.\\n\\nWalters met her husband, Grant\
+          \ Roffey, an AA patrol man, in a whirlwind romance. The couple have a daughter,\
+          \ Maisie Mae Roffey (born 1988, City of Westminster, London), but did not\
+          \ marry until 1997, 11 years into their relationship, when they went to\
+          \ New York. The couple live on an organic farm run by Roffey in West Sussex.\"\
+          ,\"birthday\":\"1950-02-22\",\"death\":null,\"birthplace\":\"Smethwick,\
+          \ England, UK\",\"homepage\":\"\"}},{\"character\":\"Neville Longbottom\"\
+          ,\"person\":{\"name\":\"Matthew Lewis\",\"ids\":{\"trakt\":6902,\"slug\"\
+          :\"matthew-lewis\",\"imdb\":\"nm0507535\",\"tmdb\":96841,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/902/headshots/original/b8d7e93b95.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/902/headshots/medium/b8d7e93b95.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/902/headshots/thumb/b8d7e93b95.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/902/fanarts/original/734730d96c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/902/fanarts/medium/734730d96c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/902/fanarts/thumb/734730d96c.jpg\"\
+          }},\"biography\":\"Matthew David Lewis III is an English actor, best known\
+          \ for playing Neville Longbottom in the Harry Potter films.\\n\\nLewis was\
+          \ born in Horsforth,Leeds,West Yorkshire, England, the son of Adrian and\
+          \ Lynda Lewis. He has two older brothers and a foster sister.\\n\\nLewis\
+          \ has been acting since he was five years old. He started off with minor\
+          \ parts in television programmes, debuting in Some Kind of Life, and then\
+          \ went on to try out for the part of Neville Longbottom. He has portrayed\
+          \ Neville Longbottom in the first six Harry Potter films and is scheduled\
+          \ to be in the future Harry Potter films. For his role as Neville Longbottom,\
+          \ Lewis wears yellow and crooked false teeth, two-sizes-too-big shoes and\
+          \ has plastic bits placed behind his ears in order to make them stick out\
+          \ more. This is done to give the character a more clownish look.\",\"birthday\"\
+          :\"1989-06-27\",\"death\":null,\"birthplace\":\"Leeds, West Yorkshire, UK\"\
+          ,\"homepage\":\"http://matthew-lewis.com/\"}},{\"character\":\"Professor\
+          \ Severus Snape\",\"person\":{\"name\":\"Alan Rickman\",\"ids\":{\"trakt\"\
+          :6502,\"slug\":\"alan-rickman\",\"imdb\":\"nm0000614\",\"tmdb\":4566,\"\
+          tvrage\":96979},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/502/headshots/original/a9b26843ee.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/502/headshots/medium/a9b26843ee.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/502/headshots/thumb/a9b26843ee.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/006/502/fanarts/original/3c6834d918.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/502/fanarts/medium/3c6834d918.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/502/fanarts/thumb/3c6834d918.jpg\"\
+          }},\"biography\":\"Alan Sidney Patrick Rickman (born 21 February 1946) is\
+          \ an English actor and theatre director. He is a renowned stage actor in\
+          \ modern and classical productions and a former member of the Royal Shakespeare\
+          \ Company. Rickman is known for his film performances as Hans Gruber in\
+          \ Die Hard, Severus Snape in the Harry Potter film series, Eamon de Valera\
+          \ in Michael Collins, and Metatron in Dogma. He is also known for his prominent\
+          \ roles as the Sheriff of Nottingham in the 1991 film, Robin Hood: Prince\
+          \ of Thieves, and as Colonel Brandon in Ang Lee's 1995 film Sense and Sensibility.\
+          \ More recently he played Judge Turpin in Tim Burton's Sweeney Todd: The\
+          \ Demon Barber of Fleet Street and voiced the Caterpillar in Tim Burton's\
+          \ Alice in Wonderland.\\n\\nDescription above from the Wikipedia article\
+          \ Alan Rickman, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1946-02-21\",\"death\":\"2016-01-14\",\"birthplace\":\"\
+          Hammersmith, London, UK\",\"homepage\":\"\"}},{\"character\":\"Rolanda Hooch\"\
+          ,\"person\":{\"name\":\"Zo\xEB Wanamaker\",\"ids\":{\"trakt\":294608,\"\
+          slug\":\"zoe-wanamaker\",\"imdb\":\"nm0910738\",\"tmdb\":20240,\"tvrage\"\
+          :77617},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/294/608/headshots/original/3a14c0528d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/294/608/headshots/medium/3a14c0528d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/294/608/headshots/thumb/3a14c0528d.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/294/608/fanarts/original/43aa81229b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/294/608/fanarts/medium/43aa81229b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/294/608/fanarts/thumb/43aa81229b.jpg\"\
+          }},\"biography\":\"Zo\xEB Wanamaker, CBE (born 13 May 1949) is an American-British\
+          \ actress. She has performed with the Royal Shakespeare Company; in films,\
+          \ including the Harry Potter series; and in a number of television productions,\
+          \ including a long-time role as Susan Harper in the sitcom My Family.  From\
+          \ Wikipedia, the free encyclopedia\",\"birthday\":\"1949-05-13\",\"death\"\
+          :null,\"birthplace\":\"New York City, NY USA\",\"homepage\":\"\"}},{\"character\"\
+          :\"Peeves (scenes cut)\",\"person\":{\"name\":\"Rik Mayall\",\"ids\":{\"\
+          trakt\":414185,\"slug\":\"rik-mayall\",\"imdb\":\"nm0562201\",\"tmdb\":14469,\"\
+          tvrage\":30400},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/414/185/headshots/original/a205d1c8fd.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/185/headshots/medium/a205d1c8fd.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/185/headshots/thumb/a205d1c8fd.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia\\n\\nRichard Michael \\\"Rik\\\"\
+          \ Mayall (born 7 March 1958) was an English comedian, writer, and actor.\
+          \ He was known for his comedy partnership with Adrian Edmondson, his over-the-top,\
+          \ energetic portrayal of characters, and as a pioneer of alternative comedy\
+          \ in the early 1980s.\\n\\nDescription above from the Wikipedia article\
+          \ Rik Mayall, licensed under CC-BY-SA, full list of contributors on Wikipedia.\
+          \ \u200B\",\"birthday\":\"1958-03-07\",\"death\":\"2014-06-09\",\"birthplace\"\
+          :\"Harlow, Essex, England\",\"homepage\":\"\"}},{\"character\":\"The Sorting\
+          \ Hat\",\"person\":{\"name\":\"Leslie Phillips\",\"ids\":{\"trakt\":297812,\"\
+          slug\":\"leslie-phillips\",\"imdb\":\"nm0680587\",\"tmdb\":10655,\"tvrage\"\
+          :39098},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/297/812/headshots/original/c025edb02d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/297/812/headshots/medium/c025edb02d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/297/812/headshots/thumb/c025edb02d.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\u200BFrom Wikipedia, the free encyclopedia.\\n\\nLeslie Samuel Phillips,\
+          \ CBE (born 20 April 1924) is an English actor. Originally known for his\
+          \ work as a comedy actor, Phillips subsequently made the transition to character\
+          \ roles.\\n\\nDescription above from the Wikipedia article Leslie Phillips,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia\",\"birthday\"\
+          :\"1924-04-20\",\"death\":null,\"birthplace\":\"Tottenham, London, England,\
+          \ UK\",\"homepage\":\"\"}},{\"character\":\"Goblin Bank Teller / Professor\
+          \ Flitwick\",\"person\":{\"name\":\"Warwick Davis\",\"ids\":{\"trakt\":14906,\"\
+          slug\":\"warwick-davis\",\"imdb\":\"nm0001116\",\"tmdb\":11184,\"tvrage\"\
+          :79878},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/014/906/headshots/original/ba6b5d1d31.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/014/906/headshots/medium/ba6b5d1d31.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/014/906/headshots/thumb/ba6b5d1d31.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/014/906/fanarts/original/1dfd552197.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/014/906/fanarts/medium/1dfd552197.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/014/906/fanarts/thumb/1dfd552197.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia. Warwick Ashley\
+          \ Davis (born 3 February 1970) is an English actor. Davis is known for playing\
+          \ the title characters in Willow and the Leprechaun series of films; other\
+          \ prominent roles include Wicket W. Warrick in Star Wars Episode VI: Return\
+          \ of the Jedi, Professor Filius Flitwick and Griphook in the Harry Potter\
+          \ movies, Marvin the Paranoid Android in The Hitchhiker's Guide to the Galaxy,\
+          \ as well as Nikabrik in the Walden Media version of Prince Caspian and\
+          \ Reepicheep in the BBC television versions of Prince Caspian and Voyage\
+          \ of the Dawn Treader and Mr Glimfeather the owl in The Silver Chair. Davis\
+          \ has a condition resulting in dwarfism, and stands at 3 ft 6 in (1.07 m)\
+          \ tall.\\n\\nDescription above from the Wikipedia article Warwick Davis,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1970-02-03\",\"death\":null,\"birthplace\":\"Epsom - Surrey\
+          \ - England - UK\",\"homepage\":\"http://www.warwickdavis.co.uk/\"}},{\"\
+          character\":\"Nearly Headless Nick\",\"person\":{\"name\":\"John Cleese\"\
+          ,\"ids\":{\"trakt\":7002,\"slug\":\"john-cleese\",\"imdb\":\"nm0000092\"\
+          ,\"tmdb\":8930,\"tvrage\":1751},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/007/002/headshots/original/4b24262975.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/007/002/headshots/medium/4b24262975.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/007/002/headshots/thumb/4b24262975.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/007/002/fanarts/original/43ed3dadd1.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/007/002/fanarts/medium/43ed3dadd1.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/007/002/fanarts/thumb/43ed3dadd1.jpg\"\
+          }},\"biography\":\"John Marwood Cleese (born 27 October 1939) is an English\
+          \ actor, comedian, writer and film producer. He achieved success at the\
+          \ Edinburgh Festival Fringe, and as a scriptwriter and performer on The\
+          \ Frost Report. In the late 1960s he became a member of Monty Python, the\
+          \ comedy troupe responsible for the sketch show Monty Python's Flying Circus\
+          \ and the four Monty Python films: And Now for Something Completely Different,\
+          \ Holy Grail, Life of Brian and The Meaning of Life. In the mid 1970s, Cleese\
+          \ and his first wife Connie Booth, co-wrote and starred in the British sitcom\
+          \ Fawlty Towers. Later, he co-starred with Kevin Kline, Jamie Lee Curtis\
+          \ and former Python colleague Michael Palin in A Fish Called Wanda and Fierce\
+          \ Creatures. He also starred in Clockwise, and has appeared in many other\
+          \ films, including two James Bond films, two Harry Potter films, and three\
+          \ Shrek films. With Yes Minister writer Antony Jay he co-founded the production\
+          \ company Video Arts, responsible for making entertaining training films.\
+          \ Description above from the Wikipedia article John Cleese, licensed under\
+          \ CC-BY-SA, full list of contributors on Wikipedia\",\"birthday\":\"1939-10-27\"\
+          ,\"death\":null,\"birthplace\":\"Weston-Super-Mare, Somerset, England, UK\"\
+          ,\"homepage\":\"http://www.thejohncleese.com/\"}},{\"character\":\"Oliver\
+          \ Wood\",\"person\":{\"name\":\"Sean Biggerstaff\",\"ids\":{\"trakt\":414094,\"\
+          slug\":\"sean-biggerstaff\",\"imdb\":\"nm0081801\",\"tmdb\":11179,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/414/094/headshots/original/a65252f72f.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/094/headshots/medium/a65252f72f.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/094/headshots/thumb/a65252f72f.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/414/094/fanarts/original/28e2c88c45.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/094/fanarts/medium/28e2c88c45.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/094/fanarts/thumb/28e2c88c45.jpg\"\
+          }},\"biography\":\"S\u200Bean Biggerstaff was born on March 15, 1983 to\
+          \ a fireman and a community education worker. He joined a local drama group\
+          \ and he acted as \\\"Augustus Gloop\\\" in \\\"Charlie and the Chocolate\
+          \ Factory\\\". After that, for six years, he joined the Scottish Youth Theatre.\
+          \ It was there he got his big break when\_Alan Rickman\_asked him be Tom\
+          \ in\_The Winter Guest\_(1997). That appearance led to the role of Oliver\
+          \ Wood in\_Harry Potter and the Sorcerer's Stone\_(2001). He will continue\
+          \ the role of Oliver in the next Harry Potter movie,Harry Potter and the\
+          \ Chamber of Secrets\_(2002).\",\"birthday\":\"1983-03-15\",\"death\":null,\"\
+          birthplace\":\"Glasgow, Scotland\",\"homepage\":\"http://www.seanbiggerstaff.com/\"\
+          }},{\"character\":\"Argus Filch\",\"person\":{\"name\":\"David Bradley\"\
+          ,\"ids\":{\"trakt\":414095,\"slug\":\"david-bradley-7497e507-4563-49c4-8836-4347288f3c6a\"\
+          ,\"imdb\":\"nm0103195\",\"tmdb\":11180,\"tvrage\":4057},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/414/095/headshots/original/f7dea2aa50.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/095/headshots/medium/f7dea2aa50.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/095/headshots/thumb/f7dea2aa50.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/414/095/fanarts/original/ef9f5c2234.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/095/fanarts/medium/ef9f5c2234.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/095/fanarts/thumb/ef9f5c2234.jpg\"\
+          }},\"biography\":\"David Bradley is an English character actor. He has recently\
+          \ become known for playing the caretaker of Hogwarts, Argus Filch, in the\
+          \ Harry Potter series of films.\\n\\nBradley was born in York, England.\
+          \ He became an actor in 1971, first appearing on television that year in\
+          \ the successful comedy Nearest and Dearest playing a police officer. He\
+          \ was awarded a Olivier Award in 1991 for his supporting actor role in King\
+          \ Lear at the Royal National Theatre.\\n\\nBradley appeared in Nicholas\
+          \ Nickleby (2002) and had a small role in the 2007 comedy film Hot Fuzz\
+          \ as a farmer who illegally hoarded weapons, including a sea mine which\
+          \ later proves important to the story.\",\"birthday\":\"1942-04-17\",\"\
+          death\":null,\"birthplace\":\"York, UK\",\"homepage\":\"\"}},{\"character\"\
+          :\"Goblin (uncredited)\",\"person\":{\"name\":\"Jimmy Vee\",\"ids\":{\"\
+          trakt\":565507,\"slug\":\"jimmy-vee\",\"imdb\":\"nm1835544\",\"tmdb\":1214513,\"\
+          tvrage\":77615},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}}],\"crew\":{\"art\":[{\"job\":\"Art Direction\",\"person\"\
+          :{\"name\":\"Michael Lamont\",\"ids\":{\"trakt\":425,\"slug\":\"michael-lamont\"\
+          ,\"imdb\":\"nm0483675\",\"tmdb\":8380,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Set Decoration\"\
+          ,\"person\":{\"name\":\"Stephanie McMillan\",\"ids\":{\"trakt\":4073,\"\
+          slug\":\"stephanie-mcmillan\",\"imdb\":\"nm0573328\",\"tmdb\":5331,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Production Design\",\"person\":{\"name\":\"Stuart Craig\"\
+          ,\"ids\":{\"trakt\":4286,\"slug\":\"stuart-craig\",\"imdb\":\"nm0186023\"\
+          ,\"tmdb\":5491,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":\"1942-04-14\",\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Art Direction\"\
+          ,\"person\":{\"name\":\"Cliff Robinson\",\"ids\":{\"trakt\":6053,\"slug\"\
+          :\"cliff-robinson\",\"imdb\":\"nm0732486\",\"tmdb\":7789,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Art Direction\",\"person\":{\"name\":\"Steven Lawrence\",\"ids\"\
+          :{\"trakt\":6975,\"slug\":\"steven-lawrence\",\"imdb\":\"nm0493034\",\"\
+          tmdb\":10788,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Art Direction\",\"person\":{\"name\"\
+          :\"Andrew Ackland-Snow\",\"ids\":{\"trakt\":6988,\"slug\":\"andrew-ackland-snow\"\
+          ,\"imdb\":\"nm0010067\",\"tmdb\":10710,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Art Direction\"\
+          ,\"person\":{\"name\":\"Peter Francis\",\"ids\":{\"trakt\":8105,\"slug\"\
+          :\"peter-francis\",\"imdb\":\"nm0290286\",\"tmdb\":10908,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Art Direction\",\"person\":{\"name\":\"Lucinda Thomson\",\"ids\"\
+          :{\"trakt\":21321,\"slug\":\"lucinda-thomson\",\"imdb\":\"nm0861041\",\"\
+          tmdb\":26144,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :\"\",\"homepage\":\"\"}},{\"job\":\"Art Direction\",\"person\":{\"name\"\
+          :\"Simon Lamont\",\"ids\":{\"trakt\":49627,\"slug\":\"simon-lamont\",\"\
+          imdb\":\"nm0483687\",\"tmdb\":1325917,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Assistant Art Director\"\
+          ,\"person\":{\"name\":\"Dominic Masters\",\"ids\":{\"trakt\":114392,\"slug\"\
+          :\"dominic-masters\",\"imdb\":\"nm0557666\",\"tmdb\":1334489,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Sculptor\",\"person\":{\"name\":\"Bryn Court\",\"ids\"\
+          :{\"trakt\":501021,\"slug\":\"bryn-court\",\"imdb\":\"nm0183753\",\"tmdb\"\
+          :1403634,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Construction Coordinator\",\"person\"\
+          :{\"name\":\"Malcolm Roberts\",\"ids\":{\"trakt\":547807,\"slug\":\"malcolm-roberts\"\
+          ,\"imdb\":\"nm0731380\",\"tmdb\":1465990,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Standby Painter\",\"person\":{\"name\":\"Paul Couch\",\"ids\":{\"trakt\"\
+          :573740,\"slug\":\"paul-couch\",\"imdb\":null,\"tmdb\":1546177,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Painter\",\"person\":{\"name\":\"Larry Gooch\",\"ids\"\
+          :{\"trakt\":588798,\"slug\":\"larry-gooch\",\"imdb\":null,\"tmdb\":1591552,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Art Department Coordinator\",\"person\":{\"\
+          name\":\"Lisa Turner\",\"ids\":{\"trakt\":591586,\"slug\":\"lisa-turner\"\
+          ,\"imdb\":null,\"tmdb\":1593066,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Production Illustrator\"\
+          ,\"person\":{\"name\":\"Cyrille Nomberg\",\"ids\":{\"trakt\":591587,\"slug\"\
+          :\"cyrille-nomberg\",\"imdb\":null,\"tmdb\":1593071,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Set Designer\",\"person\":{\"name\":\"Michael Boone\",\"ids\":{\"\
+          trakt\":591588,\"slug\":\"michael-boone\",\"imdb\":null,\"tmdb\":1593072,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}}],\"sound\":[{\"job\":\"Original Music Composer\",\"person\"\
+          :{\"name\":\"John Williams\",\"ids\":{\"trakt\":471,\"slug\":\"john-williams\"\
+          ,\"imdb\":\"nm0002354\",\"tmdb\":491,\"tvrage\":311422},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/000/471/headshots/original/85a50926fa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/471/headshots/medium/85a50926fa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/471/headshots/thumb/85a50926fa.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Sound Effects Editor\",\"person\":{\"name\":\"Martin\
+          \ Cantwell\",\"ids\":{\"trakt\":8108,\"slug\":\"martin-cantwell\",\"imdb\"\
+          :\"nm0134771\",\"tmdb\":10972,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Sound Re-Recording\
+          \ Mixer\",\"person\":{\"name\":\"Adam Daniel\",\"ids\":{\"trakt\":8981,\"\
+          slug\":\"adam-daniel\",\"imdb\":\"nm1079624\",\"tmdb\":40817,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}},{\"job\":\"Supervising Sound Editor\",\"person\":{\"name\":\"Eddy\
+          \ Joseph\",\"ids\":{\"trakt\":10609,\"slug\":\"eddy-joseph\",\"imdb\":\"\
+          nm0430577\",\"tmdb\":12761,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Scoring Mixer\"\
+          ,\"person\":{\"name\":\"Simon Rhodes\",\"ids\":{\"trakt\":421843,\"slug\"\
+          :\"simon-rhodes\",\"imdb\":\"nm2477878\",\"tmdb\":1393351,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"ADR & Dubbing\",\"person\":{\"name\":\"Nick Lowe\",\"ids\":{\"trakt\"\
+          :479819,\"slug\":\"nick-lowe-b6ccca9a-e95b-4142-8dd4-f2f2fd3a5bfa\",\"imdb\"\
+          :\"nm0523012\",\"tmdb\":1404861,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Music Editor\"\
+          ,\"person\":{\"name\":\"Peter Myles\",\"ids\":{\"trakt\":482745,\"slug\"\
+          :\"peter-myles\",\"imdb\":\"nm0617005\",\"tmdb\":1406789,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"First Assistant Sound Editor\",\"person\":{\"name\":\"Simon Chase\"\
+          ,\"ids\":{\"trakt\":484755,\"slug\":\"simon-chase\",\"imdb\":\"nm1121283\"\
+          ,\"tmdb\":1408378,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Orchestrator\",\"person\":{\"name\"\
+          :\"Edward Karam\",\"ids\":{\"trakt\":573519,\"slug\":\"edward-karam\",\"\
+          imdb\":\"nm0438832\",\"tmdb\":1535099,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Dolby Consultant\"\
+          ,\"person\":{\"name\":\"Julian Pinn\",\"ids\":{\"trakt\":577362,\"slug\"\
+          :\"julian-pinn\",\"imdb\":\"nm0684419\",\"tmdb\":1536112,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Sound Mixer\",\"person\":{\"name\":\"John Midgley\",\"ids\":{\"\
+          trakt\":580680,\"slug\":\"john-midgley\",\"imdb\":\"nm0585611\",\"tmdb\"\
+          :1395713,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Boom Operator\",\"person\":{\"name\"\
+          :\"June Prinz\",\"ids\":{\"trakt\":589449,\"slug\":\"june-prinz\",\"imdb\"\
+          :null,\"tmdb\":1591771,\"tvrage\":null},\"images\":{\"headshot\":{\"full\"\
+          :null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"job\":\"Foley\",\"person\":{\"\
+          name\":\"Ed Colver\",\"ids\":{\"trakt\":604426,\"slug\":\"ed-colver\",\"\
+          imdb\":null,\"tmdb\":1593100,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Sound Engineer\"\
+          ,\"person\":{\"name\":\"Jake Jackson\",\"ids\":{\"trakt\":604427,\"slug\"\
+          :\"jake-jackson\",\"imdb\":null,\"tmdb\":1593101,\"tvrage\":null},\"images\"\
+          :{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}}],\"production\"\
+          :[{\"job\":\"Casting\",\"person\":{\"name\":\"Susie Figgis\",\"ids\":{\"\
+          trakt\":1370,\"slug\":\"susie-figgis\",\"imdb\":\"nm0007109\",\"tmdb\":1302,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Casting\",\"person\":{\"name\":\"Janet Hirshenson\"\
+          ,\"ids\":{\"trakt\":2400,\"slug\":\"janet-hirshenson\",\"imdb\":\"nm0386664\"\
+          ,\"tmdb\":2874,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Associate Producer\",\"person\":{\"\
+          name\":\"Todd Arnow\",\"ids\":{\"trakt\":5288,\"slug\":\"todd-arnow\",\"\
+          imdb\":\"nm0036761\",\"tmdb\":6866,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Unit Production\
+          \ Manager\",\"person\":{\"name\":\"Todd Arnow\",\"ids\":{\"trakt\":5288,\"\
+          slug\":\"todd-arnow\",\"imdb\":\"nm0036761\",\"tmdb\":6866,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Executive Producer\",\"person\":{\"name\":\"Duncan Henderson\",\"\
+          ids\":{\"trakt\":5301,\"slug\":\"duncan-henderson\",\"imdb\":\"nm0376416\"\
+          ,\"tmdb\":6870,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Producer\",\"person\":{\"name\":\"\
+          David Heyman\",\"ids\":{\"trakt\":6961,\"slug\":\"david-heyman\",\"imdb\"\
+          :\"nm0382268\",\"tmdb\":10968,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/006/961/headshots/original/0db9f0504e.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/961/headshots/medium/0db9f0504e.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/961/headshots/thumb/0db9f0504e.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1961-07-26\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Executive Producer\",\"person\":{\"name\":\"\
+          Mark Radcliffe\",\"ids\":{\"trakt\":6966,\"slug\":\"mark-radcliffe\",\"\
+          imdb\":\"nm0705365\",\"tmdb\":11222,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":\"1952-10-07\"\
+          ,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Casting\"\
+          ,\"person\":{\"name\":\"Karen Lindsay-Stewart\",\"ids\":{\"trakt\":8100,\"\
+          slug\":\"karen-lindsay-stewart\",\"imdb\":\"nm0512328\",\"tmdb\":10969,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Associate Producer\",\"person\":{\"name\":\"\
+          Paula DuPr\xE9 Pesmen\",\"ids\":{\"trakt\":9346,\"slug\":\"paula-dupre-pesmen-9346\"\
+          ,\"imdb\":\"nm0243462\",\"tmdb\":11711,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":\"\",\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":\"\"}},{\"job\":\"Executive Producer\"\
+          ,\"person\":{\"name\":\"Michael Barnathan\",\"ids\":{\"trakt\":12582,\"\
+          slug\":\"michael-barnathan\",\"imdb\":\"nm0055431\",\"tmdb\":17828,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Executive Producer\",\"person\":{\"name\":\"Chris Columbus\"\
+          ,\"ids\":{\"trakt\":12600,\"slug\":\"chris-columbus\",\"imdb\":\"nm0001060\"\
+          ,\"tmdb\":10965,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/012/600/headshots/original/a442406138.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/012/600/headshots/medium/a442406138.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/012/600/headshots/thumb/a442406138.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Christopher Joseph Columbus (born September 10, 1958) is an American\
+          \ film director, producer and screenwriter. Columbus had most success with\
+          \ the first film in the Harry Potter series, Harry Potter and the Sorcerer's\
+          \ Stone, along with Home Alone, winning a British Comedy Award for Best\
+          \ Comedy Film.  Description above from the Wikipedia article Chris Columbus\
+          \ (filmmaker), licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1958-09-10\",\"death\":null,\"birthplace\":\"Spangler, Pennsylvania,\
+          \ USA\",\"homepage\":\"\"}},{\"job\":\"Co-Producer\",\"person\":{\"name\"\
+          :\"Tanya Seghatchian\",\"ids\":{\"trakt\":44484,\"slug\":\"tanya-seghatchian\"\
+          ,\"imdb\":\"nm0782036\",\"tmdb\":58697,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":\"\",\"homepage\":null}},{\"job\":\"Production Accountant\"\
+          ,\"person\":{\"name\":\"Gary Nixon\",\"ids\":{\"trakt\":314415,\"slug\"\
+          :\"gary-nixon\",\"imdb\":null,\"tmdb\":1176206,\"tvrage\":null},\"images\"\
+          :{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Casting\",\"person\":{\"name\":\"Jane Jenkins\",\"ids\":{\"trakt\":412036,\"\
+          slug\":\"jane-jenkins-d02a808c-a1a5-4657-9dd6-308e4ab7ed71\",\"imdb\":\"\
+          nm0420747\",\"tmdb\":3275,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":\"1943-06-05\"\
+          ,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Production\
+          \ Manager\",\"person\":{\"name\":\"Julie Orosz\",\"ids\":{\"trakt\":416309,\"\
+          slug\":\"julie-orosz\",\"imdb\":\"nm1371633\",\"tmdb\":1368875,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Location Manager\",\"person\":{\"name\":\"Keith Hatcher\"\
+          ,\"ids\":{\"trakt\":604424,\"slug\":\"keith-hatcher\",\"imdb\":null,\"tmdb\"\
+          :1593095,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Production Supervisor\",\"person\"\
+          :{\"name\":\"Russell Lodge\",\"ids\":{\"trakt\":604425,\"slug\":\"russell-lodge\"\
+          ,\"imdb\":null,\"tmdb\":1593097,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Production Coordinator\"\
+          ,\"person\":{\"name\":\"Hazel Cook\",\"ids\":{\"trakt\":617092,\"slug\"\
+          :\"hazel-cook\",\"imdb\":null,\"tmdb\":1593096,\"tvrage\":null},\"images\"\
+          :{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}}],\"camera\"\
+          :[{\"job\":\"Director of Photography\",\"person\":{\"name\":\"John Seale\"\
+          ,\"ids\":{\"trakt\":2239,\"slug\":\"john-seale\",\"imdb\":\"nm0005868\"\
+          ,\"tmdb\":2702,\"tvrage\":114401},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Helicopter Camera\",\"person\":{\"\
+          name\":\"Simon Werry\",\"ids\":{\"trakt\":176143,\"slug\":\"simon-werry\"\
+          ,\"imdb\":\"nm0921568\",\"tmdb\":1115279,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Still Photographer\",\"person\":{\"name\":\"Peter Mountain\",\"ids\":{\"\
+          trakt\":411696,\"slug\":\"peter-mountain\",\"imdb\":\"nm0609877\",\"tmdb\"\
+          :1393883,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Camera Operator\",\"person\":{\"name\"\
+          :\"Pete Cavaciuti\",\"ids\":{\"trakt\":484397,\"slug\":\"pete-cavaciuti\"\
+          ,\"imdb\":\"nm0146670\",\"tmdb\":1408354,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Steadicam Operator\",\"person\":{\"name\":\"Alf Tramontin\",\"ids\":{\"\
+          trakt\":508206,\"slug\":\"alf-tramontin\",\"imdb\":\"nm0870808\",\"tmdb\"\
+          :1428506,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Grip\",\"person\":{\"name\":\"Peter\
+          \ Muncey\",\"ids\":{\"trakt\":591590,\"slug\":\"peter-muncey\",\"imdb\"\
+          :null,\"tmdb\":1593075,\"tvrage\":null},\"images\":{\"headshot\":{\"full\"\
+          :null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"job\":\"First Assistant Camera\"\
+          ,\"person\":{\"name\":\"Ted Deason\",\"ids\":{\"trakt\":591606,\"slug\"\
+          :\"ted-deason\",\"imdb\":null,\"tmdb\":1593074,\"tvrage\":null},\"images\"\
+          :{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}}],\"editing\"\
+          :[{\"job\":\"Editor\",\"person\":{\"name\":\"Richard Francis-Bruce\",\"\
+          ids\":{\"trakt\":2993,\"slug\":\"richard-francis-bruce\",\"imdb\":\"nm0290358\"\
+          ,\"tmdb\":6581,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":\"1948-12-10\",\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Dialogue Editor\"\
+          ,\"person\":{\"name\":\"Colin Ritchie\",\"ids\":{\"trakt\":483778,\"slug\"\
+          :\"colin-ritchie-6a655745-1147-481f-9ff5-284388fcdfec\",\"imdb\":\"nm0728540\"\
+          ,\"tmdb\":1407858,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"First Assistant Editor\",\"person\"\
+          :{\"name\":\"Jennifer Spenelli\",\"ids\":{\"trakt\":528135,\"slug\":\"jennifer-spenelli\"\
+          ,\"imdb\":\"nm0542114\",\"tmdb\":1446691,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Color Timer\",\"person\":{\"name\":\"Peter Hunt\",\"ids\":{\"trakt\":597070,\"\
+          slug\":\"peter-hunt\",\"imdb\":null,\"tmdb\":1576025,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}}],\"\
+          writing\":[{\"job\":\"Novel\",\"person\":{\"name\":\"J. K. Rowling\",\"\
+          ids\":{\"trakt\":6948,\"slug\":\"j-k-rowling\",\"imdb\":\"nm0746830\",\"\
+          tmdb\":10966,\"tvrage\":104378},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/948/headshots/original/b9b772a299.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/948/headshots/medium/b9b772a299.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/948/headshots/thumb/b9b772a299.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1965-07-31\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Screenplay\",\"person\":{\"name\":\"Steve Kloves\"\
+          ,\"ids\":{\"trakt\":6954,\"slug\":\"steve-kloves\",\"imdb\":\"nm0460141\"\
+          ,\"tmdb\":10967,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/954/headshots/original/ba1bf89feb.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/954/headshots/medium/ba1bf89feb.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/954/headshots/thumb/ba1bf89feb.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Steve Kloves, born in\_Austin, Texas, grew up in\_Sunnyvale, California,\_\
+          where he graduated from\_Fremont High School. He attended the\_University\
+          \ of California, Los Angeles\_but dropped out when he was not admitted into\
+          \ the film school in his third year.\_As an unpaidintern\_for a Hollywood\
+          \ agent, he gained attention for a screenplay he wrote called\_Swings. This\
+          \ led to a meeting where he successfully pitched\_Racing with the Moon\_\
+          (1984).  His first experience with professional screenwriting left him wanting\
+          \ more interaction with the actors so that the characters would stay true\
+          \ to his vision.\_Kloves wrote\_The Fabulous Baker Boys\_and also intended\
+          \ it to be his directorial debut. After years of trying to sell the project\
+          \ in Hollywood, the film finally got off the ground and was released in\
+          \ 1989.\_The Fabulous Baker Boys\_did reasonably well, but his next shot\
+          \ as writer/director for\_Flesh and Bone\_in 1993 fared poorly at the box\
+          \ office. Kloves then stopped writing for three years.  Realizing that he\
+          \ had to return to writing to support his family, he began adapting\_Michael\
+          \ Chabon's novel\_Wonder Boys\_into a screenplay.\_Kloves was offered the\
+          \ chance to direct but he declined, preferring to direct only his own original\
+          \ work.\_This was his first try at adapting another work to film.\_His screenplay\
+          \ was nominated for a\_Golden Globe\_and an\_Academy Award\_after the film's\
+          \ release in 2000.  Warner Bros.\_sent Kloves a list of novels that the\
+          \ company was considering to adapt as films. The listing included the\_\
+          first\_Harry Potter\_novel, which intrigued him despite his usual indifference\
+          \ to these catalogs.\_He went on to write the screenplays for the first\
+          \ four films in the series. After\_Michael Goldenberg\_wrote the screenplay\
+          \ for the fifth film, Kloves then returned to write the sixth, seventh and\
+          \ eighth installments.  As of 2011, Kloves is working on a film adaptation\
+          \ of\_Mark Haddon's novel\_The Curious Incident of the Dog in the Night-Time,\
+          \ which he will write and direct.\_He has also a draft written\_of the yet\
+          \ unproduced fantasy film Akira.\",\"birthday\":\"1960-03-18\",\"death\"\
+          :null,\"birthplace\":\"Austin - Texas - USA\",\"homepage\":\"\"}},{\"job\"\
+          :\"Storyboard\",\"person\":{\"name\":\"Adam Brockbank\",\"ids\":{\"trakt\"\
+          :604431,\"slug\":\"adam-brockbank\",\"imdb\":null,\"tmdb\":1593105,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}}],\"crew\":[{\"job\":\"Stunt Coordinator\",\"person\":{\"name\":\"\
+          Greg Powell\",\"ids\":{\"trakt\":7003,\"slug\":\"greg-powell\",\"imdb\"\
+          :\"nm0694128\",\"tmdb\":10976,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Special Effects\"\
+          ,\"person\":{\"name\":\"Nigel Brackley\",\"ids\":{\"trakt\":8109,\"slug\"\
+          :\"nigel-brackley\",\"imdb\":\"nm0102837\",\"tmdb\":10973,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Stunts\",\"person\":{\"name\":\"Henry Allen\",\"ids\":{\"trakt\"\
+          :8112,\"slug\":\"henry-allen\",\"imdb\":\"nm1290742\",\"tmdb\":10975,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Makeup Effects\",\"person\":{\"name\":\"John\
+          \ Lambert\",\"ids\":{\"trakt\":75289,\"slug\":\"john-lambert\",\"imdb\"\
+          :\"nm0483194\",\"tmdb\":1100163,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Temp Music Editor\"\
+          ,\"person\":{\"name\":\"Steve Browell\",\"ids\":{\"trakt\":219058,\"slug\"\
+          :\"steve-browell\",\"imdb\":\"nm0112879\",\"tmdb\":1341734,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Sound Recordist\",\"person\":{\"name\":\"Ian Munro\",\"ids\":{\"\
+          trakt\":372038,\"slug\":\"ian-munro\",\"imdb\":\"nm0613124\",\"tmdb\":1322347,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Second Unit Cinematographer\",\"person\":{\"\
+          name\":\"David R. Ellis\",\"ids\":{\"trakt\":412632,\"slug\":\"david-r-ellis\"\
+          ,\"imdb\":\"nm0254786\",\"tmdb\":4755,\"tvrage\":89895},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/412/632/headshots/original/4c25ccb5ba.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/412/632/headshots/medium/4c25ccb5ba.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/412/632/headshots/thumb/4c25ccb5ba.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia  David Richard Ellis (born September\
+          \ 8, 1952) is an American film director and former stuntman.  Description\
+          \ above from the Wikipedia article David R. Ellis, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1952-09-08\"\
+          ,\"death\":\"2013-01-07\",\"birthplace\":\"Santa Monica, California, USA\"\
+          ,\"homepage\":\"\"}},{\"job\":\"Set Production Assistant\",\"person\":{\"\
+          name\":\"Mira Husseini\",\"ids\":{\"trakt\":489050,\"slug\":\"mira-husseini\"\
+          ,\"imdb\":\"nm0404016\",\"tmdb\":1411118,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Property Master\",\"person\":{\"name\":\"Barry Wilkinson\",\"ids\":{\"trakt\"\
+          :496099,\"slug\":\"barry-wilkinson\",\"imdb\":\"nm0929343\",\"tmdb\":1417413,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Special Effects Coordinator\",\"person\":{\"\
+          name\":\"Yves De Bono\",\"ids\":{\"trakt\":509202,\"slug\":\"yves-de-bono\"\
+          ,\"imdb\":\"nm0207522\",\"tmdb\":1429245,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Projection\",\"person\":{\"name\":\"Toby Lloyd\",\"ids\":{\"trakt\":511840,\"\
+          slug\":\"toby-lloyd\",\"imdb\":\"nm5237057\",\"tmdb\":1431509,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Sequence Leads\",\"person\":{\"name\":\"Bob Mercier\"\
+          ,\"ids\":{\"trakt\":517057,\"slug\":\"bob-mercier\",\"imdb\":\"nm0580388\"\
+          ,\"tmdb\":1436189,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Visual Effects Editor\",\"person\"\
+          :{\"name\":\"Nicholas Atkinson\",\"ids\":{\"trakt\":546275,\"slug\":\"nicholas-atkinson\"\
+          ,\"imdb\":\"nm0040779\",\"tmdb\":1464518,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Utility Stunts\",\"person\":{\"name\":\"Gary Arthurs\",\"ids\":{\"trakt\"\
+          :558201,\"slug\":\"gary-arthurs\",\"imdb\":\"nm1020873\",\"tmdb\":1516453,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Unit Publicist\",\"person\":{\"name\":\"Vanessa\
+          \ Davies\",\"ids\":{\"trakt\":588819,\"slug\":\"vanessa-davies\",\"imdb\"\
+          :null,\"tmdb\":1591576,\"tvrage\":null},\"images\":{\"headshot\":{\"full\"\
+          :null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"job\":\"Video Assist Operator\"\
+          ,\"person\":{\"name\":\"Bob Bridges\",\"ids\":{\"trakt\":588820,\"slug\"\
+          :\"bob-bridges\",\"imdb\":null,\"tmdb\":1591577,\"tvrage\":null},\"images\"\
+          :{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Transportation Co-Captain\",\"person\":{\"name\":\"Brian Estabrook\",\"\
+          ids\":{\"trakt\":590757,\"slug\":\"brian-estabrook\",\"imdb\":null,\"tmdb\"\
+          :1592228,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Carpenter\",\"person\":{\"name\":\"\
+          Mark Brady\",\"ids\":{\"trakt\":591593,\"slug\":\"mark-brady-0ea0f58c-919a-44fc-bf6f-b548a688fa83\"\
+          ,\"imdb\":null,\"tmdb\":1593077,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"CG Supervisor\"\
+          ,\"person\":{\"name\":\"Mark Lambert\",\"ids\":{\"trakt\":591594,\"slug\"\
+          :\"mark-lambert-a97b0797-54d6-4bb8-a0fa-2627e8283480\",\"imdb\":null,\"\
+          tmdb\":1593078,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Driver\",\"person\":{\"name\":\"Warren\
+          \ Deluce\",\"ids\":{\"trakt\":591595,\"slug\":\"warren-deluce\",\"imdb\"\
+          :null,\"tmdb\":1593080,\"tvrage\":null},\"images\":{\"headshot\":{\"full\"\
+          :null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"job\":\"Chef\",\"person\":{\"name\"\
+          :\"Des Petterson-Jones\",\"ids\":{\"trakt\":591596,\"slug\":\"des-petterson-jones\"\
+          ,\"imdb\":null,\"tmdb\":1593079,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Scenic Artist\"\
+          ,\"person\":{\"name\":\"David Nicoll\",\"ids\":{\"trakt\":591597,\"slug\"\
+          :\"david-nicoll-3c785099-b27c-437e-8dd5-ed9e4968821d\",\"imdb\":null,\"\
+          tmdb\":1593082,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Post Production Supervisor\",\"person\"\
+          :{\"name\":\"Mark Marshall\",\"ids\":{\"trakt\":591598,\"slug\":\"mark-marshall\"\
+          ,\"imdb\":null,\"tmdb\":1593081,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Security\",\"person\"\
+          :{\"name\":\"John Cheeseman\",\"ids\":{\"trakt\":591599,\"slug\":\"john-cheeseman\"\
+          ,\"imdb\":null,\"tmdb\":1593083,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Systems Administrators\
+          \ & Support\",\"person\":{\"name\":\"Kevin Tengan\",\"ids\":{\"trakt\":591600,\"\
+          slug\":\"kevin-tengan\",\"imdb\":null,\"tmdb\":1593084,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Sequence Supervisor\",\"person\":{\"name\":\"Hilmar Koch\",\"ids\"\
+          :{\"trakt\":604420,\"slug\":\"hilmar-koch\",\"imdb\":\"nm0462320\",\"tmdb\"\
+          :1484194,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Transportation Coordinator\",\"person\"\
+          :{\"name\":\"Brian Hathaway\",\"ids\":{\"trakt\":604421,\"slug\":\"brian-hathaway\"\
+          ,\"imdb\":null,\"tmdb\":1593085,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}}],\"costume & make-up\":[{\"\
+          job\":\"Costume Supervisor\",\"person\":{\"name\":\"Graham Churchyard\"\
+          ,\"ids\":{\"trakt\":7774,\"slug\":\"graham-churchyard\",\"imdb\":\"nm0161495\"\
+          ,\"tmdb\":1323295,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Costume Design\",\"person\":{\"name\"\
+          :\"Judianna Makovsky\",\"ids\":{\"trakt\":8106,\"slug\":\"judianna-makovsky\"\
+          ,\"imdb\":\"nm0538721\",\"tmdb\":10970,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Makeup Artist\"\
+          ,\"person\":{\"name\":\"Clare Le Vesconte\",\"ids\":{\"trakt\":8107,\"slug\"\
+          :\"clare-le-vesconte\",\"imdb\":\"nm0494666\",\"tmdb\":10971,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Hair Designer\",\"person\":{\"name\":\"Eithne Fennel\"\
+          ,\"ids\":{\"trakt\":8203,\"slug\":\"eithne-fennel\",\"imdb\":\"nm0271888\"\
+          ,\"tmdb\":11297,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Makeup Designer\",\"person\":{\"name\"\
+          :\"Amanda Knight\",\"ids\":{\"trakt\":8206,\"slug\":\"amanda-knight\",\"\
+          imdb\":\"nm0460792\",\"tmdb\":11298,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Assistant Costume\
+          \ Designer\",\"person\":{\"name\":\"Rosemary Burrows\",\"ids\":{\"trakt\"\
+          :8946,\"slug\":\"rosemary-burrows\",\"imdb\":\"nm0123296\",\"tmdb\":101523,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Wigmaker\",\"person\":{\"name\":\"Alex Rouse\"\
+          ,\"ids\":{\"trakt\":477053,\"slug\":\"alex-rouse\",\"imdb\":\"nm1737031\"\
+          ,\"tmdb\":1401126,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Prosthetic Supervisor\",\"person\"\
+          :{\"name\":\"Mark Coulier\",\"ids\":{\"trakt\":507352,\"slug\":\"mark-coulier\"\
+          ,\"imdb\":\"nm0183418\",\"tmdb\":1427843,\"tvrage\":114606},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/507/352/headshots/original/77db9daa3f.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/507/352/headshots/medium/77db9daa3f.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/507/352/headshots/thumb/77db9daa3f.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Mark Coulier is a make-up artist and prosthetic makeup expert, who has\
+          \ worked in Harry Potter film series, X-Men and The Mummy Returns. He and\
+          \ J. Roy Helland won the Academy Award for Best Makeup and BAFTA Award for\
+          \ Best Makeup and Hair for The Iron Lady.\",\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":\"\"}},{\"job\":\"Hairstylist\",\"\
+          person\":{\"name\":\"Jane Body\",\"ids\":{\"trakt\":591591,\"slug\":\"jane-body\"\
+          ,\"imdb\":null,\"tmdb\":1593076,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}}],\"visual effects\":[{\"job\"\
+          :\"Visual Effects Supervisor\",\"person\":{\"name\":\"Jim Berney\",\"ids\"\
+          :{\"trakt\":8111,\"slug\":\"jim-berney\",\"imdb\":\"nm0076737\",\"tmdb\"\
+          :10974,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"I/O Supervisor\",\"person\":{\"name\"\
+          :\"Tim Caplan\",\"ids\":{\"trakt\":442894,\"slug\":\"tim-caplan\",\"imdb\"\
+          :\"nm0135243\",\"tmdb\":1394719,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Visual Effects\
+          \ Producer\",\"person\":{\"name\":\"Joyce Cox\",\"ids\":{\"trakt\":482146,\"\
+          slug\":\"joyce-cox\",\"imdb\":\"nm1295476\",\"tmdb\":1401789,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Animation Supervisor\",\"person\":{\"name\":\"David Andrews\"\
+          ,\"ids\":{\"trakt\":503442,\"slug\":\"david-andrews-88b1231d-1518-4c68-8c60-f9676252e724\"\
+          ,\"imdb\":\"nm0028626\",\"tmdb\":1424172,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Special Effects Supervisor\",\"person\":{\"name\":\"John Richardson\",\"\
+          ids\":{\"trakt\":557372,\"slug\":\"john-richardson-81866808-4c0d-4a44-b23f-671baa758ccc\"\
+          ,\"imdb\":\"nm0724624\",\"tmdb\":1513639,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          3D Supervisor\",\"person\":{\"name\":\"Alia Agha\",\"ids\":{\"trakt\":604428,\"\
+          slug\":\"alia-agha\",\"imdb\":null,\"tmdb\":1593102,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Digital Compositors\",\"person\":{\"name\":\"Anita Bevelheimer\"\
+          ,\"ids\":{\"trakt\":604429,\"slug\":\"anita-bevelheimer\",\"imdb\":null,\"\
+          tmdb\":1593103,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Visual Effects Coordinator\",\"person\"\
+          :{\"name\":\"Richard Cole\",\"ids\":{\"trakt\":604430,\"slug\":\"richard-cole\"\
+          ,\"imdb\":\"nm0170745\",\"tmdb\":91480,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}}],\"directing\":[{\"job\":\"\
+          Director\",\"person\":{\"name\":\"Chris Columbus\",\"ids\":{\"trakt\":12600,\"\
+          slug\":\"chris-columbus\",\"imdb\":\"nm0001060\",\"tmdb\":10965,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/012/600/headshots/original/a442406138.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/012/600/headshots/medium/a442406138.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/012/600/headshots/thumb/a442406138.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Christopher Joseph Columbus (born September 10, 1958) is an American\
+          \ film director, producer and screenwriter. Columbus had most success with\
+          \ the first film in the Harry Potter series, Harry Potter and the Sorcerer's\
+          \ Stone, along with Home Alone, winning a British Comedy Award for Best\
+          \ Comedy Film.  Description above from the Wikipedia article Chris Columbus\
+          \ (filmmaker), licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1958-09-10\",\"death\":null,\"birthplace\":\"Spangler, Pennsylvania,\
+          \ USA\",\"homepage\":\"\"}},{\"job\":\"Script Supervisor\",\"person\":{\"\
+          name\":\"Annie Penn\",\"ids\":{\"trakt\":450307,\"slug\":\"annie-penn\"\
+          ,\"imdb\":\"nm0941858\",\"tmdb\":1390388,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Assistant Director\",\"person\":{\"name\":\"Chris Carreras\",\"ids\":{\"\
+          trakt\":579265,\"slug\":\"chris-carreras\",\"imdb\":\"nm0140240\",\"tmdb\"\
+          :1471947,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}}],\"lighting\":[{\"job\":\"Gaffer\",\"person\"\
+          :{\"name\":\"Kevin Edland\",\"ids\":{\"trakt\":484404,\"slug\":\"kevin-edland\"\
+          ,\"imdb\":\"nm0249390\",\"tmdb\":1408361,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Rigging Gaffer\",\"person\":{\"name\":\"Dave Ridout\",\"ids\":{\"trakt\"\
+          :566876,\"slug\":\"dave-ridout\",\"imdb\":null,\"tmdb\":1570042,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Best Boy Electric\",\"person\":{\"name\":\"David Appleby\"\
+          ,\"ids\":{\"trakt\":590758,\"slug\":\"david-appleby-5f484832-375a-49ec-ba06-080f423fa35c\"\
+          ,\"imdb\":null,\"tmdb\":1592605,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Electrician\",\"\
+          person\":{\"name\":\"Michael Bradley\",\"ids\":{\"trakt\":604422,\"slug\"\
+          :\"michael-bradley-8fd2f853-3b1f-4481-b96a-ff61dada91d5\",\"imdb\":null,\"\
+          tmdb\":1593093,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Lighting Supervisor\",\"person\":{\"\
+          name\":\"Pauline Ts'o\",\"ids\":{\"trakt\":604423,\"slug\":\"pauline-ts-o\"\
+          ,\"imdb\":null,\"tmdb\":1593094,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}}]}}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb8a74561fbe-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:13 GMT']
+        ETag: [W/"c0e68d8943a11ca8b1bb9cf44721f7d3"]
+        Expires: ['Mon, 09 May 2016 01:14:13 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=dfd46ed8510aebae2c10c4df484a403141462742053; expires=Mon,
+            08-May-17 21:14:13 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [c6f4f615-fea8-47c5-9638-98caef4c72e6]
+        X-Runtime: ['2.934359']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

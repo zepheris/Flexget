@@ -12,20 +12,20 @@ interactions:
           Collar","year":2009,"ids":{"trakt":21410,"slug":"white-collar","tvdb":108611,"imdb":"tt1358522","tmdb":21510,"tvrage":20720}}},{"rank":2,"listed_at":"2016-03-08T21:36:50.000Z","type":"show","show":{"title":"Chuck","year":2007,"ids":{"trakt":1395,"slug":"chuck","tvdb":80348,"imdb":"tt0934814","tmdb":1404,"tvrage":15614}}}]'}
       headers:
         cache-control: ['max-age=0, private, must-revalidate']
-        cf-ray: [29de461b085c1189-DFW]
+        cf-ray: [29fffdc4e92d03d6-DFW]
         connection: [keep-alive]
         content-type: [application/json; charset=utf-8]
-        date: ['Wed, 04 May 2016 19:14:07 GMT']
+        date: ['Sun, 08 May 2016 21:26:40 GMT']
         etag: [W/"14bdfd17b19d28c1251ef11711e88666"]
         server: [cloudflare-nginx]
-        set-cookie: ['__cfduid=ddd7b9671d9d2216df6635d9cf4b573f91462389247; expires=Thu,
-            04-May-17 19:14:07 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        set-cookie: ['__cfduid=d728da7a3858f1276bf305ccddd40e5d31462742800; expires=Mon,
+            08-May-17 21:26:40 GMT; path=/; domain=.trakt.tv; HttpOnly']
         vary: [Accept-Encoding]
         x-content-type-options: [nosniff]
         x-frame-options: [SAMEORIGIN]
         x-private-user: ['false']
-        x-request-id: [c2589dc5-b7be-4ecf-a9c9-ee8006b2b6c8]
-        x-runtime: ['0.037844']
+        x-request-id: [c91bfb90-602d-4f7a-8e1e-a42c44cf50b9]
+        x-runtime: ['0.104805']
         x-sort-by: [rank]
         x-sort-how: [asc]
         x-xss-protection: [1; mode=block]
@@ -46,16 +46,16 @@ interactions:
       headers:
         cache-control: ['public, max-age=14400']
         cf-cache-status: [HIT]
-        cf-ray: [29de461d04870106-DFW]
+        cf-ray: [29fffdc782002030-DFW]
         connection: [keep-alive]
         content-type: [application/json; charset=utf-8]
-        date: ['Wed, 04 May 2016 19:14:07 GMT']
+        date: ['Sun, 08 May 2016 21:26:40 GMT']
         etag: [W/"1cdb4d2e20ad07c904c37e63bffefaaa"]
-        expires: ['Wed, 04 May 2016 23:14:07 GMT']
+        expires: ['Mon, 09 May 2016 01:26:40 GMT']
         last-modified: ['Sun, 17 Apr 2016 09:36:27 GMT']
         server: [cloudflare-nginx]
-        set-cookie: ['__cfduid=d3ebc38f5fae6fa687811b95b151be4441462389247; expires=Thu,
-            04-May-17 19:14:07 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        set-cookie: ['__cfduid=da840993ff9544671631447bcc262a9251462742800; expires=Mon,
+            08-May-17 21:26:40 GMT; path=/; domain=.trakt.tv; HttpOnly']
         vary: [Accept-Encoding]
         x-content-type-options: [nosniff]
         x-frame-options: [SAMEORIGIN]
@@ -70,27 +70,121 @@ interactions:
         trakt-api-key: [!!python/unicode '57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af']
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/users/flexgettest/collection/shows
+      uri: https://api-v2launch.trakt.tv/shows/21410/people?extended=full%2Cimages
     response:
-      body: {string: !!python/unicode '[{"last_collected_at":"2016-03-08T21:36:33.000Z","show":{"title":"White
-          Collar","year":2009,"ids":{"trakt":21410,"slug":"white-collar","tvdb":108611,"imdb":"tt1358522","tmdb":21510,"tvrage":20720}},"seasons":[{"number":1,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":14,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":2,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":14,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":15,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":16,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":3,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":14,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":15,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":16,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":4,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":14,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":15,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":16,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":5,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":6,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"}]}]},{"last_collected_at":"2012-10-01T02:00:00.000Z","show":{"title":"Homeland","year":2011,"ids":{"trakt":1398,"slug":"homeland","tvdb":247897,"imdb":"tt1796960","tmdb":1407,"tvrage":27811}},"seasons":[{"number":2,"episodes":[{"number":1,"collected_at":"2012-10-01T02:00:00.000Z"}]}]}]'}
+      body: {string: "{\"cast\":[{\"character\":\"Peter Burke\",\"person\":{\"name\"\
+          :\"Tim DeKay\",\"ids\":{\"trakt\":423599,\"slug\":\"tim-dekay\",\"imdb\"\
+          :\"nm0215229\",\"tmdb\":76001,\"tvrage\":24807},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/140/573/headshots/original/af952bd378.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/140/573/headshots/medium/af952bd378.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/140/573/headshots/thumb/af952bd378.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/423/599/fanarts/original/cb68ddd6e0.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/423/599/fanarts/medium/cb68ddd6e0.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/423/599/fanarts/thumb/cb68ddd6e0.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia.\\n\\nTimothy\
+          \ Robert DeKay \_(born June 12, 1963) is an American character actor. His\
+          \ first on screen acting job was as corporate giant Larry Deon on seaQuest\
+          \ 2032. He was a cast member of the series Party of Five from 1997\u2013\
+          1999, Carniv\xE0le from 2003\u20132005 and Tell Me You Love Me in 2007.\
+          \ He has also guest\u2013starred on a number of top-rated television series,\
+          \ including Seinfeld, Friends, CSI, My Name Is Earl, NCIS, The New Adventures\
+          \ of Old Christine and Scrubs. DeKay is currently starring in the USA Network\
+          \ series White Collar, which chronicles the partnership between a con artist\
+          \ (played by Matthew Bomer) and an FBI agent (DeKay).\",\"birthday\":\"\
+          1963-06-12\",\"death\":null,\"birthplace\":\"Ithaca, New York, USA\",\"\
+          homepage\":\"\"}},{\"character\":\"Neal Caffrey\",\"person\":{\"name\":\"\
+          Matt Bomer\",\"ids\":{\"trakt\":425999,\"slug\":\"matt-bomer\",\"imdb\"\
+          :\"nm0093589\",\"tmdb\":66743,\"tvrage\":48614},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/140/590/headshots/original/20c2afda14.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/140/590/headshots/medium/20c2afda14.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/140/590/headshots/thumb/20c2afda14.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/425/999/fanarts/original/ec75c0b93d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/425/999/fanarts/medium/ec75c0b93d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/425/999/fanarts/thumb/ec75c0b93d.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nMatthew Staton\
+          \ \\\"Matt\\\" Bomer (born October 11, 1977) is an American film, stage\
+          \ and television actor. He currently stars as conman-turned-FBI consultant\
+          \ Neal Caffrey in the USA Network series White Collar. He is also recognized\
+          \ for his recurring role in the NBC series Chuck as Bryce Larkin.\\n\\nDescription\
+          \ above from the Wikipedia article Matthew Bomer, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1977-10-11\"\
+          ,\"death\":null,\"birthplace\":\"Spring, Texas, United States\",\"homepage\"\
+          :\"\"}},{\"character\":\"Mozzie\",\"person\":{\"name\":\"Willie Garson\"\
+          ,\"ids\":{\"trakt\":296019,\"slug\":\"willie-garson\",\"imdb\":\"nm0308606\"\
+          ,\"tmdb\":1542,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/140/619/headshots/original/5a31974ba9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/140/619/headshots/medium/5a31974ba9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/140/619/headshots/thumb/5a31974ba9.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/296/019/fanarts/original/7dce189bc8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/296/019/fanarts/medium/7dce189bc8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/296/019/fanarts/thumb/7dce189bc8.jpg\"\
+          }},\"biography\":null,\"birthday\":\"1964-02-20\",\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"character\":\"Elizabeth Burke\",\"person\"\
+          :{\"name\":\"Tiffani Thiessen\",\"ids\":{\"trakt\":419066,\"slug\":\"tiffani-thiessen\"\
+          ,\"imdb\":\"nm0005485\",\"tmdb\":19187,\"tvrage\":18800},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/140/606/headshots/original/825cab0e1b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/140/606/headshots/medium/825cab0e1b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/140/606/headshots/thumb/825cab0e1b.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/419/066/fanarts/original/6c1af8dbcf.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/419/066/fanarts/medium/6c1af8dbcf.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/419/066/fanarts/thumb/6c1af8dbcf.jpg\"\
+          }},\"biography\":\"Tiffani Thiessen (born Tiffani-Amber Thiessen; January\
+          \ 23, 1974) is an American actress best known for her roles as Kelly Kapowski\
+          \ in Saved by the Bell and as Valerie Malone in Beverly Hills, 90210. She\
+          \ is also known for her role on Fastlane as Wilhelmina 'Billie' Chambers.\
+          \ As of 2009, she plays the role of Elizabeth Burke, in White Collar. After\
+          \ many years of going by her full name, Tiffani-Amber Thiessen, she is now\
+          \ credited as simply Tiffani Thiessen.\\n\\nDescription above from the Wikipedia\
+          \ article Tiffani Thiessen, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1974-01-23\",\"death\":null,\"birthplace\"\
+          :\"Long Beach, California, USA\",\"homepage\":\"http://tiffanithiessen.com/\"\
+          }},{\"character\":\"Diana Barrigan\",\"person\":{\"name\":\"Marsha Thomason\"\
+          ,\"ids\":{\"trakt\":425933,\"slug\":\"marsha-thomason\",\"imdb\":\"nm0859720\"\
+          ,\"tmdb\":36219,\"tvrage\":32845},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/425/933/headshots/original/8e3d5144a3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/425/933/headshots/medium/8e3d5144a3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/425/933/headshots/thumb/8e3d5144a3.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/425/933/fanarts/original/6954adbffd.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/425/933/fanarts/medium/6954adbffd.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/425/933/fanarts/thumb/6954adbffd.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nMarsha Lisa\
+          \ Thomason (born 19 January 1976) is an English actress, who is known in\
+          \ the United States for playing Nessa Holt in the first two seasons of the\
+          \ NBC series Las Vegas, for her recurring role on ABC's Lost as Naomi Dorrit,\
+          \ and for playing FBI agent Diana Barrigan on USA Network's White Collar.\\\
+          n\\nDescription above from the Wikipedia article Marsha Thomason, licensed\
+          \ under CC-BY-SA, full list of contributors on Wikipedia\",\"birthday\"\
+          :\"1976-01-19\",\"death\":null,\"birthplace\":\"Manchester, England, UK\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Clinton Jones\",\"person\":{\"name\"\
+          :\"Sharif Atkins\",\"ids\":{\"trakt\":397343,\"slug\":\"sharif-atkins\"\
+          ,\"imdb\":\"nm0040653\",\"tmdb\":1211966,\"tvrage\":29381},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/170/211/headshots/original/9b97cd393b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/170/211/headshots/medium/9b97cd393b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/170/211/headshots/thumb/9b97cd393b.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/397/343/fanarts/original/70c942fc72.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/397/343/fanarts/medium/70c942fc72.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/397/343/fanarts/thumb/70c942fc72.jpg\"\
+          }},\"biography\":\"Sharif Atkins is an American television actor. He's best\
+          \ known for his role as Dr. Michael Gallant on ER and for his role as FBI\
+          \ Agent Clinton Jones on White Collar.\",\"birthday\":\"1975-01-29\",\"\
+          death\":null,\"birthplace\":\"Pittsburgh - Pennsylvania - USA\",\"homepage\"\
+          :\"\"}}]}"}
       headers:
-        cache-control: ['max-age=0, private, must-revalidate']
-        cf-ray: [29de461e26f62635-DFW]
+        cache-control: ['public, max-age=14400']
+        cf-cache-status: [HIT]
+        cf-ray: [29fffdc87b0e263b-DFW]
         connection: [keep-alive]
         content-type: [application/json; charset=utf-8]
-        date: ['Wed, 04 May 2016 19:14:07 GMT']
-        etag: [W/"9bfc893700145af3619e47a6b51a1884"]
-        last-modified: ['Wed, 04 May 2016 07:23:41 GMT']
+        date: ['Sun, 08 May 2016 21:26:40 GMT']
+        etag: [W/"f5eb2d2d7aeb9e43ccdad7213b8db91f"]
+        expires: ['Mon, 09 May 2016 01:26:40 GMT']
         server: [cloudflare-nginx]
-        set-cookie: ['__cfduid=d9f2a83f6288590c032c13421ea7648c41462389247; expires=Thu,
-            04-May-17 19:14:07 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        set-cookie: ['__cfduid=d0f4ca3343e6720a8225db7a7723daef61462742800; expires=Mon,
+            08-May-17 21:26:40 GMT; path=/; domain=.trakt.tv; HttpOnly']
         vary: [Accept-Encoding]
         x-content-type-options: [nosniff]
         x-frame-options: [SAMEORIGIN]
-        x-private-user: ['false']
-        x-request-id: [5bba7591-646f-4f65-a3f0-51e1a3bf5431]
-        x-runtime: ['0.028933']
+        x-request-id: [78867f93-5fb3-4700-ab19-fd11e47ed270]
+        x-runtime: ['0.020141']
         x-xss-protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -120,21 +214,281 @@ interactions:
       headers:
         cache-control: ['public, max-age=14400']
         cf-cache-status: [HIT]
-        cf-ray: [29de461f68f403e2-DFW]
+        cf-ray: [29fffdc9f4ec0106-DFW]
         connection: [keep-alive]
         content-type: [application/json; charset=utf-8]
-        date: ['Wed, 04 May 2016 19:14:07 GMT']
+        date: ['Sun, 08 May 2016 21:26:40 GMT']
         etag: [W/"b52e3b032ebf76a3d683fda55a5d99e4"]
-        expires: ['Wed, 04 May 2016 23:14:07 GMT']
+        expires: ['Mon, 09 May 2016 01:26:40 GMT']
         last-modified: ['Tue, 29 Mar 2016 17:02:31 GMT']
         server: [cloudflare-nginx]
-        set-cookie: ['__cfduid=d10cd2aa9c1651e5a80f705cb0e1fa6291462389247; expires=Thu,
-            04-May-17 19:14:07 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        set-cookie: ['__cfduid=d0843d9259aa9d3bc61970ea40b9728081462742800; expires=Mon,
+            08-May-17 21:26:40 GMT; path=/; domain=.trakt.tv; HttpOnly']
         vary: [Accept-Encoding]
         x-content-type-options: [nosniff]
         x-frame-options: [SAMEORIGIN]
         x-request-id: [04d4a828-f584-4f9c-bbef-a8a19c46704e]
         x-runtime: ['0.045420']
+        x-xss-protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [!!python/unicode 'application/json']
+        trakt-api-key: [!!python/unicode '57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af']
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/1395/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Chuck Bartowski\",\"person\":{\"\
+          name\":\"Zachary Levi\",\"ids\":{\"trakt\":298550,\"slug\":\"zachary-levi\"\
+          ,\"imdb\":\"nm1157048\",\"tmdb\":69899,\"tvrage\":34476},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/298/550/headshots/original/12f604c629.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/298/550/headshots/medium/12f604c629.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/298/550/headshots/thumb/12f604c629.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/298/550/fanarts/original/a01bda9750.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/298/550/fanarts/medium/a01bda9750.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/298/550/fanarts/thumb/a01bda9750.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nZachary\
+          \ Levi Pugh (born September 29, 1980), better known by his stage name Zachary\
+          \ Levi, is an American television actor, director, and singer known for\
+          \ the roles of Kipp Steadman in Less than Perfect, Chuck Bartowski in Chuck,\
+          \ and Flynn Rider in Tangled.\\n\\nDescription above from the Wikipedia\
+          \ article Zachary Levi, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1980-09-29\",\"death\":null,\"birthplace\"\
+          :\"Lake Charles, Louisiana, USA\",\"homepage\":\"http://zacharylevifan.com/wordpress/\"\
+          }},{\"character\":\"Sarah Walker\",\"person\":{\"name\":\"Yvonne Strahovski\"\
+          ,\"ids\":{\"trakt\":424866,\"slug\":\"yvonne-strahovski\",\"imdb\":\"nm2088803\"\
+          ,\"tmdb\":63312,\"tvrage\":74910},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/077/662/headshots/original/1158e9f9f3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/077/662/headshots/medium/1158e9f9f3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/077/662/headshots/thumb/1158e9f9f3.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/424/866/fanarts/original/f3ff50a4cb.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/424/866/fanarts/medium/f3ff50a4cb.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/424/866/fanarts/thumb/f3ff50a4cb.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nYvonne\
+          \ Strahovski (born Strzechowski on 30 July 1982) is an Australian actress.\
+          \ Born in Australia to Polish immigrant parents, Strahovski speaks Polish\
+          \ and English. After graduating from University of Western Sydney she featured\
+          \ in a number of Australian television shows before winning the starring\
+          \ role of Sarah Walker in the American television series Chuck.\",\"birthday\"\
+          :\"1982-07-30\",\"death\":null,\"birthplace\":\"Maroubra, Sydney, New South\
+          \ Wales, Australia\",\"homepage\":\"\"}},{\"character\":\"Morgan Grimes\"\
+          ,\"person\":{\"name\":\"Joshua Gomez\",\"ids\":{\"trakt\":427792,\"slug\"\
+          :\"joshua-gomez\",\"imdb\":\"nm1382427\",\"tmdb\":171827,\"tvrage\":52425},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/077/663/headshots/original/ff58f77ff6.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/077/663/headshots/medium/ff58f77ff6.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/077/663/headshots/thumb/ff58f77ff6.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/427/792/fanarts/original/618e85b2b3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/427/792/fanarts/medium/618e85b2b3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/427/792/fanarts/thumb/618e85b2b3.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nJoshua\
+          \ Eli Gomez (born November 20, 1975, in Bayonne, New Jersey) is an American\
+          \ actor best known for his role as Morgan Grimes on Chuck. He is the younger\
+          \ brother of actor Rick Gomez. Gomez appeared in a recurring role in the\
+          \ CBS series Without a Trace as computer tech James Mackeroy. He also appeared\
+          \ in a series of IBM commercials, a series of Wendy's commercials (Ranch\
+          \ Tooth), and a commercial for Garmin. He also made a cameo on Freddy's\
+          \ Nightmares. He played Sammy Stinger in Bring It On, 2004. As a voice actor,\
+          \ Gomez played Baralai in the video game Final Fantasy X-2, opposite his\
+          \ brother Rick's character, Gippal, and as Parker in Turok. He also had\
+          \ a small part at the beginning of BioShock as Johnny. In September 2007,\
+          \ he began starring in the NBC series Chuck as the title character's friend,\
+          \ Morgan Grimes. Gomez is friends with Chuck co-star, Zachary Levi, in real\
+          \ life.\",\"birthday\":\"1975-11-20\",\"death\":null,\"birthplace\":\"Bayonne\
+          \ - New Jersey - USA\",\"homepage\":\"\"}},{\"character\":\"Lester Patel\"\
+          ,\"person\":{\"name\":\"Vik Sahay\",\"ids\":{\"trakt\":413096,\"slug\":\"\
+          vik-sahay\",\"imdb\":\"nm0006710\",\"tmdb\":6623,\"tvrage\":36191},\"images\"\
+          :{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/077/664/headshots/original/0d94999990.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/077/664/headshots/medium/0d94999990.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/077/664/headshots/thumb/0d94999990.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/413/096/fanarts/original/618e85b2b3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/096/fanarts/medium/618e85b2b3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/096/fanarts/thumb/618e85b2b3.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nVikram\
+          \ \\\"Vik\\\" Sahay is a Canadian actor best known for playing Lester Patel,\
+          \ a member of the Nerd Herd in the NBC television series Chuck on which\
+          \ he became a series regular from the second season, and Rama in the Roxy\
+          \ Hunter Saga.\",\"birthday\":null,\"death\":null,\"birthplace\":\"Ottawa\
+          \ - Ontario - Canada\",\"homepage\":\"\"}},{\"character\":\"Jeff Barnes\"\
+          ,\"person\":{\"name\":\"Scott Krinsky\",\"ids\":{\"trakt\":440761,\"slug\"\
+          :\"scott-krinsky-d1f3f293-d5d1-4c7e-8b0d-f3078a582ed1\",\"imdb\":\"nm0471381\"\
+          ,\"tmdb\":206334,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/168/064/headshots/original/0ca151951d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/168/064/headshots/medium/0ca151951d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/168/064/headshots/thumb/0ca151951d.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/440/761/fanarts/original/618e85b2b3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/440/761/fanarts/medium/618e85b2b3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/440/761/fanarts/thumb/618e85b2b3.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nScott\
+          \ Krinsky is a Los Angeles-based actor and comic best known for his role\
+          \ as Jeff Barnes on the hit TV series Chuck and his role as Darryl on The\
+          \ O.C.. He was born in Washington D.C. in 1968 and attended Salisbury University\
+          \ where he majored in Communication and Broadcast Journalism. He has also\
+          \ attended The Epicurean School of Culinary Arts in L.A. In addition to\
+          \ being an actor, he is a writer and a stand-up comedian who performs at\
+          \ The Comedy Store and Improv in L.A.\\n\\nDescription above from the Wikipedia\
+          \ article Scott Krinsky, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1968-11-24\",\"death\":null,\"birthplace\"\
+          :\" Washington D.C., U.S.\",\"homepage\":\"\"}},{\"character\":\"Ellie Woodcomb\"\
+          ,\"person\":{\"name\":\"Sarah Lancaster\",\"ids\":{\"trakt\":428288,\"slug\"\
+          :\"sarah-lancaster\",\"imdb\":\"nm0484178\",\"tmdb\":81217,\"tvrage\":3131},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/428/288/headshots/original/4bbf947334.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/428/288/headshots/medium/4bbf947334.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/428/288/headshots/thumb/4bbf947334.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/428/288/fanarts/original/618e85b2b3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/428/288/fanarts/medium/618e85b2b3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/428/288/fanarts/thumb/618e85b2b3.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nSarah\
+          \ Lancaster (born February 12, 1980) is an American actress. She is known\
+          \ for her roles of Rachel in Saved by the Bell: The New Class and Madison\
+          \ Kellner on Everwood. She also had a recurring guest role on NBC's Scrubs\
+          \ as JD's love-interest, Lisa the Gift-Shop Girl, and played Marjorie in\
+          \ ABC's TV series What About Brian. In 2005 she starred in the TV movie\
+          \ Living With the Enemy with Mark Humphrey. Lancaster currently co-stars\
+          \ in the NBC comedy-spy series Chuck, as the title character's sister, Ellie\
+          \ Bartowski and has done so since the show's inception.\\n\\nDescription\
+          \ above from the Wikipedia article Sarah Lancaster, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1980-02-12\"\
+          ,\"death\":null,\"birthplace\":\"Overland Park, Kansas, U.S.A.\",\"homepage\"\
+          :\"\"}},{\"character\":\"John Casey\",\"person\":{\"name\":\"Adam Baldwin\"\
+          ,\"ids\":{\"trakt\":411664,\"slug\":\"adam-baldwin\",\"imdb\":\"nm0000284\"\
+          ,\"tmdb\":2059,\"tvrage\":12006},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/411/664/headshots/original/529c9cbb60.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/411/664/headshots/medium/529c9cbb60.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/411/664/headshots/thumb/529c9cbb60.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/411/664/fanarts/original/f07e226271.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/411/664/fanarts/medium/f07e226271.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/411/664/fanarts/thumb/f07e226271.jpg\"\
+          }},\"biography\":\"Appearing in dozens of films since 1980, Baldwin rose\
+          \ to prominence as the troubled outcast Ricky Linderman in My Bodyguard\
+          \ (1980) and moved on to bigger roles in D.C. Cab (1983), Full Metal Jacket\
+          \ (1987), Independence Day (1996), The Patriot (2000) and Serenity (2005)\u2014\
+          in which he reprises his role as the mercenary Jayne Cobb from the television\
+          \ series Firefly. His other work includes Radio Flyer (1992), From the Earth\
+          \ to the Moon (1998), The X-Files (Knowle Rohrer), Smoke Jumpers (1996),\
+          \ The Cape, Men in Black: The Series, Stargate SG-1, Angel, The Inside,\
+          \ NCIS and the 2005 remake of The Poseidon Adventure. He also starred in\
+          \ the ABC series Day Break as Chad Shelten in 2006. Baldwin parodied the\
+          \ Ricky Linderman character in the 2008 film Drillbit Taylor. Baldwin won\
+          \ a SyFy Genre Award in 2006 for Best Supporting Actor/Television for his\
+          \ role as Jayne Cobb in the television series Firefly. Baldwin was cast\
+          \ as Clark Kent/Superman in the first DC animated universe movie, Superman:\
+          \ Doomsday, based on DC Comics' The Death of Superman and is currently co-starring\
+          \ in the NBC television show Chuck as NSA Agent John Casey. The show premiered\
+          \ September 24, 2007. Baldwin has a role as a voice actor in the Xbox 360\
+          \ games Halo 3 and Halo 3: ODST, the latter putting him in the role of Cpl.\
+          \ Taylor \\\"Dutch\\\" Miles. Baldwin also appears as a voice actor in Half\
+          \ Life 2: Episode 2 for various resistance soldiers and citizens. Adam also\
+          \ appeared in Mass Effect 2, playing the role of Quarian marine Kal'Reegar.\
+          \ Baldwin was born in Chicago, Illinois and studied at New Trier Township\
+          \ High School East in Winnetka, Illinois. He has three children with his\
+          \ wife, Ami. He has been a registered voter with the Democratic Party since\
+          \ 1980, but admits reexamining his views after being given a copy of David\
+          \ Horowitz's book Radical Son. Politically, he considers himself a \\\"\
+          small government conservative libertarian\\\", and has contributed blogs\
+          \ to the Huffington Post and Big Hollywood. As a hobby, he also collects\
+          \ and posts links to varying viewpoints on his Twitter feed\",\"birthday\"\
+          :\"1962-02-27\",\"death\":null,\"birthplace\":\"Winnetka - Illinois - USA\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Devon Woodcomb\",\"person\":{\"name\"\
+          :\"Ryan McPartlin\",\"ids\":{\"trakt\":427663,\"slug\":\"ryan-mcpartlin\"\
+          ,\"imdb\":\"nm0574131\",\"tmdb\":93031,\"tvrage\":4827},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/427/663/headshots/original/80fd8ef991.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/427/663/headshots/medium/80fd8ef991.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/427/663/headshots/thumb/80fd8ef991.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/427/663/fanarts/original/618e85b2b3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/427/663/fanarts/medium/618e85b2b3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/427/663/fanarts/thumb/618e85b2b3.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nRyan\
+          \ McPartlin (born July 3, 1975) is an American actor, best known for his\
+          \ role as Devon \\\"Captain Awesome\\\" Woodcomb on NBC's Chuck.\\n\\nDescription\
+          \ above from the Wikipedia article Ryan McPartlin, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1975-07-03\"\
+          ,\"death\":null,\"birthplace\":\"Chicago, Illinois, United States\",\"homepage\"\
+          :\"\"}},{\"character\":\"Big Mike\",\"person\":{\"name\":\"Mark Christopher\
+          \ Lawrence\",\"ids\":{\"trakt\":422840,\"slug\":\"mark-christopher-lawrence\"\
+          ,\"imdb\":\"nm0492924\",\"tmdb\":33501,\"tvrage\":1604},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/077/669/headshots/original/c4bd74d87d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/077/669/headshots/medium/c4bd74d87d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/077/669/headshots/thumb/c4bd74d87d.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/422/840/fanarts/original/618e85b2b3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/422/840/fanarts/medium/618e85b2b3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/422/840/fanarts/thumb/618e85b2b3.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nMark\
+          \ Christopher Lawrence (born May 22, 1964) is an American character actor,\
+          \ stand-up comedian and voice-over artist. He is perhaps best known for\
+          \ his role as esoteric D.J., Tone Deaf, in the 1994 satirical rap mockumentary,\
+          \ Fear of a Black Hat. He has co-starred in popular films such as Terminator\
+          \ 2: Judgment Day, Planet of the Apes, Lost Treasure and The Pursuit of\
+          \ Happyness. Lawrence can currently be seen in his regular role as Big Mike\
+          \ on the NBC series Chuck. He has made guest appearances on many television\
+          \ programs, most notably Heroes, My Name Is Earl, Crossing Jordan, Dharma\
+          \ &amp; Greg, Malcolm in the Middle, Touched by an Angel, Malcolm &amp;\
+          \ Eddie, Men Behaving Badly, Seinfeld, Murphy Brown, and Martin. He is also\
+          \ featured on the Radio Series Adventures in Odyssey as \\\"Ed Washington\\\
+          \".\\n\\nDescription above from the Wikipedia article Mark Christopher Lawrence,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1964-05-22\",\"death\":null,\"birthplace\":\"Los Angeles, California\"\
+          ,\"homepage\":\"http://www.markchristopherlawrence.com/\"}}],\"crew\":{\"\
+          production\":[{\"job\":\"Producer\",\"person\":{\"name\":\"Scott Rosenbaum\"\
+          ,\"ids\":{\"trakt\":399340,\"slug\":\"scott-rosenbaum\",\"imdb\":null,\"\
+          tmdb\":1223890,\"tvrage\":68930},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Producer\",\"person\":{\"name\":\"\
+          Ali Adler\",\"ids\":{\"trakt\":400292,\"slug\":\"ali-adler-400292\",\"imdb\"\
+          :\"nm0012100\",\"tmdb\":1216181,\"tvrage\":17894},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/400/292/headshots/original/382417e8fb.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/400/292/headshots/medium/382417e8fb.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/400/292/headshots/thumb/382417e8fb.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1967-05-30\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":\"\"}},{\"job\":\"Producer\",\"person\":{\"name\":\"Josh Schwartz\"\
+          ,\"ids\":{\"trakt\":400293,\"slug\":\"josh-schwartz-2c2f2957-04a0-4900-8d43-f2a0b31cdadb\"\
+          ,\"imdb\":\"nm0777300\",\"tmdb\":1223157,\"tvrage\":51791},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Producer\",\"person\":{\"name\":\"McG\",\"ids\":{\"trakt\":413244,\"slug\"\
+          :\"mcg\",\"imdb\":\"nm0629334\",\"tmdb\":36425,\"tvrage\":30317},\"images\"\
+          :{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/244/headshots/original/826a68b197.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/244/headshots/medium/826a68b197.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/244/headshots/thumb/826a68b197.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Joseph McGinty Nichol, better known as McG, is an American director and\
+          \ producer of film and television. He began his career in the music industry,\
+          \ directing music videos and producing various albums. He later rose to\
+          \ prominence with his first film, Charlie's Angels.\",\"birthday\":\"1968-08-09\"\
+          ,\"death\":null,\"birthplace\":\"Kalamazoo, Michigan, USA\",\"homepage\"\
+          :\"\"}},{\"job\":\"Producer\",\"person\":{\"name\":\"Robert Duncan McNeill\"\
+          ,\"ids\":{\"trakt\":426990,\"slug\":\"robert-duncan-mcneill\",\"imdb\":\"\
+          nm0000536\",\"tmdb\":74065,\"tvrage\":28656},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/426/990/headshots/original/609ef7a591.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/426/990/headshots/medium/609ef7a591.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/426/990/headshots/thumb/609ef7a591.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nRobert Duncan McNeill (born\
+          \ November 9, 1964, height 6' 1\\\" (1,85 m)) is an American actor, producer,\
+          \ movie director, and television director who is best known for his role\
+          \ as Lieutenant Tom Paris on the television show Star Trek: Voyager.\",\"\
+          birthday\":\"1964-11-09\",\"death\":null,\"birthplace\":\"Raleigh - North\
+          \ Carolina - USA\",\"homepage\":\"\"}}]}}"}
+      headers:
+        cache-control: ['public, max-age=14400']
+        cf-cache-status: [HIT]
+        cf-ray: [29fffdcac6c9263b-DFW]
+        connection: [keep-alive]
+        content-type: [application/json; charset=utf-8]
+        date: ['Sun, 08 May 2016 21:26:41 GMT']
+        etag: [W/"f88b489770da070df7b0b0fe97ac5086"]
+        expires: ['Mon, 09 May 2016 01:26:41 GMT']
+        server: [cloudflare-nginx]
+        set-cookie: ['__cfduid=d9c10055ef60dcccc5c8545aa5de71b511462742801; expires=Mon,
+            08-May-17 21:26:41 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        vary: [Accept-Encoding]
+        x-content-type-options: [nosniff]
+        x-frame-options: [SAMEORIGIN]
+        x-request-id: [7477a3d5-cc62-4829-be59-a9d32dcd31ac]
+        x-runtime: ['0.093834']
         x-xss-protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

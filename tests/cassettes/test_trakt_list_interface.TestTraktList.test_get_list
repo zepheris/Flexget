@@ -13,23 +13,23 @@ interactions:
           Walking Dead","year":2010,"ids":{"trakt":1393,"slug":"the-walking-dead","tvdb":153021,"imdb":"tt1520211","tmdb":1402,"tvrage":25056}}},{"rank":2,"listed_at":"2016-04-06T01:08:56.000Z","type":"movie","movie":{"title":"Deadpool","year":2016,"ids":{"trakt":190430,"slug":"deadpool-2016","imdb":"tt1431045","tmdb":293660}}},{"rank":3,"listed_at":"2016-04-06T01:09:11.000Z","type":"episode","episode":{"season":8,"number":15,"title":"Fidelis
           Ad Mortem","ids":{"trakt":2125119,"tvdb":5483434,"imdb":"tt5318930","tmdb":1165957,"tvrage":1065902569}},"show":{"title":"Castle","year":2009,"ids":{"trakt":1410,"slug":"castle","tvdb":83462,"imdb":"tt1219024","tmdb":1419,"tvrage":19267}}}]'}
       headers:
-        cache-control: ['max-age=0, private, must-revalidate']
-        cf-ray: [28f182f6e51323a2-IAD]
-        connection: [keep-alive]
-        content-type: [application/json; charset=utf-8]
-        date: ['Wed, 06 Apr 2016 01:36:54 GMT']
-        etag: [W/"d7723e2119c665a0bcf95798ae399e20"]
-        server: [cloudflare-nginx]
-        set-cookie: ['__cfduid=da4b1b1a0813dc142fbce95e7d3cef4c81459906614; expires=Thu,
-            06-Apr-17 01:36:54 GMT; path=/; domain=.trakt.tv; HttpOnly']
-        vary: [Accept-Encoding]
-        x-content-type-options: [nosniff]
-        x-frame-options: [SAMEORIGIN]
-        x-private-user: ['false']
-        x-request-id: [7386dd6f-b773-4c2e-8181-8a504b2d9bfb]
-        x-runtime: ['0.009211']
-        x-sort-by: [rank]
-        x-sort-how: [asc]
-        x-xss-protection: [1; mode=block]
+        CF-RAY: [29ffeb7661ff263b-DFW]
+        Cache-Control: ['max-age=0, private, must-revalidate']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:10 GMT']
+        ETag: [W/"d7723e2119c665a0bcf95798ae399e20"]
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=d10011be5114e2d6490a7dc10d14f87ec1462742050; expires=Mon,
+            08-May-17 21:14:10 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Private-User: ['false']
+        X-Request-Id: [234de200-a1cd-4824-baa2-86e4276aeaf0]
+        X-Runtime: ['0.341226']
+        X-Sort-By: [rank]
+        X-Sort-How: [asc]
+        X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

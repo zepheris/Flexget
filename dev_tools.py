@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from __future__ import print_function
 
 import fileinput
@@ -88,6 +89,12 @@ def build_webui():
     click.echo('running `gulp buildapp`')
     subprocess.check_call('gulp buildapp', cwd=cwd, shell=True)
 
+@cli.command()
+def gulp_serve():
+    cwd = os.path.join('flexget', 'ui')
+
+    click.echo('Serving Gulp')
+    subprocess.check_call('gulp serve', cwd=cwd, shell=True)
 
 @cli.command()
 def upgrade_deps():

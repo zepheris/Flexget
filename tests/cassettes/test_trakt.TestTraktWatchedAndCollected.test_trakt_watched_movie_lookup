@@ -6,41 +6,41 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?query=Inside+Out&type=movie&year=2015
+      uri: https://api-v2launch.trakt.tv/search?type=movie&query=Inside+Out&year=2015
     response:
-      body: {string: '[{"type":"movie","score":52.100258,"movie":{"title":"Inside
-          Out","overview":"Growing up can be a bumpy road, and it''s no exception
-          for Riley, who is uprooted from her Midwest life when her father starts
-          a new job in San Francisco. Like all of us, Riley is guided by her emotions
-          - Joy, Fear, Anger, Disgust and Sadness. The emotions live in Headquarters,
-          the control center inside Riley''s mind, where they help advise her through
-          everyday life. As Riley and her emotions struggle to adjust to a new life
-          in San Francisco, turmoil ensues in Headquarters. Although Joy, Riley''s
-          main and most important emotion, tries to keep things positive, the emotions
-          conflict on how best to navigate a new city, house and school.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/098/998/posters/original/09e0ae33aa.jpg","medium":"https://walter.trakt.us/images/movies/000/098/998/posters/medium/09e0ae33aa.jpg","thumb":"https://walter.trakt.us/images/movies/000/098/998/posters/thumb/09e0ae33aa.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/098/998/fanarts/original/dd51480cb4.jpg","medium":"https://walter.trakt.us/images/movies/000/098/998/fanarts/medium/dd51480cb4.jpg","thumb":"https://walter.trakt.us/images/movies/000/098/998/fanarts/thumb/dd51480cb4.jpg"}},"ids":{"trakt":98998,"slug":"inside-out-2015","imdb":"tt2096673","tmdb":150540}}},{"type":"movie","score":21.891073,"movie":{"title":"Locked
+      body: {string: '[{"type":"movie","score":52.48523,"movie":{"title":"Inside Out","overview":"Growing
+          up can be a bumpy road, and it''s no exception for Riley, who is uprooted
+          from her Midwest life when her father starts a new job in San Francisco.
+          Like all of us, Riley is guided by her emotions - Joy, Fear, Anger, Disgust
+          and Sadness. The emotions live in Headquarters, the control center inside
+          Riley''s mind, where they help advise her through everyday life. As Riley
+          and her emotions struggle to adjust to a new life in San Francisco, turmoil
+          ensues in Headquarters. Although Joy, Riley''s main and most important emotion,
+          tries to keep things positive, the emotions conflict on how best to navigate
+          a new city, house and school.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/098/998/posters/original/09e0ae33aa.jpg","medium":"https://walter.trakt.us/images/movies/000/098/998/posters/medium/09e0ae33aa.jpg","thumb":"https://walter.trakt.us/images/movies/000/098/998/posters/thumb/09e0ae33aa.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/098/998/fanarts/original/dd51480cb4.jpg","medium":"https://walter.trakt.us/images/movies/000/098/998/fanarts/medium/dd51480cb4.jpg","thumb":"https://walter.trakt.us/images/movies/000/098/998/fanarts/thumb/dd51480cb4.jpg"}},"ids":{"trakt":98998,"slug":"inside-out-2015","imdb":"tt2096673","tmdb":150540}}},{"type":"movie","score":21.817217,"movie":{"title":"Locked
           Out","overview":"Spoiled rich kid Greg Mardukas gets home from a long day
           to find out that he has been locked out of his own house. Realizing he won''t
           be able to get inside until his father gets home in a few days, Greg must
-          learn to live in the outdoors for the weekend. Will he survive?","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/220/954/posters/original/6a4c4e5bbb.jpg","medium":"https://walter.trakt.us/images/movies/000/220/954/posters/medium/6a4c4e5bbb.jpg","thumb":"https://walter.trakt.us/images/movies/000/220/954/posters/thumb/6a4c4e5bbb.jpg"},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":220954,"slug":"locked-out-2015","imdb":"","tmdb":340509}}},{"type":"movie","score":2.070005,"movie":{"title":"Mind
+          learn to live in the outdoors for the weekend. Will he survive?","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/220/954/posters/original/6a4c4e5bbb.jpg","medium":"https://walter.trakt.us/images/movies/000/220/954/posters/medium/6a4c4e5bbb.jpg","thumb":"https://walter.trakt.us/images/movies/000/220/954/posters/thumb/6a4c4e5bbb.jpg"},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":220954,"slug":"locked-out-2015","imdb":"","tmdb":340509}}},{"type":"movie","score":2.0462298,"movie":{"title":"Mind
           Candy","overview":"This short was released as an extra in the Blu-ray release
           of Disney Pixar''s \"Inside Out.\"  It''s a zany collection clips of the
-          emotions and how they interact.","year":2015,"images":{"poster":{"full":null,"medium":null,"thumb":null},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":235484,"slug":"mind-candy-2015","imdb":"","tmdb":370082}}},{"type":"movie","score":0.38057113,"movie":{"title":"Containment","overview":"Neighbours
+          emotions and how they interact.","year":2015,"images":{"poster":{"full":null,"medium":null,"thumb":null},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":235484,"slug":"mind-candy-2015","imdb":"","tmdb":370082}}},{"type":"movie","score":0.3797224,"movie":{"title":"Containment","overview":"Neighbours
           in a block wake one morning to find they have been sealed inside their apartments.
           Can they work together to find out why? Or will they destroy each other
-          in their fight to escape?","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/223/348/posters/original/22f821f30c.jpg","medium":"https://walter.trakt.us/images/movies/000/223/348/posters/medium/22f821f30c.jpg","thumb":"https://walter.trakt.us/images/movies/000/223/348/posters/thumb/22f821f30c.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/223/348/fanarts/original/fce4925aef.jpg","medium":"https://walter.trakt.us/images/movies/000/223/348/fanarts/medium/fce4925aef.jpg","thumb":"https://walter.trakt.us/images/movies/000/223/348/fanarts/thumb/fce4925aef.jpg"}},"ids":{"trakt":223348,"slug":"containment-2015","imdb":"tt3561236","tmdb":347548}}},{"type":"movie","score":0.38057113,"movie":{"title":"Necroland","overview":"In
+          in their fight to escape?","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/223/348/posters/original/22f821f30c.jpg","medium":"https://walter.trakt.us/images/movies/000/223/348/posters/medium/22f821f30c.jpg","thumb":"https://walter.trakt.us/images/movies/000/223/348/posters/thumb/22f821f30c.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/223/348/fanarts/original/fce4925aef.jpg","medium":"https://walter.trakt.us/images/movies/000/223/348/fanarts/medium/fce4925aef.jpg","thumb":"https://walter.trakt.us/images/movies/000/223/348/fanarts/thumb/fce4925aef.jpg"}},"ids":{"trakt":223348,"slug":"containment-2015","imdb":"tt3561236","tmdb":347548}}},{"type":"movie","score":0.3797224,"movie":{"title":"Necroland","overview":"In
           an instant, 80% of the worlds population has turned into rage humans and
           the weather has gone out of control. Inside all of this chaos, the remaining
-          survivors attempt to unravel the answers to this convoluted mystery.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/155/649/posters/original/b13965b8e3.jpg","medium":"https://walter.trakt.us/images/movies/000/155/649/posters/medium/b13965b8e3.jpg","thumb":"https://walter.trakt.us/images/movies/000/155/649/posters/thumb/b13965b8e3.jpg"},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":155649,"slug":"necroland-2015","imdb":"tt3518152","tmdb":255561}}},{"type":"movie","score":0.3044569,"movie":{"title":"A
+          survivors attempt to unravel the answers to this convoluted mystery.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/155/649/posters/original/b13965b8e3.jpg","medium":"https://walter.trakt.us/images/movies/000/155/649/posters/medium/b13965b8e3.jpg","thumb":"https://walter.trakt.us/images/movies/000/155/649/posters/thumb/b13965b8e3.jpg"},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":155649,"slug":"necroland-2015","imdb":"tt3518152","tmdb":255561}}},{"type":"movie","score":0.3037779,"movie":{"title":"A
           Fall from Grace","overview":"Detective Michael Tabb knows the city of St.
           Louis inside and out. He has felt its true heart, as much as its dark underbelly:
           but he does not know who, in both the dark and light - is taking the lives
-          of young girls.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/107/827/posters/original/072c499c6a.jpg","medium":"https://walter.trakt.us/images/movies/000/107/827/posters/medium/072c499c6a.jpg","thumb":"https://walter.trakt.us/images/movies/000/107/827/posters/thumb/072c499c6a.jpg"},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":107827,"slug":"a-fall-from-grace-1969","imdb":"tt1621415","tmdb":168781}}},{"type":"movie","score":0.3044569,"movie":{"title":"A
+          of young girls.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/107/827/posters/original/072c499c6a.jpg","medium":"https://walter.trakt.us/images/movies/000/107/827/posters/medium/072c499c6a.jpg","thumb":"https://walter.trakt.us/images/movies/000/107/827/posters/thumb/072c499c6a.jpg"},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":107827,"slug":"a-fall-from-grace-1969","imdb":"tt1621415","tmdb":168781}}},{"type":"movie","score":0.3037779,"movie":{"title":"A
           Girl''s Best Friend","overview":"Penelope, better known as Polka-Dot, is
           a spunky young girl who has a knack for helping people, particularly her
           ailing mother. While out looking for a part-time job, Polka-Dot befriends
           a hard-nosed police officer and his tracking dog, Luey. When Polka-Dot''s
           mother''s condition worsens, Luey helps Polka-Dot find the strength and
-          faith inside to help her move forward.","year":2015,"images":{"poster":{"full":null,"medium":null,"thumb":null},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":207177,"slug":"a-girl-s-best-friend-2015","imdb":"tt4220166","tmdb":326261}}},{"type":"movie","score":0.24701142,"movie":{"title":"Bad
+          faith inside to help her move forward.","year":2015,"images":{"poster":{"full":null,"medium":null,"thumb":null},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":207177,"slug":"a-girl-s-best-friend-2015","imdb":"tt4220166","tmdb":326261}}},{"type":"movie","score":0.24649493,"movie":{"title":"Bad
           Building","overview":"The Desmond - the building''s pleasant sounding name
           hides a troubled past. The high rise has a long history of fires, murders,
           madness and even colonial era genocide upon the site. The towering building
@@ -51,14 +51,14 @@ interactions:
           way in, or out, Craig has contacted a group of urban explorers to help him
           and his film crew enter the building. But when Craig and his team set foot
           inside The Desmond the events that caused the building to be abandoned in
-          the first place begin to repeat.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/224/054/posters/original/1b16602229.jpg","medium":"https://walter.trakt.us/images/movies/000/224/054/posters/medium/1b16602229.jpg","thumb":"https://walter.trakt.us/images/movies/000/224/054/posters/thumb/1b16602229.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/224/054/fanarts/original/7c6f2c044b.jpg","medium":"https://walter.trakt.us/images/movies/000/224/054/fanarts/medium/7c6f2c044b.jpg","thumb":"https://walter.trakt.us/images/movies/000/224/054/fanarts/thumb/7c6f2c044b.jpg"}},"ids":{"trakt":224054,"slug":"bad-building-2015","imdb":"tt2257216","tmdb":350052}}},{"type":"movie","score":0.22834267,"movie":{"title":"The
+          the first place begin to repeat.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/224/054/posters/original/1b16602229.jpg","medium":"https://walter.trakt.us/images/movies/000/224/054/posters/medium/1b16602229.jpg","thumb":"https://walter.trakt.us/images/movies/000/224/054/posters/thumb/1b16602229.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/224/054/fanarts/original/7c6f2c044b.jpg","medium":"https://walter.trakt.us/images/movies/000/224/054/fanarts/medium/7c6f2c044b.jpg","thumb":"https://walter.trakt.us/images/movies/000/224/054/fanarts/thumb/7c6f2c044b.jpg"}},"ids":{"trakt":224054,"slug":"bad-building-2015","imdb":"tt2257216","tmdb":350052}}},{"type":"movie","score":0.22783342,"movie":{"title":"The
           New Family","overview":"The sleepy town of Murdoch is reawakened when young
           women in various stages of pregnancy begin to die at the hands of a brutal
           killer. As Blair Cassidy struggles with an overbearing mother and a less
           than happy father-to-be, she fears that the killer''s focus has shifted
           to her. With her life spiraling out-of-control, Blair must fight for her
           own life and for the baby growing inside her. But the killer has other plans
-          for Blair that are more terrifying than she could have ever imagined.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/200/981/posters/original/5a1f1646d8.jpg","medium":"https://walter.trakt.us/images/movies/000/200/981/posters/medium/5a1f1646d8.jpg","thumb":"https://walter.trakt.us/images/movies/000/200/981/posters/thumb/5a1f1646d8.jpg"},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":200981,"slug":"the-new-family-2015","imdb":"tt3213960","tmdb":320323}}},{"type":"movie","score":0.19028556,"movie":{"title":"Exeter","overview":"During
+          for Blair that are more terrifying than she could have ever imagined.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/200/981/posters/original/5a1f1646d8.jpg","medium":"https://walter.trakt.us/images/movies/000/200/981/posters/medium/5a1f1646d8.jpg","thumb":"https://walter.trakt.us/images/movies/000/200/981/posters/thumb/5a1f1646d8.jpg"},"fanart":{"full":null,"medium":null,"thumb":null}},"ids":{"trakt":200981,"slug":"the-new-family-2015","imdb":"tt3213960","tmdb":320323}}},{"type":"movie","score":0.1898612,"movie":{"title":"Exeter","overview":"During
           an all-night, drug-fueled party at an abandoned asylum known for the horrific
           treatment of its patients, a group of ordinary teens decide to experiment
           with the occult, mysteriously leading to a violent possession. In an effort
@@ -72,16 +72,16 @@ interactions:
           way out before it''s too late.","year":2015,"images":{"poster":{"full":"https://walter.trakt.us/images/movies/000/138/557/posters/original/4fae1b8167.jpg","medium":"https://walter.trakt.us/images/movies/000/138/557/posters/medium/4fae1b8167.jpg","thumb":"https://walter.trakt.us/images/movies/000/138/557/posters/thumb/4fae1b8167.jpg"},"fanart":{"full":"https://walter.trakt.us/images/movies/000/138/557/fanarts/original/307e3e73e8.jpg","medium":"https://walter.trakt.us/images/movies/000/138/557/fanarts/medium/307e3e73e8.jpg","thumb":"https://walter.trakt.us/images/movies/000/138/557/fanarts/thumb/307e3e73e8.jpg"}},"ids":{"trakt":138557,"slug":"exeter-2015","imdb":"tt1945044","tmdb":226458}}}]'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de2387b5e02623-DFW]
+        CF-RAY: [29ffeb7ea0f1202a-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"ee858915f7cadf98cf575dd0957abfea"]
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
+        Date: ['Sun, 08 May 2016 21:14:11 GMT']
+        ETag: [W/"7fc7b6e15d2c8c3535f477aa76918457"]
+        Expires: ['Mon, 09 May 2016 01:14:11 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=d1e665292411d94c34ce08d6900ad53381462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=d9c395ff6a4e6e25b88a3672d38dc31791462742051; expires=Mon,
+            08-May-17 21:14:11 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -89,15 +89,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['2']
-        X-Request-Id: [ba399822-19f3-448d-9624-b04f96ffd988]
-        X-Runtime: ['0.044296']
+        X-Request-Id: [b39bee7c-720a-4e84-8e8e-b835590ad9bc]
+        X-Runtime: ['0.046235']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=d1e665292411d94c34ce08d6900ad53381462387831]
+        Cookie: [__cfduid=d9c395ff6a4e6e25b88a3672d38dc31791462742051]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -113,23 +113,1205 @@ interactions:
           struggle to adjust to a new life in San Francisco, turmoil ensues in Headquarters.
           Although Joy, Riley''s main and most important emotion, tries to keep things
           positive, the emotions conflict on how best to navigate a new city, house
-          and school.","released":"2015-06-19","runtime":94,"trailer":"http://youtube.com/watch?v=yRUAzGQ3nSY","homepage":"http://movies.disney.com/inside-out","rating":8.15379,"votes":11574,"updated_at":"2016-05-01T09:16:45.000Z","language":"en","available_translations":["en","es","fr","ru","cs","sk","de","he","hu","zh","pt","tr","it","da","sv","nl","ko","ar","el","pl","lt","bg","th","uk","fa","fi","cn","ro","ja","bs","is","no","az","tw","et"],"genres":["animation","comedy","family"],"certification":"","images":{"fanart":{"full":"https://walter.trakt.us/images/movies/000/098/998/fanarts/original/dd51480cb4.jpg","medium":"https://walter.trakt.us/images/movies/000/098/998/fanarts/medium/dd51480cb4.jpg","thumb":"https://walter.trakt.us/images/movies/000/098/998/fanarts/thumb/dd51480cb4.jpg"},"poster":{"full":"https://walter.trakt.us/images/movies/000/098/998/posters/original/09e0ae33aa.jpg","medium":"https://walter.trakt.us/images/movies/000/098/998/posters/medium/09e0ae33aa.jpg","thumb":"https://walter.trakt.us/images/movies/000/098/998/posters/thumb/09e0ae33aa.jpg"},"logo":{"full":"https://walter.trakt.us/images/movies/000/098/998/logos/original/dcf3f19052.png"},"clearart":{"full":"https://walter.trakt.us/images/movies/000/098/998/cleararts/original/e75b250d8c.png"},"banner":{"full":"https://walter.trakt.us/images/movies/000/098/998/banners/original/ae3a70fc11.jpg"},"thumb":{"full":"https://walter.trakt.us/images/movies/000/098/998/thumbs/original/b8672865af.jpg"}}}'}
+          and school.","released":"2015-06-19","runtime":94,"trailer":"http://youtube.com/watch?v=_MC3XuMvsDI","homepage":"http://movies.disney.com/inside-out","rating":8.15151,"votes":11755,"updated_at":"2016-05-08T09:30:59.000Z","language":"en","available_translations":["en","es","fr","ru","cs","sk","de","he","hu","zh","pt","tr","it","da","sv","nl","ko","ar","el","pl","lt","bg","th","uk","fa","fi","cn","ro","ja","bs","is","no","az","tw","et"],"genres":["animation","comedy","family"],"certification":"","images":{"fanart":{"full":"https://walter.trakt.us/images/movies/000/098/998/fanarts/original/dd51480cb4.jpg","medium":"https://walter.trakt.us/images/movies/000/098/998/fanarts/medium/dd51480cb4.jpg","thumb":"https://walter.trakt.us/images/movies/000/098/998/fanarts/thumb/dd51480cb4.jpg"},"poster":{"full":"https://walter.trakt.us/images/movies/000/098/998/posters/original/09e0ae33aa.jpg","medium":"https://walter.trakt.us/images/movies/000/098/998/posters/medium/09e0ae33aa.jpg","thumb":"https://walter.trakt.us/images/movies/000/098/998/posters/thumb/09e0ae33aa.jpg"},"logo":{"full":"https://walter.trakt.us/images/movies/000/098/998/logos/original/dcf3f19052.png"},"clearart":{"full":"https://walter.trakt.us/images/movies/000/098/998/cleararts/original/e75b250d8c.png"},"banner":{"full":"https://walter.trakt.us/images/movies/000/098/998/banners/original/ae3a70fc11.jpg"},"thumb":{"full":"https://walter.trakt.us/images/movies/000/098/998/thumbs/original/b8672865af.jpg"}}}'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de238835eb2623-DFW]
+        CF-RAY: [29ffeb7f1104202a-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"2c952c31edce34874da5f306d91924d2"]
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
-        Last-Modified: ['Sun, 01 May 2016 09:16:45 GMT']
+        Date: ['Sun, 08 May 2016 21:14:11 GMT']
+        ETag: [W/"271df1985dc4a4f89840377d74082a1c"]
+        Expires: ['Mon, 09 May 2016 01:14:11 GMT']
+        Last-Modified: ['Sun, 08 May 2016 09:30:59 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [76dd8e8f-6ee5-4d19-96c7-e2e1b238929a]
-        X-Runtime: ['0.248371']
+        X-Request-Id: [58fe4fc5-fdac-4fb0-b7ac-feab57b4bd92]
+        X-Runtime: ['0.094407']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/movies/98998/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Joy (voice)\",\"person\":{\"name\"\
+          :\"Amy Poehler\",\"ids\":{\"trakt\":416947,\"slug\":\"amy-poehler\",\"imdb\"\
+          :\"nm0688132\",\"tmdb\":56322,\"tvrage\":32986},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/416/947/headshots/original/f307080b69.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/416/947/headshots/medium/f307080b69.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/416/947/headshots/thumb/f307080b69.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/416/947/fanarts/original/09e0ae33aa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/416/947/fanarts/medium/09e0ae33aa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/416/947/fanarts/thumb/09e0ae33aa.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nAmy Meredith\
+          \ Poehler (born September 16, 1971 height 5' 2\\\" (1,57 m)) is an American\
+          \ comedian, actress and voice actress. She was a cast member on the NBC\
+          \ television entertainment show Saturday Night Live from 2001 to 2008. In\
+          \ 2004, she starred in the film Mean Girls with Tina Fey, with whom she\
+          \ worked again in Baby Mama in 2008. She is currently the lead of NBC's\
+          \ comedy Parks and Recreation. She has been nominated twice for the Primetime\
+          \ Emmy Award for Outstanding Supporting Actress in a Comedy Series for her\
+          \ performance on Saturday Night Live, and once for the Outstanding Lead\
+          \ Actress in a Comedy Series for her performance in Parks &amp; Recreation.\"\
+          ,\"birthday\":\"1971-09-16\",\"death\":null,\"birthplace\":\"Newton - Massachusetts\
+          \ - USA\",\"homepage\":\"\"}},{\"character\":\"Sadness (voice)\",\"person\"\
+          :{\"name\":\"Phyllis Smith\",\"ids\":{\"trakt\":445604,\"slug\":\"phyllis-smith-9ac964c4-1394-47b3-b510-28935379d160\"\
+          ,\"imdb\":\"nm0809613\",\"tmdb\":169200,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/445/604/headshots/original/00cad80586.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/445/604/headshots/medium/00cad80586.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/445/604/headshots/thumb/00cad80586.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nPhyllis Smith (born July\
+          \ 10, 1951) is an American film and television actress who is best known\
+          \ for playing Phyllis Lapin-Vance on The Office.\\n\\nDescription above\
+          \ from the Wikipedia article Phyllis Smith, licensed under CC-BY-SA, full\
+          \ list of contributors on Wikipedia.\",\"birthday\":\"1951-07-10\",\"death\"\
+          :null,\"birthplace\":\"Lemay, Missouri, U.S.\",\"homepage\":\"\"}},{\"character\"\
+          :\"Bing Bong (voice)\",\"person\":{\"name\":\"Richard Kind\",\"ids\":{\"\
+          trakt\":416644,\"slug\":\"richard-kind\",\"imdb\":\"nm0454236\",\"tmdb\"\
+          :21125,\"tvrage\":11009},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/416/644/headshots/original/3f067c4cba.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/416/644/headshots/medium/3f067c4cba.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/416/644/headshots/thumb/3f067c4cba.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/416/644/fanarts/original/4e140b37f1.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/416/644/fanarts/medium/4e140b37f1.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/416/644/fanarts/thumb/4e140b37f1.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nRichard John\
+          \ Kind (born November 22, 1956) is an American actor known for his roles\
+          \ in the sitcoms Mad About You (as Dr. Mark Devanow) and Spin City (as Paul\
+          \ Thomas Lassiter).\",\"birthday\":\"1956-11-22\",\"death\":null,\"birthplace\"\
+          :\"North Trenton - New Jersey - USA\",\"homepage\":\"\"}},{\"character\"\
+          :\"Fear (voice)\",\"person\":{\"name\":\"Bill Hader\",\"ids\":{\"trakt\"\
+          :17605,\"slug\":\"bill-hader\",\"imdb\":\"nm0352778\",\"tmdb\":19278,\"\
+          tvrage\":79974},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/017/605/headshots/original/cfb6a70dc5.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/017/605/headshots/medium/cfb6a70dc5.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/017/605/headshots/thumb/cfb6a70dc5.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/017/605/fanarts/original/8662ba2afa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/017/605/fanarts/medium/8662ba2afa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/017/605/fanarts/thumb/8662ba2afa.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nWilliam \\\
+          \"Bill\\\" Hader (born June 7, 1978 height 6' 1\\\" (1,85 m)) is an American\
+          \ actor, comedian, producer and writer. He is best known as a cast member\
+          \ on Saturday Night Live and for his supporting roles in comedy films such\
+          \ as Superbad, Hot Rod, Tropic Thunder and Adventureland.\\n\\nDescription\
+          \ above from the Wikipedia article Bill Hader, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1978-06-07\"\
+          ,\"death\":null,\"birthplace\":\"Tulsa - Oklahoma - USA\",\"homepage\":\"\
+          \"}},{\"character\":\"Anger (voice)\",\"person\":{\"name\":\"Lewis Black\"\
+          ,\"ids\":{\"trakt\":424182,\"slug\":\"lewis-black\",\"imdb\":\"nm0085400\"\
+          ,\"tmdb\":59258,\"tvrage\":34392},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/424/182/headshots/original/ef5e92a3e0.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/424/182/headshots/medium/ef5e92a3e0.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/424/182/headshots/thumb/ef5e92a3e0.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/424/182/fanarts/original/3fc0a634d3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/424/182/fanarts/medium/3fc0a634d3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/424/182/fanarts/thumb/3fc0a634d3.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nLewis Niles\
+          \ Black (born August 30, 1948) is an American stand-up comedian, author,\
+          \ playwright, social critic and actor. He is known for his comedy style,\
+          \ which often includes simulating a mental breakdown, or an increasingly\
+          \ angry rant, ridiculing history, politics, religion, trends and cultural\
+          \ phenomena. He hosted the Comedy Central series Lewis Black's Root of All\
+          \ Evil, and makes regular appearances on The Daily Show with Jon Stewart\
+          \ delivering his \u201CBack in Black\u201D commentary segment. When not\
+          \ on the road performing, he resides in Manhattan. He also maintains a residence\
+          \ in Chapel Hill, N.C. He is currently the spokesman for Aruba Tourism,\
+          \ appearing in television ads that aired in late 2009 and 2010. He was voted\
+          \ 51st of the 100 greatest stand-up comedians of all time by Comedy Central\
+          \ in 2004.\\n\\nDescription above from the Wikipedia article Lewis Black,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1948-08-30\",\"death\":null,\"birthplace\":\"Silver Spring,\
+          \ Maryland, U.S.A.\",\"homepage\":\"http://www.lewisblack.com/\"}},{\"character\"\
+          :\"Disgust (voice)\",\"person\":{\"name\":\"Mindy Kaling\",\"ids\":{\"trakt\"\
+          :433563,\"slug\":\"mindy-kaling\",\"imdb\":\"nm1411676\",\"tmdb\":125167,\"\
+          tvrage\":58452},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/433/563/headshots/original/96707ba283.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/433/563/headshots/medium/96707ba283.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/433/563/headshots/thumb/96707ba283.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/433/563/fanarts/original/3f6110d519.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/433/563/fanarts/medium/3f6110d519.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/433/563/fanarts/thumb/3f6110d519.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nVera Mindy\
+          \ Chokalingam (born June 24, 1979), better known as Mindy Kaling, is an\
+          \ American actress, comedian, writer and producer who plays Kelly Kapoor\
+          \ on the NBC sitcom The Office. Kaling is also a co-executive producer and\
+          \ writer of several of the show's episodes.\\n\\nDescription above from\
+          \ the Wikipedia article Mindy Kaling, licensed under CC-BY-SA, full list\
+          \ of contributors on Wikipedia.\",\"birthday\":\"1979-06-24\",\"death\"\
+          :null,\"birthplace\":\"Cambridge, Massachusetts, United States\",\"homepage\"\
+          :\"\"}},{\"character\":\"Riley (voice)\",\"person\":{\"name\":\"Kaitlyn\
+          \ Dias\",\"ids\":{\"trakt\":459578,\"slug\":\"kaitlyn-dias\",\"imdb\":\"\
+          nm4609731\",\"tmdb\":1371894,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/459/578/headshots/original/b7dc751a4b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/459/578/headshots/medium/b7dc751a4b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/459/578/headshots/thumb/b7dc751a4b.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Mom (voice)\",\"person\":{\"name\":\"Diane Lane\"\
+          ,\"ids\":{\"trakt\":412004,\"slug\":\"diane-lane\",\"imdb\":\"nm0000178\"\
+          ,\"tmdb\":2882,\"tvrage\":59355},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/412/004/headshots/original/51530d9320.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/412/004/headshots/medium/51530d9320.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/412/004/headshots/thumb/51530d9320.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/412/004/fanarts/original/8de9676860.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/412/004/fanarts/medium/8de9676860.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/412/004/fanarts/thumb/8de9676860.jpg\"\
+          }},\"biography\":\"Diane Lane (born January 22, 1965) is an American film\
+          \ actress. Born and raised in New York City, Lane made her screen debut\
+          \ at the age of 13 in George Roy Hill's 1979 film A Little Romance, starring\
+          \ opposite Sir Laurence Olivier. Soon after, she was featured on the cover\
+          \ of Time magazine. She has since appeared in several notable films, including\
+          \ the 2002 film Unfaithful, which earned her Academy Award, Golden Globes\
+          \ and Screen Actors Guild Award nominations. Lane has been married to actor\
+          \ Josh Brolin since 2004. She was previously married to actor Christopher\
+          \ Lambert from 1988 to 1994.\\n\\nDescription above from the Wikipedia article\
+          \ Diane Lane, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1965-01-22\",\"death\":null,\"birthplace\":\"New York City,\
+          \ New York, USA\",\"homepage\":\"\"}},{\"character\":\"Dad (voice)\",\"\
+          person\":{\"name\":\"Kyle MacLachlan\",\"ids\":{\"trakt\":414531,\"slug\"\
+          :\"kyle-maclachlan\",\"imdb\":\"nm0001492\",\"tmdb\":6677,\"tvrage\":31845},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/414/531/headshots/original/fd6924d265.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/531/headshots/medium/fd6924d265.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/531/headshots/thumb/fd6924d265.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/414/531/fanarts/original/d5530007e6.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/414/531/fanarts/medium/d5530007e6.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/414/531/fanarts/thumb/d5530007e6.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nKyle Merritt\
+          \ MacLachlan (/m\u0259\u02C8\u0261l\u0251\u02D0kl\u0259n/; born February\
+          \ 22, 1959) is an Americanactor. MacLachlan is best known for his roles\
+          \ in cult films such as Blue Velvet as Jeffrey Beaumont, The Hidden as Lloyd\
+          \ Gallagher, as Zack Carey in Showgirls and as Paul Atreides in Dune. He\
+          \ has also had prominent roles in television shows including appearing as\
+          \ Special Agent Dale Cooper in Twin Peaks, Trey MacDougal in Sex and the\
+          \ City, Orson Hodge in Desperate Housewives, The Captain in How I Met Your\
+          \ Mother, and as the Mayor of Portland in Portlandia.\\n\\nEarly life\\\
+          n\\nMacLachlan was born in Yakima, Washington. His mother, Catherine (n\xE9\
+          e Stone), was a public relations director, and his father, Kent Alan MacLachlan,\
+          \ was a stockbroker and lawyer. He has Scottish, Cornish and German ancestry.\
+          \ He has two younger brothers named Craig and Kent, both of whom live in\
+          \ the Pacific Northwest. MacLachlan graduated from Eisenhower High School\
+          \ in 1977. He graduated from the University of Washington in 1982 and, shortly\
+          \ afterward, moved to Hollywood, California to pursue his career.\",\"birthday\"\
+          :\"1959-02-22\",\"death\":null,\"birthplace\":\"Yakima - Washington - USA\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Forgetter Paula (voice)\",\"person\"\
+          :{\"name\":\"Paula Poundstone\",\"ids\":{\"trakt\":460266,\"slug\":\"paula-poundstone-ccc1f897-ac22-49f4-acd2-4085deb82781\"\
+          ,\"imdb\":null,\"tmdb\":196502,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/460/266/headshots/original/10dd53f95a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/460/266/headshots/medium/10dd53f95a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/460/266/headshots/thumb/10dd53f95a.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1959-12-29\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"character\":\"Forgetter Bobby (voice)\",\"person\"\
+          :{\"name\":\"Bobby Moynihan\",\"ids\":{\"trakt\":297806,\"slug\":\"bobby-moynihan\"\
+          ,\"imdb\":\"nm1293885\",\"tmdb\":452205,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/297/806/headshots/original/0348dffbb9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/297/806/headshots/medium/0348dffbb9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/297/806/headshots/thumb/0348dffbb9.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/297/806/fanarts/original/cc24e0b806.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/297/806/fanarts/medium/cc24e0b806.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/297/806/fanarts/thumb/cc24e0b806.jpg\"\
+          }},\"biography\":\"Bobby grew up in Eastchester, New York, where he attended\
+          \ Eastchester Public Schools. He was actively engaged in art but was no\
+          \ stranger to the stage, starring in such Eastchester Youth Council productions\
+          \ of Fiddler on the Roof and the Producers.\\n\\nYou may remember Bobby\
+          \ dancing in black tights from SNL's spoof of Beyoncee's \\\"Single Ladies\\\
+          \", but he had prior experience dancing in Eastchester Jazz Co. in High\
+          \ School.\\n\\nHe is now a regular Cast member of Saturday Night Live, and\
+          \ a (relatively) functional member of society.\",\"birthday\":\"1978-01-31\"\
+          ,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"\
+          Dream Director / Mom's Anger (voice)\",\"person\":{\"name\":\"Paula Pell\"\
+          ,\"ids\":{\"trakt\":475475,\"slug\":\"paula-pell\",\"imdb\":\"nm0996134\"\
+          ,\"tmdb\":1226294,\"tvrage\":47191},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/475/475/headshots/original/ff33ff24a8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/475/475/headshots/medium/ff33ff24a8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/475/475/headshots/thumb/ff33ff24a8.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Subconscious Guard Frank (voice)\",\"person\":{\"\
+          name\":\"Dave Goelz\",\"ids\":{\"trakt\":297686,\"slug\":\"dave-goelz\"\
+          ,\"imdb\":\"nm0324397\",\"tmdb\":64181,\"tvrage\":30480},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/297/686/headshots/original/f7d3f7ce7b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/297/686/headshots/medium/f7d3f7ce7b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/297/686/headshots/thumb/f7d3f7ce7b.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nDave Goelz (born July 16,\
+          \ 1946) is a puppeteer best-known for his association with The Muppets,\
+          \ and in particular with the Muppet character Gonzo. His other Muppet characters\
+          \ include Dr. Bunsen Honeydew, Zoot (the saxophonist of Dr. Teeth and The\
+          \ Electric Mayhem), Beauregard the janitor and Tiny (the humungous chicken\
+          \ in The Adventures of Elmo in Grouchland) . He also performed the characters\
+          \ of Boober Fraggle and Uncle Travelling Matt on Fraggle Rock. He also performed\
+          \ the puppetry for various characters, including Sir Didymus and Wiseman's\
+          \ Hat (both voiced by David Shaughnessy) in Labyrinth. Outside of Muppeteering,\
+          \ he is the current voice actor for the Disney character Figment. After\
+          \ Jim Henson died in 1990, Goelz took over puppeteering Waldorf in 1992.\\\
+          n\\nDescription above from the Wikipedia article Dave Goelz, licensed under\
+          \ CC-BY-SA, full list of contributors on Wikipedia .\",\"birthday\":\"1946-07-16\"\
+          ,\"death\":null,\"birthplace\":\"Burbank, California\",\"homepage\":\"\"\
+          }},{\"character\":\"Subconscious Guard Dave (voice)\",\"person\":{\"name\"\
+          :\"Frank Oz\",\"ids\":{\"trakt\":13470,\"slug\":\"frank-oz\",\"imdb\":\"\
+          nm0000568\",\"tmdb\":7908,\"tvrage\":35567},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/013/470/headshots/original/0ede58d615.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/013/470/headshots/medium/0ede58d615.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/013/470/headshots/thumb/0ede58d615.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nFrank Oz (born Richard Frank\
+          \ Oznowicz; May 25, 1944) is a British-born American film director, actor,\
+          \ voice actor and puppeteer who is known for creating and performing the\
+          \ characters Miss Piggy and Fozzie Bear in The Muppet Show and for directing\
+          \ films, including the 1986 Little Shop Of Horrors remake and Dirty Rotten\
+          \ Scoundrels. He is also the operator and voice of Yoda in the Star Wars\
+          \ series.\\n\\nDescription above from the Wikipedia article Frank Oz, licensed\
+          \ under CC-BY-SA, full list of contributors on Wikipedia .\",\"birthday\"\
+          :\"1944-05-25\",\"death\":null,\"birthplace\":\"Hereford, Herefordshire,\
+          \ England, United Kingdom \",\"homepage\":\"\"}},{\"character\":\"Jangles\
+          \ (voice)\",\"person\":{\"name\":\"Josh Cooley\",\"ids\":{\"trakt\":429431,\"\
+          slug\":\"josh-cooley\",\"imdb\":\"nm2155757\",\"tmdb\":84496,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/429/431/headshots/original/a974af41d8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/429/431/headshots/medium/a974af41d8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/429/431/headshots/thumb/a974af41d8.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}},{\"character\":\"Mind Worker Cop Jake (voice)\",\"person\":{\"name\"\
+          :\"Flea\",\"ids\":{\"trakt\":411542,\"slug\":\"flea-411542\",\"imdb\":\"\
+          nm0281359\",\"tmdb\":1237,\"tvrage\":48416},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/411/542/headshots/original/7ee2510c33.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/411/542/headshots/medium/7ee2510c33.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/411/542/headshots/thumb/7ee2510c33.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/411/542/fanarts/original/5a3a8c1534.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/411/542/fanarts/medium/5a3a8c1534.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/411/542/fanarts/thumb/5a3a8c1534.jpg\"\
+          }},\"biography\":\"\",\"birthday\":\"1962-10-16\",\"death\":null,\"birthplace\"\
+          :\"Melbourne, Victoria, Australia\",\"homepage\":\"\"}},{\"character\":\"\
+          Fritz (voice)\",\"person\":{\"name\":\"John Ratzenberger\",\"ids\":{\"trakt\"\
+          :191,\"slug\":\"john-ratzenberger\",\"imdb\":\"nm0001652\",\"tmdb\":7907,\"\
+          tvrage\":3388},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/000/191/headshots/original/9f837dcc33.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/191/headshots/medium/9f837dcc33.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/191/headshots/thumb/9f837dcc33.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/000/191/fanarts/original/41fae5a764.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/191/fanarts/medium/41fae5a764.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/191/fanarts/thumb/41fae5a764.jpg\"\
+          }},\"biography\":\"John Deszo Ratzenberger is an American actor, voice actor,\
+          \ and entrepreneur. He is best known for his role as Cliff Clavin in Cheers\
+          \ and his recurring supporting/minor cast roles in Pixar films.\",\"birthday\"\
+          :\"1947-04-06\",\"death\":null,\"birthplace\":\"Bridgeport - Connecticut\
+          \ - USA\",\"homepage\":\"http://ratzenberger.com/\"}},{\"character\":\"\
+          Helicopter Pilot / Additional Voices (voice)\",\"person\":{\"name\":\"Carlos\
+          \ Alazraqui\",\"ids\":{\"trakt\":423928,\"slug\":\"carlos-alazraqui\",\"\
+          imdb\":\"nm0016141\",\"tmdb\":59784,\"tvrage\":25992},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/423/928/headshots/original/28229ce85a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/423/928/headshots/medium/28229ce85a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/423/928/headshots/thumb/28229ce85a.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia\\n\\nCarlos Jaime Alazraqui (born\
+          \ July 20, 1962) is an American actor, stand-up comedian, impressionist\
+          \ and voice actor. He is best known for his role as Deputy James Garcia\
+          \ on the Comedy Central series Reno 911!. His voice-over work includes the\
+          \ role of Bobbi Fabulous on Phineas and Ferb, the Taco Bell chihuahua, Denzel\
+          \ Q. Crocker and Juandissimo Magnifico on The Fairly OddParents!, Rocko\
+          \ on Rocko's Modern Life, Lazlo in Camp Lazlo, and as Jonathan Weed on Family\
+          \ Guy.\\n\\nDescription above from the Wikipedia article Carlos Alazraqui,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1962-07-20\",\"death\":null,\"birthplace\":\"Sacramento, California,\
+          \ USA\",\"homepage\":\"http://www.carlosalazraqui.com/\"}},{\"character\"\
+          :\"Clown's Joy (voice)\",\"person\":{\"name\":\"Peter Sagal\",\"ids\":{\"\
+          trakt\":565556,\"slug\":\"peter-sagal\",\"imdb\":\"nm0755969\",\"tmdb\"\
+          :1531657,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/565/556/headshots/original/36c0023130.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/565/556/headshots/medium/36c0023130.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/565/556/headshots/thumb/36c0023130.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Cool Girl's Emotions (voice)\",\"person\":{\"name\"\
+          :\"Rashida Jones\",\"ids\":{\"trakt\":297717,\"slug\":\"rashida-jones\"\
+          ,\"imdb\":\"nm0429069\",\"tmdb\":80591,\"tvrage\":48829},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/297/717/headshots/original/d62dc9248c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/297/717/headshots/medium/d62dc9248c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/297/717/headshots/thumb/d62dc9248c.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/297/717/fanarts/original/df3ba1363c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/297/717/fanarts/medium/df3ba1363c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/297/717/fanarts/thumb/df3ba1363c.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nRashida Leah\
+          \ Jones (born February 25, 1976 height 5' 4\\\" (1,63 m)) is an American\
+          \ film and television actress, comic book author, screenwriter and occasional\
+          \ singer. She played Louisa Fenn on Boston Public and Karen Filippelli on\
+          \ The Office as well as roles in the films I Love You, Man and The Social\
+          \ Network. Jones currently appears on the NBC comedy series Parks and Recreation\
+          \ as Ann Perkins.\\n\\nShe also played Louisa Fenn on Fox TV's Boston Public\
+          \ and was a recurring cast member who portrayed Karen Filippelli on The\
+          \ Office. She has had numerous film roles, including in Our Idiot Brother,\
+          \ The Social Network, The Muppets, and I Love You, Man. She co-wrote the\
+          \ screenplay for Celeste and Jesse Forever (2012), in which she starred.\\\
+          n\\nJones had a 3\xBD year relationship with actor Tobey Maguire, ending\
+          \ in 2000. She became engaged to the Grammy Award-winning music producer\
+          \ Mark Ronson in February 2003. He proposed on her 27th birthday, using\
+          \ a custom-made crossword puzzle spelling out \\\"Will you marry me?\\\"\
+          \ Their relationship ended approximately one year later. In 2009 she was\
+          \ dating Jon Favreau, who had become the Director of Speechwriting for President\
+          \ Barack Obama.\\n\\nDescription above from the Wikipedia article Rashida\
+          \ Jones, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1976-02-25\",\"death\":null,\"birthplace\":\"Los Angeles\
+          \ - California - USA\",\"homepage\":\"\"}},{\"character\":\"Additional Voices\
+          \ (voice)\",\"person\":{\"name\":\"Lori Alan\",\"ids\":{\"trakt\":426211,\"\
+          slug\":\"lori-alan\",\"imdb\":\"nm0015935\",\"tmdb\":24358,\"tvrage\":26440},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/426/211/headshots/original/5ec8dc1fbd.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/426/211/headshots/medium/5ec8dc1fbd.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/426/211/headshots/thumb/5ec8dc1fbd.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nLori Alan (born July 18,\
+          \ 1966), sometimes credited as Lori Allen, is an American voice actress\
+          \ who provides the voice of news anchor Diane Simmons on Family Guy, various\
+          \ voices on Hey Arnold!, and SpongeBob SquarePants as Pearl.\\n\\nShe has\
+          \ also contributed voice work as \\\"The Boss\\\" in the videogame Metal\
+          \ Gear Solid 3: Snake Eater. Alan acted in one episode of Friends titled\
+          \ The One Where Monica Sings in Season 9. In addition to voice acting, she\
+          \ is also a stand up comedian.\",\"birthday\":\"1966-07-18\",\"death\":null,\"\
+          birthplace\":\"Potomac - Maryland - USA\",\"homepage\":\"\"}},{\"character\"\
+          :\"Additional Voices (voice)\",\"person\":{\"name\":\"Gregg Berger\",\"\
+          ids\":{\"trakt\":16266,\"slug\":\"gregg-berger\",\"imdb\":\"nm0074185\"\
+          ,\"tmdb\":19547,\"tvrage\":8971},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/016/266/headshots/original/f30f30ba75.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/016/266/headshots/medium/f30f30ba75.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/016/266/headshots/thumb/f30f30ba75.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nGreggory \\\"Gregg\\\" Berger\
+          \ (born December 10, 1950) is an American voice actor, who is known for\
+          \ his iconic role as Odie from the Garfield franchise. His other roles include\
+          \ Jecht from the Final Fantasy franchise, Grimlock from The Transformers,\
+          \ Odie from Garfield and Friends, Mysterio and Kraven the Hunter from Spider-Man,\
+          \ Agent Kay from Men in Black: The Series, The Gromble from Aaahh!!! Real\
+          \ Monsters, Captain Blue from Viewtiful Joe, Eeyore from Kingdom Hearts\
+          \ II, Hunter the Cheetah from Spyro The Dragon, and The Thing from Marvel:\
+          \ Ultimate Alliance.\\n\\nDescription above from the Wikipedia Gregg Berger\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1950-12-10\",\"death\":null,\"birthplace\":null,\"homepage\"\
+          :\"http://www.greggberger.com/index.html\"}},{\"character\":\"Additional\
+          \ Voices (voice)\",\"person\":{\"name\":\"Aurora Blue\",\"ids\":{\"trakt\"\
+          :571731,\"slug\":\"aurora-blue\",\"imdb\":null,\"tmdb\":1565450,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Veronika Bonell\",\"ids\":{\"trakt\":571732,\"slug\":\"veronika-bonell\"\
+          ,\"imdb\":null,\"tmdb\":1565451,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"Additional\
+          \ Voices (voice)\",\"person\":{\"name\":\"Lola Cooley\",\"ids\":{\"trakt\"\
+          :571733,\"slug\":\"lola-cooley\",\"imdb\":null,\"tmdb\":1565452,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"John Cygan\",\"ids\":{\"trakt\":427540,\"slug\":\"john-cygan\",\"imdb\"\
+          :\"nm0194201\",\"tmdb\":167295,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/427/540/headshots/original/c42bffdb2d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/427/540/headshots/medium/c42bffdb2d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/427/540/headshots/thumb/c42bffdb2d.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Dani Dare\",\"ids\":{\"trakt\":571734,\"slug\":\"dani-dare\",\"imdb\"\
+          :null,\"tmdb\":1565453,\"tvrage\":null},\"images\":{\"headshot\":{\"full\"\
+          :null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"character\":\"Additional Voices\
+          \ (voice)\",\"person\":{\"name\":\"Andrea Datzman\",\"ids\":{\"trakt\":571735,\"\
+          slug\":\"andrea-datzman\",\"imdb\":null,\"tmdb\":1565455,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          character\":\"Additional Voices (voice)\",\"person\":{\"name\":\"Ronnie\
+          \ del Carmen\",\"ids\":{\"trakt\":571736,\"slug\":\"ronnie-del-carmen-c5026595-baf8-4ef0-a76c-600235c05dd7\"\
+          ,\"imdb\":\"nm0215455\",\"tmdb\":1236458,\"tvrage\":130738},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":\"Ronnie del\
+          \ Carmen joined Pixar Animation Studios in the summer of 2000 during the\
+          \ production of \\\"Finding Nemo\\\" and became a story supervisor on the\
+          \ film. He did production design on the Academy Award\xAE-nominated short\
+          \ film, \\\"One Man Band\\\" and story work on Oscar\xAE-winning, \\\"Ratatouille.\\\
+          \" Del Carmen was Head of Story on Disney/Pixar's Academy Award winning\
+          \ feature, \\\"Up\\\" and is the co-director of Disney/Pixar's \\\"Inside\
+          \ Out.\\\"  Del Carmen also made his directorial debut with the short film\
+          \ \\\"Dug's Special Mission\\\" released on the \\\"Up\\\" DVD and Blu-Ray.\
+          \ In addition to his work on feature and short films he contributed his\
+          \ artistic talents to the illustrating the children's book, \\\"My Name\
+          \ is Dug,\\\" written by Kiki Thorpe.  Del Carmen attended the University\
+          \ of Santo Tomas in the Philippines, where he earned his Bachelor of Fine\
+          \ Arts in Advertising. Ronnie moved to the United States in 1989 and served\
+          \ as a storyboard artist for Batman: The Animated Series and then worked\
+          \ for DreamWorks, as a story supervisor.\",\"birthday\":\"1959-12-31\",\"\
+          death\":null,\"birthplace\":\"Philippines\",\"homepage\":\"\"}},{\"character\"\
+          :\"Additional Voices (voice)\",\"person\":{\"name\":\"Pete Docter\",\"ids\"\
+          :{\"trakt\":413525,\"slug\":\"pete-docter\",\"imdb\":\"nm0230032\",\"tmdb\"\
+          :12890,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/525/headshots/original/9c952141cc.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/525/headshots/medium/9c952141cc.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/525/headshots/thumb/9c952141cc.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia Peter Hans \\\"Pete\\\" Docter\
+          \ (born October 9, 1968) is an American film director, animator, and screenwriter\
+          \ from Bloomington, Minnesota. He is best known for directing the films\
+          \ Monsters, Inc. and Up, and as a key figure and collaborator in Pixar Animation\
+          \ Studios. The A. V. Club has called him \\\"almost universally successful\\\
+          \". He has been nominated for six Oscars (one win thus far for Up -- Best\
+          \ Animated Feature), three Annie Awards (winning two), a BAFTA Children's\
+          \ Film Award (which he won), and a Hochi Film Award (which he won). He has\
+          \ described himself as a \\\"geeky kid from Minnesota who likes to draw\
+          \ cartoons.\\\" He is now working on a top-secret project, that will be\
+          \ released in 2013 or 2014. He will not direct Monsters, Inc. 2. Description\
+          \ above from the Wikipedia article Pete Docter, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1968-10-09\"\
+          ,\"death\":null,\"birthplace\":\"Bloomington, Minnesota, USA\",\"homepage\"\
+          :\"\"}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Keith Ferguson\",\"ids\":{\"trakt\":428351,\"slug\":\"keith-ferguson\"\
+          ,\"imdb\":\"nm1584992\",\"tmdb\":143346,\"tvrage\":30476},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/428/351/headshots/original/2be3d61710.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/428/351/headshots/medium/2be3d61710.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/428/351/headshots/thumb/2be3d61710.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia Keith James Ferguson (born February\
+          \ 26, 1972) is an American voice actor, well known as the voice of Blooregard\
+          \ Q. Kazoo (or \\\"Bloo\\\" for short) on the Cartoon Network animated series\
+          \ Foster's Home for Imaginary Friends. He also provides a number of \\\"\
+          sound-alike\\\" portrayals in the VO industry including Harrison Ford's\
+          \ Han Solo and Indiana Jones in Robot Chicken and the voice of Lightning\
+          \ McQueen in Cars Toons: Mater's Tall Tales, filling in for Owen Wilson\
+          \ (while Wilson continues his portrayal of McQueen for the big screen in\
+          \ Cars 2). Description above from the Wikipedia article Keith Ferguson,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1972-02-26\",\"death\":null,\"birthplace\":\"Los Angeles, California,\
+          \ USA \",\"homepage\":\"\"}},{\"character\":\"Additional Voices (voice)\"\
+          ,\"person\":{\"name\":\"Tony Fucile\",\"ids\":{\"trakt\":63656,\"slug\"\
+          :\"tony-fucile\",\"imdb\":\"nm0297306\",\"tmdb\":1260745,\"tvrage\":146706},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/063/656/headshots/original/4f4a74f491.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/063/656/headshots/medium/4f4a74f491.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/063/656/headshots/thumb/4f4a74f491.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":null,\"death\":null,\"birthplace\":\" San Francisco,\
+          \ California, USA\",\"homepage\":\"\"}},{\"character\":\"Additional Voices\
+          \ (voice)\",\"person\":{\"name\":\"Mary Gibbs\",\"ids\":{\"trakt\":413504,\"\
+          slug\":\"mary-gibbs\",\"imdb\":\"nm0316701\",\"tmdb\":7905,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/504/headshots/original/eb397530c1.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/504/headshots/medium/eb397530c1.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/504/headshots/thumb/eb397530c1.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1996-01-01\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"character\":\"Additional Voices (voice)\",\"person\"\
+          :{\"name\":\"Randy Hahn\",\"ids\":{\"trakt\":571737,\"slug\":\"randy-hahn\"\
+          ,\"imdb\":null,\"tmdb\":1565456,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"Additional\
+          \ Voices (voice)\",\"person\":{\"name\":\"Carter Hastings\",\"ids\":{\"\
+          trakt\":456538,\"slug\":\"carter-hastings\",\"imdb\":\"nm5209463\",\"tmdb\"\
+          :1141501,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/456/538/headshots/original/d6b711e96e.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/456/538/headshots/medium/d6b711e96e.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/456/538/headshots/thumb/d6b711e96e.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Jacob Hopkins\",\"ids\":{\"trakt\":285145,\"slug\":\"jacob-hopkins\"\
+          ,\"imdb\":\"nm2624923\",\"tmdb\":969332,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"character\"\
+          :\"Additional Voices (voice)\",\"person\":{\"name\":\"Emma Hudak\",\"ids\"\
+          :{\"trakt\":571744,\"slug\":\"emma-hudak\",\"imdb\":null,\"tmdb\":1565457,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"character\":\"Additional Voices (voice)\",\"person\"\
+          :{\"name\":\"Evan Hudak\",\"ids\":{\"trakt\":571745,\"slug\":\"evan-hudak\"\
+          ,\"imdb\":null,\"tmdb\":1565458,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"Additional\
+          \ Voices (voice)\",\"person\":{\"name\":\"Dara Iruka\",\"ids\":{\"trakt\"\
+          :571746,\"slug\":\"dara-iruka\",\"imdb\":null,\"tmdb\":1565459,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Molly Jackson\",\"ids\":{\"trakt\":559134,\"slug\":\"molly-jackson\"\
+          ,\"imdb\":\"nm4422265\",\"tmdb\":1504904,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"character\"\
+          :\"Additional Voices (voice)\",\"person\":{\"name\":\"Daniella Jones\",\"\
+          ids\":{\"trakt\":571748,\"slug\":\"daniella-jones\",\"imdb\":null,\"tmdb\"\
+          :1565460,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"character\":\"Additional Voices (voice)\",\"\
+          person\":{\"name\":\"Sophia Lee Karadi\",\"ids\":{\"trakt\":571750,\"slug\"\
+          :\"sophia-lee-karadi\",\"imdb\":null,\"tmdb\":1565461,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          character\":\"Additional Voices (voice)\",\"person\":{\"name\":\"Elissa\
+          \ Knight\",\"ids\":{\"trakt\":425860,\"slug\":\"elissa-knight\",\"imdb\"\
+          :\"nm2264184\",\"tmdb\":72754,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/425/860/headshots/original/f24f131907.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/425/860/headshots/medium/f24f131907.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/425/860/headshots/thumb/f24f131907.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nElissa Knight is an American\
+          \ employee at Pixar Animation Studios and voice actress. As a voice actress,\
+          \ her first major role was in the 2008 film WALL-E as a robot named EVE.\\\
+          n\\nDescription above from the Wikipedia article Elissa Knight, licensed\
+          \ under CC-BY-SA, full list of contributors on Wikipedia.\",\"birthday\"\
+          :\"1975-04-15\",\"death\":null,\"birthplace\":\"Santa Cruz, California,\
+          \ USA\",\"homepage\":\"\"}},{\"character\":\"Additional Voices (voice)\"\
+          ,\"person\":{\"name\":\"Erik Langley\",\"ids\":{\"trakt\":524523,\"slug\"\
+          :\"erik-langley\",\"imdb\":\"nm2584273\",\"tmdb\":1443472,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          character\":\"Additional Voices (voice)\",\"person\":{\"name\":\"Dawnn Lewis\"\
+          ,\"ids\":{\"trakt\":421046,\"slug\":\"dawnn-lewis\",\"imdb\":\"nm0507097\"\
+          ,\"tmdb\":87819,\"tvrage\":3552},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/421/046/headshots/original/7b70a2452c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/421/046/headshots/medium/7b70a2452c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/421/046/headshots/thumb/7b70a2452c.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1961-08-13\",\"death\":null,\"birthplace\":\"Brooklyn\
+          \ - New York - USA\",\"homepage\":\"\"}},{\"character\":\"Additional Voices\
+          \ (voice)\",\"person\":{\"name\":\"Sherry Lynn\",\"ids\":{\"trakt\":413544,\"\
+          slug\":\"sherry-lynn\",\"imdb\":\"nm0528802\",\"tmdb\":214701,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/544/headshots/original/7dcce673ec.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/544/headshots/medium/7dcce673ec.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/544/headshots/thumb/7dcce673ec.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Tony Maki\",\"ids\":{\"trakt\":571755,\"slug\":\"tony-maki\",\"imdb\"\
+          :null,\"tmdb\":1565465,\"tvrage\":null},\"images\":{\"headshot\":{\"full\"\
+          :null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"character\":\"Additional Voices\
+          \ (voice)\",\"person\":{\"name\":\"Mona Marshall\",\"ids\":{\"trakt\":413547,\"\
+          slug\":\"mona-marshall\",\"imdb\":\"nm0551065\",\"tmdb\":111466,\"tvrage\"\
+          :34649},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/547/headshots/original/aef72bdc7c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/547/headshots/medium/aef72bdc7c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/547/headshots/thumb/aef72bdc7c.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia. Mona Marshall (born Mona Mortica\
+          \ Ianotti on August 31, 1947) is an American voice actress. She is often\
+          \ cast in the role of young boys. Her roles have included parts in not only\
+          \ Japanese anime, but also in American cartoons as well. Mona Marshall has\
+          \ recently lent her voice to the talking bear Koby the Study Buddy. Her\
+          \ most notable roles are that of playing Sheila Broflovski, Linda Stotch,\
+          \ and additional voices on the popular television show South Park as well\
+          \ as Kite, the main protagonist of the 2002 video game series .hack for\
+          \ PlayStation 2. In the 1990s, she provided the voice of the Native American\
+          \ princess in Young Pocahontas which was released on VHS March 15, 1995.\
+          \ Three months later, Disney's Pocahontas premiered in theaters.\\n\\nDescription\
+          \ above from the Wikipedia article Mona Marshall, licensed under CC-BY-SA,full\
+          \ list of contributors on Wikipedia.\",\"birthday\":\"1947-08-31\",\"death\"\
+          :null,\"birthplace\":\"Los Angeles, California, USA\",\"homepage\":\"\"\
+          }},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\":\"\
+          Laraine Newman\",\"ids\":{\"trakt\":413551,\"slug\":\"laraine-newman\",\"\
+          imdb\":\"nm0628170\",\"tmdb\":35159,\"tvrage\":4812},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/551/headshots/original/c4bffbd7d5.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/551/headshots/medium/c4bffbd7d5.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/551/headshots/thumb/c4bffbd7d5.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Laraine Newman is an American comedienne, actress, and writer, and was\
+          \ part of the original Saturday Night Live cast.\",\"birthday\":\"1952-03-02\"\
+          ,\"death\":null,\"birthplace\":\"Los Angeles, California, USA\",\"homepage\"\
+          :\"\"}},{\"character\":\"Additional Voices (voice) (as Bret Parker)\",\"\
+          person\":{\"name\":\"Bret 'Brook' Parker\",\"ids\":{\"trakt\":413554,\"\
+          slug\":\"bret-brook-parker-6078f5b4-9bd0-40ed-94af-75120c484787\",\"imdb\"\
+          :\"nm0662088\",\"tmdb\":7998,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/413/554/headshots/original/ff90d01f5c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/554/headshots/medium/ff90d01f5c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/554/headshots/thumb/ff90d01f5c.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :\"\"}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Paula Pell\",\"ids\":{\"trakt\":475475,\"slug\":\"paula-pell\",\"imdb\"\
+          :\"nm0996134\",\"tmdb\":1226294,\"tvrage\":47191},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/475/475/headshots/original/ff33ff24a8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/475/475/headshots/medium/ff33ff24a8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/475/475/headshots/thumb/ff33ff24a8.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Nick Pitera\",\"ids\":{\"trakt\":571756,\"slug\":\"nick-pitera\",\"imdb\"\
+          :null,\"tmdb\":1565467,\"tvrage\":null},\"images\":{\"headshot\":{\"full\"\
+          :null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"character\":\"Additional Voices\
+          \ (voice)\",\"person\":{\"name\":\"Phil Proctor\",\"ids\":{\"trakt\":413555,\"\
+          slug\":\"phil-proctor-413555\",\"imdb\":\"nm0698413\",\"tmdb\":61969,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/555/headshots/original/2753a6b67a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/555/headshots/medium/2753a6b67a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/555/headshots/thumb/2753a6b67a.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1940-07-28\",\"death\":null,\"birthplace\":\"\",\"\
+          homepage\":\"\"}},{\"character\":\"Additional Voices (voice)\",\"person\"\
+          :{\"name\":\"Murray Pearl Schaeffer\",\"ids\":{\"trakt\":571757,\"slug\"\
+          :\"murray-pearl-schaeffer\",\"imdb\":null,\"tmdb\":1565470,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          character\":\"Additional Voices (voice)\",\"person\":{\"name\":\"Patrick\
+          \ Seitz\",\"ids\":{\"trakt\":188736,\"slug\":\"patrick-seitz\",\"imdb\"\
+          :\"nm1365137\",\"tmdb\":939345,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"Additional\
+          \ Voices (voice)\",\"person\":{\"name\":\"Paris Van Dyke\",\"ids\":{\"trakt\"\
+          :482494,\"slug\":\"paris-van-dyke\",\"imdb\":\"nm5336046\",\"tmdb\":1406892,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/482/494/headshots/original/ecb0ea08d6.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/482/494/headshots/medium/ecb0ea08d6.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/482/494/headshots/thumb/ecb0ea08d6.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"James Kevin Ward\",\"ids\":{\"trakt\":281660,\"slug\":\"james-kevin-ward\"\
+          ,\"imdb\":null,\"tmdb\":1008380,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"Additional\
+          \ Voices (voice)\",\"person\":{\"name\":\"Lennon Wynn\",\"ids\":{\"trakt\"\
+          :255993,\"slug\":\"lennon-wynn\",\"imdb\":\"nm3186285\",\"tmdb\":1098034,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/255/993/headshots/original/ff65551865.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/255/993/headshots/medium/ff65551865.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/255/993/headshots/thumb/ff65551865.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice)\",\"person\":{\"name\"\
+          :\"Dash Zamm\",\"ids\":{\"trakt\":567531,\"slug\":\"dash-zamm\",\"imdb\"\
+          :null,\"tmdb\":1565480,\"tvrage\":null},\"images\":{\"headshot\":{\"full\"\
+          :null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"\
+          birthplace\":null,\"homepage\":null}},{\"character\":\"Additional Voices\
+          \ (voice) (uncredited)\",\"person\":{\"name\":\"Bob Bergen\",\"ids\":{\"\
+          trakt\":413516,\"slug\":\"bob-bergen\",\"imdb\":\"nm0074036\",\"tmdb\":78317,\"\
+          tvrage\":29235},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/516/headshots/original/7017e49233.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/516/headshots/medium/7017e49233.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/516/headshots/thumb/7017e49233.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nRobert \\\"Bob\\\" Bergen\
+          \ (born March 8, 1964) is an American voice actor. He is the current voice\
+          \ of Porky Pig (having performed the character in Tiny Toon Adventures,\
+          \ Space Jam, Looney Tunes: Back in Action, and the Duck Dodgers TV show),\
+          \ and formerly hosted Jep!, a kids' version of the popular game show Jeopardy!\\\
+          n\\nBergen was born in St. Louis, Missouri. He is also responsible for the\
+          \ voice of Lupin the Third for the Streamline Pictures dubs in the late\
+          \ 1980s and early 1990s. Bob Bergen has played Lupin the Third in: Mystery\
+          \ of Mamo (directed by Soji Yoshikawa), The Castle of Cagliostro (directed\
+          \ by Hayao Miyazaki) and Lupin the Third's Greatest Capers (2 TV episodes\
+          \ from Series Two directed by Hayao Miyazaki). He also played the part of\
+          \ No-Face in the 2001 academy award winning movie Spirited Away and Kai\
+          \ and Masaru in the anime classic Akira.\\n\\nHe is also one of the announcers\
+          \ on Disney Channel and voices Bucky the squirrel in The Emperor's New School.\\\
+          n\\nHe is also responsible for the voice of Luke Skywalker in over a dozen\
+          \ Star Wars video games as well as Robot Chicken's Star Wars Episode I and\
+          \ Star Wars Episode II Specials. He also provided the voice of Wembley and\
+          \ the World's Oldest Fraggle from Fraggle Rock (animated). Bergen was selected\
+          \ to play the animated versions of Dr. Bunsen Honeydew and Link Hogthrob\
+          \ in the ill-fated Little Muppet Monsters and also voiced characters of\
+          \ the day in the 1987-1989 seasons of Jim Henson's Muppet Babies\\n\\nHe\
+          \ was the voice of Comet for the highly successful, 'The Santa Clause',\
+          \ 'The Santa Clause 2', and 'The Santa Clause 3: The Escape Clause'.\\n\\\
+          nDescription above from the Wikipedia article Bob Bergen, licensed under\
+          \ CC-BY-SA, full list of contributors on Wikipedia.\",\"birthday\":\"1964-03-08\"\
+          ,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"\
+          Additional Voices (voice) (uncredited)\",\"person\":{\"name\":\"Teresa Ganzel\"\
+          ,\"ids\":{\"trakt\":413537,\"slug\":\"teresa-ganzel\",\"imdb\":\"nm0304679\"\
+          ,\"tmdb\":117081,\"tvrage\":34936},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/413/537/headshots/original/cac0c781e8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/537/headshots/medium/cac0c781e8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/537/headshots/thumb/cac0c781e8.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nTeresa Ganzel (born March\
+          \ 23, 1957, Toledo, Ohio) is an actress, comedienne, and cartoon voice-over\
+          \ actress.\\n\\nDescription above from the Wikipedia article Teresa Ganzel,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1957-03-23\",\"death\":null,\"birthplace\":\"Toledo, Ohio\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Additional Voices (voice) (uncredited)\"\
+          ,\"person\":{\"name\":\"Jess Harnell\",\"ids\":{\"trakt\":422714,\"slug\"\
+          :\"jess-harnell\",\"imdb\":\"nm0363641\",\"tmdb\":84495,\"tvrage\":10868},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/422/714/headshots/original/abba06145b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/422/714/headshots/medium/abba06145b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/422/714/headshots/thumb/abba06145b.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nJess Q. Harnell (born December\
+          \ 23, 1963) is an American voice actor and singer, best known for voicing\
+          \ Wakko Warner on Animaniacs and Hunter on Road Rovers. Harnell has been\
+          \ the announcer for America's Funniest Home Videos since 1998.\\n\\nDescription\
+          \ above from the Wikipedia article Jess Harnell, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1963-12-23\"\
+          ,\"death\":null,\"birthplace\":\"Teaneck, New Jersey, USA\",\"homepage\"\
+          :\"\"}},{\"character\":\"Additional Voices (voice) (uncredited)\",\"person\"\
+          :{\"name\":\"Danny Mann\",\"ids\":{\"trakt\":413546,\"slug\":\"danny-mann-564f4462-90d7-45e0-8b30-6a6d11506ae9\"\
+          ,\"imdb\":\"nm0542706\",\"tmdb\":52699,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/546/headshots/original/aca9b4f892.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/546/headshots/medium/aca9b4f892.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/546/headshots/thumb/aca9b4f892.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.  Daniel \\\"Danny\\\" Mann is\
+          \ an American voice actor, writer, singer, musician, and production manager.\
+          \ He is best known for his voice of Hector from Heathcliff and the Catillac\
+          \ Cats, Freeway, Cloudraker and Lightspeed in Transformers, Backwoods Beagle\
+          \ in DuckTales, Kaltag in Balto, Ferdinand from Babe, and Serge in Open\
+          \ Season, Open Season 2, and as Serge and Kevin the porcupine Open Season\
+          \ 3.\\n\\nDescription above from the Wikipedia article Danny Mann, licensed\
+          \ under CC-BY-SA,full list of contributors on Wikipedia.\",\"birthday\"\
+          :\"1951-07-28\",\"death\":null,\"birthplace\":\"\",\"homepage\":null}},{\"\
+          character\":\"Additional Voices (voice) (uncredited)\",\"person\":{\"name\"\
+          :\"Mickie McGowan\",\"ids\":{\"trakt\":413549,\"slug\":\"mickie-mcgowan\"\
+          ,\"imdb\":\"nm0569680\",\"tmdb\":84493,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/549/headshots/original/730de351e7.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/549/headshots/medium/730de351e7.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/549/headshots/thumb/730de351e7.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}},{\"character\":\"Additional Voices (voice) (uncredited)\",\"person\"\
+          :{\"name\":\"Jan Rabson\",\"ids\":{\"trakt\":413560,\"slug\":\"jan-rabson\"\
+          ,\"imdb\":\"nm0705014\",\"tmdb\":157626,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/560/headshots/original/e4c75056b0.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/560/headshots/medium/e4c75056b0.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/560/headshots/thumb/e4c75056b0.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}}],\"crew\":{\"production\":[{\"job\":\"Executive Producer\",\"person\"\
+          :{\"name\":\"Andrew Stanton\",\"ids\":{\"trakt\":112,\"slug\":\"andrew-stanton\"\
+          ,\"imdb\":\"nm0004056\",\"tmdb\":7,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/000/112/headshots/original/00a8c83b18.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/112/headshots/medium/00a8c83b18.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/112/headshots/thumb/00a8c83b18.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nAndrew Stanton (born December\
+          \ 3, 1965) is an American film director, screenwriter, producer, and occasional\
+          \ voice actor based at Pixar Animation Studios. His film work includes writing\
+          \ and directing Finding Nemo and WALL-E; both films earned him the Academy\
+          \ Award for Best Animated Feature.\\n\\nDescription above from the Wikipedia\
+          \ article Andrew Stanton, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1958-01-13\",\"death\":null,\"birthplace\"\
+          :\"Boston, Massachusetts, USA\",\"homepage\":\"\"}},{\"job\":\"Executive\
+          \ Producer\",\"person\":{\"name\":\"John Lasseter\",\"ids\":{\"trakt\":228,\"\
+          slug\":\"john-lasseter\",\"imdb\":\"nm0005124\",\"tmdb\":7879,\"tvrage\"\
+          :114720},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/000/228/headshots/original/0d5d489523.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/228/headshots/medium/0d5d489523.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/228/headshots/thumb/0d5d489523.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia\\n\\nJohn Alan Lasseter (born January\
+          \ 12, 1957) is an American animator, director and the chief creative officer\
+          \ at Pixar and Walt Disney Animation Studios. He is also currently the Principal\
+          \ Creative Advisor for Walt Disney Imagineering.\\n\\nLasseter's first job\
+          \ was with The Walt Disney Company, where he became an animator. Next, he\
+          \ joined Lucasfilm, where he worked on the then-groundbreaking use of CGI\
+          \ animation. After Lucasfilm became Pixar in 1986, Lasseter oversaw all\
+          \ of Pixar's films and associated projects as executive producer and he\
+          \ directed Toy Story, A Bug's Life, Toy Story 2, Cars, \\\"Toy Story 3\\\
+          \" and \\\"Cars 2\\\"\\n\\nHe has won two Academy Awards, for Animated Short\
+          \ Film (Tin Toy), as well as a Special Achievement Award (Toy Story).\\\
+          n\\nDescription above from the Wikipedia article John Lasseter, licensed\
+          \ under CC-BY-SA, full list of contributors on Wikipedia.\",\"birthday\"\
+          :\"1957-01-12\",\"death\":null,\"birthplace\":\"Hollywood, California, US\"\
+          ,\"homepage\":\"\"}},{\"job\":\"Producer\",\"person\":{\"name\":\"Jonas\
+          \ Rivera\",\"ids\":{\"trakt\":6453,\"slug\":\"jonas-rivera\",\"imdb\":\"\
+          nm0729304\",\"tmdb\":7940,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Associate Producer\"\
+          ,\"person\":{\"name\":\"Mark Nielsen\",\"ids\":{\"trakt\":6774,\"slug\"\
+          :\"mark-nielsen\",\"imdb\":\"nm0630923\",\"tmdb\":8103,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          job\":\"Casting\",\"person\":{\"name\":\"Kevin Reher\",\"ids\":{\"trakt\"\
+          :43528,\"slug\":\"kevin-reher\",\"imdb\":\"nm0716816\",\"tmdb\":57673,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"\
+          homepage\":null}},{\"job\":\"Casting\",\"person\":{\"name\":\"Natalie Lyon\"\
+          ,\"ids\":{\"trakt\":142315,\"slug\":\"natalie-lyon\",\"imdb\":\"nm2925260\"\
+          ,\"tmdb\":963497,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Casting\",\"person\":{\"name\":\"Mickie\
+          \ McGowan\",\"ids\":{\"trakt\":413549,\"slug\":\"mickie-mcgowan\",\"imdb\"\
+          :\"nm0569680\",\"tmdb\":84493,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/549/headshots/original/730de351e7.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/549/headshots/medium/730de351e7.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/549/headshots/thumb/730de351e7.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}}],\"crew\":[{\"job\":\"Additional Dialogue\",\"person\":{\"name\"\
+          :\"Bob Peterson\",\"ids\":{\"trakt\":121,\"slug\":\"bob-peterson\",\"imdb\"\
+          :\"nm0677037\",\"tmdb\":10,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/000/121/headshots/original/5275fc2fa1.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/121/headshots/medium/5275fc2fa1.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/121/headshots/thumb/5275fc2fa1.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/000/121/fanarts/original/5f050b74ef.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/121/fanarts/medium/5f050b74ef.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/121/fanarts/thumb/5f050b74ef.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nRobert \\\
+          \"Bob\\\" Peterson (born\\r\\nJanuary 1961) is an American animator, screenwriter,\
+          \ director and\\r\\nvoice actor, who has worked for Pixar since 1994. His\
+          \ first job was\\r\\nworking as a layout artist and animator on Toy Story.\
+          \ He was\\r\\nnominated for an Oscar for his screenplay for Finding Nemo.\
+          \ Peterson\\r\\nis a co-director and the writer of Up, which gained him\
+          \ his second\\r\\nOscar nomination. He also performed the voices of Roz\
+          \ in Monsters,\\r\\nInc., Mr. Ray in Finding Nemo, Dug the dog and Alpha\
+          \ the dog in Up[1]\\r\\nand in Dug's Special Mission, and the Janitor in\
+          \ Toy Story 3.  Peterson  was born in Wooster, Ohio, his family moved to\
+          \ Dover,\\r\\nOhio, where he graduated from Dover High School. He received\
+          \ his\\r\\nundergraduate degree from Ohio Northern University, and a Master's\\\
+          r\\ndegree in mechanical engineering from Purdue University in 1986.\\r\\\
+          nWhile attending Purdue, he wrote and illustrated the comic strip Loco\\\
+          r\\nMotives for the Purdue Exponent. Prior to coming to Pixar, Peterson\\\
+          r\\nworked at Wavefront Technologies and Rezn8 Productions.  In 2008,  Peterson\
+          \ played the part of Terry Cane, a puppeteer in\\r\\nDan Scanlon's first\
+          \ feature film Tracy. He also played additional\\r\\nvoices in Tokyo Mater\
+          \ in 2008, and the voice of Mr. Ray for the\\r\\nFinding Nemo Submarine\
+          \ Voyage ride at Disneyland Park in 2007.  His most  recent job at Pixar\
+          \ was voicing the Janitor at Sunnyside\\r\\nDaycare Center in Pixar's 11th\
+          \ film, Toy Story 3, which was released\\r\\non June 18, 2010.\\n\\nDescription\
+          \ above from the Wikipedia article Bob  Peterson\\r\\n(animator), licensed\
+          \ under CC-BY-SA, full list of contributors on\\r\\nWikipedia.\",\"birthday\"\
+          :\"1961-01-18\",\"death\":null,\"birthplace\":\"Wooster, Ohio, USA\",\"\
+          homepage\":\"\"}},{\"job\":\"Additional Writing\",\"person\":{\"name\":\"\
+          Michael Arndt\",\"ids\":{\"trakt\":9128,\"slug\":\"michael-arndt\",\"imdb\"\
+          :\"nm1578335\",\"tmdb\":16961,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/009/128/headshots/original/db1881ddac.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/009/128/headshots/medium/db1881ddac.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/009/128/headshots/thumb/db1881ddac.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\u200BFrom Wikipedia, the free encyclopedia. \_\\n\\nMichael Arndt is\
+          \ an American screenwriter. After graduating from New York University, Arndt\
+          \ was a script reader for some time before choosing to write screenplays\
+          \ instead. He is best known for his first produced screenplay Little Miss\
+          \ Sunshine, for which he received multiple awards including the Academy\
+          \ Award for Best Original Screenplay. Arndt also best known for his second\
+          \ screenplay from the film Toy Story 3, for which he also received multiple\
+          \ awards and nominations including nomination for the Academy Award for\
+          \ Best Adapted Screenplay. This making Arndt the first ever screenwriter\
+          \ to be nominated for both Academy Award for Best Original Screenplay and\
+          \ Best Adapted Screenplay for his first two screenplays.\\n\\nDescription\
+          \ above from the Wikipedia article\_Michael Arndt\_, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":\"\"}},{\"job\":\"Thanks\",\"person\"\
+          :{\"name\":\"Tom McCarthy\",\"ids\":{\"trakt\":12630,\"slug\":\"tom-mccarthy-12630\"\
+          ,\"imdb\":\"nm0565336\",\"tmdb\":17867,\"tvrage\":51210},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/012/630/headshots/original/72fbd804ca.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/012/630/headshots/medium/72fbd804ca.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/012/630/headshots/thumb/72fbd804ca.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/012/630/fanarts/original/47b99e9842.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/012/630/fanarts/medium/47b99e9842.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/012/630/fanarts/thumb/47b99e9842.jpg\"\
+          }},\"biography\":\"Thomas Joseph McCarthy (born 1966) is an American actor,\
+          \ writer, and film director who has appeared in several movies, including\
+          \ Meet the Parents and Good Night, and Good Luck, and television shows such\
+          \ as The Wire, Boston Public, Law &amp; Order, and the Hallmark Hall of\
+          \ Fame presentation of Saint Maybe. McCarthy has received critical acclaim\
+          \ for his writing/direction work for the independent films The Station Agent,\
+          \ The Visitor, and Win Win. He currently resides in Manhattan. He is the\
+          \ silent partner in a chain of successful Papaya Dogs throughout the greater\
+          \ metropolitan area.\\n\\nDescription above from the Wikipedia article Thomas\
+          \ McCarthy (actor), licensed under CC-BY-SA, full list of contributors on\
+          \ Wikipedia.\",\"birthday\":\"1966-01-30\",\"death\":null,\"birthplace\"\
+          :\"New Jersey, USA\",\"homepage\":\"\"}},{\"job\":\"Additional Dialogue\"\
+          ,\"person\":{\"name\":\"Bill Hader\",\"ids\":{\"trakt\":17605,\"slug\":\"\
+          bill-hader\",\"imdb\":\"nm0352778\",\"tmdb\":19278,\"tvrage\":79974},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/017/605/headshots/original/cfb6a70dc5.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/017/605/headshots/medium/cfb6a70dc5.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/017/605/headshots/thumb/cfb6a70dc5.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/017/605/fanarts/original/8662ba2afa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/017/605/fanarts/medium/8662ba2afa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/017/605/fanarts/thumb/8662ba2afa.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nWilliam \\\
+          \"Bill\\\" Hader (born June 7, 1978 height 6' 1\\\" (1,85 m)) is an American\
+          \ actor, comedian, producer and writer. He is best known as a cast member\
+          \ on Saturday Night Live and for his supporting roles in comedy films such\
+          \ as Superbad, Hot Rod, Tropic Thunder and Adventureland.\\n\\nDescription\
+          \ above from the Wikipedia article Bill Hader, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1978-06-07\"\
+          ,\"death\":null,\"birthplace\":\"Tulsa - Oklahoma - USA\",\"homepage\":\"\
+          \"}},{\"job\":\"Thanks\",\"person\":{\"name\":\"Lindsey Collins\",\"ids\"\
+          :{\"trakt\":51057,\"slug\":\"lindsey-collins\",\"imdb\":\"nm0172491\",\"\
+          tmdb\":72753,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :\"\",\"homepage\":null}},{\"job\":\"Thanks\",\"person\":{\"name\":\"Rashida\
+          \ Jones\",\"ids\":{\"trakt\":297717,\"slug\":\"rashida-jones\",\"imdb\"\
+          :\"nm0429069\",\"tmdb\":80591,\"tvrage\":48829},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/297/717/headshots/original/d62dc9248c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/297/717/headshots/medium/d62dc9248c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/297/717/headshots/thumb/d62dc9248c.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/297/717/fanarts/original/df3ba1363c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/297/717/fanarts/medium/df3ba1363c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/297/717/fanarts/thumb/df3ba1363c.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nRashida Leah\
+          \ Jones (born February 25, 1976 height 5' 4\\\" (1,63 m)) is an American\
+          \ film and television actress, comic book author, screenwriter and occasional\
+          \ singer. She played Louisa Fenn on Boston Public and Karen Filippelli on\
+          \ The Office as well as roles in the films I Love You, Man and The Social\
+          \ Network. Jones currently appears on the NBC comedy series Parks and Recreation\
+          \ as Ann Perkins.\\n\\nShe also played Louisa Fenn on Fox TV's Boston Public\
+          \ and was a recurring cast member who portrayed Karen Filippelli on The\
+          \ Office. She has had numerous film roles, including in Our Idiot Brother,\
+          \ The Social Network, The Muppets, and I Love You, Man. She co-wrote the\
+          \ screenplay for Celeste and Jesse Forever (2012), in which she starred.\\\
+          n\\nJones had a 3\xBD year relationship with actor Tobey Maguire, ending\
+          \ in 2000. She became engaged to the Grammy Award-winning music producer\
+          \ Mark Ronson in February 2003. He proposed on her 27th birthday, using\
+          \ a custom-made crossword puzzle spelling out \\\"Will you marry me?\\\"\
+          \ Their relationship ended approximately one year later. In 2009 she was\
+          \ dating Jon Favreau, who had become the Director of Speechwriting for President\
+          \ Barack Obama.\\n\\nDescription above from the Wikipedia article Rashida\
+          \ Jones, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1976-02-25\",\"death\":null,\"birthplace\":\"Los Angeles\
+          \ - California - USA\",\"homepage\":\"\"}},{\"job\":\"Additional Dialogue\"\
+          ,\"person\":{\"name\":\"Amy Poehler\",\"ids\":{\"trakt\":416947,\"slug\"\
+          :\"amy-poehler\",\"imdb\":\"nm0688132\",\"tmdb\":56322,\"tvrage\":32986},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/416/947/headshots/original/f307080b69.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/416/947/headshots/medium/f307080b69.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/416/947/headshots/thumb/f307080b69.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/416/947/fanarts/original/09e0ae33aa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/416/947/fanarts/medium/09e0ae33aa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/416/947/fanarts/thumb/09e0ae33aa.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nAmy Meredith\
+          \ Poehler (born September 16, 1971 height 5' 2\\\" (1,57 m)) is an American\
+          \ comedian, actress and voice actress. She was a cast member on the NBC\
+          \ television entertainment show Saturday Night Live from 2001 to 2008. In\
+          \ 2004, she starred in the film Mean Girls with Tina Fey, with whom she\
+          \ worked again in Baby Mama in 2008. She is currently the lead of NBC's\
+          \ comedy Parks and Recreation. She has been nominated twice for the Primetime\
+          \ Emmy Award for Outstanding Supporting Actress in a Comedy Series for her\
+          \ performance on Saturday Night Live, and once for the Outstanding Lead\
+          \ Actress in a Comedy Series for her performance in Parks &amp; Recreation.\"\
+          ,\"birthday\":\"1971-09-16\",\"death\":null,\"birthplace\":\"Newton - Massachusetts\
+          \ - USA\",\"homepage\":\"\"}},{\"job\":\"Thanks\",\"person\":{\"name\":\"\
+          Lorne Michaels\",\"ids\":{\"trakt\":422195,\"slug\":\"lorne-michaels\",\"\
+          imdb\":\"nm0584427\",\"tmdb\":56158,\"tvrage\":69012},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/422/195/headshots/original/e04bf48adf.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/422/195/headshots/medium/e04bf48adf.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/422/195/headshots/thumb/e04bf48adf.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1944-11-17\",\"death\":null,\"birthplace\":\"\",\"\
+          homepage\":null}},{\"job\":\"Other\",\"person\":{\"name\":\"Roger Gould\"\
+          ,\"ids\":{\"trakt\":428129,\"slug\":\"roger-gould\",\"imdb\":\"nm1246888\"\
+          ,\"tmdb\":74142,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/428/129/headshots/original/520a71a789.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/428/129/headshots/medium/520a71a789.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/428/129/headshots/thumb/520a71a789.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Roger Gould is known for his work on Up (2009), Brave (2012) and Monsters\
+          \ University (2013). Formerly Head of the Animated Short Films Department\
+          \ at Pixar Animation Studios. Now Creative Director of Pixar's Theme Parks\
+          \ group working on Pixar inspired attractions at Disney Theme Parks worldwide.\"\
+          ,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\":\"\"\
+          }},{\"job\":\"Thanks\",\"person\":{\"name\":\"John Mulaney\",\"ids\":{\"\
+          trakt\":447236,\"slug\":\"john-mulaney-2442cc63-b8fa-46eb-a9fe-921ac148f708\"\
+          ,\"imdb\":\"nm1825214\",\"tmdb\":933558,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/447/236/headshots/original/3e0fff0011.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/447/236/headshots/medium/3e0fff0011.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/447/236/headshots/thumb/3e0fff0011.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/447/236/fanarts/original/ca7b5e29f9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/447/236/fanarts/medium/ca7b5e29f9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/447/236/fanarts/thumb/ca7b5e29f9.jpg\"\
+          }},\"biography\":\"\",\"birthday\":\"1982-08-26\",\"death\":null,\"birthplace\"\
+          :\"Chicago - Illinois - United States\",\"homepage\":\"\"}},{\"job\":\"\
+          Additional Writing\",\"person\":{\"name\":\"Simon Rich\",\"ids\":{\"trakt\"\
+          :547046,\"slug\":\"simon-rich\",\"imdb\":\"nm2919995\",\"tmdb\":1267186,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}}],\"visual effects\":[{\"job\":\"Animation\",\"person\"\
+          :{\"name\":\"Ricky Nierva\",\"ids\":{\"trakt\":6499,\"slug\":\"ricky-nierva\"\
+          ,\"imdb\":\"nm0631235\",\"tmdb\":7927,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":\"\",\"homepage\":\"\"}},{\"job\":\"Visual Effects\"\
+          ,\"person\":{\"name\":\"Andrew Jimenez\",\"ids\":{\"trakt\":45080,\"slug\"\
+          :\"andrew-jimenez\",\"imdb\":\"nm1285750\",\"tmdb\":59362,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\":null}},{\"\
+          job\":\"Visual Effects Supervisor\",\"person\":{\"name\":\"Bob Whitehill\"\
+          ,\"ids\":{\"trakt\":346840,\"slug\":\"bob-whitehill\",\"imdb\":\"nm1661131\"\
+          ,\"tmdb\":1299484,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Animation\",\"person\":{\"name\":\"\
+          Shad Bradbury\",\"ids\":{\"trakt\":537034,\"slug\":\"shad-bradbury\",\"\
+          imdb\":null,\"tmdb\":1455596,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Animation\",\"\
+          person\":{\"name\":\"Nelson 'Rey' Bohol\",\"ids\":{\"trakt\":545168,\"slug\"\
+          :\"nelson-rey-bohol\",\"imdb\":\"nm1715797\",\"tmdb\":1463239,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}}],\"camera\":[{\"job\":\"Director of Photography\",\"person\":{\"\
+          name\":\"Patrick Lin\",\"ids\":{\"trakt\":45083,\"slug\":\"patrick-lin\"\
+          ,\"imdb\":\"nm0510936\",\"tmdb\":7975,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}}],\"directing\":[{\"job\":\"\
+          Director\",\"person\":{\"name\":\"Ronaldo Del Carmen\",\"ids\":{\"trakt\"\
+          :87182,\"slug\":\"ronaldo-del-carmen\",\"imdb\":null,\"tmdb\":225987,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Director\",\"person\":{\"name\":\"Pete Docter\"\
+          ,\"ids\":{\"trakt\":413525,\"slug\":\"pete-docter\",\"imdb\":\"nm0230032\"\
+          ,\"tmdb\":12890,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/525/headshots/original/9c952141cc.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/525/headshots/medium/9c952141cc.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/525/headshots/thumb/9c952141cc.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia Peter Hans \\\"Pete\\\" Docter\
+          \ (born October 9, 1968) is an American film director, animator, and screenwriter\
+          \ from Bloomington, Minnesota. He is best known for directing the films\
+          \ Monsters, Inc. and Up, and as a key figure and collaborator in Pixar Animation\
+          \ Studios. The A. V. Club has called him \\\"almost universally successful\\\
+          \". He has been nominated for six Oscars (one win thus far for Up -- Best\
+          \ Animated Feature), three Annie Awards (winning two), a BAFTA Children's\
+          \ Film Award (which he won), and a Hochi Film Award (which he won). He has\
+          \ described himself as a \\\"geeky kid from Minnesota who likes to draw\
+          \ cartoons.\\\" He is now working on a top-secret project, that will be\
+          \ released in 2013 or 2014. He will not direct Monsters, Inc. 2. Description\
+          \ above from the Wikipedia article Pete Docter, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1968-10-09\"\
+          ,\"death\":null,\"birthplace\":\"Bloomington, Minnesota, USA\",\"homepage\"\
+          :\"\"}}],\"writing\":[{\"job\":\"Story\",\"person\":{\"name\":\"Pete Docter\"\
+          ,\"ids\":{\"trakt\":413525,\"slug\":\"pete-docter\",\"imdb\":\"nm0230032\"\
+          ,\"tmdb\":12890,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/525/headshots/original/9c952141cc.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/525/headshots/medium/9c952141cc.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/525/headshots/thumb/9c952141cc.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia Peter Hans \\\"Pete\\\" Docter\
+          \ (born October 9, 1968) is an American film director, animator, and screenwriter\
+          \ from Bloomington, Minnesota. He is best known for directing the films\
+          \ Monsters, Inc. and Up, and as a key figure and collaborator in Pixar Animation\
+          \ Studios. The A. V. Club has called him \\\"almost universally successful\\\
+          \". He has been nominated for six Oscars (one win thus far for Up -- Best\
+          \ Animated Feature), three Annie Awards (winning two), a BAFTA Children's\
+          \ Film Award (which he won), and a Hochi Film Award (which he won). He has\
+          \ described himself as a \\\"geeky kid from Minnesota who likes to draw\
+          \ cartoons.\\\" He is now working on a top-secret project, that will be\
+          \ released in 2013 or 2014. He will not direct Monsters, Inc. 2. Description\
+          \ above from the Wikipedia article Pete Docter, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1968-10-09\"\
+          ,\"death\":null,\"birthplace\":\"Bloomington, Minnesota, USA\",\"homepage\"\
+          :\"\"}},{\"job\":\"Screenplay\",\"person\":{\"name\":\"Pete Docter\",\"\
+          ids\":{\"trakt\":413525,\"slug\":\"pete-docter\",\"imdb\":\"nm0230032\"\
+          ,\"tmdb\":12890,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/525/headshots/original/9c952141cc.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/525/headshots/medium/9c952141cc.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/525/headshots/thumb/9c952141cc.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia Peter Hans \\\"Pete\\\" Docter\
+          \ (born October 9, 1968) is an American film director, animator, and screenwriter\
+          \ from Bloomington, Minnesota. He is best known for directing the films\
+          \ Monsters, Inc. and Up, and as a key figure and collaborator in Pixar Animation\
+          \ Studios. The A. V. Club has called him \\\"almost universally successful\\\
+          \". He has been nominated for six Oscars (one win thus far for Up -- Best\
+          \ Animated Feature), three Annie Awards (winning two), a BAFTA Children's\
+          \ Film Award (which he won), and a Hochi Film Award (which he won). He has\
+          \ described himself as a \\\"geeky kid from Minnesota who likes to draw\
+          \ cartoons.\\\" He is now working on a top-secret project, that will be\
+          \ released in 2013 or 2014. He will not direct Monsters, Inc. 2. Description\
+          \ above from the Wikipedia article Pete Docter, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1968-10-09\"\
+          ,\"death\":null,\"birthplace\":\"Bloomington, Minnesota, USA\",\"homepage\"\
+          :\"\"}},{\"job\":\"Screenplay\",\"person\":{\"name\":\"Josh Cooley\",\"\
+          ids\":{\"trakt\":429431,\"slug\":\"josh-cooley\",\"imdb\":\"nm2155757\"\
+          ,\"tmdb\":84496,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/429/431/headshots/original/a974af41d8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/429/431/headshots/medium/a974af41d8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/429/431/headshots/thumb/a974af41d8.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}},{\"job\":\"Screenplay\",\"person\":{\"name\":\"Meg LeFauve\",\"\
+          ids\":{\"trakt\":538446,\"slug\":\"meg-lefauve\",\"imdb\":\"nm0498834\"\
+          ,\"tmdb\":1457025,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Original Story\",\"person\":{\"name\"\
+          :\"Ronnie del Carmen\",\"ids\":{\"trakt\":571736,\"slug\":\"ronnie-del-carmen-c5026595-baf8-4ef0-a76c-600235c05dd7\"\
+          ,\"imdb\":\"nm0215455\",\"tmdb\":1236458,\"tvrage\":130738},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":\"Ronnie del\
+          \ Carmen joined Pixar Animation Studios in the summer of 2000 during the\
+          \ production of \\\"Finding Nemo\\\" and became a story supervisor on the\
+          \ film. He did production design on the Academy Award\xAE-nominated short\
+          \ film, \\\"One Man Band\\\" and story work on Oscar\xAE-winning, \\\"Ratatouille.\\\
+          \" Del Carmen was Head of Story on Disney/Pixar's Academy Award winning\
+          \ feature, \\\"Up\\\" and is the co-director of Disney/Pixar's \\\"Inside\
+          \ Out.\\\"  Del Carmen also made his directorial debut with the short film\
+          \ \\\"Dug's Special Mission\\\" released on the \\\"Up\\\" DVD and Blu-Ray.\
+          \ In addition to his work on feature and short films he contributed his\
+          \ artistic talents to the illustrating the children's book, \\\"My Name\
+          \ is Dug,\\\" written by Kiki Thorpe.  Del Carmen attended the University\
+          \ of Santo Tomas in the Philippines, where he earned his Bachelor of Fine\
+          \ Arts in Advertising. Ronnie moved to the United States in 1989 and served\
+          \ as a storyboard artist for Batman: The Animated Series and then worked\
+          \ for DreamWorks, as a story supervisor.\",\"birthday\":\"1959-12-31\",\"\
+          death\":null,\"birthplace\":\"Philippines\",\"homepage\":\"\"}}],\"art\"\
+          :[{\"job\":\"Production Design\",\"person\":{\"name\":\"Ralph Eggleston\"\
+          ,\"ids\":{\"trakt\":413574,\"slug\":\"ralph-eggleston\",\"imdb\":\"nm0250995\"\
+          ,\"tmdb\":7883,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/574/headshots/original/533e8a4f69.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/574/headshots/medium/533e8a4f69.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/574/headshots/thumb/533e8a4f69.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Conceptual Design\",\"person\":{\"name\":\"Kevin Dart\"\
+          ,\"ids\":{\"trakt\":451337,\"slug\":\"kevin-dart\",\"imdb\":null,\"tmdb\"\
+          :1393208,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"job\":\"Art Direction\",\"person\":{\"name\"\
+          :\"Bert Berry\",\"ids\":{\"trakt\":558024,\"slug\":\"bert-berry\",\"imdb\"\
+          :\"nm1653631\",\"tmdb\":1516157,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}}],\"sound\":[{\"job\":\"Original\
+          \ Music Composer\",\"person\":{\"name\":\"Michael Giacchino\",\"ids\":{\"\
+          trakt\":415255,\"slug\":\"michael-giacchino\",\"imdb\":\"nm0315974\",\"\
+          tmdb\":15347,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/415/255/headshots/original/73e1caa732.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/415/255/headshots/medium/73e1caa732.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/415/255/headshots/thumb/73e1caa732.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1967-10-10\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Foley\",\"person\":{\"name\":\"Thom Brennan\"\
+          ,\"ids\":{\"trakt\":561037,\"slug\":\"thom-brennan\",\"imdb\":\"nm0005597\"\
+          ,\"tmdb\":1478854,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}}],\"editing\":[{\"job\":\"Color Timer\",\"person\"\
+          :{\"name\":\"Mark Dinicola\",\"ids\":{\"trakt\":533487,\"slug\":\"mark-dinicola\"\
+          ,\"imdb\":\"nm2349572\",\"tmdb\":1451703,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Editor\",\"person\":{\"name\":\"Kevin Nolting\",\"ids\":{\"trakt\":558023,\"\
+          slug\":\"kevin-nolting\",\"imdb\":\"nm0634530\",\"tmdb\":1516156,\"tvrage\"\
+          :null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}}]}}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb800a311189-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:11 GMT']
+        ETag: [W/"75e669b12494ce94a71c404995bf0761"]
+        Expires: ['Mon, 09 May 2016 01:14:11 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=d6130cc1e2a5a25001c2fa06646bee5231462742051; expires=Mon,
+            08-May-17 21:14:11 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [9d1f401c-0d06-4e22-9c4f-6215b478b68c]
+        X-Runtime: ['1.849233']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -144,22 +1326,22 @@ interactions:
       body: {string: '[{"plays":1,"last_watched_at":"2015-06-19T00:00:00.000Z","movie":{"title":"Inside
           Out","year":2015,"ids":{"trakt":98998,"slug":"inside-out-2015","imdb":"tt2096673","tmdb":150540}}}]'}
       headers:
-        CF-RAY: [29de238999600106-DFW]
+        CF-RAY: [29ffeb8513b70932-DFW]
         Cache-Control: ['max-age=0, private, must-revalidate']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"9bfc893700145af3619e47a6b51a1884"]
-        Last-Modified: ['Wed, 04 May 2016 07:23:41 GMT']
+        Date: ['Sun, 08 May 2016 21:14:12 GMT']
+        ETag: [W/"6f730ef9c3a73efb3271bf6ea20c8152"]
+        Last-Modified: ['Sun, 08 May 2016 19:14:45 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=d838a1e432739068cf812da5c14fb10591462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=dae573c2f7d7d25c18488cff282eb4b251462742052; expires=Mon,
+            08-May-17 21:14:12 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
         X-Private-User: ['false']
-        X-Request-Id: [bffcacd7-9023-4ca6-9df1-b3e659c2b866]
-        X-Runtime: ['0.021392']
+        X-Request-Id: [7619ea45-30d7-48a8-adc7-f12a0ab6cd84]
+        X-Runtime: ['0.144496']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -169,9 +1351,9 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?query=The+Matrix&type=movie&year=1999
+      uri: https://api-v2launch.trakt.tv/search?type=movie&query=The+Matrix&year=1999
     response:
-      body: {string: "[{\"type\":\"movie\",\"score\":69.41414,\"movie\":{\"title\"\
+      body: {string: "[{\"type\":\"movie\",\"score\":69.680214,\"movie\":{\"title\"\
           :\"The Matrix\",\"overview\":\"Thomas A. Anderson is a man living two lives.\
           \ By day he is an average computer programmer and by night a malevolent\
           \ hacker known as Neo, who finds himself targeted by the police when he\
@@ -184,7 +1366,7 @@ interactions:
           ,\"medium\":\"https://walter.trakt.us/images/movies/000/000/481/fanarts/medium/c556867276.jpg\"\
           ,\"thumb\":\"https://walter.trakt.us/images/movies/000/000/481/fanarts/thumb/c556867276.jpg\"\
           }},\"ids\":{\"trakt\":481,\"slug\":\"the-matrix-1999\",\"imdb\":\"tt0133093\"\
-          ,\"tmdb\":603}}},{\"type\":\"movie\",\"score\":55.53131,\"movie\":{\"title\"\
+          ,\"tmdb\":603}}},{\"type\":\"movie\",\"score\":55.744175,\"movie\":{\"title\"\
           :\"Making The Matrix\",\"overview\":\"A promotional making-of documentary\
           \ for the film Matrix, The (1999) that devotes its time to explaining the\
           \ digital and practical effects contained in the film. This is very interesting,\
@@ -196,7 +1378,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/movies/000/205/793/posters/thumb/9680ca459a.jpg\"\
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":205793,\"slug\":\"making-the-matrix-1999\",\"imdb\":\"tt0365467\"\
-          ,\"tmdb\":325251}}},{\"type\":\"movie\",\"score\":51.44303,\"movie\":{\"\
+          ,\"tmdb\":325251}}},{\"type\":\"movie\",\"score\":51.6862,\"movie\":{\"\
           title\":\"V-World Matrix\",\"overview\":\"Two friends take a cyber vacation\
           \ to experience a world where they can act out their virtual fantasies!\
           \ They soon realize they've entered a virtual free-for-all. Forbidden fantasies\
@@ -209,7 +1391,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/movies/000/158/764/posters/thumb/b5bd19302a.jpg\"\
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":158764,\"slug\":\"v-world-matrix-1969\",\"imdb\":\"tt0211096\",\"\
-          tmdb\":259464}}},{\"type\":\"movie\",\"score\":4.763437,\"movie\":{\"title\"\
+          tmdb\":259464}}},{\"type\":\"movie\",\"score\":4.7304688,\"movie\":{\"title\"\
           :\"The Tricky Master\",\"overview\":\"Undercover cop Leung Foon (Nick Cheung)\
           \ is having trouble taking down the illegal trading operation headed by\
           \ crime boss Ferrari (Wong Jing). So to accomplish his mission, he asks\
@@ -224,7 +1406,7 @@ interactions:
           ,\"medium\":\"https://walter.trakt.us/images/movies/000/037/624/fanarts/medium/de31c092f7.jpg\"\
           ,\"thumb\":\"https://walter.trakt.us/images/movies/000/037/624/fanarts/thumb/de31c092f7.jpg\"\
           }},\"ids\":{\"trakt\":37624,\"slug\":\"the-tricky-master-1999\",\"imdb\"\
-          :\"tt0212864\",\"tmdb\":53281}}},{\"type\":\"movie\",\"score\":0.6872574,\"\
+          :\"tt0212864\",\"tmdb\":53281}}},{\"type\":\"movie\",\"score\":0.68444455,\"\
           movie\":{\"title\":\"Superstar\",\"overview\":\"Inspired by Yves Klein\u2019\
           s Leap into the Void (1960), Superstar was commissioned by Creative Time\
           \ to be presented on the Jumbotron screen in Times Square, New York City.\
@@ -236,17 +1418,17 @@ interactions:
           :null,\"medium\":null,\"thumb\":null}},\"ids\":{\"trakt\":226862,\"slug\"\
           :\"superstar-1999-03-03\",\"imdb\":\"\",\"tmdb\":385552}}}]"}
       headers:
-        CF-Cache-Status: [HIT]
-        CF-RAY: [29de238b9620261d-DFW]
+        CF-Cache-Status: [MISS]
+        CF-RAY: [29ffeb880e6e03dc-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"e110064850f1a0e9f0d1c6176f45e21e"]
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
+        Date: ['Sun, 08 May 2016 21:14:13 GMT']
+        ETag: [W/"dc4ee84486de338b430a5dd6ab1456e7"]
+        Expires: ['Mon, 09 May 2016 01:14:13 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=dff34b6afe729091e233aa4be8e14aed31462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=d2f0b426614cb54ff1297e0e4b7cf02731462742053; expires=Mon,
+            08-May-17 21:14:13 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -254,15 +1436,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [1a1b4639-58f9-4156-99f8-762df8a55429]
-        X-Runtime: ['0.024084']
+        X-Request-Id: [a8aae78f-9cf1-433d-887d-97b6978150c5]
+        X-Runtime: ['0.023690']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=dff34b6afe729091e233aa4be8e14aed31462387831]
+        Cookie: [__cfduid=d2f0b426614cb54ff1297e0e4b7cf02731462742053]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -273,23 +1455,571 @@ interactions:
           By day he is an average computer programmer and by night a malevolent hacker
           known as Neo, who finds himself targeted by the police when he is contacted
           by Morpheus, a legendary computer hacker, who reveals the shocking truth
-          about our reality.","released":"1999-03-30","runtime":136,"trailer":null,"homepage":"http://www.warnerbros.com/movies/home-entertainment/the-matrix/37313ac7-9229-474d-a423-44b7a6bc1a54.html","rating":8.92215,"votes":19961,"updated_at":"2016-05-01T08:47:35.000Z","language":"en","available_translations":["en","de","es","cs","ru","fr","pt","hu","da","zh","it","tr","nl","sv","fi","ja","pl","mk","sk","he","no","el","bg","th","ko","uk","ro","sr","id","fa","bs"],"genres":["action","adventure","science-fiction","thriller"],"certification":"R","images":{"fanart":{"full":"https://walter.trakt.us/images/movies/000/000/481/fanarts/original/c556867276.jpg","medium":"https://walter.trakt.us/images/movies/000/000/481/fanarts/medium/c556867276.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/481/fanarts/thumb/c556867276.jpg"},"poster":{"full":"https://walter.trakt.us/images/movies/000/000/481/posters/original/373310d2ee.jpg","medium":"https://walter.trakt.us/images/movies/000/000/481/posters/medium/373310d2ee.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/481/posters/thumb/373310d2ee.jpg"},"logo":{"full":"https://walter.trakt.us/images/movies/000/000/481/logos/original/f5e05ed291.png"},"clearart":{"full":"https://walter.trakt.us/images/movies/000/000/481/cleararts/original/2326f6588d.png"},"banner":{"full":"https://walter.trakt.us/images/movies/000/000/481/banners/original/cd678b64e4.jpg"},"thumb":{"full":"https://walter.trakt.us/images/movies/000/000/481/thumbs/original/0a391c9cc8.jpg"}}}'}
+          about our reality.","released":"1999-03-30","runtime":136,"trailer":"http://youtube.com/watch?v=m8e-FF8MsqU","homepage":"http://www.warnerbros.com/movies/home-entertainment/the-matrix/37313ac7-9229-474d-a423-44b7a6bc1a54.html","rating":8.92184,"votes":20010,"updated_at":"2016-05-07T09:00:00.000Z","language":"en","available_translations":["en","de","es","cs","ru","fr","pt","hu","da","zh","it","tr","nl","sv","fi","ja","pl","mk","sk","he","no","el","bg","th","ko","uk","ro","sr","id","fa","bs"],"genres":["action","adventure","science-fiction","thriller"],"certification":"R","images":{"fanart":{"full":"https://walter.trakt.us/images/movies/000/000/481/fanarts/original/c556867276.jpg","medium":"https://walter.trakt.us/images/movies/000/000/481/fanarts/medium/c556867276.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/481/fanarts/thumb/c556867276.jpg"},"poster":{"full":"https://walter.trakt.us/images/movies/000/000/481/posters/original/373310d2ee.jpg","medium":"https://walter.trakt.us/images/movies/000/000/481/posters/medium/373310d2ee.jpg","thumb":"https://walter.trakt.us/images/movies/000/000/481/posters/thumb/373310d2ee.jpg"},"logo":{"full":"https://walter.trakt.us/images/movies/000/000/481/logos/original/f5e05ed291.png"},"clearart":{"full":"https://walter.trakt.us/images/movies/000/000/481/cleararts/original/2326f6588d.png"},"banner":{"full":"https://walter.trakt.us/images/movies/000/000/481/banners/original/cd678b64e4.jpg"},"thumb":{"full":"https://walter.trakt.us/images/movies/000/000/481/thumbs/original/0a391c9cc8.jpg"}}}'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de238c0626261d-DFW]
+        CF-RAY: [29ffeb89ce8903dc-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"839c412c457d52634cf714692bc10e07"]
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
-        Last-Modified: ['Sun, 01 May 2016 08:47:35 GMT']
+        Date: ['Sun, 08 May 2016 21:14:13 GMT']
+        ETag: [W/"b9654002e3aba022a8b0e54c0e6e4f02"]
+        Expires: ['Mon, 09 May 2016 01:14:13 GMT']
+        Last-Modified: ['Sat, 07 May 2016 09:00:00 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [9aa48160-a3ee-4b67-b681-bbf209702c89]
-        X-Runtime: ['0.032518']
+        X-Request-Id: [9edb24ee-7f78-4f77-b91d-44c6123024de]
+        X-Runtime: ['0.058909']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/movies/481/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Neo\",\"person\":{\"name\":\"Keanu\
+          \ Reeves\",\"ids\":{\"trakt\":7134,\"slug\":\"keanu-reeves\",\"imdb\":\"\
+          nm0000206\",\"tmdb\":6384,\"tvrage\":19449},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/007/134/headshots/original/88d0ee35f6.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/007/134/headshots/medium/88d0ee35f6.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/007/134/headshots/thumb/88d0ee35f6.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/007/134/fanarts/original/6a31c3ef56.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/007/134/fanarts/medium/6a31c3ef56.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/007/134/fanarts/thumb/6a31c3ef56.jpg\"\
+          }},\"biography\":\"Keanu Charles Reeves is a Canadian actor. Reeves is known\
+          \ for his roles in Bill &amp; Ted's Excellent Adventure, Speed, Point Break,\
+          \ and The Matrix trilogy as Neo. He has collaborated with major directors\
+          \ such as Stephen Frears (in the 1988 period drama Dangerous Liaisons);\
+          \ Gus Van Sant (in the 1991 independent film My Own Private Idaho); and\
+          \ Bernardo Bertolucci (in the 1993 film Little Buddha). Referring to his\
+          \ 1991 film releases, The New York Times' critic, Janet Maslin, praised\
+          \ Reeves' versatility, saying that he \\\"displays considerable discipline\
+          \ and range. He moves easily between the buttoned-down demeanor that suits\
+          \ a police procedural story and the loose-jointed manner of his comic roles.\\\
+          \" A repeated theme in roles he has portrayed is that of saving the world,\
+          \ including the characters of Ted Logan, Buddha, Neo, Johnny Mnemonic, John\
+          \ Constantine and Klaatu.\",\"birthday\":\"1964-09-02\",\"death\":null,\"\
+          birthplace\":\"Beirut, Lebanon\",\"homepage\":\"\"}},{\"character\":\"Morpheus\"\
+          ,\"person\":{\"name\":\"Laurence Fishburne\",\"ids\":{\"trakt\":551,\"slug\"\
+          :\"laurence-fishburne\",\"imdb\":\"nm0000401\",\"tmdb\":2975,\"tvrage\"\
+          :58899},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/000/551/headshots/original/d807b72a19.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/551/headshots/medium/d807b72a19.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/551/headshots/thumb/d807b72a19.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/000/551/fanarts/original/3911e0f422.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/551/fanarts/medium/3911e0f422.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/551/fanarts/thumb/3911e0f422.jpg\"\
+          }},\"biography\":\"Laurence John Fishburne III (born July 30, 1961) is an\
+          \ American actor of screen and stage, as well as a playwright, director,\
+          \ and producer. He is perhaps best known for his roles as Morpheus in the\
+          \ Matrix science fiction film trilogy and as singer-musician Ike Turner\
+          \ in the Tina Turner biopic What's Love Got to Do With It. He became the\
+          \ first African-American to portray Othello in a motion picture by a major\
+          \ studio when he appeared in Oliver Parker's 1995 film adaption of the Shakespeare\
+          \ play. Fishburne has won a Tony Award for Best Featured Actor in a Play\
+          \ for his performance in Two Trains Running (1992) and an Emmy Award for\
+          \ Drama Series Guest Actor for his performance in TriBeCa (1993).\\n\\nFishburne\u2019\
+          s first marriage was to actress to Hajna O. Moss. They had two children\
+          \ together: a son, Langston and a daughter, Montana. Fishburne is now married\
+          \ to actress Gina Torres. They live in Hollywood with their daughter Delilah.\"\
+          ,\"birthday\":\"1961-07-30\",\"death\":null,\"birthplace\":\"Augusta, Georgia,\
+          \ United States\",\"homepage\":\"http://www.laurence-fishburne.com/\"}},{\"\
+          character\":\"Trinity\",\"person\":{\"name\":\"Carrie-Anne Moss\",\"ids\"\
+          :{\"trakt\":5274,\"slug\":\"carrie-anne-moss\",\"imdb\":\"nm0005251\",\"\
+          tmdb\":530,\"tvrage\":30031},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/005/274/headshots/original/5622ad45c5.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/005/274/headshots/medium/5622ad45c5.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/005/274/headshots/thumb/5622ad45c5.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/005/274/fanarts/original/242c858fcc.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/005/274/fanarts/medium/242c858fcc.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/005/274/fanarts/thumb/242c858fcc.jpg\"\
+          }},\"biography\":\"Carrie-Anne Moss (born August 21, 1967) is a Canadian\
+          \ actress,\\n\\nbest known for her role of Trinity in The Matrix trilogy\
+          \ of films beginning with The Matrix (1999), her breakthrough film. She\
+          \ has starred in the films Memento and Chocolat (both 2000), Snow Cake (2006),\
+          \ Disturbia (2007) and Unthinkable (2010).\\n\\nDescription above from the\
+          \ Wikipedia article Carrie-Anne Moss, licensed under CC-BY-SA, full list\
+          \ of contributors on Wikipedia.\",\"birthday\":\"1967-08-21\",\"death\"\
+          :null,\"birthplace\":\"Burnaby, British Columbia, Canada\",\"homepage\"\
+          :\"\"}},{\"character\":\"Agent Smith\",\"person\":{\"name\":\"Hugo Weaving\"\
+          ,\"ids\":{\"trakt\":16499,\"slug\":\"hugo-weaving\",\"imdb\":\"nm0915989\"\
+          ,\"tmdb\":1331,\"tvrage\":165660},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/016/499/headshots/original/8bf03df29c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/016/499/headshots/medium/8bf03df29c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/016/499/headshots/thumb/8bf03df29c.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/016/499/fanarts/original/c0ad7ea552.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/016/499/fanarts/medium/c0ad7ea552.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/016/499/fanarts/thumb/c0ad7ea552.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nHugo Wallace\
+          \ Weaving (born 4 April 1960) is a British-Australian film and stage actor.\
+          \ He is best known for his roles as Agent Smith in the Matrix trilogy, Elrond\
+          \ in the Lord of the Rings trilogy, \\\"V\\\" in V for Vendetta, and performances\
+          \ in numerous Australian character dramas.\\n\\nDescription above from the\
+          \ Wikipedia article Hugo Weaving, licensed under CC-BY-SA, full list of\
+          \ contributors on Wikipedia.\",\"birthday\":\"1960-04-04\",\"death\":null,\"\
+          birthplace\":\"Ibadan, Nigeria\",\"homepage\":\"\"}},{\"character\":\"Oracle\"\
+          ,\"person\":{\"name\":\"Gloria Foster\",\"ids\":{\"trakt\":413616,\"slug\"\
+          :\"gloria-foster\",\"imdb\":\"nm0287825\",\"tmdb\":9364,\"tvrage\":33201},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/616/headshots/original/e06c731406.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/616/headshots/medium/e06c731406.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/616/headshots/thumb/e06c731406.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1933-11-15\",\"death\":\"2001-09-29\",\"birthplace\"\
+          :null,\"homepage\":null}},{\"character\":\"Cypher\",\"person\":{\"name\"\
+          :\"Joe Pantoliano\",\"ids\":{\"trakt\":294554,\"slug\":\"joe-pantoliano\"\
+          ,\"imdb\":\"nm0001592\",\"tmdb\":532,\"tvrage\":10693},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/294/554/headshots/original/a36bea230a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/294/554/headshots/medium/a36bea230a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/294/554/headshots/thumb/a36bea230a.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/294/554/fanarts/original/6c353577dd.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/294/554/fanarts/medium/6c353577dd.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/294/554/fanarts/thumb/6c353577dd.jpg\"\
+          }},\"biography\":\"Joseph Peter \\\"Joe\\\" Pantoliano (born September 12,\
+          \ 1951) is an American film and television actor. He played the character\
+          \ of Ralph Cifaretto on The Sopranos, Bob Keane in La Bamba, Cypher in The\
+          \ Matrix, Teddy in Memento, Francis Fratelli in The Goonies, Guido \\\"\
+          the Killer Pimp\\\" in Risky Business, and Jennifer Tilly's violent mobster\
+          \ boyfriend, Caesar, in Bound. He also played US Marshall Renfro in both\
+          \ The Fugitive and U.S. Marshals. He is often referred to as \\\"Joey Pants\\\
+          \", due to the difficulty some have pronouncing his Italian surname.\\n\\\
+          nDescription above from the Wikipedia article Joe Pantoliano, licensed under\
+          \ CC-BY-SA, full list of contributors on Wikipedia.\",\"birthday\":\"1951-09-12\"\
+          ,\"death\":null,\"birthplace\":\"Hoboken - New Jersey - USA\",\"homepage\"\
+          :\"\"}},{\"character\":\"Tank\",\"person\":{\"name\":\"Marcus Chong\",\"\
+          ids\":{\"trakt\":413619,\"slug\":\"marcus-chong\",\"imdb\":\"nm0159059\"\
+          ,\"tmdb\":9372,\"tvrage\":33610},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/619/headshots/original/9873d052ea.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/619/headshots/medium/9873d052ea.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/619/headshots/thumb/9873d052ea.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1967-07-08\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"character\":\"Apoc\",\"person\":{\"name\":\"Julian\
+          \ Arahanga\",\"ids\":{\"trakt\":413207,\"slug\":\"julian-arahanga\",\"imdb\"\
+          :\"nm0032810\",\"tmdb\":7244,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/413/207/headshots/original/df212c6beb.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/207/headshots/medium/df212c6beb.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/207/headshots/thumb/df212c6beb.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Mouse\",\"person\":{\"name\":\"Matt Doran\",\"\
+          ids\":{\"trakt\":413621,\"slug\":\"matt-doran\",\"imdb\":\"nm0233391\",\"\
+          tmdb\":9374,\"tvrage\":30260},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/621/headshots/original/35a0e76ef6.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/621/headshots/medium/35a0e76ef6.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/621/headshots/thumb/35a0e76ef6.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Matt Doran was born on March 30, 1976 in Sydney, New South Wales, Australia\
+          \ as Matthew J. Doran. He is an actor and cinematographer.\",\"birthday\"\
+          :\"1976-03-30\",\"death\":null,\"birthplace\":\"Sydney - New South Wales\
+          \ - Australia\",\"homepage\":\"\"}},{\"character\":\"Switch\",\"person\"\
+          :{\"name\":\"Belinda McClory\",\"ids\":{\"trakt\":413623,\"slug\":\"belinda-mcclory\"\
+          ,\"imdb\":\"nm0565883\",\"tmdb\":9376,\"tvrage\":9741},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/623/headshots/original/b6832e0449.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/623/headshots/medium/b6832e0449.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/623/headshots/thumb/b6832e0449.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1968-11-01\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":\"\"}},{\"character\":\"Dozer\",\"person\":{\"name\":\"Anthony\
+          \ Ray Parker\",\"ids\":{\"trakt\":413625,\"slug\":\"anthony-ray-parker\"\
+          ,\"imdb\":\"nm0662562\",\"tmdb\":9378,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/625/headshots/original/348181202a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/625/headshots/medium/348181202a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/625/headshots/thumb/348181202a.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1958-05-13\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"character\":\"Agent Brown\",\"person\":{\"name\":\"\
+          Paul Goddard\",\"ids\":{\"trakt\":413628,\"slug\":\"paul-goddard-12bfb257-984b-4e2d-a582-578481a07a9d\"\
+          ,\"imdb\":\"nm0323822\",\"tmdb\":9380,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/628/headshots/original/af130585c7.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/628/headshots/medium/af130585c7.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/628/headshots/thumb/af130585c7.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/413/628/fanarts/original/31363e594d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/628/fanarts/medium/31363e594d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/628/fanarts/thumb/31363e594d.jpg\"\
+          }},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"character\":\"Agent Jones\",\"person\":{\"name\":\"\
+          Robert Taylor\",\"ids\":{\"trakt\":413633,\"slug\":\"robert-taylor-dd49859a-edc3-4e88-8dc1-551d8053242d\"\
+          ,\"imdb\":\"nm0853079\",\"tmdb\":39545,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/633/headshots/original/bfa70cee08.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/633/headshots/medium/bfa70cee08.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/633/headshots/thumb/bfa70cee08.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/413/633/fanarts/original/7d1cc8b570.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/633/fanarts/medium/7d1cc8b570.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/633/fanarts/thumb/7d1cc8b570.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nRobert Taylor\
+          \ (born 1963) is an Australian actor who has appeared in many films and\
+          \ television series in Australia, United Kingdom and the United States.\
+          \ On television he is best known for his lead role in the A&amp;E television\
+          \ series Longmire. On film he is best known for playing Agent Jones on The\
+          \ Matrix.\",\"birthday\":null,\"death\":null,\"birthplace\":\"Sydney Australia\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Rhineheart\",\"person\":{\"name\"\
+          :\"David Aston\",\"ids\":{\"trakt\":413636,\"slug\":\"david-aston\",\"imdb\"\
+          :\"nm0040058\",\"tmdb\":9383,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/413/636/headshots/original/d02f54b8b3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/636/headshots/medium/d02f54b8b3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/636/headshots/thumb/d02f54b8b3.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Choi\",\"person\":{\"name\":\"Marc Aden\",\"ids\"\
+          :{\"trakt\":413639,\"slug\":\"marc-aden\",\"imdb\":\"nm0336802\",\"tmdb\"\
+          :9384,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/639/headshots/original/d2d47152fa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/639/headshots/medium/d2d47152fa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/639/headshots/thumb/d2d47152fa.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Marc Aden Gray is an actor and writer.\",\"birthday\":null,\"death\"\
+          :null,\"birthplace\":\"\",\"homepage\":\"\"}},{\"character\":\"White Rabbit\
+          \ Girl\",\"person\":{\"name\":\"Ada Nicodemou\",\"ids\":{\"trakt\":413643,\"\
+          slug\":\"ada-nicodemou\",\"imdb\":\"nm0630124\",\"tmdb\":181214,\"tvrage\"\
+          :24685},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/643/headshots/original/c2443a53dc.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/643/headshots/medium/c2443a53dc.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/643/headshots/thumb/c2443a53dc.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1977-05-14\",\"death\":null,\"birthplace\":\"Auburn,\
+          \ Sydney, Australia\",\"homepage\":\"\"}},{\"character\":\"Priestess\",\"\
+          person\":{\"name\":\"Deni Gordon\",\"ids\":{\"trakt\":413646,\"slug\":\"\
+          deni-gordon\",\"imdb\":\"nm0330139\",\"tmdb\":1090466,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/646/headshots/original/6c5d83af47.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/646/headshots/medium/6c5d83af47.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/646/headshots/thumb/6c5d83af47.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :\"\"}},{\"character\":\"Spoon Boy\",\"person\":{\"name\":\"Rowan Witt\"\
+          ,\"ids\":{\"trakt\":413649,\"slug\":\"rowan-witt\",\"imdb\":\"nm0936894\"\
+          ,\"tmdb\":218366,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/413/649/headshots/original/7a352ccabf.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/649/headshots/medium/7a352ccabf.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/649/headshots/thumb/7a352ccabf.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":\"1988-11-05\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":\"\"}},{\"character\":\"Lieutenant\",\"person\":{\"name\":\"\
+          Bill Young\",\"ids\":{\"trakt\":413652,\"slug\":\"bill-young\",\"imdb\"\
+          :\"nm0949303\",\"tmdb\":57799,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/652/headshots/original/a5ec47f2d1.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/652/headshots/medium/a5ec47f2d1.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/652/headshots/thumb/a5ec47f2d1.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1950-06-01\",\"death\":null,\"birthplace\":\"\",\"\
+          homepage\":null}},{\"character\":\"Potential\",\"person\":{\"name\":\"Eleanor\
+          \ Witt\",\"ids\":{\"trakt\":413655,\"slug\":\"eleanor-witt\",\"imdb\":\"\
+          nm0936860\",\"tmdb\":1209244,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":\"https://walter.trakt.us/images/people/000/413/655/headshots/original/b5a84ebd00.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/655/headshots/medium/b5a84ebd00.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/655/headshots/thumb/b5a84ebd00.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Potential\",\"person\":{\"name\":\"Tamara Brown\"\
+          ,\"ids\":{\"trakt\":413659,\"slug\":\"tamara-brown\",\"imdb\":\"nm0114756\"\
+          ,\"tmdb\":1209245,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/413/659/headshots/original/5811c11ff4.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/659/headshots/medium/5811c11ff4.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/659/headshots/thumb/5811c11ff4.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Potential\",\"person\":{\"name\":\"Janaya Pender\"\
+          ,\"ids\":{\"trakt\":6816,\"slug\":\"janaya-pender\",\"imdb\":\"nm0671665\"\
+          ,\"tmdb\":1209246,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"character\":\"Potential\",\"person\":{\"name\"\
+          :\"Adryn White\",\"ids\":{\"trakt\":6817,\"slug\":\"adryn-white\",\"imdb\"\
+          :\"nm0924423\",\"tmdb\":1209247,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"Potential\"\
+          ,\"person\":{\"name\":\"Natalie Tjen\",\"ids\":{\"trakt\":6819,\"slug\"\
+          :\"natalie-tjen\",\"imdb\":\"nm0864666\",\"tmdb\":1209248,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          character\":\"FedEx Man\",\"person\":{\"name\":\"David O'Connor\",\"ids\"\
+          :{\"trakt\":6821,\"slug\":\"david-o-connor\",\"imdb\":\"nm0640292\",\"tmdb\"\
+          :1209249,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\"\
+          :null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\"\
+          :null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"character\":\"Businessman\",\"person\":{\"\
+          name\":\"Jeremy Ball\",\"ids\":{\"trakt\":413664,\"slug\":\"jeremy-ball-7545f463-cee6-4be7-83f6-5a029d7ff1a2\"\
+          ,\"imdb\":\"nm0050390\",\"tmdb\":1209250,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/664/headshots/original/22a53f3ff0.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/664/headshots/medium/22a53f3ff0.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/664/headshots/thumb/22a53f3ff0.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Woman in Red\",\"person\":{\"name\":\"Fiona Johnson\"\
+          ,\"ids\":{\"trakt\":413668,\"slug\":\"fiona-johnson\",\"imdb\":\"nm0425087\"\
+          ,\"tmdb\":1209251,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/413/668/headshots/original/44eaa943a0.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/668/headshots/medium/44eaa943a0.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/668/headshots/thumb/44eaa943a0.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Old Man\",\"person\":{\"name\":\"Harry Lawrence\"\
+          ,\"ids\":{\"trakt\":6826,\"slug\":\"harry-lawrence\",\"imdb\":\"nm0492790\"\
+          ,\"tmdb\":110411,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}},{\"character\":\"Blind Man\",\"person\":{\"name\"\
+          :\"Steve Dodd\",\"ids\":{\"trakt\":413670,\"slug\":\"steve-dodd\",\"imdb\"\
+          :\"nm0230117\",\"tmdb\":212562,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/670/headshots/original/a7a9a83251.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/670/headshots/medium/a7a9a83251.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/670/headshots/thumb/a7a9a83251.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Security Guard\",\"person\":{\"name\":\"Luke Quinton\"\
+          ,\"ids\":{\"trakt\":413673,\"slug\":\"luke-quinton\",\"imdb\":\"nm0704280\"\
+          ,\"tmdb\":1209252,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/413/673/headshots/original/c11ff73279.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/673/headshots/medium/c11ff73279.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/673/headshots/thumb/c11ff73279.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Guard\",\"person\":{\"name\":\"Lawrence Woodward\"\
+          ,\"ids\":{\"trakt\":413675,\"slug\":\"lawrence-woodward\",\"imdb\":\"nm0940959\"\
+          ,\"tmdb\":75715,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/675/headshots/original/912ae34d45.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/675/headshots/medium/912ae34d45.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/675/headshots/thumb/912ae34d45.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}},{\"character\":\"Cop Who Captures Neo\",\"person\":{\"name\":\"\
+          Michael Butcher\",\"ids\":{\"trakt\":6833,\"slug\":\"michael-butcher\",\"\
+          imdb\":\"nm0124697\",\"tmdb\":1209253,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"character\":\"Big Cop\"\
+          ,\"person\":{\"name\":\"Bernard Ledger\",\"ids\":{\"trakt\":6835,\"slug\"\
+          :\"bernard-ledger\",\"imdb\":\"nm0496567\",\"tmdb\":1209254,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"\
+          character\":\"Cop\",\"person\":{\"name\":\"Robert Simper\",\"ids\":{\"trakt\"\
+          :413679,\"slug\":\"robert-simper\",\"imdb\":\"nm0800854\",\"tmdb\":26753,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/679/headshots/original/c86afaaf10.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/679/headshots/medium/c86afaaf10.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/679/headshots/thumb/c86afaaf10.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":\"\",\"homepage\"\
+          :null}},{\"character\":\"Cop\",\"person\":{\"name\":\"Chris Pattinson\"\
+          ,\"ids\":{\"trakt\":413683,\"slug\":\"chris-pattinson\",\"imdb\":\"nm0778966\"\
+          ,\"tmdb\":1209255,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/413/683/headshots/original/82bccbfb57.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/683/headshots/medium/82bccbfb57.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/683/headshots/thumb/82bccbfb57.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Parking Cop\",\"person\":{\"name\":\"Nigel Harbach\"\
+          ,\"ids\":{\"trakt\":413685,\"slug\":\"nigel-harbach\",\"imdb\":\"nm0361876\"\
+          ,\"tmdb\":1209256,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/413/685/headshots/original/e86a380a59.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/685/headshots/medium/e86a380a59.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/685/headshots/thumb/e86a380a59.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Shaylae - Woman in Office (uncredited)\",\"person\"\
+          :{\"name\":\"Rana Morrison\",\"ids\":{\"trakt\":413688,\"slug\":\"rana-morrison\"\
+          ,\"imdb\":\"nm3269395\",\"tmdb\":1209257,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/688/headshots/original/36466146c0.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/688/headshots/medium/36466146c0.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/688/headshots/thumb/36466146c0.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\",\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :\"\"}}],\"crew\":{\"production\":[{\"job\":\"Casting\",\"person\":{\"name\"\
+          :\"Mali Finn\",\"ids\":{\"trakt\":1363,\"slug\":\"mali-finn\",\"imdb\":\"\
+          nm0278139\",\"tmdb\":1262,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":\"1938-03-08\"\
+          ,\"death\":\"2007-11-28\",\"birthplace\":null,\"homepage\":null}},{\"job\"\
+          :\"Casting\",\"person\":{\"name\":\"Shauna Wolifson\",\"ids\":{\"trakt\"\
+          :6865,\"slug\":\"shauna-wolifson\",\"imdb\":\"nm0938441\",\"tmdb\":9342,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Producer\",\"person\":{\"name\":\"Joel Silver\"\
+          ,\"ids\":{\"trakt\":11366,\"slug\":\"joel-silver\",\"imdb\":\"nm0005428\"\
+          ,\"tmdb\":1091,\"tvrage\":92573},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/011/366/headshots/original/e0ef66bbc5.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/011/366/headshots/medium/e0ef66bbc5.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/011/366/headshots/thumb/e0ef66bbc5.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nJoel Silver\_(born July 14,\
+          \ 1952) is an American\_film producer, known for\_action films\_like\_Lethal\
+          \ Weapon\_and\_Die Hard. He is owner of\_Silver Pictures\_and co-founder\
+          \ of\_Dark Castle Entertainment.\\n\\nSilver grew up in\_South Orange, New\
+          \ Jersey, the son of a writer and a public relations executive.\_He attended\_\
+          Columbia High School\_in\_Maplewood, New Jersey, where he is credited with\
+          \ inventing the sport of\_Ultimate\_(then known as \\\"Ultimate Frisbee\\\
+          \").\_In 1970, he entered\_Lafayette College, where he formed the first\
+          \ collegiate Ultimate team. He finished his undergraduate studies at the\_\
+          New York University's\_Tisch School of the Arts. Silver began his career\
+          \ at\_Lawrence Gordon Productions, where he eventually became president\
+          \ of motion pictures for the company. He earned his first screen credit\
+          \ as the associate producer on\_The Warriors\_and, with Gordon, produced\_\
+          48 Hrs.,Streets of Fire\_and\_Brewster's Millions. In 1985, he formed\_\
+          Silver Pictures\_and produced successful action films such as\_Commando\_\
+          (1985), the\_Lethal Weapon\_franchise, the first two films of the\_Die Hard\_\
+          series and the\_The Matrix\_franchise of action films. Silver appears on-screen\
+          \ at the beginning of\_Who Framed Roger Rabbit\_as Raoul J. Raoul, the director\
+          \ of the animated short\_Something's Cookin. Silver directed \\\"Split Personality\\\
+          \", (1992), an episode of the\_HBO\_horror anthology,\_Tales from the Crypt.\
+          \ He currently runs two production companies,\_Silver Pictures\_and\_Dark\
+          \ Castle Entertainment\_co-owned by\_Robert Zemeckis. Along with Jared Kass,\
+          \ Silver was co-creator of the sport of\_Ultimate. On July 10, 1999, Silver\
+          \ married his production assistant Karyn Fields.\\n\\nDescription above\
+          \ from the Wikipedia article Joel Silver, licensed under CC-BY-SA, full\
+          \ list of contributors on Wikipedia.\",\"birthday\":\"1952-07-14\",\"death\"\
+          :null,\"birthplace\":\"South Orange, New Jersey, USA\",\"homepage\":\"\"\
+          }}],\"editing\":[{\"job\":\"Editor\",\"person\":{\"name\":\"Zach Staenberg\"\
+          ,\"ids\":{\"trakt\":3454,\"slug\":\"zach-staenberg\",\"imdb\":\"nm0821205\"\
+          ,\"tmdb\":4671,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}}],\"sound\":[{\"job\":\"Original Music Composer\"\
+          ,\"person\":{\"name\":\"Don Davis\",\"ids\":{\"trakt\":3615,\"slug\":\"\
+          don-davis\",\"imdb\":\"nm0204485\",\"tmdb\":4949,\"tvrage\":null},\"images\"\
+          :{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":\"\",\"birthday\"\
+          :\"1957-02-04\",\"death\":null,\"birthplace\":\"Anaheim, California, USA\"\
+          ,\"homepage\":\"\"}},{\"job\":\"Supervising Sound Effects Editor\",\"person\"\
+          :{\"name\":\"Dane A. Davis\",\"ids\":{\"trakt\":6873,\"slug\":\"dane-a-davis\"\
+          ,\"imdb\":\"nm0204424\",\"tmdb\":9349,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Sound Editor\"\
+          ,\"person\":{\"name\":\"Zigmund Gron\",\"ids\":{\"trakt\":6876,\"slug\"\
+          :\"zigmund-gron\",\"imdb\":\"nm0343065\",\"tmdb\":9351,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"\
+          fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"\
+          birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\":null}}],\"\
+          costume & make-up\":[{\"job\":\"Costume Design\",\"person\":{\"name\":\"\
+          Kym Barrett\",\"ids\":{\"trakt\":4764,\"slug\":\"kym-barrett\",\"imdb\"\
+          :\"nm0057199\",\"tmdb\":6209,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":\"1977-01-11\"\
+          ,\"death\":null,\"birthplace\":null,\"homepage\":null}}],\"camera\":[{\"\
+          job\":\"Director of Photography\",\"person\":{\"name\":\"Bill Pope\",\"\
+          ids\":{\"trakt\":5936,\"slug\":\"bill-pope\",\"imdb\":\"nm0691084\",\"tmdb\"\
+          :9341,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/005/936/headshots/original/4e3a38da47.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/005/936/headshots/medium/4e3a38da47.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/005/936/headshots/thumb/4e3a38da47.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":\"1952-06-19\",\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}}],\"art\":[{\"job\":\"Production Design\",\"person\":{\"\
+          name\":\"Owen Paterson\",\"ids\":{\"trakt\":6866,\"slug\":\"owen-paterson\"\
+          ,\"imdb\":\"nm0665517\",\"tmdb\":9343,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Art Direction\"\
+          ,\"person\":{\"name\":\"Hugh Bateup\",\"ids\":{\"trakt\":6867,\"slug\":\"\
+          hugh-bateup\",\"imdb\":\"nm0061064\",\"tmdb\":9344,\"tvrage\":null},\"images\"\
+          :{\"headshot\":{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\"\
+          :null,\"death\":null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"\
+          Art Direction\",\"person\":{\"name\":\"Michelle McGahey\",\"ids\":{\"trakt\"\
+          :6870,\"slug\":\"michelle-mcgahey\",\"imdb\":\"nm0568894\",\"tmdb\":9345,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Set Decoration\",\"person\":{\"name\":\"Lisa\
+          \ Brennan\",\"ids\":{\"trakt\":6872,\"slug\":\"lisa-brennan\",\"imdb\":\"\
+          nm0107345\",\"tmdb\":9346,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}}],\"crew\":[{\"job\":\"Special\
+          \ Effects\",\"person\":{\"name\":\"Richard Alexander\",\"ids\":{\"trakt\"\
+          :6877,\"slug\":\"richard-alexander\",\"imdb\":\"nm0018689\",\"tmdb\":9354,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":\"\",\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":\"\"}},{\"job\":\"Special Effects\",\"person\":{\"name\":\"Brian\
+          \ Belcher\",\"ids\":{\"trakt\":6878,\"slug\":\"brian-belcher\",\"imdb\"\
+          :\"nm0067633\",\"tmdb\":9355,\"tvrage\":null},\"images\":{\"headshot\":{\"\
+          full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Stunts\",\"person\"\
+          :{\"name\":\"Glenn Boswell\",\"ids\":{\"trakt\":6879,\"slug\":\"glenn-boswell\"\
+          ,\"imdb\":\"nm0098342\",\"tmdb\":9357,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":null,\"medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null}},\"biography\":null,\"birthday\":null,\"death\"\
+          :null,\"birthplace\":null,\"homepage\":null}},{\"job\":\"Special Effects\
+          \ Coordinator\",\"person\":{\"name\":\"Steve Courtley\",\"ids\":{\"trakt\"\
+          :6880,\"slug\":\"steve-courtley\",\"imdb\":\"nm0183871\",\"tmdb\":9593,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}}],\"writing\":[{\"job\":\"Screenplay\",\"person\":{\"name\"\
+          :\"Lilly Wachowski\",\"ids\":{\"trakt\":413676,\"slug\":\"lilly-wachowski\"\
+          ,\"imdb\":\"nm0905152\",\"tmdb\":9339,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/413/676/headshots/original/cecbe9b237.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/676/headshots/medium/cecbe9b237.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/676/headshots/thumb/cecbe9b237.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Lana Wachowski (born June 21, 1965) and Lilly Wachowski (born December\
+          \ 29, 1967), siblings collectively known as The Wachowskis (formerly The\
+          \ Wachowski Brothers), are American film directors, writers and producers,\
+          \ most famous for creating The Matrix series. Their most recent project\
+          \ was producing Ninja Assassin.\\n\\nDescription above from the Wikipedia\
+          \ article Andy Wachowski, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1967-12-29\",\"death\":null,\"birthplace\"\
+          :\"Chicago, Illinois, United States\",\"homepage\":\"\"}},{\"job\":\"Screenplay\"\
+          ,\"person\":{\"name\":\"Lana Wachowski\",\"ids\":{\"trakt\":413681,\"slug\"\
+          :\"lana-wachowski\",\"imdb\":\"nm0905154\",\"tmdb\":9340,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/681/headshots/original/2e09778274.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/681/headshots/medium/2e09778274.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/681/headshots/thumb/2e09778274.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Lana Wachowski (born June 21, 1965) and Lilly Wachowski (born December\
+          \ 29, 1967), siblings collectively known as The Wachowskis (formerly The\
+          \ Wachowski Brothers), are American film directors, writers and producers,\
+          \ most famous for creating The Matrix series. Their most recent project\
+          \ was producing Ninja Assassin.\\n\\nDescription above from the Wikipedia\
+          \ article Lana Wachowski, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1965-06-21\",\"death\":null,\"birthplace\"\
+          :\"Chicago, Illinois, USA \",\"homepage\":\"\"}}],\"directing\":[{\"job\"\
+          :\"Director\",\"person\":{\"name\":\"Lilly Wachowski\",\"ids\":{\"trakt\"\
+          :413676,\"slug\":\"lilly-wachowski\",\"imdb\":\"nm0905152\",\"tmdb\":9339,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/676/headshots/original/cecbe9b237.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/676/headshots/medium/cecbe9b237.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/676/headshots/thumb/cecbe9b237.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Lana Wachowski (born June 21, 1965) and Lilly Wachowski (born December\
+          \ 29, 1967), siblings collectively known as The Wachowskis (formerly The\
+          \ Wachowski Brothers), are American film directors, writers and producers,\
+          \ most famous for creating The Matrix series. Their most recent project\
+          \ was producing Ninja Assassin.\\n\\nDescription above from the Wikipedia\
+          \ article Andy Wachowski, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1967-12-29\",\"death\":null,\"birthplace\"\
+          :\"Chicago, Illinois, United States\",\"homepage\":\"\"}},{\"job\":\"Director\"\
+          ,\"person\":{\"name\":\"Lana Wachowski\",\"ids\":{\"trakt\":413681,\"slug\"\
+          :\"lana-wachowski\",\"imdb\":\"nm0905154\",\"tmdb\":9340,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/413/681/headshots/original/2e09778274.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/681/headshots/medium/2e09778274.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/681/headshots/thumb/2e09778274.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Lana Wachowski (born June 21, 1965) and Lilly Wachowski (born December\
+          \ 29, 1967), siblings collectively known as The Wachowskis (formerly The\
+          \ Wachowski Brothers), are American film directors, writers and producers,\
+          \ most famous for creating The Matrix series. Their most recent project\
+          \ was producing Ninja Assassin.\\n\\nDescription above from the Wikipedia\
+          \ article Lana Wachowski, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1965-06-21\",\"death\":null,\"birthplace\"\
+          :\"Chicago, Illinois, USA \",\"homepage\":\"\"}}]}}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb8b36aa261d-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:13 GMT']
+        ETag: [W/"6e73fcac433924daca421ab563d0745e"]
+        Expires: ['Mon, 09 May 2016 01:14:13 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=d862c045516d3e9eeb8687ffdc366c7231462742053; expires=Mon,
+            08-May-17 21:14:13 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [0a6c9b5f-42be-442a-83c7-2b1fc68dc10b]
+        X-Runtime: ['0.179534']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

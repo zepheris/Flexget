@@ -11,22 +11,22 @@ interactions:
       body: {string: '[{"rank":1,"listed_at":"2015-01-02T02:37:24.000Z","type":"movie","movie":{"title":"12
           Angry Men","year":1957,"ids":{"trakt":309,"slug":"12-angry-men-1957","imdb":"tt0050083","tmdb":389}}}]'}
       headers:
-        CF-RAY: [29de2384cf701fdc-DFW]
+        CF-RAY: [29ffeb5a765e1ffa-DFW]
         Cache-Control: ['max-age=0, private, must-revalidate']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:30 GMT']
-        ETag: [W/"9bfc893700145af3619e47a6b51a1884"]
-        Last-Modified: ['Wed, 04 May 2016 07:23:41 GMT']
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"6f730ef9c3a73efb3271bf6ea20c8152"]
+        Last-Modified: ['Sun, 08 May 2016 19:14:45 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=dbbea9eaa36c5c4bc11097bb9a935d63a1462387830; expires=Thu,
-            04-May-17 18:50:30 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=df6be3560d7eaa9283c4435b5529242f41462742045; expires=Mon,
+            08-May-17 21:14:05 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
         X-Private-User: ['false']
-        X-Request-Id: [48c31364-65df-4af1-ae79-f41935537c50]
-        X-Runtime: ['0.028365']
+        X-Request-Id: [189201bf-f219-4005-b4a9-f3852bcc04c4]
+        X-Runtime: ['0.146282']
         X-Sort-By: [rank]
         X-Sort-How: [asc]
         X-XSS-Protection: [1; mode=block]

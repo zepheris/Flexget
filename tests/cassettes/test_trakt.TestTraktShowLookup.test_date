@@ -6,9 +6,9 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?type=show&query=the+daily+show+%28with+trevor+noah%29
+      uri: https://api-v2launch.trakt.tv/search?query=the+daily+show+%28with+trevor+noah%29&type=show
     response:
-      body: {string: "[{\"type\":\"show\",\"score\":30.438444,\"show\":{\"title\"\
+      body: {string: "[{\"type\":\"show\",\"score\":30.605352,\"show\":{\"title\"\
           :\"The Daily Show\",\"overview\":\"Forget trying to keep pace with 24 hour\
           \ news networks- the best fake news show in the world will provide you with\
           \ all the news you can handle. The Daily Show is a comedic view of recent\
@@ -24,14 +24,14 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/002/211/fanarts/thumb/3c89474355.jpg\"\
           }},\"ids\":{\"trakt\":2211,\"slug\":\"the-daily-show\",\"tvdb\":71256,\"\
           imdb\":\"tt0115147\",\"tmdb\":2224,\"tvrage\":5714}}},{\"type\":\"show\"\
-          ,\"score\":22.099285,\"show\":{\"title\":\"The Daily Show 2016\",\"overview\"\
+          ,\"score\":22.193766,\"show\":{\"title\":\"The Daily Show 2016\",\"overview\"\
           :\"Providing comedy/news in the tradition of TV Nation and SNL's Weekend\
           \ Update, Comedy Central's Daily Show reports on the foibles and of the\
           \ real world with a satirical edge.\",\"year\":2015,\"status\":\"returning\
           \ series\",\"images\":{\"poster\":{\"full\":null,\"medium\":null,\"thumb\"\
           :null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\"\
           :{\"trakt\":106573,\"slug\":\"the-daily-show-2016\",\"tvdb\":309283,\"imdb\"\
-          :null,\"tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":20.139597,\"\
+          :null,\"tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":20.269941,\"\
           show\":{\"title\":\"Daily Tech News Show\",\"overview\":\"Tom is an award-winning\
           \ independent tech podcaster and host of regular tech news and information\
           \ shows. Tom hosts Sword and Laser, a science fiction and fantasy podcast,\
@@ -43,7 +43,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/078/590/posters/thumb/37fd62992b.jpg\"\
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":78590,\"slug\":\"daily-tech-news-show\",\"tvdb\":281008,\"imdb\"\
-          :null,\"tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":19.600904,\"\
+          :null,\"tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":19.623741,\"\
           show\":{\"title\":\"Daily Planet\",\"overview\":\"Ever since the Discovery\
           \ Channel was created in 1995, Daily Planet (2002; previously @discovery.ca),\
           \ continues to be Canada's only daily science series. Daily Planet is a\
@@ -59,7 +59,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/011/421/posters/thumb/77102af1cb.jpg\"\
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":11421,\"slug\":\"daily-planet\",\"tvdb\":83356,\"imdb\":null,\"\
-          tmdb\":11473,\"tvrage\":26680}}},{\"type\":\"show\",\"score\":18.9468,\"\
+          tmdb\":11473,\"tvrage\":26680}}},{\"type\":\"show\",\"score\":19.02768,\"\
           show\":{\"title\":\"The Daily Show: Global Edition\",\"overview\":\"The\
           \ Daily Show: Global Edition is a weekly version of the Daily Show with\
           \ Jon Stewart created for overseas markets and airs on foreign networks.\
@@ -70,7 +70,7 @@ interactions:
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":60953,\"slug\":\"the-daily-show-global-edition\",\"tvdb\":83846,\"\
           imdb\":null,\"tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\"\
-          :15.704932,\"show\":{\"title\":\"Day[9] Daily\",\"overview\":\"The Day[9]\
+          :15.722741,\"show\":{\"title\":\"Day[9] Daily\",\"overview\":\"The Day[9]\
           \ Daily is an internet television show streamed live from Los Angeles over\
           \ Justin.TV Sunday through Thursday at 7pm PST. The host of the show, Day[9],\
           \ offers his personal reflections on competitive StarCraft strategy and\
@@ -84,12 +84,12 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/066/221/posters/thumb/9654538ff0.jpg\"\
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":66221,\"slug\":\"day-9-daily\",\"tvdb\":258077,\"imdb\":null,\"\
-          tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":9.79739,\"show\"\
-          :{\"title\":\"The Brak Show\",\"overview\":\"The Brak Show is about the\
-          \ daily adventures of Brak and his best buddy Zorak prior to meeting Space\
-          \ Ghost. Brak lives with his family in a lovely suburb somewhere in space.\
-          \ Brak gets advice from Mom (a nice lady who keeps a clean house) & Dad\
-          \ (a human with a Latin accent that is rather short due to a shrink-ray\
+          tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":9.883795,\"\
+          show\":{\"title\":\"The Brak Show\",\"overview\":\"The Brak Show is about\
+          \ the daily adventures of Brak and his best buddy Zorak prior to meeting\
+          \ Space Ghost. Brak lives with his family in a lovely suburb somewhere in\
+          \ space. Brak gets advice from Mom (a nice lady who keeps a clean house)\
+          \ & Dad (a human with a Latin accent that is rather short due to a shrink-ray\
           \ accident), and gets corrupted by Zorak.Brak is an honest and somewhat\
           \ dumb kid, and Zorak is a foul-mouthed, destruction-loving mantis. Brak's\
           \ brother Sisto is also around from time to time. Their neighbor is Thundercleese,\
@@ -104,19 +104,19 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/000/480/fanarts/thumb/83ac0b11e3.jpg\"\
           }},\"ids\":{\"trakt\":480,\"slug\":\"the-brak-show\",\"tvdb\":77118,\"imdb\"\
           :\"tt0297512\",\"tmdb\":481,\"tvrage\":null}}},{\"type\":\"show\",\"score\"\
-          :9.519297,\"show\":{\"title\":\"heute-show\",\"overview\":\"As a German\
+          :9.6780205,\"show\":{\"title\":\"heute-show\",\"overview\":\"As a German\
           \ adaption of 'The Daily Show with Jon Stewart' Oliver Welke and his team\
           \ report on political topics as well as international news giving them their\
           \ own satirical, comedic twist.\",\"year\":2009,\"status\":\"returning series\"\
           ,\"images\":{\"poster\":{\"full\":\"https://walter.trakt.us/images/shows/000/045/801/posters/original/ddebd8b4f8.jpg\"\
           ,\"medium\":\"https://walter.trakt.us/images/shows/000/045/801/posters/medium/ddebd8b4f8.jpg\"\
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/045/801/posters/thumb/ddebd8b4f8.jpg\"\
-          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/shows/000/045/801/fanarts/original/1ce388d415.jpg\"\
-          ,\"medium\":\"https://walter.trakt.us/images/shows/000/045/801/fanarts/medium/1ce388d415.jpg\"\
-          ,\"thumb\":\"https://walter.trakt.us/images/shows/000/045/801/fanarts/thumb/1ce388d415.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/shows/000/045/801/fanarts/original/766e542195.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/shows/000/045/801/fanarts/medium/766e542195.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/shows/000/045/801/fanarts/thumb/766e542195.jpg\"\
           }},\"ids\":{\"trakt\":45801,\"slug\":\"heute-show\",\"tvdb\":234791,\"imdb\"\
           :\"tt1441143\",\"tmdb\":46056,\"tvrage\":null}}},{\"type\":\"show\",\"score\"\
-          :9.509351,\"show\":{\"title\":\"The Nightly Show with Larry Wilmore\",\"\
+          :9.540461,\"show\":{\"title\":\"The Nightly Show with Larry Wilmore\",\"\
           overview\":\"The Nightly Show with Larry Wilmore is an American late-night\
           \ panel talk show hosted by Larry Wilmore. The Nightly Show with Larry Wilmore\
           \ is a spin-off of The Daily Show, which featured Wilmore as a recurring\
@@ -136,7 +136,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/082/039/fanarts/thumb/95d54c591e.jpg\"\
           }},\"ids\":{\"trakt\":82039,\"slug\":\"the-nightly-show-with-larry-wilmore\"\
           ,\"tvdb\":286373,\"imdb\":\"tt3722332\",\"tmdb\":61587,\"tvrage\":42474}}},{\"\
-          type\":\"show\",\"score\":9.164236,\"show\":{\"title\":\"The Bob Newhart\
+          type\":\"show\",\"score\":9.203423,\"show\":{\"title\":\"The Bob Newhart\
           \ Show\",\"overview\":\"Bob Newhart is Dr. Robert Hartley, a Chicago psychologist\
           \ living with his schoolteacher wife Emily. Complicating life for the serene,\
           \ stammering doc was his neighbor, Howard, a flighty navigator; and Bob's\
@@ -151,33 +151,33 @@ interactions:
           }},\"ids\":{\"trakt\":1961,\"slug\":\"the-bob-newhart-show\",\"tvdb\":78089,\"\
           imdb\":\"tt0068049\",\"tmdb\":1974,\"tvrage\":null}}}]"}
       headers:
-        CF-Cache-Status: [HIT]
-        CF-RAY: [29de238067cc094a-DFW]
+        CF-Cache-Status: [EXPIRED]
+        CF-RAY: [29ffeb650e2c0103-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:29 GMT']
-        ETag: [W/"dad1460d91c508d31200a31bef412fa6"]
-        Expires: ['Wed, 04 May 2016 22:50:29 GMT']
+        Date: ['Sun, 08 May 2016 21:14:07 GMT']
+        ETag: [W/"75ff8254242589989a6e52a924e40cc6"]
+        Expires: ['Mon, 09 May 2016 01:14:07 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=d92b5c711d71ac096a6979a7047e498111462387829; expires=Thu,
-            04-May-17 18:50:29 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=db933e5ea7376cac18e7c0f3f063c07681462742047; expires=Mon,
+            08-May-17 21:14:07 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Pagination-Item-Count: ['121']
+        X-Pagination-Item-Count: ['122']
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['13']
-        X-Request-Id: [426fab46-f4c5-49ac-b4b9-2d45a3c7b68a]
-        X-Runtime: ['0.031848']
+        X-Request-Id: [56ef62d8-62ff-4038-996f-7d88c6fc4481]
+        X-Runtime: ['0.041612']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=d92b5c711d71ac096a6979a7047e498111462387829]
+        Cookie: [__cfduid=db933e5ea7376cac18e7c0f3f063c07681462742047]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -189,25 +189,88 @@ interactions:
           Show is a comedic view of recent news headlines and political figures through
           a series of satirical monologues along with segments by correspondents and
           finally interviews with guest celebrities and political figures. The Daily
-          Show with Trevor Noah is filmed at 733 11th Avenue,  New York, NY.","first_aired":"1996-09-01T07:00:00.000Z","airs":{"day":"Wednesday","time":"23:00","timezone":"America/New_York"},"runtime":25,"certification":"TV-14","network":"Comedy
+          Show with Trevor Noah is filmed at 733 11th Avenue,  New York, NY.","first_aired":"1996-09-01T07:00:00.000Z","airs":{"day":"Sunday","time":"23:00","timezone":"America/New_York"},"runtime":25,"certification":"TV-14","network":"Comedy
           Central (US)","country":"us","trailer":null,"homepage":"http://www.thedailyshow.com/","status":"returning
-          series","rating":8.88172,"votes":2680,"updated_at":"2016-05-04T11:14:14.000Z","language":"en","available_translations":["en","tr","de","pt","es","nl","da","fr","ro"],"genres":["comedy","news","talk-show"],"aired_episodes":3131,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/002/211/fanarts/original/3c89474355.jpg","medium":"https://walter.trakt.us/images/shows/000/002/211/fanarts/medium/3c89474355.jpg","thumb":"https://walter.trakt.us/images/shows/000/002/211/fanarts/thumb/3c89474355.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/002/211/posters/original/9a93a8a3d9.jpg","medium":"https://walter.trakt.us/images/shows/000/002/211/posters/medium/9a93a8a3d9.jpg","thumb":"https://walter.trakt.us/images/shows/000/002/211/posters/thumb/9a93a8a3d9.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/002/211/logos/original/3e11a79624.png"},"clearart":{"full":"https://walter.trakt.us/images/shows/000/002/211/cleararts/original/08c8d2e52c.png"},"banner":{"full":"https://walter.trakt.us/images/shows/000/002/211/banners/original/80c90d9ac9.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/002/211/thumbs/original/3659056e83.jpg"}}}'}
+          series","rating":8.87919,"votes":2682,"updated_at":"2016-05-08T10:55:38.000Z","language":"en","available_translations":["en","tr","de","pt","es","nl","da","fr","ro"],"genres":["comedy","news","talk-show"],"aired_episodes":3133,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/002/211/fanarts/original/3c89474355.jpg","medium":"https://walter.trakt.us/images/shows/000/002/211/fanarts/medium/3c89474355.jpg","thumb":"https://walter.trakt.us/images/shows/000/002/211/fanarts/thumb/3c89474355.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/002/211/posters/original/9a93a8a3d9.jpg","medium":"https://walter.trakt.us/images/shows/000/002/211/posters/medium/9a93a8a3d9.jpg","thumb":"https://walter.trakt.us/images/shows/000/002/211/posters/thumb/9a93a8a3d9.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/002/211/logos/original/3e11a79624.png"},"clearart":{"full":"https://walter.trakt.us/images/shows/000/002/211/cleararts/original/08c8d2e52c.png"},"banner":{"full":"https://walter.trakt.us/images/shows/000/002/211/banners/original/80c90d9ac9.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/002/211/thumbs/original/3659056e83.jpg"}}}'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de238117e0094a-DFW]
+        CF-RAY: [29ffeb670e4a0103-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:29 GMT']
-        ETag: [W/"bf413a867672b6f9756970c2ad2725ad"]
-        Expires: ['Wed, 04 May 2016 22:50:29 GMT']
-        Last-Modified: ['Wed, 04 May 2016 11:14:14 GMT']
+        Date: ['Sun, 08 May 2016 21:14:07 GMT']
+        ETag: [W/"38557962536ac7aad59c8e64f8638ed4"]
+        Expires: ['Mon, 09 May 2016 01:14:07 GMT']
+        Last-Modified: ['Sun, 08 May 2016 10:55:38 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [618677d6-458a-4722-a8d9-91125795ea82]
-        X-Runtime: ['0.017245']
+        X-Request-Id: [2e682eb4-fbce-45a8-9981-f4612e93dec4]
+        X-Runtime: ['0.108250']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/2211/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Himself - Host\",\"person\":{\"\
+          name\":\"Trevor Noah\",\"ids\":{\"trakt\":443029,\"slug\":\"trevor-noah\"\
+          ,\"imdb\":\"nm3696388\",\"tmdb\":131133,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/443/029/headshots/original/fe24e0172a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/443/029/headshots/medium/fe24e0172a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/443/029/headshots/thumb/fe24e0172a.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/443/029/fanarts/original/3c89474355.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/443/029/fanarts/medium/3c89474355.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/443/029/fanarts/thumb/3c89474355.jpg\"\
+          }},\"biography\":\"\u200BTrevor Noah is a South African actor, presenter,\
+          \ comedian and radio DJ who began his career with a cameo role on the SABC3\
+          \ soapie Isidingo, in 2002.  After his stint on the show he spent two years\
+          \ years hosting an educational show for SABC2 during which time he started\
+          \ hosting his own radio show on Yfm called Noah's Ark.  At Yfm his show\
+          \ was called Trevor Noah and was on between 00h00 and 03h00. He is also\
+          \ very involved in the South African comedy circuit and has performed at\
+          \ various comedy festivals.  On television he hosted the SABC1 celebrity\
+          \ gossip show The Real Goboza in 2007 and also hosted SABC's sports show\
+          \ Siyadlala.  In 2008 he was the runner-up on SABC2's reality dance competition\
+          \ Strictly Come Dancing 4, losing to actor Emmanuel Castis in the grand\
+          \ finale. His professional dance partner was Hayley Hammond.  From May to\
+          \ August 2008 he was the co-host (with Pabi Moloi) of the SABC1 interactive\
+          \ dating game show The Amazing Date.  He hosted the 3rd annual SAFTA Awards\
+          \ at the State Theatre in Pretoria on Saturday 7 February, 2009.  Trevor\
+          \ was the host (along with Eugene Khoza) of the e.tv reality competition\
+          \ series The AXE Sweet Life from March to May, 2009.  He hosted the 15th\
+          \ annual South African Music Awards (SAMAs) at the Sun City Superbowl on\
+          \ 2 May, 2009. He was invited back to host the SAMAs in 2010.  Trevor began\
+          \ hosting his own talk show on M-Net in August 2010, entitled Tonight with\
+          \ Trevor Noah, based on international shows such as The Tonight Show with\
+          \ Jay Leno, The Late Show with Conan O'Brien and satirical fare like The\
+          \ Daily Show with Jon Stewart.  The show moved to DStv's Mzansi Magic channel\
+          \ for it second season, which premiered on 5 November, 2010\",\"birthday\"\
+          :\"1984-02-20\",\"death\":null,\"birthplace\":\"South Africa\",\"homepage\"\
+          :\"http://www.trevornoah.co.za\"}}]}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb687ec21183-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:08 GMT']
+        ETag: [W/"f1fe05dc5e7b3091c45535780b5a0f7c"]
+        Expires: ['Mon, 09 May 2016 01:14:08 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=dd2ea43939460ac4206d351200a3012061462742048; expires=Mon,
+            08-May-17 21:14:08 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [461f3444-7c80-4ce1-8e98-463ed0676972]
+        X-Runtime: ['0.017616']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

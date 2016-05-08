@@ -6,28 +6,28 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?query=Hawaii+Five-0&type=show
+      uri: https://api-v2launch.trakt.tv/search?type=show&query=Hawaii+Five-0
     response:
-      body: {string: '[{"type":"show","score":100.154686,"show":{"title":"Hawaii Five-0","overview":"Steve
+      body: {string: '[{"type":"show","score":100.09497,"show":{"title":"Hawaii Five-0","overview":"Steve
           McGarrett returns home to Oahu, in order to find his father''s killer. The
           governor offers him the chance to run his own task force (Five-0). Steve''s
           team is joined by Chin Ho Kelly, Danny \"Danno\" Williams, and Kono Kalakaua.","year":2010,"status":"returning
-          series","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/032/657/posters/original/ff94033565.jpg","medium":"https://walter.trakt.us/images/shows/000/032/657/posters/medium/ff94033565.jpg","thumb":"https://walter.trakt.us/images/shows/000/032/657/posters/thumb/ff94033565.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/032/657/fanarts/original/03ff15aa9c.jpg","medium":"https://walter.trakt.us/images/shows/000/032/657/fanarts/medium/03ff15aa9c.jpg","thumb":"https://walter.trakt.us/images/shows/000/032/657/fanarts/thumb/03ff15aa9c.jpg"}},"ids":{"trakt":32657,"slug":"hawaii-five-0","tvdb":164541,"imdb":"tt1600194","tmdb":32798,"tvrage":24840}}},{"type":"show","score":23.677902,"show":{"title":"Hawaii
+          series","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/032/657/posters/original/ff94033565.jpg","medium":"https://walter.trakt.us/images/shows/000/032/657/posters/medium/ff94033565.jpg","thumb":"https://walter.trakt.us/images/shows/000/032/657/posters/thumb/ff94033565.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/032/657/fanarts/original/03ff15aa9c.jpg","medium":"https://walter.trakt.us/images/shows/000/032/657/fanarts/medium/03ff15aa9c.jpg","thumb":"https://walter.trakt.us/images/shows/000/032/657/fanarts/thumb/03ff15aa9c.jpg"}},"ids":{"trakt":32657,"slug":"hawaii-five-0","tvdb":164541,"imdb":"tt1600194","tmdb":32798,"tvrage":24840}}},{"type":"show","score":23.485939,"show":{"title":"Hawaii
           Five-O","overview":"The investigations of Hawaii Five-0, an elite branch
           of the Hawaii State Police answerable only to the governor and headed by
           stalwart Steve McGarrett.","year":1968,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/002/289/posters/original/6847978a12.jpg","medium":"https://walter.trakt.us/images/shows/000/002/289/posters/medium/6847978a12.jpg","thumb":"https://walter.trakt.us/images/shows/000/002/289/posters/thumb/6847978a12.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/002/289/fanarts/original/3456427ff9.jpg","medium":"https://walter.trakt.us/images/shows/000/002/289/fanarts/medium/3456427ff9.jpg","thumb":"https://walter.trakt.us/images/shows/000/002/289/fanarts/thumb/3456427ff9.jpg"}},"ids":{"trakt":2289,"slug":"hawaii-five-o","tvdb":71223,"imdb":"tt0062568","tmdb":2303,"tvrage":null}}}]'}
       headers:
-        CF-Cache-Status: [HIT]
-        CF-RAY: [29de2385f3f5092c-DFW]
+        CF-Cache-Status: [MISS]
+        CF-RAY: [29ffeb5e98a71ffa-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:30 GMT']
-        ETag: [W/"38d3cc96fc97dff769fcc49d7a4ab8c6"]
-        Expires: ['Wed, 04 May 2016 22:50:30 GMT']
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"1e8eacf79124969a7990ad6cc75e2f5c"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=dfa02258cdfc0f8ca351f184cf72f85b71462387830; expires=Thu,
-            04-May-17 18:50:30 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=d66485e8f163059d8302c973d83bf0c671462742046; expires=Mon,
+            08-May-17 21:14:06 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -35,15 +35,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [d983d4d9-9c51-4925-8e2e-49d4a9a6019c]
-        X-Runtime: ['0.061002']
+        X-Request-Id: [bb67c761-78b7-4bb6-aaf8-1696617adc7e]
+        X-Runtime: ['0.027537']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=dfa02258cdfc0f8ca351f184cf72f85b71462387830]
+        Cookie: [__cfduid=d66485e8f163059d8302c973d83bf0c671462742046]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -52,24 +52,224 @@ interactions:
       body: {string: '{"title":"Hawaii Five-0","year":2010,"ids":{"trakt":32657,"slug":"hawaii-five-0","tvdb":164541,"imdb":"tt1600194","tmdb":32798,"tvrage":24840},"overview":"Steve
           McGarrett returns home to Oahu, in order to find his father''s killer. The
           governor offers him the chance to run his own task force (Five-0). Steve''s
-          team is joined by Chin Ho Kelly, Danny \"Danno\" Williams, and Kono Kalakaua.","first_aired":"2010-09-21T01:00:00.000Z","airs":{"day":"Friday","time":"21:00","timezone":"America/New_York"},"runtime":42,"certification":"TV-14","network":"CBS","country":"us","trailer":"http://youtube.com/watch?v=EN6LMV4-Dfs","homepage":"http://www.cbs.com/shows/hawaii_five_0/","status":"returning
-          series","rating":7.78698,"votes":3211,"updated_at":"2016-05-04T10:50:33.000Z","language":"en","available_translations":["en","de","pl","bg","it","fr","el","es","zh","ru","hu","nl","sv","pt","he","bs","da","lt","fa","tr","ro","uk","lb"],"genres":["drama","action","crime"],"aired_episodes":140,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/032/657/fanarts/original/03ff15aa9c.jpg","medium":"https://walter.trakt.us/images/shows/000/032/657/fanarts/medium/03ff15aa9c.jpg","thumb":"https://walter.trakt.us/images/shows/000/032/657/fanarts/thumb/03ff15aa9c.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/032/657/posters/original/ff94033565.jpg","medium":"https://walter.trakt.us/images/shows/000/032/657/posters/medium/ff94033565.jpg","thumb":"https://walter.trakt.us/images/shows/000/032/657/posters/thumb/ff94033565.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/032/657/logos/original/2875797d19.png"},"clearart":{"full":null},"banner":{"full":"https://walter.trakt.us/images/shows/000/032/657/banners/original/8e71ae0eb6.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/032/657/thumbs/original/c106827f5e.jpg"}}}'}
+          team is joined by Chin Ho Kelly, Danny \"Danno\" Williams, and Kono Kalakaua.","first_aired":"2010-09-20T07:00:00.000Z","airs":{"day":"Friday","time":"21:00","timezone":"America/New_York"},"runtime":45,"certification":"TV-14","network":"CBS","country":"us","trailer":"http://youtube.com/watch?v=EN6LMV4-Dfs","homepage":"http://www.cbs.com/shows/hawaii_five_0/","status":"returning
+          series","rating":7.78676,"votes":3217,"updated_at":"2016-05-07T10:50:39.000Z","language":"en","available_translations":["en","de","pl","bg","it","fr","el","es","zh","ru","hu","nl","sv","pt","he","bs","da","lt","fa","tr","ro","uk","lb"],"genres":["drama","action","crime"],"aired_episodes":141,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/032/657/fanarts/original/03ff15aa9c.jpg","medium":"https://walter.trakt.us/images/shows/000/032/657/fanarts/medium/03ff15aa9c.jpg","thumb":"https://walter.trakt.us/images/shows/000/032/657/fanarts/thumb/03ff15aa9c.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/032/657/posters/original/ff94033565.jpg","medium":"https://walter.trakt.us/images/shows/000/032/657/posters/medium/ff94033565.jpg","thumb":"https://walter.trakt.us/images/shows/000/032/657/posters/thumb/ff94033565.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/032/657/logos/original/2875797d19.png"},"clearart":{"full":null},"banner":{"full":"https://walter.trakt.us/images/shows/000/032/657/banners/original/8e71ae0eb6.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/032/657/thumbs/original/c106827f5e.jpg"}}}'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de238643fa092c-DFW]
+        CF-RAY: [29ffeb6018ef1ffa-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:30 GMT']
-        ETag: [W/"689f784b78d0a305a9b34ee05a7c9257"]
-        Expires: ['Wed, 04 May 2016 22:50:30 GMT']
-        Last-Modified: ['Wed, 04 May 2016 10:50:33 GMT']
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"b62c2de940e5340df9d960504c337085"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
+        Last-Modified: ['Sat, 07 May 2016 10:50:39 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [7404922d-d430-435d-ab63-abaa4aece42d]
-        X-Runtime: ['0.019283']
+        X-Request-Id: [50b800ed-9b52-4d26-afe2-07162600f971]
+        X-Runtime: ['0.024180']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/32657/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Steve McGarrett\",\"person\":{\"\
+          name\":\"Alex O'Loughlin\",\"ids\":{\"trakt\":420020,\"slug\":\"alex-o-loughlin\"\
+          ,\"imdb\":\"nm1533927\",\"tmdb\":41297,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/150/368/headshots/original/862f331515.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/150/368/headshots/medium/862f331515.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/150/368/headshots/thumb/862f331515.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/420/020/fanarts/original/738cc652c1.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/420/020/fanarts/medium/738cc652c1.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/420/020/fanarts/thumb/738cc652c1.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nAlex O'Loughlin\
+          \ (born Alexander O'Lachlan on 24 August 1976 in Canberra, Australia) is\
+          \ an Australian actor, currently starring in CBS's Hawaii Five-0 as Lieutenant\
+          \ Commander Steve McGarrett.\\n\\nHis best known earlier roles include Kevin\
+          \ Hiatt in The Shield, Mick St. John in Moonlight, Dr. Andy Yablonski in\
+          \ Three Rivers, and the romantic comedy film, The Back-up Plan, where he\
+          \ starred alongside Jennifer Lopez.\\n\\nHe is also the current ambassador\
+          \ for Donate Life America.\\n\\nDescription above from the Wikipedia article\
+          \ Alex O'Loughlin, licensed under CC-BY-SA, full list of contributors on\
+          \ Wikipedia.\",\"birthday\":\"1976-08-24\",\"death\":null,\"birthplace\"\
+          :\"Canberra, Australian Capital Territory, Australia\",\"homepage\":\"\"\
+          }},{\"character\":\"Danny \\\"Danno\\\" Williams\",\"person\":{\"name\"\
+          :\"Scott Caan\",\"ids\":{\"trakt\":306993,\"slug\":\"scott-caan\",\"imdb\"\
+          :\"nm0004790\",\"tmdb\":1894,\"tvrage\":90161},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/150/427/headshots/original/6079c8b7f2.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/150/427/headshots/medium/6079c8b7f2.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/150/427/headshots/thumb/6079c8b7f2.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Scott Andrew Caan (born August 23, 1976) is an American actor. He stars\
+          \ in the CBS television series Hawaii Five-0. He is the son of actor James\
+          \ Caan.\\n\\nDescription above from the Wikipedia article Scott Caan, licensed\
+          \ under CC-BY-SA, full list of contributors on Wikipedia\",\"birthday\"\
+          :\"1976-08-23\",\"death\":null,\"birthplace\":\"Los Angeles - California\
+          \ - USA\",\"homepage\":\"\"}},{\"character\":\"Kono Kalakaua\",\"person\"\
+          :{\"name\":\"Grace Park\",\"ids\":{\"trakt\":441556,\"slug\":\"grace-park\"\
+          ,\"imdb\":\"nm0661825\",\"tmdb\":77209,\"tvrage\":null},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/150/434/headshots/original/378af33b2b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/150/434/headshots/medium/378af33b2b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/150/434/headshots/thumb/378af33b2b.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/441/556/fanarts/original/bcad3f0092.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/441/556/fanarts/medium/bcad3f0092.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/441/556/fanarts/thumb/bcad3f0092.jpg\"\
+          }},\"biography\":\"\u200BFrom Wikipedia, the free encyclopedia\\n\\nGrace\
+          \ Park (born March 14, 1974) is an American-born Canadian actress. She originally\
+          \ gained recognition as Sharon Valerii on Battlestar Galactica, as well\
+          \ as Shannon Ng in the Canadian television series teen soap Edgemont. Park\
+          \ plays detective Kona \\\"Kono\\\" Kalakaua in CBS' remake of Hawaii Five-0,\
+          \ which debuted September 20, 2010 on CBS.\\n\\nDescription above from the\
+          \ Wikipedia article Grace Park (actress), licensed under CC-BY-SA, full\
+          \ list of contributors on Wikipedia.\",\"birthday\":\"1974-03-14\",\"death\"\
+          :null,\"birthplace\":\"Los Angeles, California, U.S.\",\"homepage\":\"\"\
+          }},{\"character\":\"Chin Ho Kelly\",\"person\":{\"name\":\"Daniel Dae Kim\"\
+          ,\"ids\":{\"trakt\":14348,\"slug\":\"daniel-dae-kim\",\"imdb\":\"nm0196654\"\
+          ,\"tmdb\":18307,\"tvrage\":10109},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/150/441/headshots/original/ad70b2c62d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/150/441/headshots/medium/ad70b2c62d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/150/441/headshots/thumb/ad70b2c62d.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia. Daniel Dae Kim (born August 4,\
+          \ 1968) is a Korean American actor, best known for his roles as Chin Ho\
+          \ Kelly in Hawaii Five-0 and Jin-Soo Kwon in Lost.\\n\\nDescription above\
+          \ from the Wikipedia article Daniel Dae Kim, licensed under CC-BY-SA, full\
+          \ list of contributors on Wikipedia.\",\"birthday\":\"1968-08-04\",\"death\"\
+          :null,\"birthplace\":\"Pusan, South Korea\",\"homepage\":\"\"}},{\"character\"\
+          :\"Lou Grover\",\"person\":{\"name\":\"Chi McBride\",\"ids\":{\"trakt\"\
+          :413568,\"slug\":\"chi-mcbride\",\"imdb\":\"nm0564277\",\"tmdb\":8687,\"\
+          tvrage\":23981},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/150/447/headshots/original/153315b6e5.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/150/447/headshots/medium/153315b6e5.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/150/447/headshots/thumb/153315b6e5.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/413/568/fanarts/original/2f6cb5e293.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/568/fanarts/medium/2f6cb5e293.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/568/fanarts/thumb/2f6cb5e293.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia. \_\\n\\nKenneth\
+          \ \\\"Chi\\\" (pronounced \\\"shy\\\") McBride (born September 23, 1961)\
+          \ is an American actor. He starred as Emerson Cod on the ABC series Pushing\
+          \ Daisies, and on Fox's drama Human Target.\\n\\nDescription above from\
+          \ the Wikipedia article Chi McBride, licensed under CC-BY-SA, full list\
+          \ of contributors on Wikipedia.\",\"birthday\":\"1961-09-23\",\"death\"\
+          :null,\"birthplace\":\"Chicago, Illinois, USA\",\"homepage\":\"\"}},{\"\
+          character\":\"Jerry Ortega\",\"person\":{\"name\":\"Jorge Garcia\",\"ids\"\
+          :{\"trakt\":441947,\"slug\":\"jorge-garcia-b7b83d58-826f-4c14-bc1c-0df1862ca218\"\
+          ,\"imdb\":\"nm1138983\",\"tmdb\":1215525,\"tvrage\":16771},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/150/484/headshots/original/0b3a29dc37.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/150/484/headshots/medium/0b3a29dc37.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/150/484/headshots/thumb/0b3a29dc37.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/441/947/fanarts/original/36709a9214.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/441/947/fanarts/medium/36709a9214.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/441/947/fanarts/thumb/36709a9214.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nJorge Garc\xED\
+          a (born April 28, 1973, height 5' 11\xBD\\\" (1,82 m)) is an American actor\
+          \ and comedian. He first came to public attention with his performance as\
+          \ Hector Lopez on the television show Becker and later for his portrayal\
+          \ of Hugo \\\"Hurley\\\" Reyes in the television series Lost. Garcia also\
+          \ performs as a stand-up comedian. He most recently starred in the FOX television\
+          \ series Alcatraz, as well as playing a minor character on ABC's Once Upon\
+          \ a Time. Garc\xEDa was born in Omaha, Nebraska. His mother, Dora Mesa,\
+          \ is a Cuban-born professor, and his father, Humberto Garcia, is a Chilean-born\
+          \ doctor. He grew up in Southern California and went to San Clemente High\
+          \ School. As a senior, he was selected by the faculty as \\\"Triton of the\
+          \ Year\\\", the highest award given to a graduating senior.\\n\\nGarcia\
+          \ graduated from the University of California Los Angeles (UCLA) in 1995\
+          \ as a Communication Studies major.\\n\\nGarc\xEDa was the first actor to\
+          \ be cast on Lost after the producers saw him on Curb Your Enthusiasm the\
+          \ night before casting began, and created the character of Hugo Reyes specifically\
+          \ for him. Garc\xEDa appeared in the second episode of the eighth season\
+          \ of Celebrity Poker Showdown, where he lost to Michael Ian Black. He was\
+          \ a contestant on an episode of Russian Roulette on Game Show Network. He\
+          \ missed a question about the Boxer Rebellion of 1900 and fell through the\
+          \ trap door.\\n\\nGarcia is scheduled to star in the movie When We Were\
+          \ Pirates due out in 2012. In the independent film, he will play a man named\
+          \ Jason, who along with a group of close friends, learn that their childhood\
+          \ love of playing pirates helps them overcome some of the difficulties they\
+          \ face later in their lives. He is also seen singing in the studio for the\
+          \ upcoming project on an officially released YouTube clip. During Lost's\
+          \ run, Garcia wrote a blog about the show called Dispatches from the Island.\
+          \ He also hosted a weekly podcast, Geronimo Jack's Beard, in which he discussed\
+          \ the script of Season 6 along with his then girlfriend Bethany Leigh Shady.\\\
+          n\\nGarcia is also featured on the front cover of Weezer's album Hurley,\
+          \ released on September 10, 2010. The album is named after his character\
+          \ from Lost. He performed as a guest vocalist at several Weezer concerts\
+          \ in 2010.\\n\\nOn 21 November 2010, Entertainment Weekly announced that\
+          \ Garcia was cast in the upcoming U.S. television series Alcatraz. On 23\
+          \ November 2010, Garcia made a guest appearance on How I Met Your Mother's\
+          \ episode \\\"Blitzgiving\\\". In the episode references are made to Garcia's\
+          \ time on Lost. In 2011, Garcia appeared as a recurring character in Mr.\
+          \ Sunshine, portraying a caretaker at the Sunshine Center. Starting in January\
+          \ 2012, Garcia portrayed Dr. Diego Soto, an Alcatraz expert, in the FOX\
+          \ series, Alcatraz. The show was a mid-season replacement for Fox's Terra\
+          \ Nova. Despite an impressive start, the series was officially cancelled\
+          \ by Fox on May 9, 2012, due to dropping viewership throughout its run.\
+          \ Garcia appeared on The Nerdist podcast posted June 18, 2012. In 2013,\
+          \ Garcia played Steve Wozniak in the parody film, iSteve produced for the\
+          \ Funny or Die website.\",\"birthday\":\"1973-04-28\",\"death\":null,\"\
+          birthplace\":\"Omaha - Nebraska - USA\",\"homepage\":\"\"}},{\"character\"\
+          :\"Dr. Max Bergman\",\"person\":{\"name\":\"Masi Oka\",\"ids\":{\"trakt\"\
+          :424120,\"slug\":\"masi-oka\",\"imdb\":\"nm1199811\",\"tmdb\":17273,\"tvrage\"\
+          :9576},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/150/580/headshots/original/310bb86f1f.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/150/580/headshots/medium/310bb86f1f.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/150/580/headshots/thumb/310bb86f1f.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nMasayori \\\"Masi\\\" Oka\
+          \ (born December 27, 1974) is a Japanese-American actor and digital effects\
+          \ artist.\\n\\nHe has performed in numerous feature films and TV shows,\
+          \ most prominently as Hiro Nakamura in the NBC TV series Heroes from 2006\
+          \ until its cancellation in May 2010. He resides in Los Angeles, California.\\\
+          n\\nDescription above from the Wikipedia article Masi Oka, licensed under\
+          \ CC-BY-SA, full list of contributors on Wikipedia.\",\"birthday\":\"1974-12-27\"\
+          ,\"death\":null,\"birthplace\":\"Tokyo - Japan\",\"homepage\":\"\"}},{\"\
+          character\":\"Wo Fat\",\"person\":{\"name\":\"Mark Dacascos\",\"ids\":{\"\
+          trakt\":15278,\"slug\":\"mark-dacascos\",\"imdb\":\"nm0001092\",\"tmdb\"\
+          :18702,\"tvrage\":31885},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/150/629/headshots/original/428b6c9544.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/150/629/headshots/medium/428b6c9544.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/150/629/headshots/thumb/428b6c9544.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\u200BFrom Wikipedia, the free encyclopedia. \_\\n\\nMark Alan Dacascos\
+          \ (born February 26, 1964) is an American actor and martial artist. He won\
+          \ numerous karate and various styles of kung fu championships between the\
+          \ ages of 7 and 18. Beginning in January 2005, Dacascos has portrayed \\\
+          \"the Chairman\\\" on Food Network's television series Iron Chef America.\
+          \ This role was previously played by Takeshi Kaga in the original Japanese\
+          \ Iron Chef, and Dacascos' character is presented as Kaga's nephew, though\
+          \ the actors are not related. Dacascos went on to continue the role in Iron\
+          \ Chef Australia. His other roles include: Eric Draven in The Crow: Stairway\
+          \ to Heaven, Eubulon, the Advent Master, on Kamen Rider Dragon Knight, the\
+          \ lead role of \\\"Mani\\\" in the French film Brotherhood of the Wolf and\
+          \ the lead role of \\\"Crying Freeman\\\" in the film of the same name.\
+          \ Dacascos competed in season 9 of Dancing with the Stars. His partner was\
+          \ So You Think You Can Dance finalist Lacey Schwimmer. The pair was eliminated\
+          \ in the 7th episode. On November 2, 2010, CBS announced Dacascos was cast\
+          \ to reprise the role of Steve McGarrett's arch-nemesis, Wo Fat, in the\
+          \ modern remake of Hawaii Five-0.\",\"birthday\":\"1964-02-26\",\"death\"\
+          :null,\"birthplace\":\"Honolulu - Hawaii - USA\",\"homepage\":\"http://www.dacascos.com/\"\
+          }}]}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb6109fd1ff4-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"d846cfb705efa9ea3421e0099253930e"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=dd51ee5a6d6a499166049549808a444c71462742046; expires=Mon,
+            08-May-17 21:14:06 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [994d6f95-8c74-4b82-93d7-cf64d68b6929]
+        X-Runtime: ['0.112751']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -86,29 +286,29 @@ interactions:
           tvrage\":0},\"number_abs\":null,\"overview\":\"Internal Affairs questions\
           \ Chin about his father\u2019s murder 15 years earlier and how his then-new\
           \ relationship with Malia and her family might have hurt the investigation.\"\
-          ,\"rating\":7.80292,\"votes\":411,\"first_aired\":\"2014-01-18T02:00:00.000Z\"\
-          ,\"updated_at\":\"2016-05-04T14:39:25.000Z\",\"available_translations\"\
+          ,\"rating\":7.79903,\"votes\":413,\"first_aired\":\"2014-01-18T02:00:00.000Z\"\
+          ,\"updated_at\":\"2016-05-08T12:32:47.000Z\",\"available_translations\"\
           :[],\"images\":{\"screenshot\":{\"full\":\"https://walter.trakt.us/images/episodes/000/776/972/screenshots/original/20ea1238a9.jpg\"\
           ,\"medium\":\"https://walter.trakt.us/images/episodes/000/776/972/screenshots/medium/20ea1238a9.jpg\"\
           ,\"thumb\":\"https://walter.trakt.us/images/episodes/000/776/972/screenshots/thumb/20ea1238a9.jpg\"\
           }}}"}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de2387a0a31fdc-DFW]
+        CF-RAY: [29ffeb63fbaf03dc-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:30 GMT']
-        Expires: ['Wed, 04 May 2016 22:50:30 GMT']
-        Last-Modified: ['Wed, 04 May 2016 14:39:25 GMT']
+        Date: ['Sun, 08 May 2016 21:14:07 GMT']
+        Expires: ['Mon, 09 May 2016 01:14:07 GMT']
+        Last-Modified: ['Sun, 08 May 2016 12:32:47 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=dbbea9eaa36c5c4bc11097bb9a935d63a1462387830; expires=Thu,
-            04-May-17 18:50:30 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=d2ca512fd2c3da73973df680c9dc4f6201462742047; expires=Mon,
+            08-May-17 21:14:07 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [827c855c-9a0c-4787-8e18-1c3806606475]
-        X-Runtime: ['0.010908']
+        X-Request-Id: [359d5c48-4748-4d37-b7df-aabb2cb7d1bb]
+        X-Runtime: ['0.021207']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -124,22 +324,22 @@ interactions:
           Five-0","year":2010,"ids":{"trakt":32657,"slug":"hawaii-five-0","tvdb":164541,"imdb":"tt1600194","tmdb":32798,"tvrage":24840}},"seasons":[{"number":1,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":14,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":15,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":16,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":17,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":18,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":19,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":20,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":21,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":22,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":23,"plays":1,"last_watched_at":"2015-01-02T03:46:36.000Z"},{"number":24,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"}]},{"number":2,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":14,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":15,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":16,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":17,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":18,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":19,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":20,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":21,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":22,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":23,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"}]},{"number":3,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":14,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":15,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":16,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":17,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":18,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":19,"plays":1,"last_watched_at":"2015-01-02T03:46:37.000Z"},{"number":20,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":21,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":22,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":23,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":24,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"}]},{"number":4,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":14,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":15,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":16,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":17,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":18,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":19,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":20,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":21,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":22,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"}]},{"number":5,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:46:38.000Z"}]}]},{"plays":92,"last_watched_at":"2015-01-02T03:40:56.000Z","show":{"title":"Sons
           of Anarchy","year":2008,"ids":{"trakt":1400,"slug":"sons-of-anarchy","tvdb":82696,"imdb":"tt1124373","tmdb":1409,"tvrage":18174}},"seasons":[{"number":1,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:40:54.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"}]},{"number":2,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"}]},{"number":3,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"}]},{"number":4,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"},{"number":14,"plays":1,"last_watched_at":"2015-01-02T03:40:55.000Z"}]},{"number":5,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"}]},{"number":6,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"}]},{"number":7,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"},{"number":13,"plays":1,"last_watched_at":"2015-01-02T03:40:56.000Z"}]}]},{"plays":12,"last_watched_at":"2015-01-02T03:40:06.000Z","show":{"title":"Homeland","year":2011,"ids":{"trakt":1398,"slug":"homeland","tvdb":247897,"imdb":"tt1796960","tmdb":1407,"tvrage":27811}},"seasons":[{"number":1,"episodes":[{"number":1,"plays":1,"last_watched_at":"2015-01-02T03:37:34.000Z"},{"number":2,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":3,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":4,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":5,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":6,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":7,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":8,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":9,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":10,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":11,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"},{"number":12,"plays":1,"last_watched_at":"2015-01-02T03:40:06.000Z"}]}]},{"plays":91,"last_watched_at":"2012-01-28T01:00:00.000Z","show":{"title":"Chuck","year":2007,"ids":{"trakt":1395,"slug":"chuck","tvdb":80348,"imdb":"tt0934814","tmdb":1404,"tvrage":15614}},"seasons":[{"number":1,"episodes":[{"number":1,"plays":1,"last_watched_at":"2007-09-25T00:00:00.000Z"},{"number":2,"plays":1,"last_watched_at":"2007-10-02T00:00:00.000Z"},{"number":3,"plays":1,"last_watched_at":"2007-10-09T00:00:00.000Z"},{"number":4,"plays":1,"last_watched_at":"2007-10-16T00:00:00.000Z"},{"number":5,"plays":1,"last_watched_at":"2007-10-23T00:00:00.000Z"},{"number":6,"plays":1,"last_watched_at":"2007-10-30T00:00:00.000Z"},{"number":7,"plays":1,"last_watched_at":"2007-11-06T01:00:00.000Z"},{"number":8,"plays":1,"last_watched_at":"2007-11-13T01:00:00.000Z"},{"number":9,"plays":1,"last_watched_at":"2007-11-20T01:00:00.000Z"},{"number":10,"plays":1,"last_watched_at":"2007-11-27T01:00:00.000Z"},{"number":11,"plays":1,"last_watched_at":"2007-12-04T01:00:00.000Z"},{"number":12,"plays":1,"last_watched_at":"2008-01-25T01:00:00.000Z"},{"number":13,"plays":1,"last_watched_at":"2008-01-25T01:00:00.000Z"}]},{"number":2,"episodes":[{"number":1,"plays":1,"last_watched_at":"2008-09-30T00:00:00.000Z"},{"number":2,"plays":1,"last_watched_at":"2008-10-07T00:00:00.000Z"},{"number":3,"plays":1,"last_watched_at":"2008-10-14T00:00:00.000Z"},{"number":4,"plays":1,"last_watched_at":"2008-10-21T00:00:00.000Z"},{"number":5,"plays":1,"last_watched_at":"2008-10-28T00:00:00.000Z"},{"number":6,"plays":1,"last_watched_at":"2008-11-11T01:00:00.000Z"},{"number":7,"plays":1,"last_watched_at":"2008-11-18T01:00:00.000Z"},{"number":8,"plays":1,"last_watched_at":"2008-11-25T01:00:00.000Z"},{"number":9,"plays":1,"last_watched_at":"2008-12-02T01:00:00.000Z"},{"number":10,"plays":1,"last_watched_at":"2008-12-09T01:00:00.000Z"},{"number":11,"plays":1,"last_watched_at":"2008-12-16T01:00:00.000Z"},{"number":12,"plays":1,"last_watched_at":"2009-02-03T01:00:00.000Z"},{"number":13,"plays":1,"last_watched_at":"2009-02-17T01:00:00.000Z"},{"number":14,"plays":1,"last_watched_at":"2009-02-24T01:00:00.000Z"},{"number":15,"plays":1,"last_watched_at":"2009-03-03T01:00:00.000Z"},{"number":16,"plays":1,"last_watched_at":"2009-03-10T00:00:00.000Z"},{"number":17,"plays":1,"last_watched_at":"2009-03-24T00:00:00.000Z"},{"number":18,"plays":1,"last_watched_at":"2009-03-31T00:00:00.000Z"},{"number":19,"plays":1,"last_watched_at":"2009-04-07T00:00:00.000Z"},{"number":20,"plays":1,"last_watched_at":"2009-04-14T00:00:00.000Z"},{"number":21,"plays":1,"last_watched_at":"2009-04-21T00:00:00.000Z"},{"number":22,"plays":1,"last_watched_at":"2009-04-28T00:00:00.000Z"}]},{"number":3,"episodes":[{"number":1,"plays":1,"last_watched_at":"2010-01-11T01:00:00.000Z"},{"number":2,"plays":1,"last_watched_at":"2010-01-11T01:00:00.000Z"},{"number":3,"plays":1,"last_watched_at":"2010-01-12T01:00:00.000Z"},{"number":4,"plays":1,"last_watched_at":"2010-01-19T01:00:00.000Z"},{"number":5,"plays":1,"last_watched_at":"2010-01-26T01:00:00.000Z"},{"number":6,"plays":1,"last_watched_at":"2010-02-02T01:00:00.000Z"},{"number":7,"plays":1,"last_watched_at":"2010-02-09T01:00:00.000Z"},{"number":8,"plays":1,"last_watched_at":"2010-03-02T01:00:00.000Z"},{"number":9,"plays":1,"last_watched_at":"2010-03-09T01:00:00.000Z"},{"number":10,"plays":1,"last_watched_at":"2010-03-16T00:00:00.000Z"},{"number":11,"plays":1,"last_watched_at":"2010-03-23T00:00:00.000Z"},{"number":12,"plays":1,"last_watched_at":"2010-03-30T00:00:00.000Z"},{"number":13,"plays":1,"last_watched_at":"2010-04-06T00:00:00.000Z"},{"number":14,"plays":1,"last_watched_at":"2010-04-27T00:00:00.000Z"},{"number":15,"plays":1,"last_watched_at":"2010-05-04T00:00:00.000Z"},{"number":16,"plays":1,"last_watched_at":"2010-05-11T00:00:00.000Z"},{"number":17,"plays":1,"last_watched_at":"2010-05-18T00:00:00.000Z"},{"number":18,"plays":1,"last_watched_at":"2010-05-25T00:00:00.000Z"},{"number":19,"plays":1,"last_watched_at":"2010-05-25T00:00:00.000Z"}]},{"number":4,"episodes":[{"number":1,"plays":1,"last_watched_at":"2010-09-21T00:00:00.000Z"},{"number":2,"plays":1,"last_watched_at":"2010-09-28T00:00:00.000Z"},{"number":3,"plays":1,"last_watched_at":"2010-10-05T00:00:00.000Z"},{"number":4,"plays":1,"last_watched_at":"2010-10-12T00:00:00.000Z"},{"number":5,"plays":1,"last_watched_at":"2010-10-19T00:00:00.000Z"},{"number":6,"plays":1,"last_watched_at":"2010-10-26T00:00:00.000Z"},{"number":7,"plays":1,"last_watched_at":"2010-11-02T00:00:00.000Z"},{"number":8,"plays":1,"last_watched_at":"2010-11-16T01:00:00.000Z"},{"number":9,"plays":1,"last_watched_at":"2010-11-23T01:00:00.000Z"},{"number":10,"plays":1,"last_watched_at":"2010-11-30T01:00:00.000Z"},{"number":11,"plays":1,"last_watched_at":"2011-01-18T01:00:00.000Z"},{"number":12,"plays":1,"last_watched_at":"2011-01-25T01:00:00.000Z"},{"number":13,"plays":1,"last_watched_at":"2011-02-01T01:00:00.000Z"},{"number":14,"plays":1,"last_watched_at":"2011-02-08T01:00:00.000Z"},{"number":15,"plays":1,"last_watched_at":"2011-02-15T01:00:00.000Z"},{"number":16,"plays":1,"last_watched_at":"2011-02-22T01:00:00.000Z"},{"number":17,"plays":1,"last_watched_at":"2011-03-01T01:00:00.000Z"},{"number":18,"plays":1,"last_watched_at":"2011-03-15T00:00:00.000Z"},{"number":19,"plays":1,"last_watched_at":"2011-03-22T00:00:00.000Z"},{"number":20,"plays":1,"last_watched_at":"2011-04-12T00:00:00.000Z"},{"number":21,"plays":1,"last_watched_at":"2011-04-19T00:00:00.000Z"},{"number":22,"plays":1,"last_watched_at":"2011-05-03T00:00:00.000Z"},{"number":23,"plays":1,"last_watched_at":"2011-05-10T00:00:00.000Z"},{"number":24,"plays":1,"last_watched_at":"2011-05-17T00:00:00.000Z"}]},{"number":5,"episodes":[{"number":1,"plays":1,"last_watched_at":"2011-10-29T00:00:00.000Z"},{"number":2,"plays":1,"last_watched_at":"2011-11-05T00:00:00.000Z"},{"number":3,"plays":1,"last_watched_at":"2011-11-12T01:00:00.000Z"},{"number":4,"plays":1,"last_watched_at":"2011-11-19T01:00:00.000Z"},{"number":5,"plays":1,"last_watched_at":"2011-12-10T01:00:00.000Z"},{"number":6,"plays":1,"last_watched_at":"2011-12-17T01:00:00.000Z"},{"number":7,"plays":1,"last_watched_at":"2011-12-24T01:00:00.000Z"},{"number":8,"plays":1,"last_watched_at":"2011-12-31T01:00:00.000Z"},{"number":9,"plays":1,"last_watched_at":"2012-01-07T01:00:00.000Z"},{"number":10,"plays":1,"last_watched_at":"2012-01-14T01:00:00.000Z"},{"number":11,"plays":1,"last_watched_at":"2012-01-21T01:00:00.000Z"},{"number":12,"plays":1,"last_watched_at":"2012-01-28T01:00:00.000Z"},{"number":13,"plays":1,"last_watched_at":"2012-01-28T01:00:00.000Z"}]}]}]'}
       headers:
-        CF-RAY: [29de2388a28b1fc4-DFW]
+        CF-RAY: [29ffeb64e7a81ffa-DFW]
         Cache-Control: ['max-age=0, private, must-revalidate']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"9bfc893700145af3619e47a6b51a1884"]
-        Last-Modified: ['Wed, 04 May 2016 07:23:41 GMT']
+        Date: ['Sun, 08 May 2016 21:14:07 GMT']
+        ETag: [W/"6f730ef9c3a73efb3271bf6ea20c8152"]
+        Last-Modified: ['Sun, 08 May 2016 19:14:45 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=dc736defec59bffeb6b7da16d4887699a1462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=d82cecabbb4208f83678cd2d6d37fb78f1462742047; expires=Mon,
+            08-May-17 21:14:07 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
         X-Private-User: ['false']
-        X-Request-Id: [74faee54-c3c2-4d26-8e08-f417ee796803]
-        X-Runtime: ['0.028169']
+        X-Request-Id: [28a98da8-821f-48d9-b154-e3e2ad30f38e]
+        X-Runtime: ['0.058425']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -149,14 +349,14 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?query=The+Flash&type=show&year=2014
+      uri: https://api-v2launch.trakt.tv/search?type=show&query=The+Flash&year=2014
     response:
-      body: {string: "[{\"type\":\"show\",\"score\":61.095436,\"show\":{\"title\"\
-          :\"The Flash\",\"overview\":\"After a particle accelerator causes a freak\
-          \ storm, CSI Investigator Barry Allen is struck by lightning and falls into\
-          \ a coma. Months later he awakens with the power of super speed, granting\
-          \ him the ability to move through Central City like an unseen guardian angel.\
-          \ Though initially excited by his newfound powers, Barry is shocked to discover\
+      body: {string: "[{\"type\":\"show\",\"score\":60.40905,\"show\":{\"title\":\"\
+          The Flash\",\"overview\":\"After a particle accelerator causes a freak storm,\
+          \ CSI Investigator Barry Allen is struck by lightning and falls into a coma.\
+          \ Months later he awakens with the power of super speed, granting him the\
+          \ ability to move through Central City like an unseen guardian angel. Though\
+          \ initially excited by his newfound powers, Barry is shocked to discover\
           \ he is not the only \\\"meta-human\\\" who was created in the wake of the\
           \ accelerator explosion \u2013 and not everyone is using their new powers\
           \ for good. Barry partners with S.T.A.R. Labs and dedicates his life to\
@@ -172,7 +372,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/060/300/fanarts/thumb/df36c9a731.jpg\"\
           }},\"ids\":{\"trakt\":60300,\"slug\":\"the-flash-2014\",\"tvdb\":279121,\"\
           imdb\":\"tt3107288\",\"tmdb\":60735,\"tvrage\":36939}}},{\"type\":\"show\"\
-          ,\"score\":0.4675796,\"show\":{\"title\":\"Tornado Hunters\",\"overview\"\
+          ,\"score\":0.46255913,\"show\":{\"title\":\"Tornado Hunters\",\"overview\"\
           :\"Greg Johnson, Chris Chittick, and Ricky Forbes are the Tornado Hunters.Outfitted\
           \ with their truck Flash and the best equipment money can buy, they target\
           \ the biggest tornadoes in North America. From Regina to Mexico, there\u2019\
@@ -185,7 +385,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/081/448/posters/thumb/ecede5e037.jpg\"\
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":81448,\"slug\":\"tornado-hunters\",\"tvdb\":287638,\"imdb\":null,\"\
-          tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":0.34328645,\"\
+          tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":0.3394836,\"\
           show\":{\"title\":\"Stop Skeletons From Fighting\",\"overview\":\"Hello,\
           \ I'm Derek Alexander, and I've been producing video reviews of retro (and\
           \ sometimes modern) video games for over 7 years.When I started producing\
@@ -203,17 +403,17 @@ interactions:
           slug\":\"stop-skeletons-from-fighting\",\"tvdb\":300088,\"imdb\":null,\"\
           tmdb\":null,\"tvrage\":null}}}]"}
       headers:
-        CF-Cache-Status: [HIT]
-        CF-RAY: [29de238b2f230932-DFW]
+        CF-Cache-Status: [MISS]
+        CF-RAY: [29ffeb670bad0103-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"6b5cdfb35a743a0271e1e95b40a3a0b8"]
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
+        Date: ['Sun, 08 May 2016 21:14:08 GMT']
+        ETag: [W/"ec8babb98473c77d1841524aaa247d0b"]
+        Expires: ['Mon, 09 May 2016 01:14:08 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=de29b94db3f6f97c65b0ba8004d1f986e1462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=db933e5ea7376cac18e7c0f3f063c07681462742047; expires=Mon,
+            08-May-17 21:14:07 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -221,15 +421,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [f82e8f85-b7d0-4fdc-b8ba-0d94f05ebd22]
-        X-Runtime: ['0.029781']
+        X-Request-Id: [6c833ded-afaa-4021-8e63-fad61dd18a4d]
+        X-Runtime: ['0.061997']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=de29b94db3f6f97c65b0ba8004d1f986e1462387831]
+        Cookie: [__cfduid=db933e5ea7376cac18e7c0f3f063c07681462742047]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -252,8 +452,8 @@ interactions:
           ,\"time\":\"20:00\",\"timezone\":\"America/New_York\"},\"runtime\":44,\"\
           certification\":\"TV-14\",\"network\":\"The CW\",\"country\":\"us\",\"trailer\"\
           :\"http://youtube.com/watch?v=aZxhA_Jihmw\",\"homepage\":\"http://www.cwtv.com/shows/the-flash/\"\
-          ,\"status\":\"returning series\",\"rating\":8.32928,\"votes\":9697,\"updated_at\"\
-          :\"2016-05-04T11:35:07.000Z\",\"language\":\"en\",\"available_translations\"\
+          ,\"status\":\"returning series\",\"rating\":8.33111,\"votes\":9761,\"updated_at\"\
+          :\"2016-05-08T11:20:36.000Z\",\"language\":\"en\",\"available_translations\"\
           :[\"pl\",\"sv\",\"fr\",\"en\",\"zh\",\"da\",\"pt\",\"el\",\"de\",\"es\"\
           ,\"bg\",\"it\",\"tr\",\"ru\",\"nl\",\"hu\",\"ko\",\"lt\",\"cs\",\"hr\",\"\
           bs\",\"za\",\"he\",\"id\",\"ro\",\"fa\",\"th\",\"ar\",\"te\",\"uk\",\"ms\"\
@@ -272,20 +472,218 @@ interactions:
           }}}"}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de238b8f290932-DFW]
+        CF-RAY: [29ffeb698bdc0103-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"b1fa51ab6d35f34ebe7bc4e02569fd2a"]
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
-        Last-Modified: ['Wed, 04 May 2016 11:35:07 GMT']
+        Date: ['Sun, 08 May 2016 21:14:08 GMT']
+        ETag: [W/"e336de4cb15ba2adcb5cb42084a99580"]
+        Expires: ['Mon, 09 May 2016 01:14:08 GMT']
+        Last-Modified: ['Sun, 08 May 2016 11:20:36 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [fe9550c9-85e7-4d84-963a-a22df1f00a0f]
-        X-Runtime: ['0.040725']
+        X-Request-Id: [71d7bb06-093d-4017-bce0-47e537d3270f]
+        X-Runtime: ['0.036846']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/60300/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Barry Allen / The Flash\",\"person\"\
+          :{\"name\":\"Grant Gustin\",\"ids\":{\"trakt\":440982,\"slug\":\"grant-gustin\"\
+          ,\"imdb\":\"nm2652716\",\"tmdb\":122616,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/155/headshots/original/d13e956eeb.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/155/headshots/medium/d13e956eeb.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/155/headshots/thumb/d13e956eeb.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/440/982/fanarts/original/df36c9a731.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/440/982/fanarts/medium/df36c9a731.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/440/982/fanarts/thumb/df36c9a731.jpg\"\
+          }},\"biography\":\"Thomas Grant Gustin (born January 14, 1990), better known\
+          \ as Grant Gustin, is an American actor and singer. He is known for his\
+          \ roles as Barry Allen / Flash on the CW series The Flash and as Sebastian\
+          \ Smythe on the Fox series Glee.  Description above from the Wikipedia article\
+          \ Grant Gustin, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1990-01-14\",\"death\":null,\"birthplace\":\"Norfolk - Virginia\
+          \ - USA\",\"homepage\":\"\"}},{\"character\":\"Harrison Wells\",\"person\"\
+          :{\"name\":\"Tom Cavanagh\",\"ids\":{\"trakt\":424159,\"slug\":\"tom-cavanagh\"\
+          ,\"imdb\":\"nm0146915\",\"tmdb\":59216,\"tvrage\":29289},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/157/headshots/original/8973c6ad84.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/157/headshots/medium/8973c6ad84.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/157/headshots/thumb/8973c6ad84.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/424/159/fanarts/original/f1dfc9fcaa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/424/159/fanarts/medium/f1dfc9fcaa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/424/159/fanarts/thumb/f1dfc9fcaa.jpg\"\
+          }},\"biography\":\"Thomas Cavanagh was born on October 26th, 1963 in Ottawa,\
+          \ Ontario, the second-oldest of five children. His close-knit family moved\
+          \ to Ghana, Africa when Tom was six. His father educated teachers there.\
+          \ The family moved back to Canada before Tom started high school (which\
+          \ he attended in southern Quebec). Tom went to Queens University in Kingston,\
+          \ Ontario where he played on the basketball team and graduated with degrees\
+          \ in English, Biology, and Education. His interest in theater grew when\
+          \ he was cast as the lead Danny Zuko in a Canadian \\\"Grease\\\". Since\
+          \ then, he has been in a moderate amount of movies, but is gaining popularity\
+          \ for his starring, award-winning role on the new NBC series\_Ed\_(2000),\
+          \ in which he plays the lovable, charming Ed Stevens. Cavanagh resides in\
+          \ L.A., where he has lived for two years. In his spare time he likes to\
+          \ play guitar and participate in a variety of sports.\",\"birthday\":\"\
+          1963-10-26\",\"death\":null,\"birthplace\":\"Ottawa - Ontario - Canada\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Caitlin Snow\",\"person\":{\"name\"\
+          :\"Danielle Panabaker\",\"ids\":{\"trakt\":418588,\"slug\":\"danielle-panabaker\"\
+          ,\"imdb\":\"nm1263939\",\"tmdb\":31838,\"tvrage\":27590},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/158/headshots/original/74404f0f1d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/158/headshots/medium/74404f0f1d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/158/headshots/thumb/74404f0f1d.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/418/588/fanarts/original/db12127faa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/418/588/fanarts/medium/db12127faa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/418/588/fanarts/thumb/db12127faa.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nDanielle Nicole\
+          \ Panabaker (born September 19, 1987) is an American actress. She was a\
+          \ cast member in the CBS drama Shark, and appeared in the films Mr. Brooks,\
+          \ Sky High, and Friday the 13th, among other projects. She is best known\
+          \ to younger audiences for her roles in the Disney Channel films Stuck in\
+          \ the Suburbs and Read It and Weep along with her younger sister Kay Panabaker.\"\
+          ,\"birthday\":\"1987-09-19\",\"death\":null,\"birthplace\":\"Augusta - Georgia\
+          \ - USA\",\"homepage\":\"http://www.daniellepanabaker.com/\"}},{\"character\"\
+          :\"Cisco Ramon\",\"person\":{\"name\":\"Carlos Valdes\",\"ids\":{\"trakt\"\
+          :508014,\"slug\":\"carlos-valdes\",\"imdb\":\"nm4583876\",\"tmdb\":1428398,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/168/182/headshots/original/985d75e947.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/168/182/headshots/medium/985d75e947.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/168/182/headshots/thumb/985d75e947.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/508/014/fanarts/original/333e46f78d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/508/014/fanarts/medium/333e46f78d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/508/014/fanarts/thumb/333e46f78d.jpg\"\
+          }},\"biography\":\"\",\"birthday\":\"1989-04-20\",\"death\":null,\"birthplace\"\
+          :null,\"homepage\":\"\"}},{\"character\":\"Joe West\",\"person\":{\"name\"\
+          :\"Jesse L. Martin\",\"ids\":{\"trakt\":17828,\"slug\":\"jesse-l-martin\"\
+          ,\"imdb\":\"nm0552509\",\"tmdb\":19392,\"tvrage\":10033},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/160/headshots/original/a5a87874f2.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/160/headshots/medium/a5a87874f2.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/160/headshots/thumb/a5a87874f2.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/017/828/fanarts/original/53454dd0f3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/017/828/fanarts/medium/53454dd0f3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/017/828/fanarts/thumb/53454dd0f3.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nJesse Lamont\
+          \ Martin (born Jesse Lamont Watkins; January 18, 1969) is an American theatre,\
+          \ film, and television actor. He is best known for originating the role\
+          \ of Tom Collins in the Broadway theatrical production of Rent, and for\
+          \ his portrayal of NYPD Detective Ed Green on the NBC drama television series\
+          \ Law &amp; Order.\\n\\nDescription above from the Wikipedia article Jesse\
+          \ L. Martin, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1969-01-18\",\"death\":null,\"birthplace\":\"Rocky Mount,\
+          \ Virginia, USA\",\"homepage\":\"\"}},{\"character\":\"Iris West\",\"person\"\
+          :{\"name\":\"Candice Patton\",\"ids\":{\"trakt\":446429,\"slug\":\"candice-patton\"\
+          ,\"imdb\":\"nm2765384\",\"tmdb\":212700,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/156/headshots/original/9df9e27e68.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/156/headshots/medium/9df9e27e68.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/156/headshots/thumb/9df9e27e68.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/446/429/fanarts/original/b992ef650c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/446/429/fanarts/medium/b992ef650c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/446/429/fanarts/thumb/b992ef650c.jpg\"\
+          }},\"biography\":\"Raised in Plano, Texas, Candice continued her childhood\
+          \ dream of becoming an actress by attending Southern Methodist University\
+          \ in Dallas where she graduated Summa Cum Laude with a B.F.A in Theatre.\
+          \ It was here that she was scouted by The Young and the Restless for a CBS\
+          \ Soap Star Contest and flew out to Los Angeles to briefly join the cast.\
+          \ Candice finished her college education at SMU and moved to Los Angeles\
+          \ shortly after.\",\"birthday\":\"1988-06-24\",\"death\":null,\"birthplace\"\
+          :\"Jackson, Mississippi, USA\",\"homepage\":\"\"}}],\"crew\":{\"sound\"\
+          :[{\"job\":\"Original Music Composer\",\"person\":{\"name\":\"Blake Neely\"\
+          ,\"ids\":{\"trakt\":37311,\"slug\":\"blake-neely\",\"imdb\":\"nm0624201\"\
+          ,\"tmdb\":53017,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":\"1969-04-28\",\"death\"\
+          :null,\"birthplace\":\"\",\"homepage\":null}}],\"production\":[{\"job\"\
+          :\"Executive Producer\",\"person\":{\"name\":\"Geoff Johns\",\"ids\":{\"\
+          trakt\":106819,\"slug\":\"geoff-johns\",\"imdb\":\"nm0424315\",\"tmdb\"\
+          :211962,\"tvrage\":88780},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/106/819/headshots/original/8247d4a3b9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/106/819/headshots/medium/8247d4a3b9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/106/819/headshots/thumb/8247d4a3b9.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Geoff Johns is one of the most prolific and popular contemporary comic\
+          \ book writers. He has written highly acclaimed stories starring Superman,\
+          \ Green Lantern, the Flash, Teen Titans, and Justice Society of America.\
+          \ He is the author of The New York Times best-selling graphic novels GREEN\
+          \ LANTERN: RAGE OF THE RED LANTERNS, GREEN LANTERN: SINESTRO CORPS WAR,\
+          \ JUSTICE SOCIETY OF AMERICA: THY KINGDOM COME, SUPERMAN: BRAINIAC and BLACKEST\
+          \ NIGHT.  Johns was born in Detroit and studied media arts, screenwriting,\
+          \ film production and film theory at Michigan State University. After moving\
+          \ to Los Angeles, he worked as an intern and later an assistant for film\
+          \ director Richard Donner, whose credits include Superman: The Movie, Lethal\
+          \ Weapon 4 and Conspiracy Theory. Johns began his comics career writing\
+          \ STARS AND S.T.R.I.P.E. and creating Stargirl for DC Comics. He received\
+          \ the Wizard Fan Award for Breakout Talent of 2002 and Writer of the Year\
+          \ for 2005, 2006, 2007 and 2008 as well as the CBG Writer of the Year 2003\
+          \ through 2005 and 2007 and 2008, and CBG Best Comic Book Series for JSA\
+          \ 2001 through 2005. After acclaimed runs on THE FLASH, TEEN TITANS and\
+          \ the best-selling INFINITE CRISIS miniseries, Johns co-wrote a run on ACTION\
+          \ COMICS with his mentor Donner. In 2006, he co-wrote 52: an ambitious weekly\
+          \ comic book series set in real time, with Grant Morrison, Greg Rucka and\
+          \ Mark Waid. Johns has also written for various other media, including the\
+          \ acclaimed \\\"Legion\\\" episode of SMALLVILLE and the fourth season of\
+          \ ROBOT CHICKEN. He is writing the story of the DC Universe Online massively\
+          \ multiplayer action game from Sony Online Entertainment LLC and has recently\
+          \ joined DC Entertainment as its Chief Creative Officer. Johns currently\
+          \ resides in Los Angeles, California.\",\"birthday\":\"1973-01-25\",\"death\"\
+          :null,\"birthplace\":\"Detroit, MI\",\"homepage\":\"http://www.geoffjohns.com/\"\
+          }},{\"job\":\"Co-Executive Producer\",\"person\":{\"name\":\"Todd Helbing\"\
+          ,\"ids\":{\"trakt\":241759,\"slug\":\"todd-helbing\",\"imdb\":\"nm1054609\"\
+          ,\"tmdb\":209763,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/241/759/headshots/original/9075f52461.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/241/759/headshots/medium/9075f52461.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/241/759/headshots/thumb/9075f52461.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Executive Producer\",\"person\":{\"name\":\"Andrew Kreisberg\"\
+          ,\"ids\":{\"trakt\":399303,\"slug\":\"andrew-kreisberg\",\"imdb\":\"nm1132610\"\
+          ,\"tmdb\":1216615,\"tvrage\":60100},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/399/303/headshots/original/5bbf641306.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/399/303/headshots/medium/5bbf641306.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/399/303/headshots/thumb/5bbf641306.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Executive Producer\",\"person\":{\"name\":\"Greg Berlanti\"\
+          ,\"ids\":{\"trakt\":428043,\"slug\":\"greg-berlanti\",\"imdb\":\"nm0075528\"\
+          ,\"tmdb\":88967,\"tvrage\":28473},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/428/043/headshots/original/69a012539f.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/428/043/headshots/medium/69a012539f.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/428/043/headshots/thumb/69a012539f.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nGreg Berlanti (born May 24,\
+          \ 1972) is an American television writer and producer.\\n\\nDescription\
+          \ above from the Wikipedia article Greg Berlanti, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia\",\"birthday\":\"1972-05-24\",\"\
+          death\":null,\"birthplace\":\"Rye, New York\",\"homepage\":\"\"}}],\"crew\"\
+          :[{\"job\":\"Stunt Coordinator\",\"person\":{\"name\":\"J.J. Makaro\",\"\
+          ids\":{\"trakt\":357939,\"slug\":\"j-j-makaro\",\"imdb\":\"nm0538387\",\"\
+          tmdb\":1007395,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}}]}}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb6bcfb22030-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:08 GMT']
+        ETag: [W/"75a8105e8cb37a0718bf20cdde943212"]
+        Expires: ['Mon, 09 May 2016 01:14:08 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=de8cbb572c52d632f37420f4ac62e965b1462742048; expires=Mon,
+            08-May-17 21:14:08 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [4467b88e-3986-4810-b268-3df1f9dc166a]
+        X-Runtime: ['0.073761']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -310,29 +708,29 @@ interactions:
           \ Barry asks Dr. Wells, Caitlin and Cisco to help him double his training\
           \ efforts so he\u2019s ready for the Reverse Flash when he returns to Central\
           \ City. Iris deals with the aftermath of Barry\u2019s confession, and Cisco\
-          \ makes the CCPD a new shield.\",\"rating\":7.67713,\"votes\":1688,\"first_aired\"\
-          :\"2015-01-21T01:00:00.000Z\",\"updated_at\":\"2016-05-04T15:07:55.000Z\"\
+          \ makes the CCPD a new shield.\",\"rating\":7.6804,\"votes\":1699,\"first_aired\"\
+          :\"2015-01-21T01:00:00.000Z\",\"updated_at\":\"2016-05-08T07:05:18.000Z\"\
           ,\"available_translations\":[],\"images\":{\"screenshot\":{\"full\":\"https://walter.trakt.us/images/episodes/000/999/431/screenshots/original/a80e2ec995.jpg\"\
           ,\"medium\":\"https://walter.trakt.us/images/episodes/000/999/431/screenshots/medium/a80e2ec995.jpg\"\
           ,\"thumb\":\"https://walter.trakt.us/images/episodes/000/999/431/screenshots/thumb/a80e2ec995.jpg\"\
           }}}"}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de238d24bc263b-DFW]
+        CF-RAY: [29ffeb6d9a5a202a-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
-        Last-Modified: ['Wed, 04 May 2016 15:07:55 GMT']
+        Date: ['Sun, 08 May 2016 21:14:08 GMT']
+        Expires: ['Mon, 09 May 2016 01:14:08 GMT']
+        Last-Modified: ['Sun, 08 May 2016 07:05:18 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=db9955445c697650afb6ca9151be9788a1462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=d6f7baaf7fdf37ad152e95e057e5335f11462742048; expires=Mon,
+            08-May-17 21:14:08 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [9f84c443-0735-44d1-9373-9d9bbb9e2dc4]
-        X-Runtime: ['0.012593']
+        X-Request-Id: [59ed51de-c348-4974-88e0-8f562ba1d84d]
+        X-Runtime: ['0.046716']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

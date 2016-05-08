@@ -6,9 +6,9 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?type=show&query=11-22-63
+      uri: https://api-v2launch.trakt.tv/search?query=11-22-63&type=show
     response:
-      body: {string: '[{"type":"show","score":17.174925,"show":{"title":"11.22.63","overview":"Imagine
+      body: {string: '[{"type":"show","score":17.615719,"show":{"title":"11.22.63","overview":"Imagine
           having the power to change history. Would you journey down the \"rabbit
           hole\"? This event series follows Jake Epping, an ordinary high school teacher,
           presented with the unthinkable mission of traveling back in time to prevent
@@ -19,16 +19,16 @@ interactions:
           history may prove fatal.","year":2016,"status":"ended","images":{"poster":{"full":"https://walter.trakt.us/images/shows/000/102/771/posters/original/e9cfb8f315.jpg","medium":"https://walter.trakt.us/images/shows/000/102/771/posters/medium/e9cfb8f315.jpg","thumb":"https://walter.trakt.us/images/shows/000/102/771/posters/thumb/e9cfb8f315.jpg"},"fanart":{"full":"https://walter.trakt.us/images/shows/000/102/771/fanarts/original/3c06324bd8.jpg","medium":"https://walter.trakt.us/images/shows/000/102/771/fanarts/medium/3c06324bd8.jpg","thumb":"https://walter.trakt.us/images/shows/000/102/771/fanarts/thumb/3c06324bd8.jpg"}},"ids":{"trakt":102771,"slug":"11-22-63","tvdb":301824,"imdb":"tt2879552","tmdb":64464,"tvrage":45210}}}]'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de237df6691fe2-DFW]
+        CF-RAY: [29ffeb5fb46c2012-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:29 GMT']
-        ETag: [W/"eea7a6b1a4b809980fdcfb17d9478435"]
-        Expires: ['Wed, 04 May 2016 22:50:29 GMT']
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"829f575d0aa00778a750cebccdcd29bf"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=dbf36363928e9c50830d272f08bd934341462387829; expires=Thu,
-            04-May-17 18:50:29 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=ddc65ed4fca6e47f199ef4b52574a16091462742046; expires=Mon,
+            08-May-17 21:14:06 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -36,15 +36,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [5518af52-f494-4ac1-98da-41b74ef94724]
-        X-Runtime: ['0.016516']
+        X-Request-Id: [b4baf713-2d71-42de-ac6a-b70acd3be94f]
+        X-Runtime: ['0.036058']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=dbf36363928e9c50830d272f08bd934341462387829]
+        Cookie: [__cfduid=ddc65ed4fca6e47f199ef4b52574a16091462742046]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -58,23 +58,348 @@ interactions:
           to the past in order to solve the most enduring mystery of the 20th century:
           who killed JFK, and could it have been stopped? But as Jake will learn,
           the past does not want to be changed. And trying to divert the course of
-          history may prove fatal.","first_aired":"2016-02-15T08:00:00.000Z","airs":{"day":"Monday","time":"00:01","timezone":"America/New_York"},"runtime":60,"certification":"TV-MA","network":"Hulu","country":"us","trailer":"http://youtube.com/watch?v=NXUx__qQGew","homepage":"http://www.hulu.com/112263","status":"ended","rating":8.28693,"votes":941,"updated_at":"2016-05-04T10:50:26.000Z","language":"en","available_translations":["en","fr","bs","he","pl","el","ru","pt","bg","cs","nl","de","es","hu","it","it"],"genres":["science-fiction","drama","fantasy"],"aired_episodes":8,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/102/771/fanarts/original/3c06324bd8.jpg","medium":"https://walter.trakt.us/images/shows/000/102/771/fanarts/medium/3c06324bd8.jpg","thumb":"https://walter.trakt.us/images/shows/000/102/771/fanarts/thumb/3c06324bd8.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/102/771/posters/original/e9cfb8f315.jpg","medium":"https://walter.trakt.us/images/shows/000/102/771/posters/medium/e9cfb8f315.jpg","thumb":"https://walter.trakt.us/images/shows/000/102/771/posters/thumb/e9cfb8f315.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/102/771/logos/original/47016c0f0c.png"},"clearart":{"full":null},"banner":{"full":"https://walter.trakt.us/images/shows/000/102/771/banners/original/97f4c7160f.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/102/771/thumbs/original/a8234a4ad9.jpg"}}}'}
+          history may prove fatal.","first_aired":"2016-02-15T08:00:00.000Z","airs":{"day":"Monday","time":"00:01","timezone":"America/New_York"},"runtime":60,"certification":"TV-MA","network":"Hulu","country":"us","trailer":"http://youtube.com/watch?v=NXUx__qQGew","homepage":"http://www.hulu.com/112263","status":"ended","rating":8.27348,"votes":969,"updated_at":"2016-05-08T11:27:56.000Z","language":"en","available_translations":["en","fr","bs","he","pl","el","ru","pt","bg","cs","nl","de","es","hu","it","it"],"genres":["science-fiction","drama","fantasy"],"aired_episodes":8,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/102/771/fanarts/original/3c06324bd8.jpg","medium":"https://walter.trakt.us/images/shows/000/102/771/fanarts/medium/3c06324bd8.jpg","thumb":"https://walter.trakt.us/images/shows/000/102/771/fanarts/thumb/3c06324bd8.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/102/771/posters/original/e9cfb8f315.jpg","medium":"https://walter.trakt.us/images/shows/000/102/771/posters/medium/e9cfb8f315.jpg","thumb":"https://walter.trakt.us/images/shows/000/102/771/posters/thumb/e9cfb8f315.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/102/771/logos/original/47016c0f0c.png"},"clearart":{"full":null},"banner":{"full":"https://walter.trakt.us/images/shows/000/102/771/banners/original/97f4c7160f.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/102/771/thumbs/original/a8234a4ad9.jpg"}}}'}
       headers:
-        CF-Cache-Status: [HIT]
-        CF-RAY: [29de237e46791fe2-DFW]
+        CF-Cache-Status: [REVALIDATED]
+        CF-RAY: [29ffeb5fe46f2012-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:29 GMT']
-        ETag: [W/"9a12eb0ca7ddac77d6a7f4a8539b15f2"]
-        Expires: ['Wed, 04 May 2016 22:50:29 GMT']
-        Last-Modified: ['Wed, 04 May 2016 10:50:26 GMT']
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"2a709cb9602d92124909c18ddf4f2461"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
+        Last-Modified: ['Sun, 08 May 2016 11:27:56 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [fcf8a735-5fa2-4056-a7bc-623fc3c67a6b]
-        X-Runtime: ['0.017437']
+        X-Request-Id: [52956e8a-5bd7-4abe-8f59-4e4fc6e83924]
+        X-Runtime: ['0.014225']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/102771/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Jake Epping\",\"person\":{\"name\"\
+          :\"James Franco\",\"ids\":{\"trakt\":413319,\"slug\":\"james-franco\",\"\
+          imdb\":\"nm0290556\",\"tmdb\":17051,\"tvrage\":30709},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/180/888/headshots/original/05bdb48027.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/888/headshots/medium/05bdb48027.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/888/headshots/thumb/05bdb48027.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/413/319/fanarts/original/013eff37ff.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/413/319/fanarts/medium/013eff37ff.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/413/319/fanarts/thumb/013eff37ff.jpg\"\
+          }},\"biography\":\"James Edward Franco (born April 19, 1978) is an American\
+          \ actor, film director, screenwriter, film producer, author, painter, and\
+          \ performance artist. He left college in order to pursue acting and started\
+          \ off his career by making guest appearances on television series in the\
+          \ 1990s. Franco landed a lead part on the short-lived cult hit television\
+          \ program Freaks and Geeks and later achieved recognition for playing the\
+          \ titular character in the TV biopic James Dean (2001), for which he was\
+          \ awarded a Golden Globe Award. He achieved international fame with his\
+          \ portrayals of Harry Osborn in Sam Raimi's Spider-Man trilogy.\\n\\nFranco\
+          \ has been acclaimed for both dramatic and comedic work in projects and\
+          \ has appeared in an eclectic range of projects since the 2000s. Ranging\
+          \ from period to contemporary pieces, and from major Hollywood productions\
+          \ to less publicized indie films, as well as fantasy movies to biopics and\
+          \ soap operas. Other notable films include Pineapple Express, a stoner comedy\
+          \ that earned him his second Golden Globes nomination, the Harvey Milk-biopic\
+          \ Milk (both 2008) as well as Danny Boyle's 2010 movie 127 Hours, about\
+          \ real-life mountain climber Aron Ralston's struggle to free his hand from\
+          \ a boulder. His performance in 127 Hours earned him nominations for many\
+          \ high-profile awards, including the Academy Awards, Golden Globe and SAG\
+          \ Awards.\\n\\nFranco has hosted the skit comedy Saturday Night Live twice\
+          \ as well as the 83rd Academy Awards with Anne Hathaway. He volunteers for\
+          \ the Art of Elysium charity and is in a relationship with actress Ahna\
+          \ O'Reilly.\\n\\nDescription above from the Wikipedia article James Franco,\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia.\",\"\
+          birthday\":\"1978-04-19\",\"death\":null,\"birthplace\":\"Palo Alto - California\
+          \ - USA\",\"homepage\":\"\"}},{\"character\":\"Sadie Dunhill\",\"person\"\
+          :{\"name\":\"Sarah Gadon\",\"ids\":{\"trakt\":415487,\"slug\":\"sarah-gadon\"\
+          ,\"imdb\":\"nm0300589\",\"tmdb\":190895,\"tvrage\":12980},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/180/889/headshots/original/329ef47f93.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/889/headshots/medium/329ef47f93.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/889/headshots/thumb/329ef47f93.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/415/487/fanarts/original/6d11fc15ac.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/415/487/fanarts/medium/6d11fc15ac.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/415/487/fanarts/thumb/6d11fc15ac.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nSarah Gadon\
+          \ (born April 4, 1987) is a Canadian actress. She has had roles in David\
+          \ Cronenberg's A Dangerous Method and Cosmopolis. She has guest starred\
+          \ in a number of notable television series including Are You Afraid of the\
+          \ Dark?, Dark Oracle, Doc, In a Heartbeat, La Femme Nikita, Life with Derek,\
+          \ and Mutant X. She has voice-acted for Mattimeo, My Dad the Rock Star,\
+          \ Ruby Gloom, Total Drama, and Wayside.\",\"birthday\":\"1987-04-04\",\"\
+          death\":null,\"birthplace\":\"Toronto, Ontario,  Canada\",\"homepage\":\"\
+          \"}},{\"character\":\"Al Templeton\",\"person\":{\"name\":\"Chris Cooper\"\
+          ,\"ids\":{\"trakt\":176,\"slug\":\"chris-cooper\",\"imdb\":\"nm0177933\"\
+          ,\"tmdb\":2955,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/180/890/headshots/original/67c598a53d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/890/headshots/medium/67c598a53d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/890/headshots/thumb/67c598a53d.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/000/176/fanarts/original/d9dcd41512.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/000/176/fanarts/medium/d9dcd41512.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/000/176/fanarts/thumb/d9dcd41512.jpg\"\
+          }},\"biography\":\"Christopher W. \\\"Chris\\\" Cooper (born July 9, 1951)\
+          \ is an American film actor. He became well known in the late 1990s, having\
+          \ appeared in supporting performances in several major Hollywood films,\
+          \ including The Bourne Identity, American Beauty, Capote, The Town, The\
+          \ Kingdom, Syriana, October Sky, Seabiscuit, and Adaptation, for which he\
+          \ won both the Academy Award and Golden Globe Award for Best Supporting\
+          \ Actor.  Description above from the Wikipedia article Chris Cooper (actor),\
+          \ licensed under CC-BY-SA, full list of contributors on Wikipedia\",\"birthday\"\
+          :\"1951-07-09\",\"death\":null,\"birthplace\":\"Kansas City, Missouri, USA\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Lee Harvey Oswald\",\"person\":{\"\
+          name\":\"Daniel Webber\",\"ids\":{\"trakt\":320183,\"slug\":\"daniel-webber\"\
+          ,\"imdb\":\"nm4184538\",\"tmdb\":234548,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/180/891/headshots/original/44d28fd3dd.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/891/headshots/medium/44d28fd3dd.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/891/headshots/thumb/44d28fd3dd.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"character\":\"Marina Oswald\",\"person\":{\"name\":\"Lucy Fry\"\
+          ,\"ids\":{\"trakt\":463584,\"slug\":\"lucy-fry\",\"imdb\":\"nm4867258\"\
+          ,\"tmdb\":1192759,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/180/892/headshots/original/4e8e9f5aeb.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/892/headshots/medium/4e8e9f5aeb.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/892/headshots/thumb/4e8e9f5aeb.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/463/584/fanarts/original/34bcedbd3d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/463/584/fanarts/medium/34bcedbd3d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/463/584/fanarts/thumb/34bcedbd3d.jpg\"\
+          }},\"biography\":\"Lucy Fry is an Australian actress best know for portraying\
+          \ Zoey in Lightening Point and Lyla in the popular spin-off to H20: Just\
+          \ Add Water, Mako Mermaids. In 2013 she was cast as Lissa Dragomir in the\
+          \ highly anticipated film Vampire Academy: Blood Sister. She has also been\
+          \ in numerous theater productions since 2007.\_\",\"birthday\":\"1992-03-13\"\
+          ,\"death\":null,\"birthplace\":null,\"homepage\":\"\"}},{\"character\":\"\
+          Johnny Clayton\",\"person\":{\"name\":\"T.R. Knight\",\"ids\":{\"trakt\"\
+          :448000,\"slug\":\"t-r-knight\",\"imdb\":\"nm1165660\",\"tmdb\":164205,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/180/893/headshots/original/8b14dd7907.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/893/headshots/medium/8b14dd7907.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/893/headshots/thumb/8b14dd7907.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Theodore Raymond \\\"T. R.\\\" Knight (born March 26, 1973) is an American\
+          \ actor. Knight's most high-profile role to date was his role as Dr. George\
+          \ O'Malley on ABC's medical drama Grey's Anatomy.\\n\\nDescription above\
+          \ from the Wikipedia article T. R. Knight, licensed under CC-BY-SA, full\
+          \ list of contributors on Wikipedia.\",\"birthday\":\"1973-03-26\",\"death\"\
+          :null,\"birthplace\":\"Minneapolis - Minnesota - USA\",\"homepage\":\"\"\
+          }},{\"character\":\"Frank Dunning\",\"person\":{\"name\":\"Josh Duhamel\"\
+          ,\"ids\":{\"trakt\":18578,\"slug\":\"josh-duhamel\",\"imdb\":\"nm0241049\"\
+          ,\"tmdb\":19536,\"tvrage\":17597},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/180/894/headshots/original/ce19cba3f1.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/894/headshots/medium/ce19cba3f1.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/894/headshots/thumb/ce19cba3f1.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/018/578/fanarts/original/6f5ebe532a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/018/578/fanarts/medium/6f5ebe532a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/018/578/fanarts/thumb/6f5ebe532a.jpg\"\
+          }},\"biography\":\"Joshua David \\\"Josh\\\" Duhamel (pronounced /d\u0259\
+          \u02C8m\u025Bl/, d\u0259-mel;November 14, 1972) was born in Minot, North\
+          \ Dakota. Duhamel is an American actor and former fashion model. He first\
+          \ achieved acting success in 1999 as Leo du Pres on ABC's All My Children\
+          \ and later as the chief of security, Danny McCoy, on NBC's Las Vegas. He\
+          \ is also well known for his role as one of the protagonists, Captain/Major\
+          \ William Lennox, in the box office hit Transformers as well as its sequels,\
+          \ Transformers: Revenge of the Fallen and Transformers: Dark of the Moon.\
+          \  Early life  He is the son of Bonnie L. Kemper, a physical education teacher,\
+          \ and Larry David Duhamel, an advertising salesman. His parents divorced\
+          \ during his youth, and although he remains close to both, he grew up with\
+          \ his mother and his three younger sisters, Ashlee, Mckenzee and Kassidy.\
+          \ Duhamel attended Minot State University and played as the back-up quarterback\
+          \ for the university's football team. He planned to attend dental school\
+          \ but dropped out one-and-a-half credits shy of his undergraduate degree.\
+          \  Duhamel has stated, \\\"After college, I followed an ex-girlfriend to\
+          \ northern California, did a bunch of odd jobs.\\\" Duhamel had won the\
+          \ title of Male Model of the Year in an International Modeling and Talent\
+          \ Association (IMTA) competition in 1997 (the first runner-up was actor\
+          \ Ashton Kutcher).  Duhamel began his acting career as an extra in the music\
+          \ videos for Donna Summer's song, \\\"I Will Go With You (Con te partir\xF2\
+          )\\\" in 1998 and Christina Aguilera's song, \\\"What a Girl Wants\\\" in\
+          \ 1999. Later that year, he won the role of Leo du Pres on the ABC soap\
+          \ opera All My Children. His work on the show, especially his character's\
+          \ pairing with Greenlee Smythe (portrayed by actor Rebecca Budig), garnered\
+          \ critical acclaim. In 2000, he posed fully nude for Greg Gorman's \\\"\
+          As I See It\\\" photography book. In 2003, he earned a Daytime Emmy Award\
+          \ nomination for the Special Fan Award for America's Favorite Couple in\
+          \ 2002, shared with Budig, and a Daytime Emmy Award for Outstanding Supporting\
+          \ Actor for his portrayal of Leo du Pres. Duhamel opted to leave All My\
+          \ Children in 2002 to pursue other acting opportunities.  In 2003, Duhamel\
+          \ landed a prime time role on the NBC show Las Vegas, playing the head of\
+          \ security as Danny McCoy for the Montecito Casino. He succeeded James Caan\
+          \ as president of the Montecito after Caan departed at the end of the fourth\
+          \ season. The series was cancelled in 2008.  Duhamel made his big-screen\
+          \ acting debut in 2004's Win a Date with Tad Hamilton! and continued on\
+          \ to star in the thriller Turistas (2006). After watching an episode of\
+          \ Las Vegas in which Duhamel's character had just returned from the war\
+          \ in Iraq, Steven Spielberg handpicked him for the role of Captain William\
+          \ Lennox in 2007's summer blockbuster film Transformers (a film for which\
+          \ Spielberg was the executive producer). Duhamel reprised the role for the\
+          \ sequel, Transformers: Revenge of the Fallen, released in June 2009, and\
+          \ again in Transformers: Dark of the Moon, due for release in July 2011.\
+          \  Duhamel was the official pace car driver for the 2009 Indianapolis 500\
+          \ driving the 2010 Chevrolet Camaro Pace Car.  Duhamel will star alongside\
+          \ Samuel L. Jackson in the Boaz Yakin thriller film Sympathy for the Devil.\
+          \ He also appeared in The Romantics in 2010, alongside Katie Holmes, Adam\
+          \ Brody, and Australian actress Annabel-Jane Brooks.  Personal life  Duhamel\
+          \ met and began dating Stacy Ferguson (best known by her stage name of \\\
+          \"Fergie\\\") in September 2004. Ferguson, a singer for the hip hop group\
+          \ The Black Eyed Peas, appeared on Duhamel's show Las Vegas with her band\
+          \ in an episode titled \\\"Montecito Lancers\\\" (which aired on November\
+          \ 1, 2004). The couple wed on January 10, 2009, in the Roman Catholic ceremony\
+          \ at the Church Estates Vineyards in Malibu, California. On January 10,\
+          \ 2010, the couple renewed their wedding vows on a beach in Santa Barbara.\
+          \ Duhamel and Ferguson reside in Brentwood, California, in a house that\
+          \ they purchased together in 2007. In 2005, Duhamel became the co-owner\
+          \ of 10 North Main, a restaurant located in the downtown section of Minot,\
+          \ North Dakota, which features dishes such as elk and pheasant.  On December\
+          \ 2, 2010, media picked up a story that Duhamel was kicked off a flight\
+          \ headed from New York City to Kentucky after refusing to turn off his BlackBerry\
+          \ before takeoff.  \_\",\"birthday\":\"1972-12-14\",\"death\":null,\"birthplace\"\
+          :\"Minot, North Dakota, USA\",\"homepage\":\"http://joshduhamelweb.com/\"\
+          }},{\"character\":\"Yellow Card Man\",\"person\":{\"name\":\"Kevin J. O'Connor\"\
+          ,\"ids\":{\"trakt\":16597,\"slug\":\"kevin-j-o-connor\",\"imdb\":\"nm0640413\"\
+          ,\"tmdb\":18916,\"tvrage\":33089},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/180/897/headshots/original/e5da53c432.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/897/headshots/medium/e5da53c432.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/897/headshots/thumb/e5da53c432.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"\u200BFrom Wikipedia, the free encyclopedia. \_\\n\\nKevin James O'Connor\
+          \ (born November 15, 1963) is an American actor. He is known for playing\
+          \ character roles in major studio films such as There Will Be Blood, The\
+          \ Mummy, Clive Barker's Lord of Illusions, F/X2 and Van Helsing. He is a\
+          \ favorite of writer/director Stephen Sommers, who usually casts him in\
+          \ his films.\\n\\nDescription above from the Wikipedia article Kevin J.\
+          \ O'Connor (actor), licensed under CC-BY-SA, full list of contributors on\
+          \ Wikipedia.\",\"birthday\":\"1963-11-15\",\"death\":null,\"birthplace\"\
+          :\"Chicago, Illinois, U.S.\",\"homepage\":\"\"}},{\"character\":\"Bill Turcotte\"\
+          ,\"person\":{\"name\":\"George MacKay\",\"ids\":{\"trakt\":296854,\"slug\"\
+          :\"george-mackay\",\"imdb\":\"nm1126657\",\"tmdb\":146750,\"tvrage\":null},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/180/895/headshots/original/971558134b.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/895/headshots/medium/971558134b.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/895/headshots/thumb/971558134b.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/296/854/fanarts/original/3c06324bd8.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/296/854/fanarts/medium/3c06324bd8.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/296/854/fanarts/thumb/3c06324bd8.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nGeorge MacKay\
+          \ (born 13 March 1992) is an English actor.\\n\\nDescription above from\
+          \ the Wikipedia article George MacKay (actor), licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia.\",\"birthday\":\"1992-05-13\"\
+          ,\"death\":null,\"birthplace\":\"London, England\",\"homepage\":\"\"}},{\"\
+          character\":\"Marquerite Oswald\",\"person\":{\"name\":\"Cherry Jones\"\
+          ,\"ids\":{\"trakt\":411633,\"slug\":\"cherry-jones\",\"imdb\":\"nm0427728\"\
+          ,\"tmdb\":1956,\"tvrage\":128747},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/180/896/headshots/original/e1c615ef2e.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/180/896/headshots/medium/e1c615ef2e.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/180/896/headshots/thumb/e1c615ef2e.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nCherry Jones (born November\
+          \ 21, 1956) is an American actress.\\n\\nDescription above from the Wikipedia\
+          \ article Cherry Jones, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\u200B\",\"birthday\":\"1956-11-21\",\"death\":null,\"birthplace\"\
+          :\"Paris, Tennessee, U.S.\",\"homepage\":\"\"}}],\"crew\":{\"production\"\
+          :[{\"job\":\"Executive Producer\",\"person\":{\"name\":\"Stephen King\"\
+          ,\"ids\":{\"trakt\":6475,\"slug\":\"stephen-king\",\"imdb\":\"nm0000175\"\
+          ,\"tmdb\":3027,\"tvrage\":59503},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/006/475/headshots/original/47271460c2.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/006/475/headshots/medium/47271460c2.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/006/475/headshots/thumb/47271460c2.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia\\n\\nStephen Edwin King (born September\
+          \ 21, 1947) is an American author of contemporary horror, suspense, science\
+          \ fiction and fantasy fiction. His books have sold more than 350 million\
+          \ copies, which have been adapted into a number of feature films, television\
+          \ movies and comic books. As of 2011, King has written and published 49\
+          \ novels, including seven under the pen name Richard Bachman, five non-fiction\
+          \ books, and nine collections of short stories. Many of his stories are\
+          \ set in his home state of Maine.\\n\\nKing has received Bram Stoker Awards,\
+          \ World Fantasy Awards, British Fantasy Society Awards, his novella The\
+          \ Way Station was a Nebula Award novelette nominee, and in 2003, the National\
+          \ Book Foundation awarded him the Medal for Distinguished Contribution to\
+          \ American Letters.\",\"birthday\":\"1947-09-21\",\"death\":null,\"birthplace\"\
+          :\"Portland - Maine - USA\",\"homepage\":\"\"}},{\"job\":\"Executive Producer\"\
+          ,\"person\":{\"name\":\"J.J. Abrams\",\"ids\":{\"trakt\":300172,\"slug\"\
+          :\"j-j-abrams\",\"imdb\":\"nm0009190\",\"tmdb\":15344,\"tvrage\":8017},\"\
+          images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/300/172/headshots/original/f3cf226018.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/300/172/headshots/medium/f3cf226018.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/300/172/headshots/thumb/f3cf226018.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Jeffrey Jacob Abrams, better known as his screen moniker J.J. Abrams,\
+          \ is an American film and television producer, screenwriter, director, actor\
+          \ and composer. \_\\n\\nBest known for his work in science fiction and action\
+          \ genres, Abrams (co-)created multiple award winning television series,\
+          \ including: Felicity, Alias, Lost, Fringe, Undercovers, Person of Interest\
+          \ and Revolution. \_His film work includes the late 2000s reboots of beloved\
+          \ film series such as Star Trek, Star Wars, and Mission: Impossible. \_\
+          Many of the films he has contributed to are distributed by\_Paramount Pictures,\
+          \ while his television series are, generally, co-produced by either\_Warner\
+          \ Bros. Television\_or\_Touchstone Television. Abrams' frequent creative\
+          \ collaborators include writers\_Alex Kurtzman\_and\_Roberto Orci, composer\_\
+          Michael Giacchino, cinematographers\_Daniel Mindel\_and\_Larry Fong, and\
+          \ editors\_Maryann Brandon\_and\_Mary Jo Markey. \_\\n\\nAbrams was born\
+          \ in New York City, but raised in Los Angeles, the son of television producer\
+          \ Gerald W. Abrams and executive producer Carol Ann Abrams (n\xE9e Kelvin).\
+          \ \_He attended Palisades High School and Sarah Lawrence College. \_Abrams'\
+          \ first movie business job came at the age of 16, when he wrote music for\
+          \ Don Dohler's film Nightbeast. \_During his senior year at college, he\
+          \ teamed with Jill Mazursky to write a feature\_film treatment later used\
+          \ as the basis for\_Taking Care of Business, Abrams' first produced film.\
+          \ Abrahms continues to create major television and motion picture pieces\
+          \ under his production company, Bad Robot, founded in 2001 with Byran Burk.\
+          \ \_\_\\n\\nDescription above provided by and modified from the Wikipedia\
+          \ article J. J. Abrams, licensed under CC-BY-SA, full list of contributors\
+          \ on Wikipedia.\",\"birthday\":\"1966-06-27\",\"death\":null,\"birthplace\"\
+          :\"New York City - New York - USA\",\"homepage\":\"\"}},{\"job\":\"Executive\
+          \ Producer\",\"person\":{\"name\":\"Bridget Carpenter\",\"ids\":{\"trakt\"\
+          :402534,\"slug\":\"bridget-carpenter\",\"imdb\":\"nm1531276\",\"tmdb\":1236250,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"\
+          biography\":null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"\
+          homepage\":null}},{\"job\":\"Executive Producer\",\"person\":{\"name\":\"\
+          Bryan Burk\",\"ids\":{\"trakt\":421525,\"slug\":\"bryan-burk\",\"imdb\"\
+          :\"nm1333357\",\"tmdb\":28977,\"tvrage\":83953},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/people/000/421/525/headshots/original/947bf676b9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/421/525/headshots/medium/947bf676b9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/421/525/headshots/thumb/947bf676b9.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nBryan Burk (born December\
+          \ 30, 1968, height 5' 7\\\" (1,70 m) ) is an American film and television\
+          \ producer, as well as an occasional television writer. Career A graduate\
+          \ of USC's School of Cinema-Television, Bryan Burk began his career working\
+          \ with producers Brad Weston at Columbia Pictures, Ned Tanen at Sony Pictures\
+          \ and John Davis at FOX. In 1995, he joined Gerber Pictures, where he developed\
+          \ TNT's Emmy-nominated \\\"James Dean\\\", and is currently attached to\
+          \ produce \\\"NFL: A Love Story.\\\"\\n\\nHe has collaborated with J. J.\
+          \ Abrams frequently and is the co-founder of his production company Bad\
+          \ Robot Production. TV series he's worked with Abrams on include, Alias,\
+          \ Six Degrees, What About Brian, Lost, Fringe, Undercovers, Person of Interest,\
+          \ and Alcatraz. He has also served as a producer for Abrams' feature films,\
+          \ Cloverfield, Star Trek, Super 8, and Star Trek Into Darkness.He is set\
+          \ to produce Abrams' next feature, Star Wars: Episode VII.\\n\\nIn 2009,\
+          \ Burk co-wrote the story, with Akiva Goldsman (teleplay by Jeff Pinkner\
+          \ and J. H. Wyman), for the season one finale of Fringe, \\\"There's More\
+          \ Than One of Everything\\\".\",\"birthday\":\"1968-12-30\",\"death\":null,\"\
+          birthplace\":\"\",\"homepage\":\"\"}}]}}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb61af8e1ff4-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:06 GMT']
+        ETag: [W/"0084c06c12c78c6d21449e64ef649600"]
+        Expires: ['Mon, 09 May 2016 01:14:06 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=dd51ee5a6d6a499166049549808a444c71462742046; expires=Mon,
+            08-May-17 21:14:06 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [dcb33c4e-b77f-44a0-a8df-be8da42528a1]
+        X-Runtime: ['0.072594']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1

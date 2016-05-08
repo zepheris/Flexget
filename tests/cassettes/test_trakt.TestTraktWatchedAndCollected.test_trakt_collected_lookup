@@ -6,9 +6,9 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?type=show&year=2011&query=Homeland
+      uri: https://api-v2launch.trakt.tv/search?type=show&query=Homeland&year=2011
     response:
-      body: {string: "[{\"type\":\"show\",\"score\":109.520386,\"show\":{\"title\"\
+      body: {string: "[{\"type\":\"show\",\"score\":109.26177,\"show\":{\"title\"\
           :\"Homeland\",\"overview\":\"When Marine Nicolas Brody is hailed as a hero\
           \ after he returns home from eight years of captivity in Iraq, intelligence\
           \ officer Carrie Mathison is the only one who suspects that he may have\
@@ -21,7 +21,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/001/398/fanarts/thumb/701b0475bf.jpg\"\
           }},\"ids\":{\"trakt\":1398,\"slug\":\"homeland\",\"tvdb\":247897,\"imdb\"\
           :\"tt1796960\",\"tmdb\":1407,\"tvrage\":27811}}},{\"type\":\"show\",\"score\"\
-          :0.9105067,\"show\":{\"title\":\"To Catch a Smuggler\",\"overview\":\"This\
+          :0.9017519,\"show\":{\"title\":\"To Catch a Smuggler\",\"overview\":\"This\
           \ NatGeo series follows Homeland Security officers at New York City's John\
           \ F. Kennedy International Airport as they deal with cases ranging from\
           \ fraudulent visas to human trafficking.\",\"year\":2011,\"status\":\"returning\
@@ -31,7 +31,7 @@ interactions:
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":68989,\"slug\":\"to-catch-a-smuggler\",\"tvdb\":264244,\"imdb\"\
           :\"tt2562174\",\"tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\"\
-          :0.26556444,\"show\":{\"title\":\"Return to Tuscany\",\"overview\":\"Join\
+          :0.26301098,\"show\":{\"title\":\"Return to Tuscany\",\"overview\":\"Join\
           \ Giancarlo Caldesi as he sets out to fulfil his dream - a cookery school\
           \ in his Tuscan homeland. But there\u2019s a lot of hard work to do before\
           \ he gets there\u2026After 30 years in the UK, successful restaurateur Giancarlo\
@@ -60,16 +60,16 @@ interactions:
           :null}}}]"}
       headers:
         CF-Cache-Status: [MISS]
-        CF-RAY: [29de23885fc8202a-DFW]
+        CF-RAY: [29ffeb7053000932-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"d99ad29d197b0b8f1f1de353b04f04a5"]
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
+        Date: ['Sun, 08 May 2016 21:14:09 GMT']
+        ETag: [W/"f36a608174ce05862fd2d0a626c1708b"]
+        Expires: ['Mon, 09 May 2016 01:14:09 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=d098eea11e2c055d0a120f5334ecdaef41462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=dd0f5bd7b8f995dee33b0c115e24344421462742049; expires=Mon,
+            08-May-17 21:14:09 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -77,15 +77,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [a6245d7f-f752-41a7-8d38-5216b738dce1]
-        X-Runtime: ['0.037195']
+        X-Request-Id: [3f7f3eae-a3fa-4dac-bb89-89e5c3cec75f]
+        X-Runtime: ['0.017023']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=d098eea11e2c055d0a120f5334ecdaef41462387831]
+        Cookie: [__cfduid=dd0f5bd7b8f995dee33b0c115e24344421462742049]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -94,24 +94,127 @@ interactions:
       body: {string: '{"title":"Homeland","year":2011,"ids":{"trakt":1398,"slug":"homeland","tvdb":247897,"imdb":"tt1796960","tmdb":1407,"tvrage":27811},"overview":"When
           Marine Nicolas Brody is hailed as a hero after he returns home from eight
           years of captivity in Iraq, intelligence officer Carrie Mathison is the
-          only one who suspects that he may have been turned.\n","first_aired":"2011-10-03T01:00:00.000Z","airs":{"day":"Sunday","time":"21:00","timezone":"America/New_York"},"runtime":60,"certification":"TV-MA","network":"Showtime","country":"us","trailer":"http://youtube.com/watch?v=KyFmS3wRPCQ","homepage":"http://www.sho.com/sho/homeland/home","status":"returning
-          series","rating":8.48267,"votes":17306,"updated_at":"2016-05-04T10:56:15.000Z","language":"en","available_translations":["en","fr","es","nl","pt","el","it","de","he","da","tr","zh","pl","ru","cs","hu","hr","bs","lt","sr","ro","sv"],"genres":["drama","mystery","thriller"],"aired_episodes":60,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/001/398/fanarts/original/701b0475bf.jpg","medium":"https://walter.trakt.us/images/shows/000/001/398/fanarts/medium/701b0475bf.jpg","thumb":"https://walter.trakt.us/images/shows/000/001/398/fanarts/thumb/701b0475bf.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/001/398/posters/original/cb506c45bc.jpg","medium":"https://walter.trakt.us/images/shows/000/001/398/posters/medium/cb506c45bc.jpg","thumb":"https://walter.trakt.us/images/shows/000/001/398/posters/thumb/cb506c45bc.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/001/398/logos/original/b755bd71ac.png"},"clearart":{"full":"https://walter.trakt.us/images/shows/000/001/398/cleararts/original/7521695aeb.png"},"banner":{"full":"https://walter.trakt.us/images/shows/000/001/398/banners/original/35de727337.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/001/398/thumbs/original/bbb6ae237d.jpg"}}}'}
+          only one who suspects that he may have been turned.\n","first_aired":"2011-10-02T07:00:00.000Z","airs":{"day":"Sunday","time":"21:00","timezone":"America/New_York"},"runtime":60,"certification":"TV-MA","network":"Showtime","country":"us","trailer":"http://youtube.com/watch?v=KyFmS3wRPCQ","homepage":"http://www.sho.com/sho/homeland/home","status":"returning
+          series","rating":8.48269,"votes":17330,"updated_at":"2016-05-08T11:07:03.000Z","language":"en","available_translations":["en","fr","es","nl","pt","el","it","de","he","da","tr","zh","pl","ru","cs","hu","hr","bs","lt","sr","ro","sv"],"genres":["drama","mystery","thriller","crime","suspense"],"aired_episodes":60,"images":{"fanart":{"full":"https://walter.trakt.us/images/shows/000/001/398/fanarts/original/701b0475bf.jpg","medium":"https://walter.trakt.us/images/shows/000/001/398/fanarts/medium/701b0475bf.jpg","thumb":"https://walter.trakt.us/images/shows/000/001/398/fanarts/thumb/701b0475bf.jpg"},"poster":{"full":"https://walter.trakt.us/images/shows/000/001/398/posters/original/cb506c45bc.jpg","medium":"https://walter.trakt.us/images/shows/000/001/398/posters/medium/cb506c45bc.jpg","thumb":"https://walter.trakt.us/images/shows/000/001/398/posters/thumb/cb506c45bc.jpg"},"logo":{"full":"https://walter.trakt.us/images/shows/000/001/398/logos/original/b755bd71ac.png"},"clearart":{"full":"https://walter.trakt.us/images/shows/000/001/398/cleararts/original/7521695aeb.png"},"banner":{"full":"https://walter.trakt.us/images/shows/000/001/398/banners/original/35de727337.jpg"},"thumb":{"full":"https://walter.trakt.us/images/shows/000/001/398/thumbs/original/bbb6ae237d.jpg"}}}'}
       headers:
-        CF-Cache-Status: [HIT]
-        CF-RAY: [29de2389dffa202a-DFW]
+        CF-Cache-Status: [EXPIRED]
+        CF-RAY: [29ffeb7103140932-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        ETag: [W/"2269ad31baa285a1423849ccbe2c4e86"]
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
-        Last-Modified: ['Wed, 04 May 2016 10:56:15 GMT']
+        Date: ['Sun, 08 May 2016 21:14:09 GMT']
+        ETag: [W/"4afc50fa42a4d809712c4cfca496579c"]
+        Expires: ['Mon, 09 May 2016 01:14:09 GMT']
+        Last-Modified: ['Sun, 08 May 2016 11:07:03 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [9ea5f548-beee-466b-ad3d-c5dcbaf55fdd]
-        X-Runtime: ['0.075524']
+        X-Request-Id: [bbbc4fe6-fe8c-40e2-96e7-1ad5990366cf]
+        X-Runtime: ['0.051375']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/1398/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Carrie Mathison\",\"person\":{\"\
+          name\":\"Claire Danes\",\"ids\":{\"trakt\":412345,\"slug\":\"claire-danes\"\
+          ,\"imdb\":\"nm0000132\",\"tmdb\":6194,\"tvrage\":33194},\"images\":{\"headshot\"\
+          :{\"full\":\"https://walter.trakt.us/images/person_shows/000/077/652/headshots/original/d05d8cc3de.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/077/652/headshots/medium/d05d8cc3de.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/077/652/headshots/thumb/d05d8cc3de.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/412/345/fanarts/original/5bfebd7ae3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/412/345/fanarts/medium/5bfebd7ae3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/412/345/fanarts/thumb/5bfebd7ae3.jpg\"\
+          }},\"biography\":\"Claire Catherine Danes (born April 12, 1979) is an American\
+          \ actress of television, stage and film. She has appeared in roles as diverse\
+          \ as Angela Chase in My So-Called Life, as Juliet in Baz Luhrmann's Romeo\
+          \ + Juliet, as Yvaine in Stardust and as Temple Grandin in the HBO TV film\
+          \ Temple Grandin.\\n\\nDescription above from the Wikipedia article Claire\
+          \ Danes, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1979-04-12\",\"death\":null,\"birthplace\":\"Manhattan,\
+          \ New York, U.S.\",\"homepage\":\"\"}},{\"character\":\"Dar Adal\",\"person\"\
+          :{\"name\":\"F. Murray Abraham\",\"ids\":{\"trakt\":307224,\"slug\":\"f-murray-abraham\"\
+          ,\"imdb\":\"nm0000719\",\"tmdb\":1164,\"tvrage\":118684},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/190/301/headshots/original/91144ee652.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/190/301/headshots/medium/91144ee652.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/190/301/headshots/thumb/91144ee652.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nFahrid Murray Abraham (born\
+          \ October 24, 1939) is an American actor. He became known during the 1980s\
+          \ after winning the Academy Award for Best Actor for his role as Antonio\
+          \ Salieri in Amadeus. He has appeared in many roles, both leading and supporting,\
+          \ in films such as All the President's Men and Scarface. He is also known\
+          \ for his television and theatre work.\",\"birthday\":\"1939-10-24\",\"\
+          death\":null,\"birthplace\":\"Pittsburgh, Pennsylvania, USA\",\"homepage\"\
+          :\"\"}},{\"character\":\"Saul Berenson\",\"person\":{\"name\":\"Mandy Patinkin\"\
+          ,\"ids\":{\"trakt\":417504,\"slug\":\"mandy-patinkin\",\"imdb\":\"nm0001597\"\
+          ,\"tmdb\":25503,\"tvrage\":28791},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/person_shows/000/077/653/headshots/original/29a0c1744a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/077/653/headshots/medium/29a0c1744a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/077/653/headshots/thumb/29a0c1744a.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/417/504/fanarts/original/63b8a29c13.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/417/504/fanarts/medium/63b8a29c13.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/417/504/fanarts/thumb/63b8a29c13.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia.\\n\\nMandel Bruce\
+          \ \\\"Mandy\\\" Patinkin (November 30, 1952, Chicago, Illinois) is an American\
+          \ actor of stage and screen and a tenor vocalist. Patinkin is a noted interpreter\
+          \ of the music of Stephen Sondheim and is known for his work in musical\
+          \ theatre, originating iconic roles such as Georges Seurat in Sunday in\
+          \ the Park with George, Archibald Craven in The Secret Garden and Burrs\
+          \ in The Wild Party. He has also appeared in television series such as Chicago\
+          \ Hope, Dead Like Me and the first two seasons of Criminal Minds. His most\
+          \ noted film role was as Inigo Montoya in The Princess Bride. Other noteworthy\
+          \ film roles include Alien Nation, Yentl, Men With Guns, Run Ronnie Run,\
+          \ Dick Tracy, and The Adventures of Elmo in Grouchland.\\n\\nDescription\
+          \ above from the Wikipedia article Mandy Patinkin, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia\u200B\",\"birthday\":\"1952-11-30\"\
+          ,\"death\":null,\"birthplace\":\"Chicago, Illinois, USA\",\"homepage\":\"\
+          \"}},{\"character\":\"Peter Quinn\",\"person\":{\"name\":\"Rupert Friend\"\
+          ,\"ids\":{\"trakt\":419216,\"slug\":\"rupert-friend\",\"imdb\":\"nm1670029\"\
+          ,\"tmdb\":36669,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/190/302/headshots/original/de6ce7426d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/190/302/headshots/medium/de6ce7426d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/190/302/headshots/thumb/de6ce7426d.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/419/216/fanarts/original/d2c345827a.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/419/216/fanarts/medium/d2c345827a.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/419/216/fanarts/thumb/d2c345827a.jpg\"\
+          }},\"biography\":\"Rupert Friend (born 1 October 1981) is an English film\
+          \ actor, who is best known for his roles as Mr. Wickham in the 2005 film\
+          \ Pride and Prejudice, Lieutenant Kurt Kotler in the 2008 film The Boy in\
+          \ the Striped Pajamas, and Prince Albert in the 2009 film The Young Victoria.\\\
+          n\\nDescription above from the Wikipedia article\_Rupert Friend, licensed\
+          \ under CC-BY-SA, full list of contributors on Wikipedia.\",\"birthday\"\
+          :\"1981-10-01\",\"death\":null,\"birthplace\":\"Oxfordshire, England, UK\"\
+          ,\"homepage\":\"http://rupert-friend.net/\"}}],\"crew\":{\"sound\":[{\"\
+          job\":\"Original Music Composer\",\"person\":{\"name\":\"Sean Callery\"\
+          ,\"ids\":{\"trakt\":165193,\"slug\":\"sean-callery\",\"imdb\":\"nm0130478\"\
+          ,\"tmdb\":1090864,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}}]}}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb7427b42623-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:09 GMT']
+        ETag: [W/"08c5d7eefc70cdb3d793a49031165aa4"]
+        Expires: ['Mon, 09 May 2016 01:14:09 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=df4ed805abfa238947b1c1854de8aebb01462742049; expires=Mon,
+            08-May-17 21:14:09 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [86db179b-bae1-4024-90e5-35854348418c]
+        X-Runtime: ['0.026054']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -130,24 +233,24 @@ interactions:
           asset from her former life comes in from the cold. Meanwhile, freshman Congressman
           Nick Brody discovers that Abu Nazir may not be content with his nonviolent
           approach to affecting change in American foreign policy. Brody''s daughter
-          Dana lets a vital secret slip.","rating":8.03351,"votes":1552,"first_aired":"2012-10-01T01:00:00.000Z","updated_at":"2016-05-04T14:46:31.000Z","available_translations":[],"images":{"screenshot":{"full":"https://walter.trakt.us/images/episodes/000/074/308/screenshots/original/c7d56dee36.jpg","medium":"https://walter.trakt.us/images/episodes/000/074/308/screenshots/medium/c7d56dee36.jpg","thumb":"https://walter.trakt.us/images/episodes/000/074/308/screenshots/thumb/c7d56dee36.jpg"}}}'}
+          Dana lets a vital secret slip.","rating":8.02885,"votes":1560,"first_aired":"2012-10-01T01:00:00.000Z","updated_at":"2016-05-08T18:48:23.000Z","available_translations":[],"images":{"screenshot":{"full":"https://walter.trakt.us/images/episodes/000/074/308/screenshots/original/c7d56dee36.jpg","medium":"https://walter.trakt.us/images/episodes/000/074/308/screenshots/medium/c7d56dee36.jpg","thumb":"https://walter.trakt.us/images/episodes/000/074/308/screenshots/thumb/c7d56dee36.jpg"}}}'}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de238b003e1fdc-DFW]
+        CF-RAY: [29ffeb75d3931fc4-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:31 GMT']
-        Expires: ['Wed, 04 May 2016 22:50:31 GMT']
-        Last-Modified: ['Wed, 04 May 2016 14:46:31 GMT']
+        Date: ['Sun, 08 May 2016 21:14:10 GMT']
+        Expires: ['Mon, 09 May 2016 01:14:10 GMT']
+        Last-Modified: ['Sun, 08 May 2016 18:48:23 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=da9dad951ec566371488d78726f56849b1462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=d3ace183418c99bd4a493c71e1ab64ed41462742050; expires=Mon,
+            08-May-17 21:14:10 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [a390073a-2a97-4ae7-b161-79bf6553923c]
-        X-Runtime: ['0.014999']
+        X-Request-Id: [25ca76ca-3f94-4fdb-88ba-25b54150afc4]
+        X-Runtime: ['0.027359']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -162,22 +265,22 @@ interactions:
       body: {string: '[{"last_collected_at":"2016-03-08T21:36:33.000Z","show":{"title":"White
           Collar","year":2009,"ids":{"trakt":21410,"slug":"white-collar","tvdb":108611,"imdb":"tt1358522","tmdb":21510,"tvrage":20720}},"seasons":[{"number":1,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":14,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":2,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":14,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":15,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":16,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":3,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":14,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":15,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":16,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":4,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":14,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":15,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":16,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":5,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":7,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":8,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":9,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":10,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":11,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":12,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":13,"collected_at":"2016-03-08T21:36:33.000Z"}]},{"number":6,"episodes":[{"number":1,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":2,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":3,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":4,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":5,"collected_at":"2016-03-08T21:36:33.000Z"},{"number":6,"collected_at":"2016-03-08T21:36:33.000Z"}]}]},{"last_collected_at":"2012-10-01T02:00:00.000Z","show":{"title":"Homeland","year":2011,"ids":{"trakt":1398,"slug":"homeland","tvdb":247897,"imdb":"tt1796960","tmdb":1407,"tvrage":27811}},"seasons":[{"number":2,"episodes":[{"number":1,"collected_at":"2012-10-01T02:00:00.000Z"}]}]}]'}
       headers:
-        CF-RAY: [29de238c099b1fbe-DFW]
+        CF-RAY: [29ffeb76c122094a-DFW]
         Cache-Control: ['max-age=0, private, must-revalidate']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:32 GMT']
-        ETag: [W/"9bfc893700145af3619e47a6b51a1884"]
-        Last-Modified: ['Wed, 04 May 2016 07:23:41 GMT']
+        Date: ['Sun, 08 May 2016 21:14:10 GMT']
+        ETag: [W/"298ae5a44ca419c9f7fe4ad8ad6de866"]
+        Last-Modified: ['Thu, 05 May 2016 07:23:47 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=dddcc3175966766f04908f619e45d60e91462387831; expires=Thu,
-            04-May-17 18:50:31 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=df1988d3a3d864a4a8eded2b3ca5ccc001462742050; expires=Mon,
+            08-May-17 21:14:10 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
         X-Private-User: ['false']
-        X-Request-Id: [cfab358b-7691-4c4a-bad1-0cdbcbf93c26]
-        X-Runtime: ['0.208828']
+        X-Request-Id: [605cf732-b5f9-46cc-b921-527ba9f7b8df]
+        X-Runtime: ['0.099882']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -187,9 +290,9 @@ interactions:
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
-      uri: https://api-v2launch.trakt.tv/search?type=show&year=2014&query=The+Flash
+      uri: https://api-v2launch.trakt.tv/search?type=show&query=The+Flash&year=2014
     response:
-      body: {string: "[{\"type\":\"show\",\"score\":60.88886,\"show\":{\"title\":\"\
+      body: {string: "[{\"type\":\"show\",\"score\":60.40905,\"show\":{\"title\":\"\
           The Flash\",\"overview\":\"After a particle accelerator causes a freak storm,\
           \ CSI Investigator Barry Allen is struck by lightning and falls into a coma.\
           \ Months later he awakens with the power of super speed, granting him the\
@@ -210,7 +313,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/060/300/fanarts/thumb/df36c9a731.jpg\"\
           }},\"ids\":{\"trakt\":60300,\"slug\":\"the-flash-2014\",\"tvdb\":279121,\"\
           imdb\":\"tt3107288\",\"tmdb\":60735,\"tvrage\":36939}}},{\"type\":\"show\"\
-          ,\"score\":0.46565795,\"show\":{\"title\":\"Tornado Hunters\",\"overview\"\
+          ,\"score\":0.46255913,\"show\":{\"title\":\"Tornado Hunters\",\"overview\"\
           :\"Greg Johnson, Chris Chittick, and Ricky Forbes are the Tornado Hunters.Outfitted\
           \ with their truck Flash and the best equipment money can buy, they target\
           \ the biggest tornadoes in North America. From Regina to Mexico, there\u2019\
@@ -223,7 +326,7 @@ interactions:
           ,\"thumb\":\"https://walter.trakt.us/images/shows/000/081/448/posters/thumb/ecede5e037.jpg\"\
           },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"ids\":{\"\
           trakt\":81448,\"slug\":\"tornado-hunters\",\"tvdb\":287638,\"imdb\":null,\"\
-          tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":0.3418404,\"\
+          tmdb\":null,\"tvrage\":null}}},{\"type\":\"show\",\"score\":0.3394836,\"\
           show\":{\"title\":\"Stop Skeletons From Fighting\",\"overview\":\"Hello,\
           \ I'm Derek Alexander, and I've been producing video reviews of retro (and\
           \ sometimes modern) video games for over 7 years.When I started producing\
@@ -241,17 +344,17 @@ interactions:
           slug\":\"stop-skeletons-from-fighting\",\"tvdb\":300088,\"imdb\":null,\"\
           tmdb\":null,\"tvrage\":null}}}]"}
       headers:
-        CF-Cache-Status: [MISS]
-        CF-RAY: [29de238f33bc1ffa-DFW]
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb78a11b2635-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:32 GMT']
-        ETag: [W/"c0ba80a0553bdbdbf88fe2c15f593b54"]
-        Expires: ['Wed, 04 May 2016 22:50:32 GMT']
+        Date: ['Sun, 08 May 2016 21:14:10 GMT']
+        ETag: [W/"ec8babb98473c77d1841524aaa247d0b"]
+        Expires: ['Mon, 09 May 2016 01:14:10 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=d99910a768df017356b3772e996b8464f1462387832; expires=Thu,
-            04-May-17 18:50:32 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=d1217f0556a712bf25dc2ff76dfc73f2a1462742050; expires=Mon,
+            08-May-17 21:14:10 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
@@ -259,15 +362,15 @@ interactions:
         X-Pagination-Limit: ['10']
         X-Pagination-Page: ['1']
         X-Pagination-Page-Count: ['1']
-        X-Request-Id: [c3a54c07-ce9d-4d0e-808a-0342546973d1]
-        X-Runtime: ['0.029968']
+        X-Request-Id: [6c833ded-afaa-4021-8e63-fad61dd18a4d]
+        X-Runtime: ['0.061997']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
       body: null
       headers:
         Content-Type: [application/json]
-        Cookie: [__cfduid=d99910a768df017356b3772e996b8464f1462387832]
+        Cookie: [__cfduid=d1217f0556a712bf25dc2ff76dfc73f2a1462742050]
         trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
         trakt-api-version: [2]
       method: GET
@@ -290,8 +393,8 @@ interactions:
           ,\"time\":\"20:00\",\"timezone\":\"America/New_York\"},\"runtime\":44,\"\
           certification\":\"TV-14\",\"network\":\"The CW\",\"country\":\"us\",\"trailer\"\
           :\"http://youtube.com/watch?v=aZxhA_Jihmw\",\"homepage\":\"http://www.cwtv.com/shows/the-flash/\"\
-          ,\"status\":\"returning series\",\"rating\":8.32928,\"votes\":9697,\"updated_at\"\
-          :\"2016-05-04T11:35:07.000Z\",\"language\":\"en\",\"available_translations\"\
+          ,\"status\":\"returning series\",\"rating\":8.33111,\"votes\":9761,\"updated_at\"\
+          :\"2016-05-08T11:20:36.000Z\",\"language\":\"en\",\"available_translations\"\
           :[\"pl\",\"sv\",\"fr\",\"en\",\"zh\",\"da\",\"pt\",\"el\",\"de\",\"es\"\
           ,\"bg\",\"it\",\"tr\",\"ru\",\"nl\",\"hu\",\"ko\",\"lt\",\"cs\",\"hr\",\"\
           bs\",\"za\",\"he\",\"id\",\"ro\",\"fa\",\"th\",\"ar\",\"te\",\"uk\",\"ms\"\
@@ -310,20 +413,218 @@ interactions:
           }}}"}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de2390b3f01ffa-DFW]
+        CF-RAY: [29ffeb79a1332635-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:32 GMT']
-        ETag: [W/"b1fa51ab6d35f34ebe7bc4e02569fd2a"]
-        Expires: ['Wed, 04 May 2016 22:50:32 GMT']
-        Last-Modified: ['Wed, 04 May 2016 11:35:07 GMT']
+        Date: ['Sun, 08 May 2016 21:14:10 GMT']
+        ETag: [W/"e336de4cb15ba2adcb5cb42084a99580"]
+        Expires: ['Mon, 09 May 2016 01:14:10 GMT']
+        Last-Modified: ['Sun, 08 May 2016 11:20:36 GMT']
         Server: [cloudflare-nginx]
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [fe9550c9-85e7-4d84-963a-a22df1f00a0f]
-        X-Runtime: ['0.040725']
+        X-Request-Id: [71d7bb06-093d-4017-bce0-47e537d3270f]
+        X-Runtime: ['0.036846']
+        X-XSS-Protection: [1; mode=block]
+      status: {code: 200, message: OK}
+  - request:
+      body: null
+      headers:
+        Content-Type: [application/json]
+        trakt-api-key: [57e188bcb9750c79ed452e1674925bc6848bd126e02bb15350211be74c6547af]
+        trakt-api-version: [2]
+      method: GET
+      uri: https://api-v2launch.trakt.tv/shows/60300/people?extended=full%2Cimages
+    response:
+      body: {string: "{\"cast\":[{\"character\":\"Barry Allen / The Flash\",\"person\"\
+          :{\"name\":\"Grant Gustin\",\"ids\":{\"trakt\":440982,\"slug\":\"grant-gustin\"\
+          ,\"imdb\":\"nm2652716\",\"tmdb\":122616,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/155/headshots/original/d13e956eeb.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/155/headshots/medium/d13e956eeb.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/155/headshots/thumb/d13e956eeb.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/440/982/fanarts/original/df36c9a731.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/440/982/fanarts/medium/df36c9a731.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/440/982/fanarts/thumb/df36c9a731.jpg\"\
+          }},\"biography\":\"Thomas Grant Gustin (born January 14, 1990), better known\
+          \ as Grant Gustin, is an American actor and singer. He is known for his\
+          \ roles as Barry Allen / Flash on the CW series The Flash and as Sebastian\
+          \ Smythe on the Fox series Glee.  Description above from the Wikipedia article\
+          \ Grant Gustin, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1990-01-14\",\"death\":null,\"birthplace\":\"Norfolk - Virginia\
+          \ - USA\",\"homepage\":\"\"}},{\"character\":\"Harrison Wells\",\"person\"\
+          :{\"name\":\"Tom Cavanagh\",\"ids\":{\"trakt\":424159,\"slug\":\"tom-cavanagh\"\
+          ,\"imdb\":\"nm0146915\",\"tmdb\":59216,\"tvrage\":29289},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/157/headshots/original/8973c6ad84.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/157/headshots/medium/8973c6ad84.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/157/headshots/thumb/8973c6ad84.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/424/159/fanarts/original/f1dfc9fcaa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/424/159/fanarts/medium/f1dfc9fcaa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/424/159/fanarts/thumb/f1dfc9fcaa.jpg\"\
+          }},\"biography\":\"Thomas Cavanagh was born on October 26th, 1963 in Ottawa,\
+          \ Ontario, the second-oldest of five children. His close-knit family moved\
+          \ to Ghana, Africa when Tom was six. His father educated teachers there.\
+          \ The family moved back to Canada before Tom started high school (which\
+          \ he attended in southern Quebec). Tom went to Queens University in Kingston,\
+          \ Ontario where he played on the basketball team and graduated with degrees\
+          \ in English, Biology, and Education. His interest in theater grew when\
+          \ he was cast as the lead Danny Zuko in a Canadian \\\"Grease\\\". Since\
+          \ then, he has been in a moderate amount of movies, but is gaining popularity\
+          \ for his starring, award-winning role on the new NBC series\_Ed\_(2000),\
+          \ in which he plays the lovable, charming Ed Stevens. Cavanagh resides in\
+          \ L.A., where he has lived for two years. In his spare time he likes to\
+          \ play guitar and participate in a variety of sports.\",\"birthday\":\"\
+          1963-10-26\",\"death\":null,\"birthplace\":\"Ottawa - Ontario - Canada\"\
+          ,\"homepage\":\"\"}},{\"character\":\"Caitlin Snow\",\"person\":{\"name\"\
+          :\"Danielle Panabaker\",\"ids\":{\"trakt\":418588,\"slug\":\"danielle-panabaker\"\
+          ,\"imdb\":\"nm1263939\",\"tmdb\":31838,\"tvrage\":27590},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/158/headshots/original/74404f0f1d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/158/headshots/medium/74404f0f1d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/158/headshots/thumb/74404f0f1d.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/418/588/fanarts/original/db12127faa.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/418/588/fanarts/medium/db12127faa.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/418/588/fanarts/thumb/db12127faa.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nDanielle Nicole\
+          \ Panabaker (born September 19, 1987) is an American actress. She was a\
+          \ cast member in the CBS drama Shark, and appeared in the films Mr. Brooks,\
+          \ Sky High, and Friday the 13th, among other projects. She is best known\
+          \ to younger audiences for her roles in the Disney Channel films Stuck in\
+          \ the Suburbs and Read It and Weep along with her younger sister Kay Panabaker.\"\
+          ,\"birthday\":\"1987-09-19\",\"death\":null,\"birthplace\":\"Augusta - Georgia\
+          \ - USA\",\"homepage\":\"http://www.daniellepanabaker.com/\"}},{\"character\"\
+          :\"Cisco Ramon\",\"person\":{\"name\":\"Carlos Valdes\",\"ids\":{\"trakt\"\
+          :508014,\"slug\":\"carlos-valdes\",\"imdb\":\"nm4583876\",\"tmdb\":1428398,\"\
+          tvrage\":null},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/168/182/headshots/original/985d75e947.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/168/182/headshots/medium/985d75e947.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/168/182/headshots/thumb/985d75e947.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/508/014/fanarts/original/333e46f78d.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/508/014/fanarts/medium/333e46f78d.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/508/014/fanarts/thumb/333e46f78d.jpg\"\
+          }},\"biography\":\"\",\"birthday\":\"1989-04-20\",\"death\":null,\"birthplace\"\
+          :null,\"homepage\":\"\"}},{\"character\":\"Joe West\",\"person\":{\"name\"\
+          :\"Jesse L. Martin\",\"ids\":{\"trakt\":17828,\"slug\":\"jesse-l-martin\"\
+          ,\"imdb\":\"nm0552509\",\"tmdb\":19392,\"tvrage\":10033},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/160/headshots/original/a5a87874f2.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/160/headshots/medium/a5a87874f2.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/160/headshots/thumb/a5a87874f2.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/017/828/fanarts/original/53454dd0f3.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/017/828/fanarts/medium/53454dd0f3.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/017/828/fanarts/thumb/53454dd0f3.jpg\"\
+          }},\"biography\":\"From Wikipedia, the free encyclopedia\\n\\nJesse Lamont\
+          \ Martin (born Jesse Lamont Watkins; January 18, 1969) is an American theatre,\
+          \ film, and television actor. He is best known for originating the role\
+          \ of Tom Collins in the Broadway theatrical production of Rent, and for\
+          \ his portrayal of NYPD Detective Ed Green on the NBC drama television series\
+          \ Law &amp; Order.\\n\\nDescription above from the Wikipedia article Jesse\
+          \ L. Martin, licensed under CC-BY-SA, full list of contributors on Wikipedia.\"\
+          ,\"birthday\":\"1969-01-18\",\"death\":null,\"birthplace\":\"Rocky Mount,\
+          \ Virginia, USA\",\"homepage\":\"\"}},{\"character\":\"Iris West\",\"person\"\
+          :{\"name\":\"Candice Patton\",\"ids\":{\"trakt\":446429,\"slug\":\"candice-patton\"\
+          ,\"imdb\":\"nm2765384\",\"tmdb\":212700,\"tvrage\":null},\"images\":{\"\
+          headshot\":{\"full\":\"https://walter.trakt.us/images/person_shows/000/086/156/headshots/original/9df9e27e68.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/person_shows/000/086/156/headshots/medium/9df9e27e68.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/person_shows/000/086/156/headshots/thumb/9df9e27e68.jpg\"\
+          },\"fanart\":{\"full\":\"https://walter.trakt.us/images/people/000/446/429/fanarts/original/b992ef650c.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/446/429/fanarts/medium/b992ef650c.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/446/429/fanarts/thumb/b992ef650c.jpg\"\
+          }},\"biography\":\"Raised in Plano, Texas, Candice continued her childhood\
+          \ dream of becoming an actress by attending Southern Methodist University\
+          \ in Dallas where she graduated Summa Cum Laude with a B.F.A in Theatre.\
+          \ It was here that she was scouted by The Young and the Restless for a CBS\
+          \ Soap Star Contest and flew out to Los Angeles to briefly join the cast.\
+          \ Candice finished her college education at SMU and moved to Los Angeles\
+          \ shortly after.\",\"birthday\":\"1988-06-24\",\"death\":null,\"birthplace\"\
+          :\"Jackson, Mississippi, USA\",\"homepage\":\"\"}}],\"crew\":{\"sound\"\
+          :[{\"job\":\"Original Music Composer\",\"person\":{\"name\":\"Blake Neely\"\
+          ,\"ids\":{\"trakt\":37311,\"slug\":\"blake-neely\",\"imdb\":\"nm0624201\"\
+          ,\"tmdb\":53017,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":\"1969-04-28\",\"death\"\
+          :null,\"birthplace\":\"\",\"homepage\":null}}],\"production\":[{\"job\"\
+          :\"Executive Producer\",\"person\":{\"name\":\"Geoff Johns\",\"ids\":{\"\
+          trakt\":106819,\"slug\":\"geoff-johns\",\"imdb\":\"nm0424315\",\"tmdb\"\
+          :211962,\"tvrage\":88780},\"images\":{\"headshot\":{\"full\":\"https://walter.trakt.us/images/people/000/106/819/headshots/original/8247d4a3b9.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/106/819/headshots/medium/8247d4a3b9.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/106/819/headshots/thumb/8247d4a3b9.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"Geoff Johns is one of the most prolific and popular contemporary comic\
+          \ book writers. He has written highly acclaimed stories starring Superman,\
+          \ Green Lantern, the Flash, Teen Titans, and Justice Society of America.\
+          \ He is the author of The New York Times best-selling graphic novels GREEN\
+          \ LANTERN: RAGE OF THE RED LANTERNS, GREEN LANTERN: SINESTRO CORPS WAR,\
+          \ JUSTICE SOCIETY OF AMERICA: THY KINGDOM COME, SUPERMAN: BRAINIAC and BLACKEST\
+          \ NIGHT.  Johns was born in Detroit and studied media arts, screenwriting,\
+          \ film production and film theory at Michigan State University. After moving\
+          \ to Los Angeles, he worked as an intern and later an assistant for film\
+          \ director Richard Donner, whose credits include Superman: The Movie, Lethal\
+          \ Weapon 4 and Conspiracy Theory. Johns began his comics career writing\
+          \ STARS AND S.T.R.I.P.E. and creating Stargirl for DC Comics. He received\
+          \ the Wizard Fan Award for Breakout Talent of 2002 and Writer of the Year\
+          \ for 2005, 2006, 2007 and 2008 as well as the CBG Writer of the Year 2003\
+          \ through 2005 and 2007 and 2008, and CBG Best Comic Book Series for JSA\
+          \ 2001 through 2005. After acclaimed runs on THE FLASH, TEEN TITANS and\
+          \ the best-selling INFINITE CRISIS miniseries, Johns co-wrote a run on ACTION\
+          \ COMICS with his mentor Donner. In 2006, he co-wrote 52: an ambitious weekly\
+          \ comic book series set in real time, with Grant Morrison, Greg Rucka and\
+          \ Mark Waid. Johns has also written for various other media, including the\
+          \ acclaimed \\\"Legion\\\" episode of SMALLVILLE and the fourth season of\
+          \ ROBOT CHICKEN. He is writing the story of the DC Universe Online massively\
+          \ multiplayer action game from Sony Online Entertainment LLC and has recently\
+          \ joined DC Entertainment as its Chief Creative Officer. Johns currently\
+          \ resides in Los Angeles, California.\",\"birthday\":\"1973-01-25\",\"death\"\
+          :null,\"birthplace\":\"Detroit, MI\",\"homepage\":\"http://www.geoffjohns.com/\"\
+          }},{\"job\":\"Co-Executive Producer\",\"person\":{\"name\":\"Todd Helbing\"\
+          ,\"ids\":{\"trakt\":241759,\"slug\":\"todd-helbing\",\"imdb\":\"nm1054609\"\
+          ,\"tmdb\":209763,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/241/759/headshots/original/9075f52461.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/241/759/headshots/medium/9075f52461.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/241/759/headshots/thumb/9075f52461.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Executive Producer\",\"person\":{\"name\":\"Andrew Kreisberg\"\
+          ,\"ids\":{\"trakt\":399303,\"slug\":\"andrew-kreisberg\",\"imdb\":\"nm1132610\"\
+          ,\"tmdb\":1216615,\"tvrage\":60100},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/399/303/headshots/original/5bbf641306.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/399/303/headshots/medium/5bbf641306.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/399/303/headshots/thumb/5bbf641306.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :null,\"birthday\":null,\"death\":null,\"birthplace\":null,\"homepage\"\
+          :null}},{\"job\":\"Executive Producer\",\"person\":{\"name\":\"Greg Berlanti\"\
+          ,\"ids\":{\"trakt\":428043,\"slug\":\"greg-berlanti\",\"imdb\":\"nm0075528\"\
+          ,\"tmdb\":88967,\"tvrage\":28473},\"images\":{\"headshot\":{\"full\":\"\
+          https://walter.trakt.us/images/people/000/428/043/headshots/original/69a012539f.jpg\"\
+          ,\"medium\":\"https://walter.trakt.us/images/people/000/428/043/headshots/medium/69a012539f.jpg\"\
+          ,\"thumb\":\"https://walter.trakt.us/images/people/000/428/043/headshots/thumb/69a012539f.jpg\"\
+          },\"fanart\":{\"full\":null,\"medium\":null,\"thumb\":null}},\"biography\"\
+          :\"From Wikipedia, the free encyclopedia.\\n\\nGreg Berlanti (born May 24,\
+          \ 1972) is an American television writer and producer.\\n\\nDescription\
+          \ above from the Wikipedia article Greg Berlanti, licensed under CC-BY-SA,\
+          \ full list of contributors on Wikipedia\",\"birthday\":\"1972-05-24\",\"\
+          death\":null,\"birthplace\":\"Rye, New York\",\"homepage\":\"\"}}],\"crew\"\
+          :[{\"job\":\"Stunt Coordinator\",\"person\":{\"name\":\"J.J. Makaro\",\"\
+          ids\":{\"trakt\":357939,\"slug\":\"j-j-makaro\",\"imdb\":\"nm0538387\",\"\
+          tmdb\":1007395,\"tvrage\":null},\"images\":{\"headshot\":{\"full\":null,\"\
+          medium\":null,\"thumb\":null},\"fanart\":{\"full\":null,\"medium\":null,\"\
+          thumb\":null}},\"biography\":null,\"birthday\":null,\"death\":null,\"birthplace\"\
+          :null,\"homepage\":null}}]}}"}
+      headers:
+        CF-Cache-Status: [HIT]
+        CF-RAY: [29ffeb7aa1792018-DFW]
+        Cache-Control: ['public, max-age=14400']
+        Connection: [keep-alive]
+        Content-Type: [application/json; charset=utf-8]
+        Date: ['Sun, 08 May 2016 21:14:10 GMT']
+        ETag: [W/"75a8105e8cb37a0718bf20cdde943212"]
+        Expires: ['Mon, 09 May 2016 01:14:10 GMT']
+        Server: [cloudflare-nginx]
+        Set-Cookie: ['__cfduid=d6f8e6fa7c5db5741528f3af89e9eeb691462742050; expires=Mon,
+            08-May-17 21:14:10 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Vary: [Accept-Encoding]
+        X-Content-Type-Options: [nosniff]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Request-Id: [4467b88e-3986-4810-b268-3df1f9dc166a]
+        X-Runtime: ['0.073761']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
   - request:
@@ -348,29 +649,29 @@ interactions:
           \ Barry asks Dr. Wells, Caitlin and Cisco to help him double his training\
           \ efforts so he\u2019s ready for the Reverse Flash when he returns to Central\
           \ City. Iris deals with the aftermath of Barry\u2019s confession, and Cisco\
-          \ makes the CCPD a new shield.\",\"rating\":7.67713,\"votes\":1688,\"first_aired\"\
-          :\"2015-01-21T01:00:00.000Z\",\"updated_at\":\"2016-05-04T15:07:55.000Z\"\
+          \ makes the CCPD a new shield.\",\"rating\":7.6804,\"votes\":1699,\"first_aired\"\
+          :\"2015-01-21T01:00:00.000Z\",\"updated_at\":\"2016-05-08T07:05:18.000Z\"\
           ,\"available_translations\":[],\"images\":{\"screenshot\":{\"full\":\"https://walter.trakt.us/images/episodes/000/999/431/screenshots/original/a80e2ec995.jpg\"\
           ,\"medium\":\"https://walter.trakt.us/images/episodes/000/999/431/screenshots/medium/a80e2ec995.jpg\"\
           ,\"thumb\":\"https://walter.trakt.us/images/episodes/000/999/431/screenshots/thumb/a80e2ec995.jpg\"\
           }}}"}
       headers:
         CF-Cache-Status: [HIT]
-        CF-RAY: [29de2391e8fe0932-DFW]
+        CF-RAY: [29ffeb7bff8b0106-DFW]
         Cache-Control: ['public, max-age=14400']
         Connection: [keep-alive]
         Content-Type: [application/json; charset=utf-8]
-        Date: ['Wed, 04 May 2016 18:50:32 GMT']
-        Expires: ['Wed, 04 May 2016 22:50:32 GMT']
-        Last-Modified: ['Wed, 04 May 2016 15:07:55 GMT']
+        Date: ['Sun, 08 May 2016 21:14:11 GMT']
+        Expires: ['Mon, 09 May 2016 01:14:11 GMT']
+        Last-Modified: ['Sun, 08 May 2016 07:05:18 GMT']
         Server: [cloudflare-nginx]
-        Set-Cookie: ['__cfduid=d9117b28d2eeb626f69e7fefcb67d33851462387832; expires=Thu,
-            04-May-17 18:50:32 GMT; path=/; domain=.trakt.tv; HttpOnly']
+        Set-Cookie: ['__cfduid=ddff0ecf23b288d9a8a2d202ab8ad29131462742051; expires=Mon,
+            08-May-17 21:14:11 GMT; path=/; domain=.trakt.tv; HttpOnly']
         Vary: [Accept-Encoding]
         X-Content-Type-Options: [nosniff]
         X-Frame-Options: [SAMEORIGIN]
-        X-Request-Id: [9f84c443-0735-44d1-9373-9d9bbb9e2dc4]
-        X-Runtime: ['0.012593']
+        X-Request-Id: [59ed51de-c348-4974-88e0-8f562ba1d84d]
+        X-Runtime: ['0.046716']
         X-XSS-Protection: [1; mode=block]
       status: {code: 200, message: OK}
 version: 1
